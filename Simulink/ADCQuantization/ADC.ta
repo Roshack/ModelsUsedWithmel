@@ -1,0 +1,24 @@
+$INSTANCE 1 block
+1 {name = "Find edges of \nbit transitions in time" type = "SubSystem" }
+$INSTANCE 8 block
+8 {name = "Idealized ADC quantizer" type = "Reference" }
+$INSTANCE 10 block
+10 {name = "Rescale volts to\nmatch ADC signal" type = "SubSystem" }
+$INSTANCE 15 block
+15 {name = "Sweep Across\nVoltage Range\n(Reference signal)" type = "Reference" }
+$INSTANCE 16 block
+16 {name = "E_volts_in_bit_units" type = "Outport" }
+$INSTANCE 17 block
+17 {name = "E_bit_units" type = "Outport" }
+$INSTANCE 18 block
+18 {name = "bit_edges" type = "Outport" }
+port 15 1
+(port 15 1) {name = "V" }
+signal 8 17
+signal 1 18
+signal 15 10
+(signal 15 10) {label = "V" }
+signal 15 8
+(signal 15 8) {label = "V" }
+signal 10 16
+signal 10 1

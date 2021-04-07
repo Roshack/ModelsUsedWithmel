@@ -1,0 +1,337 @@
+$INSTANCE fVRskIq0EealCsBNxugxSg Class
+fVRskIq0EealCsBNxugxSg {label = "Backend" }
+$INSTANCE psz_wIrCEeakO4MY7le2gA Class
+psz_wIrCEeakO4MY7le2gA {label = "Frontend" }
+$INSTANCE cNkm4IrXEeaUzOBFMzFCBw Class
+cNkm4IrXEeaUzOBFMzFCBw {label = "FrontendPositionUndZeit" }
+$INSTANCE fRAGMIrYEeaUzOBFMzFCBw Class
+fRAGMIrYEeaUzOBFMzFCBw {label = "Display" }
+$INSTANCE fWd_kIrZEeaUzOBFMzFCBw Class
+fWd_kIrZEeaUzOBFMzFCBw {label = "TeamTransmitter" }
+$INSTANCE QguL8IrcEeaUzOBFMzFCBw Class
+QguL8IrcEeaUzOBFMzFCBw {label = "WaypointTransmitter" }
+$INSTANCE 78QR0JBLEeasAbuPRvskFg Class
+78QR0JBLEeasAbuPRvskFg {label = "TimeLine" }
+$INSTANCE ZNlhEJBQEeasAbuPRvskFg Class
+ZNlhEJBQEeasAbuPRvskFg {label = "AdminFrontend" }
+$INSTANCE nSEdkJBSEeasAbuPRvskFg Class
+nSEdkJBSEeasAbuPRvskFg {label = "Race" }
+$INSTANCE SAvtsIqvEealCsBNxugxSg Class
+SAvtsIqvEealCsBNxugxSg {label = "Club" }
+$INSTANCE f-WbkIqwEealCsBNxugxSg Class
+f-WbkIqwEealCsBNxugxSg {label = "Member" }
+$INSTANCE sKEVEIqxEealCsBNxugxSg Class
+sKEVEIqxEealCsBNxugxSg {label = "Team" }
+$INSTANCE ouEdYIqzEealCsBNxugxSg Class
+ouEdYIqzEealCsBNxugxSg {label = "Position" }
+$INSTANCE gzt18IqzEealCsBNxugxSg Class
+gzt18IqzEealCsBNxugxSg {label = "TeamPositon" }
+$INSTANCE 0AtJULYjEeaQppfxafBk9g Class
+0AtJULYjEeaQppfxafBk9g {label = "Event" }
+$INSTANCE goY-4LYlEeaQppfxafBk9g Class
+goY-4LYlEeaQppfxafBk9g {label = "Waypoint" }
+$INSTANCE HZ8xwLYrEeaQppfxafBk9g Class
+HZ8xwLYrEeaQppfxafBk9g {label = "WaypointPosition" }
+$INSTANCE AUpbMIq2EealCsBNxugxSg Field
+AUpbMIq2EealCsBNxugxSg {type = "String" multUpper = "1" multLower = "0" label = "manschaften" }
+$INSTANCE DP_WcJBSEeasAbuPRvskFg Field
+DP_WcJBSEeasAbuPRvskFg {type = "String" multUpper = "1" multLower = "0" label = "property4" }
+$INSTANCE 9vV38IrYEeaUzOBFMzFCBw Field
+9vV38IrYEeaUzOBFMzFCBw {type = "EEList" multUpper = "1" multLower = "1" label = "waypoint" }
+$INSTANCE G61FMIrbEeaUzOBFMzFCBw Field
+G61FMIrbEeaUzOBFMzFCBw {type = "String" multUpper = "1" multLower = "1" label = "authKey" }
+$INSTANCE 4V_Q0IrcEeaUzOBFMzFCBw Field
+4V_Q0IrcEeaUzOBFMzFCBw {type = "String" multUpper = "1" multLower = "1" label = "authKey" }
+$INSTANCE PooU4IqxEealCsBNxugxSg Field
+PooU4IqxEealCsBNxugxSg {type = "String" multUpper = "1" multLower = "1" label = "name" }
+$INSTANCE TsXQEIqxEealCsBNxugxSg Field
+TsXQEIqxEealCsBNxugxSg {type = "String" multUpper = "1" multLower = "1" label = "abbreviation" }
+$INSTANCE MLNAoLYzEeaQppfxafBk9g Field
+MLNAoLYzEeaQppfxafBk9g {type = "String" multUpper = "1" multLower = "0" label = "url" }
+$INSTANCE U6hhMLYzEeaQppfxafBk9g Field
+U6hhMLYzEeaQppfxafBk9g {type = "String" multUpper = "1" multLower = "0" label = "dsvNumber" }
+$INSTANCE WtISYIqxEealCsBNxugxSg Field
+WtISYIqxEealCsBNxugxSg {type = "String" multUpper = "1" multLower = "0" label = "surname" }
+$INSTANCE Y01lwIqxEealCsBNxugxSg Field
+Y01lwIqxEealCsBNxugxSg {type = "String" multUpper = "1" multLower = "1" label = "name" }
+$INSTANCE dMI9MIqxEealCsBNxugxSg Field
+dMI9MIqxEealCsBNxugxSg {type = "Integer" multUpper = "1" multLower = "1" label = "age" }
+$INSTANCE xYJjgIqxEealCsBNxugxSg Field
+xYJjgIqxEealCsBNxugxSg {type = "String" multUpper = "1" multLower = "0" label = "number" }
+$INSTANCE GLsD4IqyEealCsBNxugxSg Field
+GLsD4IqyEealCsBNxugxSg {type = "String" multUpper = "1" multLower = "0" label = "country" }
+$INSTANCE KhqloIqyEealCsBNxugxSg Field
+KhqloIqyEealCsBNxugxSg {type = "String" multUpper = "1" multLower = "0" label = "name" }
+$INSTANCE 0MIW0JEvEeaRH54_o4WLtA Field
+0MIW0JEvEeaRH54_o4WLtA {type = "Integer" multUpper = "1" multLower = "1" label = "handicapFactor" }
+$INSTANCE KRgs4KZVEeaOjaB9k49gbw Field
+KRgs4KZVEeaOjaB9k49gbw {type = "String" multUpper = "1" multLower = "1" label = "email" }
+$INSTANCE UwracKZVEeaOjaB9k49gbw Field
+UwracKZVEeaOjaB9k49gbw {type = "String" multUpper = "1" multLower = "1" label = "hash" }
+$INSTANCE rAPUUIqzEealCsBNxugxSg Field
+rAPUUIqzEealCsBNxugxSg {type = "Real" multUpper = "1" multLower = "1" label = "latitude" }
+$INSTANCE vR-2UIqzEealCsBNxugxSg Field
+vR-2UIqzEealCsBNxugxSg {type = "Real" multUpper = "1" multLower = "1" label = "longitude" }
+$INSTANCE 523KUIqzEealCsBNxugxSg Field
+523KUIqzEealCsBNxugxSg {type = "DateTime" multUpper = "1" multLower = "1" label = "time" }
+$INSTANCE 2ppQUIrHEeakO4MY7le2gA Field
+2ppQUIrHEeakO4MY7le2gA {type = "String" multUpper = "1" multLower = "1" label = "id" }
+$INSTANCE vkYSgLYkEeaQppfxafBk9g Field
+vkYSgLYkEeaQppfxafBk9g {type = "String" multUpper = "1" multLower = "1" label = "name" }
+$INSTANCE zmYBILZMEeaQppfxafBk9g Field
+zmYBILZMEeaQppfxafBk9g {type = "EDate" multUpper = "1" multLower = "1" label = "startDate" }
+$INSTANCE ED_DELZNEeaQppfxafBk9g Field
+ED_DELZNEeaQppfxafBk9g {type = "Date" multUpper = "1" multLower = "1" label = "endDate" }
+InheritsFrom ouEdYIqzEealCsBNxugxSg gzt18IqzEealCsBNxugxSg
+InheritsFrom ouEdYIqzEealCsBNxugxSg HZ8xwLYrEeaQppfxafBk9g
+$INSTANCE f38owJErEeaRH54_o4WLtA package
+f38owJErEeaRH54_o4WLtA {label = "org.rennspur.model" }
+packagedIn f38owJErEeaRH54_o4WLtA nSEdkJBSEeasAbuPRvskFg
+packagedIn f38owJErEeaRH54_o4WLtA SAvtsIqvEealCsBNxugxSg
+packagedIn f38owJErEeaRH54_o4WLtA f-WbkIqwEealCsBNxugxSg
+packagedIn f38owJErEeaRH54_o4WLtA sKEVEIqxEealCsBNxugxSg
+packagedIn f38owJErEeaRH54_o4WLtA ouEdYIqzEealCsBNxugxSg
+packagedIn f38owJErEeaRH54_o4WLtA gzt18IqzEealCsBNxugxSg
+packagedIn f38owJErEeaRH54_o4WLtA 0AtJULYjEeaQppfxafBk9g
+packagedIn f38owJErEeaRH54_o4WLtA goY-4LYlEeaQppfxafBk9g
+packagedIn f38owJErEeaRH54_o4WLtA HZ8xwLYrEeaQppfxafBk9g
+$INSTANCE _4oti4Iq4EealCsBNxugxSg Method
+_4oti4Iq4EealCsBNxugxSg {name = "getMitglieder" }
+$INSTANCE _Dzc9AIq5EealCsBNxugxSg Method
+_Dzc9AIq5EealCsBNxugxSg {name = "addTeilnehmerPositionen" }
+$INSTANCE _EU2Z4Iq5EealCsBNxugxSg Method
+_EU2Z4Iq5EealCsBNxugxSg {name = "addWegepunktPositon" }
+$INSTANCE _x36jgIrDEeakO4MY7le2gA Method
+_x36jgIrDEeakO4MY7le2gA {visibility = "public" name = "getMannschaften" }
+$INSTANCE _TXJ6cIrEEeakO4MY7le2gA Method
+_TXJ6cIrEEeakO4MY7le2gA {name = "getTeilnehmerPositionen" }
+$INSTANCE _e7N-QIrqEea2NrsXACfPZA Method
+_e7N-QIrqEea2NrsXACfPZA {visibility = "private" name = "saveGPSPosition" }
+$INSTANCE _GcphIIrrEea2NrsXACfPZA Method
+_GcphIIrrEea2NrsXACfPZA {visibility = "private" name = "getMannschaft" }
+$INSTANCE _SHy5oIrrEea2NrsXACfPZA Method
+_SHy5oIrrEea2NrsXACfPZA {visibility = "private" name = "addDatabaseEntry" }
+$INSTANCE _beb44IrrEea2NrsXACfPZA Method
+_beb44IrrEea2NrsXACfPZA {visibility = "private" name = "updateDatabaseENtry" }
+$INSTANCE _f7CAAIrrEea2NrsXACfPZA Method
+_f7CAAIrrEea2NrsXACfPZA {visibility = "private" name = "deleteDatabaseEntry" }
+$INSTANCE _nGb2wIrrEea2NrsXACfPZA Method
+_nGb2wIrrEea2NrsXACfPZA {visibility = "private" name = "init" }
+$INSTANCE _qs5nIIrrEea2NrsXACfPZA Method
+_qs5nIIrrEea2NrsXACfPZA {visibility = "private" name = "getPost" }
+$INSTANCE _NBF8wJBVEeasAbuPRvskFg Method
+_NBF8wJBVEeasAbuPRvskFg {name = "setRaceNumber" }
+$INSTANCE _J2emcJBLEeasAbuPRvskFg Method
+_J2emcJBLEeasAbuPRvskFg {name = "Operation_1" }
+$INSTANCE _YQuaAIrbEeaUzOBFMzFCBw Method
+_YQuaAIrbEeaUzOBFMzFCBw {name = "init" }
+$INSTANCE _d6PAMIrbEeaUzOBFMzFCBw Method
+_d6PAMIrbEeaUzOBFMzFCBw {name = "sendPositions" }
+$INSTANCE _g5z6QIrcEeaUzOBFMzFCBw Method
+_g5z6QIrcEeaUzOBFMzFCBw {name = "sendWaypoint" }
+$INSTANCE _Ciou8JBXEeasAbuPRvskFg Method
+_Ciou8JBXEeasAbuPRvskFg {name = "sendStartTime" }
+$INSTANCE _kR_lgJBXEeasAbuPRvskFg Method
+_kR_lgJBXEeasAbuPRvskFg {name = "sendEndTime" }
+$INSTANCE _-ZZhUJBZEeasAbuPRvskFg Method
+_-ZZhUJBZEeasAbuPRvskFg {name = "setRaceNumber" }
+$INSTANCE _Yfq_0J9yEeaNjY-wBXaTjA Method
+_Yfq_0J9yEeaNjY-wBXaTjA {name = "Operation_4" }
+$INSTANCE _YzbpUJ9yEeaNjY-wBXaTjA Method
+_YzbpUJ9yEeaNjY-wBXaTjA {name = "Operation_5" }
+$INSTANCE _ZhQ_sJ9yEeaNjY-wBXaTjA Method
+_ZhQ_sJ9yEeaNjY-wBXaTjA {name = "Operation_6" }
+MethodOf fVRskIq0EealCsBNxugxSg _4oti4Iq4EealCsBNxugxSg
+MethodOf fVRskIq0EealCsBNxugxSg _Dzc9AIq5EealCsBNxugxSg
+MethodOf fVRskIq0EealCsBNxugxSg _EU2Z4Iq5EealCsBNxugxSg
+MethodOf fVRskIq0EealCsBNxugxSg _x36jgIrDEeakO4MY7le2gA
+MethodOf fVRskIq0EealCsBNxugxSg _TXJ6cIrEEeakO4MY7le2gA
+MethodOf fVRskIq0EealCsBNxugxSg _e7N-QIrqEea2NrsXACfPZA
+MethodOf fVRskIq0EealCsBNxugxSg _GcphIIrrEea2NrsXACfPZA
+MethodOf fVRskIq0EealCsBNxugxSg _SHy5oIrrEea2NrsXACfPZA
+MethodOf fVRskIq0EealCsBNxugxSg _beb44IrrEea2NrsXACfPZA
+MethodOf fVRskIq0EealCsBNxugxSg _f7CAAIrrEea2NrsXACfPZA
+MethodOf fVRskIq0EealCsBNxugxSg _nGb2wIrrEea2NrsXACfPZA
+MethodOf fVRskIq0EealCsBNxugxSg _qs5nIIrrEea2NrsXACfPZA
+MethodOf fVRskIq0EealCsBNxugxSg _NBF8wJBVEeasAbuPRvskFg
+MethodOf psz_wIrCEeakO4MY7le2gA _J2emcJBLEeasAbuPRvskFg
+MethodOf fWd_kIrZEeaUzOBFMzFCBw _YQuaAIrbEeaUzOBFMzFCBw
+MethodOf fWd_kIrZEeaUzOBFMzFCBw _d6PAMIrbEeaUzOBFMzFCBw
+MethodOf QguL8IrcEeaUzOBFMzFCBw _g5z6QIrcEeaUzOBFMzFCBw
+MethodOf ZNlhEJBQEeasAbuPRvskFg _Ciou8JBXEeasAbuPRvskFg
+MethodOf ZNlhEJBQEeasAbuPRvskFg _kR_lgJBXEeasAbuPRvskFg
+MethodOf ZNlhEJBQEeasAbuPRvskFg _-ZZhUJBZEeasAbuPRvskFg
+MethodOf ZNlhEJBQEeasAbuPRvskFg _Yfq_0J9yEeaNjY-wBXaTjA
+MethodOf ZNlhEJBQEeasAbuPRvskFg _YzbpUJ9yEeaNjY-wBXaTjA
+MethodOf ZNlhEJBQEeasAbuPRvskFg _ZhQ_sJ9yEeaNjY-wBXaTjA
+$INSTANCE _UfhX8JErEeaRH54_o4WLtA Interface
+_UfhX8JErEeaRH54_o4WLtA {label = "Interface1" }
+$INSTANCE _gR9-UIq0EealCsBNxugxSg enum
+_gR9-UIq0EealCsBNxugxSg {name = "Funktion" }
+enumValues _gR9-UIq0EealCsBNxugxSg _jtqpIIq0EealCsBNxugxSg
+(enumValues _gR9-UIq0EealCsBNxugxSg _jtqpIIq0EealCsBNxugxSg) {label = "Kapitän" type = "LiteralInteger" }
+enumValues _gR9-UIq0EealCsBNxugxSg _p2-wwIq0EealCsBNxugxSg
+(enumValues _gR9-UIq0EealCsBNxugxSg _p2-wwIq0EealCsBNxugxSg) {label = "Großschoter" value = "1" type = "LiteralInteger" }
+$INSTANCE BnnCdIq3EealCsBNxugxSg Field
+BnnCdIq3EealCsBNxugxSg {type = "TeamPositon" multUpper = "*" label = "teilnehmerPositonen" }
+$INSTANCE qJtitIq4EealCsBNxugxSg Field
+qJtitIq4EealCsBNxugxSg {type = "Team" multUpper = "*" label = "mannschaften" }
+$INSTANCE uqj4oJBTEeasAbuPRvskFg Field
+uqj4oJBTEeasAbuPRvskFg {type = "Race" multUpper = "1" label = "race" }
+$INSTANCE V_GplIrDEeakO4MY7le2gA Field
+V_GplIrDEeakO4MY7le2gA {type = "Backend" multUpper = "1" multLower = "1" label = "backend" }
+$INSTANCE w8CIFIrZEeaUzOBFMzFCBw Field
+w8CIFIrZEeaUzOBFMzFCBw {type = "TeamPositon" multUpper = "*" label = "teamPositons" }
+$INSTANCE Rd7QhIrbEeaUzOBFMzFCBw Field
+Rd7QhIrbEeaUzOBFMzFCBw {type = "Backend" multUpper = "*" label = "backend" }
+$INSTANCE X7q6lIrcEeaUzOBFMzFCBw Field
+X7q6lIrcEeaUzOBFMzFCBw {type = "Backend" multUpper = "1" multLower = "1" label = "backends" }
+$INSTANCE jYb2ZJBOEeasAbuPRvskFg Field
+jYb2ZJBOEeasAbuPRvskFg {type = "WaypointPosition" multUpper = "*" label = "waypointPositions" }
+$INSTANCE b5kiAJBXEeasAbuPRvskFg Field
+b5kiAJBXEeasAbuPRvskFg {type = "Backend" multUpper = "1" multLower = "1" label = "backend" }
+$INSTANCE x_DEBJBaEeasAbuPRvskFg Field
+x_DEBJBaEeasAbuPRvskFg {type = "Race" multUpper = "1" multLower = "1" label = "race" }
+$INSTANCE Ik4_FLYkEeaQppfxafBk9g Field
+Ik4_FLYkEeaQppfxafBk9g {type = "Event" multUpper = "1" multLower = "1" label = "event" }
+$INSTANCE tI2A9IryEeavpJYaaPAPpw Field
+tI2A9IryEeavpJYaaPAPpw {type = "Club" multUpper = "1" multLower = "1" label = "club" }
+$INSTANCE P11N8IqyEealCsBNxugxSg Field
+P11N8IqyEealCsBNxugxSg {type = "Member" multUpper = "1" multLower = "1" label = "captain" }
+$INSTANCE 7FZ3tIrMEeakO4MY7le2gA Field
+7FZ3tIrMEeakO4MY7le2gA {type = "Member" multUpper = "*" label = "members" }
+$INSTANCE Kwjz5IrLEeakO4MY7le2gA Field
+Kwjz5IrLEeakO4MY7le2gA {type = "TeamPositon" multUpper = "*" label = "positons" }
+$INSTANCE cn-KkZ91EeaNjY-wBXaTjA Field
+cn-KkZ91EeaNjY-wBXaTjA {type = "Club" multUpper = "*" label = "club" }
+$INSTANCE Kwjz4YrLEeakO4MY7le2gA Field
+Kwjz4YrLEeakO4MY7le2gA {type = "Team" multUpper = "1" multLower = "1" label = "team" }
+$INSTANCE Khmt8bYlEeaQppfxafBk9g Field
+Khmt8bYlEeaQppfxafBk9g {type = "Club" multUpper = "1" multLower = "1" label = "club" }
+$INSTANCE Ik4_EbYkEeaQppfxafBk9g Field
+Ik4_EbYkEeaQppfxafBk9g {type = "Race" multUpper = "*" label = "races" }
+$INSTANCE 4UUBobYlEeaQppfxafBk9g Field
+4UUBobYlEeaQppfxafBk9g {type = "Waypoint" multUpper = "*" label = "wayPoints" }
+$INSTANCE 3zTw4bYmEeaQppfxafBk9g Field
+3zTw4bYmEeaQppfxafBk9g {type = "Team" multUpper = "*" label = "teams" }
+$INSTANCE 4UUBpLYlEeaQppfxafBk9g Field
+4UUBpLYlEeaQppfxafBk9g {type = "Event" multUpper = "1" multLower = "1" label = "event" }
+$INSTANCE TL585LYrEeaQppfxafBk9g Field
+TL585LYrEeaQppfxafBk9g {type = "WaypointPosition" multUpper = "*" label = "waypointPositions" }
+$INSTANCE tKmThLYrEeaQppfxafBk9g Field
+tKmThLYrEeaQppfxafBk9g {type = "Race" multUpper = "*" label = "races" }
+$INSTANCE TL584bYrEeaQppfxafBk9g Field
+TL584bYrEeaQppfxafBk9g {type = "Waypoint" multUpper = "1" multLower = "1" label = "waypoint" }
+$INSTANCE CSAVpLYtEeaQppfxafBk9g Field
+CSAVpLYtEeaQppfxafBk9g {type = "Race" multUpper = "1" multLower = "1" label = "race" }
+FieldOf fVRskIq0EealCsBNxugxSg AUpbMIq2EealCsBNxugxSg
+FieldOf fVRskIq0EealCsBNxugxSg BnnCdIq3EealCsBNxugxSg
+FieldOf fVRskIq0EealCsBNxugxSg qJtitIq4EealCsBNxugxSg
+FieldOf fVRskIq0EealCsBNxugxSg DP_WcJBSEeasAbuPRvskFg
+FieldOf fVRskIq0EealCsBNxugxSg uqj4oJBTEeasAbuPRvskFg
+FieldOf psz_wIrCEeakO4MY7le2gA V_GplIrDEeakO4MY7le2gA
+FieldOf psz_wIrCEeakO4MY7le2gA KV2h8IrYEeaUzOBFMzFCBw
+FieldOf cNkm4IrXEeaUzOBFMzFCBw xsVZEIrYEeaUzOBFMzFCBw
+FieldOf cNkm4IrXEeaUzOBFMzFCBw 9vV38IrYEeaUzOBFMzFCBw
+FieldOf fWd_kIrZEeaUzOBFMzFCBw w8CIFIrZEeaUzOBFMzFCBw
+FieldOf fWd_kIrZEeaUzOBFMzFCBw G61FMIrbEeaUzOBFMzFCBw
+FieldOf fWd_kIrZEeaUzOBFMzFCBw Rd7QhIrbEeaUzOBFMzFCBw
+FieldOf QguL8IrcEeaUzOBFMzFCBw X7q6lIrcEeaUzOBFMzFCBw
+FieldOf QguL8IrcEeaUzOBFMzFCBw 4V_Q0IrcEeaUzOBFMzFCBw
+FieldOf 78QR0JBLEeasAbuPRvskFg DczSIJBMEeasAbuPRvskFg
+FieldOf 78QR0JBLEeasAbuPRvskFg r9LwkJBMEeasAbuPRvskFg
+FieldOf 78QR0JBLEeasAbuPRvskFg jq1qcJBNEeasAbuPRvskFg
+FieldOf 78QR0JBLEeasAbuPRvskFg jYb2ZJBOEeasAbuPRvskFg
+FieldOf ZNlhEJBQEeasAbuPRvskFg b5kiAJBXEeasAbuPRvskFg
+FieldOf ZNlhEJBQEeasAbuPRvskFg eWyD8JBaEeasAbuPRvskFg
+FieldOf ZNlhEJBQEeasAbuPRvskFg x_DEBJBaEeasAbuPRvskFg
+FieldOf nSEdkJBSEeasAbuPRvskFg s-Vc0JBSEeasAbuPRvskFg
+FieldOf nSEdkJBSEeasAbuPRvskFg 7yiQ8JBSEeasAbuPRvskFg
+FieldOf nSEdkJBSEeasAbuPRvskFg ChZVoJBTEeasAbuPRvskFg
+FieldOf nSEdkJBSEeasAbuPRvskFg QR0_oJBTEeasAbuPRvskFg
+FieldOf nSEdkJBSEeasAbuPRvskFg aIOdAJBTEeasAbuPRvskFg
+FieldOf nSEdkJBSEeasAbuPRvskFg Ik4_FLYkEeaQppfxafBk9g
+FieldOf SAvtsIqvEealCsBNxugxSg PooU4IqxEealCsBNxugxSg
+FieldOf SAvtsIqvEealCsBNxugxSg TsXQEIqxEealCsBNxugxSg
+FieldOf SAvtsIqvEealCsBNxugxSg MLNAoLYzEeaQppfxafBk9g
+FieldOf SAvtsIqvEealCsBNxugxSg U6hhMLYzEeaQppfxafBk9g
+FieldOf f-WbkIqwEealCsBNxugxSg WtISYIqxEealCsBNxugxSg
+FieldOf f-WbkIqwEealCsBNxugxSg Y01lwIqxEealCsBNxugxSg
+FieldOf f-WbkIqwEealCsBNxugxSg dMI9MIqxEealCsBNxugxSg
+FieldOf f-WbkIqwEealCsBNxugxSg tI2A9IryEeavpJYaaPAPpw
+FieldOf sKEVEIqxEealCsBNxugxSg xYJjgIqxEealCsBNxugxSg
+FieldOf sKEVEIqxEealCsBNxugxSg GLsD4IqyEealCsBNxugxSg
+FieldOf sKEVEIqxEealCsBNxugxSg KhqloIqyEealCsBNxugxSg
+FieldOf sKEVEIqxEealCsBNxugxSg P11N8IqyEealCsBNxugxSg
+FieldOf sKEVEIqxEealCsBNxugxSg 7FZ3tIrMEeakO4MY7le2gA
+FieldOf sKEVEIqxEealCsBNxugxSg Kwjz5IrLEeakO4MY7le2gA
+FieldOf sKEVEIqxEealCsBNxugxSg 0MIW0JEvEeaRH54_o4WLtA
+FieldOf sKEVEIqxEealCsBNxugxSg cn-KkZ91EeaNjY-wBXaTjA
+FieldOf sKEVEIqxEealCsBNxugxSg KRgs4KZVEeaOjaB9k49gbw
+FieldOf sKEVEIqxEealCsBNxugxSg UwracKZVEeaOjaB9k49gbw
+FieldOf ouEdYIqzEealCsBNxugxSg rAPUUIqzEealCsBNxugxSg
+FieldOf ouEdYIqzEealCsBNxugxSg vR-2UIqzEealCsBNxugxSg
+FieldOf ouEdYIqzEealCsBNxugxSg 523KUIqzEealCsBNxugxSg
+FieldOf ouEdYIqzEealCsBNxugxSg 2ppQUIrHEeakO4MY7le2gA
+FieldOf gzt18IqzEealCsBNxugxSg Kwjz4YrLEeakO4MY7le2gA
+FieldOf 0AtJULYjEeaQppfxafBk9g vkYSgLYkEeaQppfxafBk9g
+FieldOf 0AtJULYjEeaQppfxafBk9g Khmt8bYlEeaQppfxafBk9g
+FieldOf 0AtJULYjEeaQppfxafBk9g Ik4_EbYkEeaQppfxafBk9g
+FieldOf 0AtJULYjEeaQppfxafBk9g 4UUBobYlEeaQppfxafBk9g
+FieldOf 0AtJULYjEeaQppfxafBk9g 3zTw4bYmEeaQppfxafBk9g
+FieldOf 0AtJULYjEeaQppfxafBk9g 8W5_4JEvEeaRH54_o4WLtA
+FieldOf 0AtJULYjEeaQppfxafBk9g zmYBILZMEeaQppfxafBk9g
+FieldOf 0AtJULYjEeaQppfxafBk9g ED_DELZNEeaQppfxafBk9g
+FieldOf goY-4LYlEeaQppfxafBk9g 4UUBpLYlEeaQppfxafBk9g
+FieldOf goY-4LYlEeaQppfxafBk9g TL585LYrEeaQppfxafBk9g
+FieldOf goY-4LYlEeaQppfxafBk9g tKmThLYrEeaQppfxafBk9g
+FieldOf HZ8xwLYrEeaQppfxafBk9g TL584bYrEeaQppfxafBk9g
+FieldOf HZ8xwLYrEeaQppfxafBk9g CSAVpLYtEeaQppfxafBk9g
+Association fVRskIq0EealCsBNxugxSg fVRskIq0EealCsBNxugxSg
+(Association fVRskIq0EealCsBNxugxSg fVRskIq0EealCsBNxugxSg) {associationID = "qJtisIq4EealCsBNxugxSg" label = "A_backends_mannschaften" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association psz_wIrCEeakO4MY7le2gA psz_wIrCEeakO4MY7le2gA
+(Association psz_wIrCEeakO4MY7le2gA psz_wIrCEeakO4MY7le2gA) {associationID = "V_GpkIrDEeakO4MY7le2gA" label = "The_frontends_backend" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association fWd_kIrZEeaUzOBFMzFCBw fWd_kIrZEeaUzOBFMzFCBw
+(Association fWd_kIrZEeaUzOBFMzFCBw fWd_kIrZEeaUzOBFMzFCBw) {associationID = "w8CIEIrZEeaUzOBFMzFCBw" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association QguL8IrcEeaUzOBFMzFCBw QguL8IrcEeaUzOBFMzFCBw
+(Association QguL8IrcEeaUzOBFMzFCBw QguL8IrcEeaUzOBFMzFCBw) {associationID = "X7q6kIrcEeaUzOBFMzFCBw" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association 78QR0JBLEeasAbuPRvskFg 78QR0JBLEeasAbuPRvskFg
+(Association 78QR0JBLEeasAbuPRvskFg 78QR0JBLEeasAbuPRvskFg) {associationID = "jYb2YJBOEeasAbuPRvskFg" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association ZNlhEJBQEeasAbuPRvskFg ZNlhEJBQEeasAbuPRvskFg
+(Association ZNlhEJBQEeasAbuPRvskFg ZNlhEJBQEeasAbuPRvskFg) {associationID = "x_DEAJBaEeasAbuPRvskFg" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association f-WbkIqwEealCsBNxugxSg f-WbkIqwEealCsBNxugxSg
+(Association f-WbkIqwEealCsBNxugxSg f-WbkIqwEealCsBNxugxSg) {associationID = "tI2A8IryEeavpJYaaPAPpw" label = "A_members_clubs" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association sKEVEIqxEealCsBNxugxSg sKEVEIqxEealCsBNxugxSg
+(Association sKEVEIqxEealCsBNxugxSg sKEVEIqxEealCsBNxugxSg) {associationID = "7FZ3sIrMEeakO4MY7le2gA" label = "Mannschaftsmitglieder" ownerUpperMult = "1" ownerLowerMult = "1" owneeUpperMult = "1" owneeLowerMult = "1" }
+Association sKEVEIqxEealCsBNxugxSg 0AtJULYjEeaQppfxafBk9g
+(Association sKEVEIqxEealCsBNxugxSg 0AtJULYjEeaQppfxafBk9g) {associationID = "BcBGEMuoEeapZvyPP5tKRA" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association 0AtJULYjEeaQppfxafBk9g 0AtJULYjEeaQppfxafBk9g
+(Association 0AtJULYjEeaQppfxafBk9g 0AtJULYjEeaQppfxafBk9g) {associationID = "Khmt8LYlEeaQppfxafBk9g" ownerUpperMult = "1" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Association goY-4LYlEeaQppfxafBk9g goY-4LYlEeaQppfxafBk9g
+(Association goY-4LYlEeaQppfxafBk9g goY-4LYlEeaQppfxafBk9g) {associationID = "tKmTgLYrEeaQppfxafBk9g" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association HZ8xwLYrEeaQppfxafBk9g HZ8xwLYrEeaQppfxafBk9g
+(Association HZ8xwLYrEeaQppfxafBk9g HZ8xwLYrEeaQppfxafBk9g) {associationID = "CSAVoLYtEeaQppfxafBk9g" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation fVRskIq0EealCsBNxugxSg fVRskIq0EealCsBNxugxSg
+(Aggregation fVRskIq0EealCsBNxugxSg fVRskIq0EealCsBNxugxSg) {associationID = "qJtisIq4EealCsBNxugxSg" label = "A_backends_mannschaften" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation psz_wIrCEeakO4MY7le2gA psz_wIrCEeakO4MY7le2gA
+(Aggregation psz_wIrCEeakO4MY7le2gA psz_wIrCEeakO4MY7le2gA) {associationID = "V_GpkIrDEeakO4MY7le2gA" label = "The_frontends_backend" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation fWd_kIrZEeaUzOBFMzFCBw fWd_kIrZEeaUzOBFMzFCBw
+(Aggregation fWd_kIrZEeaUzOBFMzFCBw fWd_kIrZEeaUzOBFMzFCBw) {associationID = "w8CIEIrZEeaUzOBFMzFCBw" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation QguL8IrcEeaUzOBFMzFCBw QguL8IrcEeaUzOBFMzFCBw
+(Aggregation QguL8IrcEeaUzOBFMzFCBw QguL8IrcEeaUzOBFMzFCBw) {associationID = "X7q6kIrcEeaUzOBFMzFCBw" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation 78QR0JBLEeasAbuPRvskFg 78QR0JBLEeasAbuPRvskFg
+(Aggregation 78QR0JBLEeasAbuPRvskFg 78QR0JBLEeasAbuPRvskFg) {associationID = "jYb2YJBOEeasAbuPRvskFg" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation ZNlhEJBQEeasAbuPRvskFg ZNlhEJBQEeasAbuPRvskFg
+(Aggregation ZNlhEJBQEeasAbuPRvskFg ZNlhEJBQEeasAbuPRvskFg) {associationID = "x_DEAJBaEeasAbuPRvskFg" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation f-WbkIqwEealCsBNxugxSg f-WbkIqwEealCsBNxugxSg
+(Aggregation f-WbkIqwEealCsBNxugxSg f-WbkIqwEealCsBNxugxSg) {associationID = "tI2A8IryEeavpJYaaPAPpw" label = "A_members_clubs" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation sKEVEIqxEealCsBNxugxSg sKEVEIqxEealCsBNxugxSg
+(Aggregation sKEVEIqxEealCsBNxugxSg sKEVEIqxEealCsBNxugxSg) {associationID = "7FZ3sIrMEeakO4MY7le2gA" label = "Mannschaftsmitglieder" ownerUpperMult = "1" ownerLowerMult = "1" owneeUpperMult = "1" owneeLowerMult = "1" }
+Aggregation sKEVEIqxEealCsBNxugxSg 0AtJULYjEeaQppfxafBk9g
+(Aggregation sKEVEIqxEealCsBNxugxSg 0AtJULYjEeaQppfxafBk9g) {associationID = "BcBGEMuoEeapZvyPP5tKRA" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation 0AtJULYjEeaQppfxafBk9g 0AtJULYjEeaQppfxafBk9g
+(Aggregation 0AtJULYjEeaQppfxafBk9g 0AtJULYjEeaQppfxafBk9g) {associationID = "Khmt8LYlEeaQppfxafBk9g" ownerUpperMult = "1" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Aggregation goY-4LYlEeaQppfxafBk9g goY-4LYlEeaQppfxafBk9g
+(Aggregation goY-4LYlEeaQppfxafBk9g goY-4LYlEeaQppfxafBk9g) {associationID = "tKmTgLYrEeaQppfxafBk9g" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation HZ8xwLYrEeaQppfxafBk9g HZ8xwLYrEeaQppfxafBk9g
+(Aggregation HZ8xwLYrEeaQppfxafBk9g HZ8xwLYrEeaQppfxafBk9g) {associationID = "CSAVoLYtEeaQppfxafBk9g" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }

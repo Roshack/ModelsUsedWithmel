@@ -1,0 +1,68 @@
+$INSTANCE Task class
+$INSTANCE User class
+$INSTANCE UserGroup class
+$INSTANCE Gender enum
+$INSTANCE Nationality enum
+enumValues Gender Male
+(enumValues Gender Male) {value = "0" }
+enumValues Gender Female
+(enumValues Gender Female) {value = "1" }
+enumValues Nationality German
+(enumValues Nationality German) {value = "0" }
+enumValues Nationality French
+(enumValues Nationality French) {value = "0" }
+enumValues Nationality UK
+(enumValues Nationality UK) {value = "0" }
+enumValues Nationality US
+(enumValues Nationality US) {value = "0" }
+enumValues Nationality Spanish
+(enumValues Nationality Spanish) {value = "0" }
+enumValues Nationality Italian
+(enumValues Nationality Italian) {value = "0" }
+enumValues Nationality Russian
+(enumValues Nationality Russian) {value = "0" }
+memberOf Task name
+(memberOf Task name) {type = "EString" }
+memberOf Task description
+(memberOf Task description) {type = "EString" }
+memberOf Task dueDate
+(memberOf Task dueDate) {type = "EDate" }
+memberOf Task done
+(memberOf Task done) {type = "EBoolean" }
+memberOf User firstName
+(memberOf User firstName) {type = "EString" }
+memberOf User lastName
+(memberOf User lastName) {type = "EString" }
+memberOf User gender
+(memberOf User gender) {type = "Gender" }
+memberOf User active
+(memberOf User active) {type = "EBoolean" }
+memberOf User timeOfRegistration
+(memberOf User timeOfRegistration) {type = "EDate" }
+memberOf User weight
+(memberOf User weight) {type = "EDouble" }
+memberOf User heigth
+(memberOf User heigth) {type = "EInt" }
+memberOf User nationality
+(memberOf User nationality) {type = "Nationality" }
+memberOf User dateOfBirth
+(memberOf User dateOfBirth) {type = "DateOfBirth" }
+memberOf User email
+(memberOf User email) {type = "EString" }
+memberOf UserGroup name
+(memberOf UserGroup name) {type = "EString" }
+$INSTANCE hasName method
+hasName {type = "EBoolean" }
+parameterOf hasName chain
+(parameterOf hasName chain) {paramType = "EDiagnosticChain" }
+parameterOf hasName context
+methodOf Task hasName
+(methodOf Task hasName) {type = "EBoolean" }
+association Task User
+(association Task User) {srcLabel = "assignee" lowerBound = "0" upperBound = "1" destLabel = "tasks" }
+association User Task
+(association User Task) {srcLabel = "tasks" lowerBound = "0" upperBound = "*" destLabel = "assignee" }
+composition Task Task
+(composition Task Task) {srcLabel = "subTasks" lowerBound = "0" upperBound = "*" }
+composition UserGroup User
+(composition UserGroup User) {srcLabel = "users" lowerBound = "0" upperBound = "*" }

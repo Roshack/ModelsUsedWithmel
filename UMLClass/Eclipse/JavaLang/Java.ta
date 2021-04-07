@@ -1,0 +1,130 @@
+$INSTANCE JClass class
+JClass {isThrowable = "true" isInterface = "true" isFinal = "true" }
+$INSTANCE JCompilationUnit class
+$INSTANCE JField class
+JField {isFinal = "true" }
+$INSTANCE JInitializer class
+$INSTANCE JMember class
+$INSTANCE JMethod class
+JMethod {isFinal = "true" }
+$INSTANCE JModelElement class
+$INSTANCE JPackage class
+$INSTANCE JParameter class
+JParameter {isFinal = "true" }
+$INSTANCE JVisibility enum
+enumValues JVisibility public
+(enumValues JVisibility public) {value = "0" }
+enumValues JVisibility protected
+(enumValues JVisibility protected) {value = "1" }
+enumValues JVisibility private
+(enumValues JVisibility private) {value = "2" }
+enumValues JVisibility package
+(enumValues JVisibility package) {value = "3" }
+memberOf JClass final
+(memberOf JClass final) {type = "EBoolean" }
+memberOf JClass interface
+(memberOf JClass interface) {type = "EBoolean" }
+memberOf JClass throwable
+(memberOf JClass throwable) {type = "EBoolean" }
+memberOf JClass javaClass
+memberOf JCompilationUnit imports
+(memberOf JCompilationUnit imports) {type = "EString" }
+memberOf JCompilationUnit comment
+(memberOf JCompilationUnit comment) {type = "EString" }
+memberOf JField final
+(memberOf JField final) {type = "EBoolean" }
+memberOf JField transient
+(memberOf JField transient) {type = "EBoolean" }
+memberOf JField volatile
+(memberOf JField volatile) {type = "EBoolean" }
+memberOf JField javaField
+(memberOf JField javaField) {type = "JavaField" }
+memberOf JField initializer
+(memberOf JField initializer) {type = "EString" }
+memberOf JInitializer body
+(memberOf JInitializer body) {type = "EString" }
+memberOf JMember static
+(memberOf JMember static) {type = "EBoolean" }
+memberOf JMember visibility
+(memberOf JMember visibility) {type = "JVisibility" }
+memberOf JMember comment
+(memberOf JMember comment) {type = "EString" }
+memberOf JMethod final
+(memberOf JMethod final) {type = "EBoolean" }
+memberOf JMethod native
+(memberOf JMethod native) {type = "EBoolean" }
+memberOf JMethod synchronized
+(memberOf JMethod synchronized) {type = "EBoolean" }
+memberOf JMethod javaMethod
+(memberOf JMethod javaMethod) {type = "JavaMethod" }
+memberOf JMethod constructor
+(memberOf JMethod constructor) {type = "EBoolean" }
+memberOf JMethod javaConstructor
+memberOf JMethod body
+(memberOf JMethod body) {type = "EString" }
+memberOf JModelElement name
+(memberOf JModelElement name) {type = "EString" }
+memberOf JModelElement jNode
+(memberOf JModelElement jNode) {type = "JNode" }
+memberOf JPackage javaPackage
+(memberOf JPackage javaPackage) {type = "JavaPackage" }
+memberOf JParameter final
+(memberOf JParameter final) {type = "EBoolean" }
+superClass JMember JClass
+superClass JMember JField
+superClass JMember JInitializer
+superClass JMember JMethod
+superClass JModelElement JCompilationUnit
+superClass JModelElement JMember
+superClass JModelElement JPackage
+superClass JModelElement JParameter
+association JClass JField
+(association JClass JField) {srcLabel = "fields" lowerBound = "0" upperBound = "*" }
+association JClass JMethod
+(association JClass JMethod) {srcLabel = "methods" lowerBound = "0" upperBound = "*" }
+association JClass JClass
+(association JClass JClass) {srcLabel = "superTypes" lowerBound = "0" upperBound = "*" }
+association JClass JClass
+(association JClass JClass) {srcLabel = "allSuperTypes" lowerBound = "0" upperBound = "*" }
+association JClass JClass
+(association JClass JClass) {srcLabel = "componentType" lowerBound = "0" upperBound = "1" destLabel = "arrayType" }
+association JClass JCompilationUnit
+(association JClass JCompilationUnit) {srcLabel = "unit" lowerBound = "0" upperBound = "1" destLabel = "types" }
+association JClass JMethod
+(association JClass JMethod) {srcLabel = "allMethods" lowerBound = "0" upperBound = "*" }
+association JClass JField
+(association JClass JField) {srcLabel = "allFields" lowerBound = "0" upperBound = "*" }
+association JClass JPackage
+(association JClass JPackage) {srcLabel = "package" lowerBound = "0" upperBound = "1" destLabel = "types" }
+association JClass JClass
+(association JClass JClass) {srcLabel = "types" lowerBound = "0" upperBound = "*" }
+association JClass JClass
+(association JClass JClass) {srcLabel = "allTypes" lowerBound = "0" upperBound = "*" }
+association JCompilationUnit JPackage
+(association JCompilationUnit JPackage) {srcLabel = "importedPackages" lowerBound = "1" upperBound = "3" }
+association JCompilationUnit JClass
+(association JCompilationUnit JClass) {srcLabel = "importedTypes" lowerBound = "0" upperBound = "*" }
+association JCompilationUnit JPackage
+(association JCompilationUnit JPackage) {srcLabel = "package" lowerBound = "0" upperBound = "1" }
+association JField JClass
+(association JField JClass) {srcLabel = "type" lowerBound = "0" upperBound = "1" }
+association JMember JClass
+(association JMember JClass) {srcLabel = "containingType" lowerBound = "0" upperBound = "2" destLabel = "members" }
+association JMethod JClass
+(association JMethod JClass) {srcLabel = "exceptions" lowerBound = "0" upperBound = "*" }
+association JMethod JClass
+(association JMethod JClass) {srcLabel = "returnType" lowerBound = "0" upperBound = "1" }
+association JPackage JClass
+(association JPackage JClass) {srcLabel = "types" lowerBound = "0" upperBound = "*" destLabel = "package" }
+association JParameter JMethod
+(association JParameter JMethod) {srcLabel = "method" lowerBound = "0" upperBound = "1" destLabel = "parameters" }
+association JParameter JClass
+(association JParameter JClass) {srcLabel = "type" lowerBound = "0" upperBound = "1" }
+composition JClass JMember
+(composition JClass JMember) {srcLabel = "members" lowerBound = "0" upperBound = "*" destLabel = "containingType" }
+composition JClass JClass
+(composition JClass JClass) {srcLabel = "arrayType" lowerBound = "0" upperBound = "1" destLabel = "componentType" }
+composition JCompilationUnit JClass
+(composition JCompilationUnit JClass) {srcLabel = "types" lowerBound = "0" upperBound = "*" destLabel = "unit" }
+composition JMethod JParameter
+(composition JMethod JParameter) {srcLabel = "parameters" lowerBound = "0" upperBound = "*" destLabel = "method" }

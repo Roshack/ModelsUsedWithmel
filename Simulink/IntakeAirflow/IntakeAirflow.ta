@@ -1,0 +1,95 @@
+$INSTANCE 83 block
+83 {name = "sensors" type = "Inport" }
+$INSTANCE 84 block
+84 {name = "O2_normal" type = "Inport" }
+$INSTANCE 85 block
+85 {name = "fuel_mode" type = "Inport" }
+$INSTANCE 86 block
+86 {name = "Bus\nSelector" type = "BusSelector" }
+$INSTANCE 87 block
+87 {value = "0.5" name = "Constant" type = "Constant" }
+$INSTANCE 89 block
+89 {value = "0" name = "Constant2" type = "Constant" }
+$INSTANCE 90 block
+90 {name = "Data Type \nConversion" type = "DataTypeConversion" }
+$INSTANCE 91 block
+91 {name = "Discrete\nIntegrator" type = "DiscreteIntegrator" }
+$INSTANCE 191 block
+191 {name = "Enumerated\nConstant" type = "Reference" }
+$INSTANCE 92 block
+92 {name = "Logic1" type = "Logic" }
+$INSTANCE 93 block
+93 {value = "0.5" name = "Oxygen Sensor\nSwitching Threshold" type = "Constant" }
+$INSTANCE 94 block
+94 {name = "Product" type = "Product" }
+$INSTANCE 95 block
+95 {name = "Product1" type = "Product" }
+$INSTANCE 96 block
+96 {name = "Product2" type = "Product" }
+$INSTANCE 97 block
+97 {name = "Pumping Constant" type = "Lookup_n-D" }
+$INSTANCE 98 block
+98 {name = "Ramp Rate Ki" type = "Lookup_n-D" }
+$INSTANCE 99 block
+99 {name = "Relational\nOperator1" type = "RelationalOperator" }
+$INSTANCE 100 block
+100 {name = "Relational\nOperator3" type = "RelationalOperator" }
+$INSTANCE 101 block
+101 {name = "Sum" type = "Sum" }
+$INSTANCE 102 block
+102 {name = "Sum1" type = "Sum" }
+$INSTANCE 103 block
+103 {name = "Throttle Transient" type = "DiscreteFilter" }
+$INSTANCE 104 block
+104 {name = "hold\nintegrator" type = "Switch" }
+$INSTANCE 105 block
+105 {name = "est_airflow" type = "Outport" }
+$INSTANCE 106 block
+106 {name = "fb_correction" type = "Outport" }
+port 86 1
+(port 86 1) {name = "<throttle>" }
+port 86 2
+(port 86 2) {name = "<speed>" }
+port 86 3
+(port 86 3) {name = "<map>" }
+port 86 4
+(port 86 4) {name = "<ego>" }
+port 92 1
+(port 92 1) {name = "enable_integration" }
+port 95 1
+(port 95 1) {name = "e1" }
+port 99 1
+(port 99 1) {name = "normal_operation" }
+port 102 1
+(port 102 1) {name = "e0" }
+signal 91 106
+signal 83 86
+signal 97 94
+signal 103 101
+signal 101 105
+signal 86 103
+(signal 86 103) {label = "<throttle>" }
+signal 99 92
+(signal 99 92) {label = "normal_operation" }
+signal 93 100
+signal 87 102
+signal 98 95
+signal 89 104
+signal 95 104
+(signal 95 104) {label = "e1" }
+signal 104 91
+signal 92 104
+(signal 92 104) {label = "enable_integration" }
+signal 102 95
+(signal 102 95) {label = "e0" }
+signal 100 90
+signal 90 102
+signal 86 100
+(signal 86 100) {label = "<ego>" }
+signal 94 96
+signal 96 101
+signal 84 92
+signal 191 99
+signal 85 99
+signal 86 97
+(signal 86 97) {label = "<speed>" }

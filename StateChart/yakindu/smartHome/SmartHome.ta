@@ -1,0 +1,292 @@
+$INSTANCE _7tMUkE3MEeu0xqti1sYfhQ StateMachine
+_7tMUkE3MEeu0xqti1sYfhQ {name = "SmartHome" }
+$INSTANCE _0rpH8U3NEeu0xqti1sYfhQ State
+_0rpH8U3NEeu0xqti1sYfhQ {type = "Entry" }
+$INSTANCE _0rpH803NEeu0xqti1sYfhQ State
+$INSTANCE _0rpH9E3NEeu0xqti1sYfhQ State
+_0rpH9E3NEeu0xqti1sYfhQ {type = "State" label = "Main Controller" }
+$INSTANCE _0rpH903NEeu0xqti1sYfhQ State
+_0rpH903NEeu0xqti1sYfhQ {type = "Entry" }
+$INSTANCE _0rpH-U3NEeu0xqti1sYfhQ State
+$INSTANCE _0rpvFE3NEeu0xqti1sYfhQ State
+_0rpvFE3NEeu0xqti1sYfhQ {exitEvent = "" label = "AtHome" alwaysEvent = "" exitGuard = "" entryGuard = "mainController.atHomeDone == false" type = "State" alwaysGuard = "" entryEvent = "mainController.timer = 0;\r\nmainController.enterDone = false;\r\nmainController.sleepDone = false;\r\ndoors[0] = 2;\r\nmainController.atHomeDone = true;\r\nmainController.changeAirMode = true\r\n\r\noncycle [mainController.isMorning == false]/ lights[6] = 1; lights[7] = 1; lights[8] = 1\r\n\r\noncycle [mainController.isMorning == true]/ lights[6] = 0; lights[7] = 0; lights[8] = 0" }
+$INSTANCE _0rpvFk3NEeu0xqti1sYfhQ State
+_0rpvFk3NEeu0xqti1sYfhQ {exitEvent = "" label = "LeaveHome" alwaysEvent = "" exitGuard = "" entryGuard = "mainController.leaveDone == false" type = "State" alwaysGuard = "" entryEvent = "mainController.atHomeDone = false;  \r\nmainController.armed = true;\r\nlights[0] = 0; lights[6] = 0; lights[7] = 0; lights[8] = 0;\r\ndoors[1] = 2; doors[2] = 2; doors[3] = 2; doors[4] = 2; doors[5] = 2;\r\nmainController.leaveDone = true" }
+$INSTANCE _0rpvGE3NEeu0xqti1sYfhQ State
+_0rpvGE3NEeu0xqti1sYfhQ {exitEvent = "" label = "Entrance" alwaysEvent = "" exitGuard = "" entryGuard = "mainController.enterDone == false" type = "State" alwaysGuard = "" entryEvent = "mainController.atHomeDone = false; \r\nmainController.leaveDone = false; mainController.armed = false;\r\nlights[0] = 1; lights[6] = 1; lights[7] = 1; lights[8] = 1;\r\ndoors[1] = 0; doors[2] = 0; doors[3] = 0; doors[4] = 0; doors[5] = 0;\r\nmainController.enterDone = true" }
+$INSTANCE _0rpvGk3NEeu0xqti1sYfhQ State
+_0rpvGk3NEeu0xqti1sYfhQ {exitEvent = "" label = "SleepMode" alwaysEvent = "" exitGuard = "" entryGuard = "mainController.sleepDone == false" type = "State" alwaysGuard = "" entryEvent = "mainController.armed = true;\r\nmainController.timer = 0;\r\nmainController.atHomeDone = false;\r\nlights[0] = 0; lights[1] = 0; lights[2] = 0; lights[3] = 0; lights[4] = 0; lights[5] = 0;  lights[6] = 0; lights[7] = 0; lights[8] = 0;\r\nmainController.sleepDone = true;\r\nmainController.changeAirMode = false" }
+$INSTANCE _kOyn4FAmEeu11rsqXrFxFQ State
+_kOyn4FAmEeu11rsqXrFxFQ {type = "Entry" label = "Sallow" }
+$INSTANCE _0rqWF03NEeu0xqti1sYfhQ State
+_0rqWF03NEeu0xqti1sYfhQ {type = "State" label = "Doors" }
+$INSTANCE _0rqWGk3NEeu0xqti1sYfhQ State
+_0rqWGk3NEeu0xqti1sYfhQ {exitEvent = "" label = "Open" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "doors[mainController.toOpen] = 1;\r\nmainController.toOpen = -1" }
+$INSTANCE _0rqWHE3NEeu0xqti1sYfhQ State
+_0rqWHE3NEeu0xqti1sYfhQ {exitEvent = "" label = "Lock" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "doors[0] = 2;\r\nmainController.toCloseMain = -1;\r\nlights[0] = 0" }
+$INSTANCE _0rqWHk3NEeu0xqti1sYfhQ State
+_0rqWHk3NEeu0xqti1sYfhQ {exitEvent = "" label = "Close" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "doors[mainController.toClose] = 0;\r\nmainController.toClose = -1" }
+$INSTANCE _X45TUE3jEeue6MrnbO2HeQ State
+_X45TUE3jEeue6MrnbO2HeQ {exitEvent = "" label = "unlock" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "doors[0] = 1;\r\nmainController.toOpenMain = -1;\r\nlights[0] = 1" }
+$INSTANCE _d_DZQE3jEeue6MrnbO2HeQ State
+_d_DZQE3jEeue6MrnbO2HeQ {type = "Entry" }
+$INSTANCE _vSjhYE3jEeue6MrnbO2HeQ State
+$INSTANCE _0rqWIE3NEeu0xqti1sYfhQ State
+_0rqWIE3NEeu0xqti1sYfhQ {type = "State" label = "Lights" }
+$INSTANCE _0rqWI03NEeu0xqti1sYfhQ State
+_0rqWI03NEeu0xqti1sYfhQ {exitEvent = "" label = "Light On" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "lights[mainController.turnOn] = 1;\r\nmainController.turnOn = -1" }
+$INSTANCE _0rqWJU3NEeu0xqti1sYfhQ State
+_0rqWJU3NEeu0xqti1sYfhQ {exitEvent = "" label = "Light Off" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "lights[mainController.turnOff] = 0;\r\nmainController.turnOff = -1" }
+$INSTANCE _Vgqn8E30EeurZsXXDl_aeg State
+_Vgqn8E30EeurZsXXDl_aeg {type = "Entry" }
+$INSTANCE _WgEPcE30EeurZsXXDl_aeg State
+$INSTANCE _0rqWJ03NEeu0xqti1sYfhQ State
+_0rqWJ03NEeu0xqti1sYfhQ {type = "State" label = "AirConditioner" }
+$INSTANCE _0rqWKk3NEeu0xqti1sYfhQ State
+_0rqWKk3NEeu0xqti1sYfhQ {exitEvent = "" label = "on " alwaysEvent = "" exitGuard = "" entryGuard = "mainController.temprture \r\n!= airComditioner.temprture" type = "State" alwaysGuard = "" entryEvent = "airComditioner.temprture = \r\nmainController.temprture" }
+$INSTANCE _0rqWLE3NEeu0xqti1sYfhQ State
+_0rqWLE3NEeu0xqti1sYfhQ {type = "State" label = "Off" }
+$INSTANCE _NNeqgE6IEeuYLb9-_nrYDA State
+_NNeqgE6IEeuYLb9-_nrYDA {type = "Entry" }
+$INSTANCE _0GBL8E6JEeuYLb9-_nrYDA State
+$INSTANCE _0rqWN03NEeu0xqti1sYfhQ State
+_0rqWN03NEeu0xqti1sYfhQ {type = "State" label = "HealthSystem" }
+$INSTANCE _0rqWOk3NEeu0xqti1sYfhQ State
+_0rqWOk3NEeu0xqti1sYfhQ {exitEvent = "" label = "EMERGENCYLevel0" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "mainController.emergencyLevel = 0;\r\nmainController.checkH = true" }
+$INSTANCE _0rqWPE3NEeu0xqti1sYfhQ State
+_0rqWPE3NEeu0xqti1sYfhQ {exitEvent = "" label = "EMERGENCYLevel1" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "response[3] = 1;\r\nmainController.emergencyLevel = 1;\r\nmainController.checkH = true;\r\nmainController.report = true" }
+$INSTANCE _0rqWPk3NEeu0xqti1sYfhQ State
+_0rqWPk3NEeu0xqti1sYfhQ {exitEvent = "" label = "EMERGENCYLevel2" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "response[4] = 1;\r\nmainController.emergencyLevel = 2;\r\nmainController.checkH = true;\r\nmainController.report = true" }
+$INSTANCE _-sQ4QE6REeuYLb9-_nrYDA State
+_-sQ4QE6REeuYLb9-_nrYDA {type = "Entry" }
+$INSTANCE __k8zwE6REeuYLb9-_nrYDA State
+$INSTANCE _1HbLYE3VEeuQnpzlNm1QdQ State
+_1HbLYE3VEeuQnpzlNm1QdQ {type = "State" label = "AlramSystem" }
+$INSTANCE _N_rlwE3TEeu0xqti1sYfhQ State
+$INSTANCE _GgG10E3TEeu0xqti1sYfhQ State
+_GgG10E3TEeu0xqti1sYfhQ {exitEvent = "" label = "Armed" alwaysEvent = "" exitGuard = "" entryGuard = "motion == true" type = "State" alwaysGuard = "" entryEvent = "mainController.alarm = true;\r\nresponse[2] = 1;\r\nmainController.report = true" }
+$INSTANCE _KjqK0E3TEeu0xqti1sYfhQ State
+_KjqK0E3TEeu0xqti1sYfhQ {type = "State" label = "Disarmed" }
+$INSTANCE _f-MhIE3QEeu0xqti1sYfhQ State
+$INSTANCE _jXWOQE3QEeu0xqti1sYfhQ State
+_jXWOQE3QEeu0xqti1sYfhQ {type = "State" label = "Ok" }
+$INSTANCE _0rqWEk3NEeu0xqti1sYfhQ State
+_0rqWEk3NEeu0xqti1sYfhQ {exitEvent = "" label = "GasLeakDitected" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "mainController.alarm = true;\r\nresponse[1] = 1;\r\nmainController.report = true" }
+$INSTANCE _0rpvH03NEeu0xqti1sYfhQ State
+_0rpvH03NEeu0xqti1sYfhQ {exitEvent = "" label = "FireDitected" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "mainController.alarm = true;\r\nresponse[0] = 1;\r\nmainController.report = true" }
+$INSTANCE _0cHIEE3WEeuQnpzlNm1QdQ State
+_0cHIEE3WEeuQnpzlNm1QdQ {type = "Sync" }
+$INSTANCE _uxqJ4E3aEeu-b9Yc7YzYYA State
+_uxqJ4E3aEeu-b9Yc7YzYYA {type = "State" label = "AlarmAndReport" }
+$INSTANCE _ygtOgE3aEeu-b9Yc7YzYYA State
+_ygtOgE3aEeu-b9Yc7YzYYA {exitEvent = "" label = "flasher" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _zI-IYE3aEeu-b9Yc7YzYYA State
+_zI-IYE3aEeu-b9Yc7YzYYA {type = "State" label = "siren" }
+$INSTANCE _1GEuQE3aEeu-b9Yc7YzYYA State
+_1GEuQE3aEeu-b9Yc7YzYYA {exitEvent = "" label = "handle" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "mainController.i =0;\r\nmainController.checkH = false;\r\nmainController.reportedFamily = (response[3] == 1) ? true : false\r\n\r\nevery 1 ns [mainController.i < 5] /\r\nresponse[mainController.i] = 0;\r\nmainController.i++;\r\nmotion = false\r\n\r\n//if response[0] = 1, fire detected call 911. \r\n//if response[1] = 1, gas leak detected call 911.\r\n//if response[2] = 1, some body unauthorize is in the house call 911.\r\n//if response[3] = 1, call guardian and report the status.\r\n//if response[4] = 1, the health of the resident is NOT good call 911." }
+$INSTANCE _Ui-kkE3cEeu-b9Yc7YzYYA State
+_Ui-kkE3cEeu-b9Yc7YzYYA {type = "Sync" }
+$INSTANCE _atq28FAmEeu11rsqXrFxFQ State
+_atq28FAmEeu11rsqXrFxFQ {type = "State" label = "Init" }
+$INSTANCE _0rqWM03NEeu0xqti1sYfhQ State
+_0rqWM03NEeu0xqti1sYfhQ {exitEvent = "" label = "CheckMotion" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "mainController.i = 1\r\n\r\nevery 100 ms [mainController.i < 6]\r\n/\r\nmotion = ((mainController.mode == 2 || mainController.mode == 3) && (sensor[3*mainController.i] == 1 || sensor[3*mainController.i + 1] == 1 || sensor[3*mainController.i + 2] == 1)) ? true : motion;\r\nmainController.toOpenMain = ((sensor[0] == 1 ||sensor[1] == 1) && (doors[0]  == 0 || doors[0] == 2)) ? 0 : mainController.toOpenMain;\r\nmainController.toCloseMain = ((sensor[1] == 0 && sensor[0] == 0) && (doors[0] == 1 || doors[0] == 0)) ? 0 : mainController.toCloseMain;\r\nmainController.turnOff = (sensor[3*mainController.i+2] == 0 && lights[mainController.i] == 1) ? mainController.i : mainController.turnOff;\r\nmainController.turnOn = (sensor[3*mainController.i+2] == 1 && lights[mainController.i] == 0) ? mainController.i : mainController.turnOn;\r\nmainController.x = (sensor[3*mainController.i] == 1 || sensor[3*mainController.i+1] == 1) ? mainController.i : mainController.toOpen;\r\nmainController.y = (sensor[3*mainController.i] == 0 && sensor[3*mainController.i+1] == 0) ? mainController.i : mainController.toClose;\r\nmainController.toOpen = doors[mainController.i]  == 1 ? mainController.toOpen : mainController.x;\r\nmainController.toClose = doors[mainController.i] == 0 ? mainController.toClose : mainController.y;\r\nmainController.i++" }
+$INSTANCE _0rpH9k3NEeu0xqti1sYfhQ Region
+$INSTANCE _0rqWGU3NEeu0xqti1sYfhQ Region
+_0rqWGU3NEeu0xqti1sYfhQ {label = "Doors" }
+$INSTANCE _0rqWIk3NEeu0xqti1sYfhQ Region
+_0rqWIk3NEeu0xqti1sYfhQ {label = "Lights" }
+$INSTANCE _0rqWKU3NEeu0xqti1sYfhQ Region
+_0rqWKU3NEeu0xqti1sYfhQ {label = "AirConditioner" }
+$INSTANCE _0rqWOU3NEeu0xqti1sYfhQ Region
+_0rqWOU3NEeu0xqti1sYfhQ {label = "HealthSystem" }
+$INSTANCE _1HbycE3VEeuQnpzlNm1QdQ Region
+_1HbycE3VEeuQnpzlNm1QdQ {label = "SecurtyAlramSystem" }
+$INSTANCE _1HbycU3VEeuQnpzlNm1QdQ Region
+_1HbycU3VEeuQnpzlNm1QdQ {label = "FireAlarmSystem" }
+$INSTANCE _uxqw8U3aEeu-b9Yc7YzYYA Region
+_uxqw8U3aEeu-b9Yc7YzYYA {label = "Alarm" }
+$INSTANCE _uxqw8k3aEeu-b9Yc7YzYYA Region
+_uxqw8k3aEeu-b9Yc7YzYYA {label = "Report" }
+Transition _0rpH8U3NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ
+(Transition _0rpH8U3NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ) {guard = "" trigger = "" event = "" }
+Transition _0rpH9E3NEeu0xqti1sYfhQ _0cHIEE3WEeuQnpzlNm1QdQ
+(Transition _0rpH9E3NEeu0xqti1sYfhQ _0cHIEE3WEeuQnpzlNm1QdQ) {guard = "mainController.toCheck == 0" trigger = "every 1s " event = " mainController.toCheck = 1" }
+Transition _0rpH9E3NEeu0xqti1sYfhQ _Ui-kkE3cEeu-b9Yc7YzYYA
+(Transition _0rpH9E3NEeu0xqti1sYfhQ _Ui-kkE3cEeu-b9Yc7YzYYA) {guard = "mainController.alarm\r\n == true && \r\nmainController.report == true" trigger = "every 1 s" event = "" }
+Transition _0rpH9E3NEeu0xqti1sYfhQ _0rqWM03NEeu0xqti1sYfhQ
+(Transition _0rpH9E3NEeu0xqti1sYfhQ _0rqWM03NEeu0xqti1sYfhQ) {guard = "mainController.toCheck == 1" trigger = "every 1s " event = " \r\nmainController.toCheck = 2" }
+Transition _0rpH9E3NEeu0xqti1sYfhQ _1GEuQE3aEeu-b9Yc7YzYYA
+(Transition _0rpH9E3NEeu0xqti1sYfhQ _1GEuQE3aEeu-b9Yc7YzYYA) {guard = "(mainController.emergencyLevel == 1 &&\r\n \t mainController.reportedFamily == false &&\r\n \tmainController.report == true) ||\r\n \t(mainController.emergencyLevel == 2 &&\r\n \tmainController.report == true)" trigger = " every 500 ms " event = "" }
+Transition _0rpH9E3NEeu0xqti1sYfhQ _0rqWN03NEeu0xqti1sYfhQ
+(Transition _0rpH9E3NEeu0xqti1sYfhQ _0rqWN03NEeu0xqti1sYfhQ) {guard = "mainController.toCheck == 2" trigger = "every 1s " event = " \r\nmainController.toCheck = 0" }
+Transition _0rpH9E3NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ
+(Transition _0rpH9E3NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ) {guard = "" trigger = "powerOff" event = "" }
+Transition _0rpH903NEeu0xqti1sYfhQ _0rpH-U3NEeu0xqti1sYfhQ
+(Transition _0rpH903NEeu0xqti1sYfhQ _0rpH-U3NEeu0xqti1sYfhQ) {guard = "" trigger = "" event = "" }
+Transition _0rpH-U3NEeu0xqti1sYfhQ _0rpvFE3NEeu0xqti1sYfhQ
+(Transition _0rpH-U3NEeu0xqti1sYfhQ _0rpvFE3NEeu0xqti1sYfhQ) {guard = "" trigger = "default\r\n" event = "mainController.timer++;\r\nmainController.counter++" }
+Transition _0rpH-U3NEeu0xqti1sYfhQ _0rpvFk3NEeu0xqti1sYfhQ
+(Transition _0rpH-U3NEeu0xqti1sYfhQ _0rpvFk3NEeu0xqti1sYfhQ) {guard = "mainController.mode == 3" trigger = "" event = "" }
+Transition _0rpH-U3NEeu0xqti1sYfhQ _0rpvGE3NEeu0xqti1sYfhQ
+(Transition _0rpH-U3NEeu0xqti1sYfhQ _0rpvGE3NEeu0xqti1sYfhQ) {guard = "mainController.mode == 1" trigger = "" event = "" }
+Transition _0rpH-U3NEeu0xqti1sYfhQ _0rpvGk3NEeu0xqti1sYfhQ
+(Transition _0rpH-U3NEeu0xqti1sYfhQ _0rpvGk3NEeu0xqti1sYfhQ) {guard = "mainController.mode == 2" trigger = "" event = "mainController.timer++;\r\nmainController.counter++" }
+Transition _0rpvFE3NEeu0xqti1sYfhQ _0rqWF03NEeu0xqti1sYfhQ
+(Transition _0rpvFE3NEeu0xqti1sYfhQ _0rqWF03NEeu0xqti1sYfhQ) {guard = "0" trigger = "every 500 ms " event = "" }
+Transition _0rpvFE3NEeu0xqti1sYfhQ _0rqWIE3NEeu0xqti1sYfhQ
+(Transition _0rpvFE3NEeu0xqti1sYfhQ _0rqWIE3NEeu0xqti1sYfhQ) {guard = "mainController.turnOn != -1\r\n|| mainController.turnOff != -1" trigger = "every 500 ms " event = "" }
+Transition _0rpvFE3NEeu0xqti1sYfhQ _0rqWJ03NEeu0xqti1sYfhQ
+(Transition _0rpvFE3NEeu0xqti1sYfhQ _0rqWJ03NEeu0xqti1sYfhQ) {guard = "mainController.changeAirMode == true" trigger = "after 500 ms " event = " \r\nmainController.changeAirMode = false" }
+Transition _0rpvFE3NEeu0xqti1sYfhQ _0rpvFE3NEeu0xqti1sYfhQ
+(Transition _0rpvFE3NEeu0xqti1sYfhQ _0rpvFE3NEeu0xqti1sYfhQ) {guard = "" trigger = "mainController.ate " event = " \r\nmainController.timer = 0;\r\nmainController.isate = true;\r\nmainController.reportedFamily = false" }
+Transition _0rpvFk3NEeu0xqti1sYfhQ _0rqWF03NEeu0xqti1sYfhQ
+(Transition _0rpvFk3NEeu0xqti1sYfhQ _0rqWF03NEeu0xqti1sYfhQ) {guard = "mainController.toCloseMain != -1" trigger = "after 1s " event = "" }
+Transition _0rpvFk3NEeu0xqti1sYfhQ _0rqWJ03NEeu0xqti1sYfhQ
+(Transition _0rpvFk3NEeu0xqti1sYfhQ _0rqWJ03NEeu0xqti1sYfhQ) {guard = "mainController.airCond == true" trigger = "after 500 ms " event = " mainController.airCond = false" }
+Transition _0rpvGE3NEeu0xqti1sYfhQ _0rqWF03NEeu0xqti1sYfhQ
+(Transition _0rpvGE3NEeu0xqti1sYfhQ _0rqWF03NEeu0xqti1sYfhQ) {guard = "mainController.toOpenMain != -1" trigger = "after 1s" event = " mainController.mode = 0" }
+Transition _0rpvGE3NEeu0xqti1sYfhQ _0rqWJ03NEeu0xqti1sYfhQ
+(Transition _0rpvGE3NEeu0xqti1sYfhQ _0rqWJ03NEeu0xqti1sYfhQ) {guard = "mainController.airCond == false" trigger = "after 500 ms" event = " mainController.airCond = true" }
+Transition _0rpvGk3NEeu0xqti1sYfhQ _0rqWJ03NEeu0xqti1sYfhQ
+(Transition _0rpvGk3NEeu0xqti1sYfhQ _0rqWJ03NEeu0xqti1sYfhQ) {guard = "mainController.changeAirMode == true" trigger = "after 500 ms\r\n" event = " mainController.changeAirMode = false" }
+Transition _0rpvGk3NEeu0xqti1sYfhQ _0rpvGk3NEeu0xqti1sYfhQ
+(Transition _0rpvGk3NEeu0xqti1sYfhQ _0rpvGk3NEeu0xqti1sYfhQ) {guard = "mainController.counter == 10" trigger = "every 500 ms " event = " mainController.counter = 0;\r\nmainController.reportedFamily = false" }
+Transition _0rqWF03NEeu0xqti1sYfhQ _0rpH9E3NEeu0xqti1sYfhQ
+(Transition _0rqWF03NEeu0xqti1sYfhQ _0rpH9E3NEeu0xqti1sYfhQ) {guard = "" trigger = "after 1 s" event = "" }
+Transition _0rqWF03NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ
+(Transition _0rqWF03NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ) {guard = "" trigger = "powerOff" event = "" }
+Transition _d_DZQE3jEeue6MrnbO2HeQ _vSjhYE3jEeue6MrnbO2HeQ
+(Transition _d_DZQE3jEeue6MrnbO2HeQ _vSjhYE3jEeue6MrnbO2HeQ) {guard = "" trigger = "" event = "" }
+Transition _vSjhYE3jEeue6MrnbO2HeQ _0rqWGk3NEeu0xqti1sYfhQ
+(Transition _vSjhYE3jEeue6MrnbO2HeQ _0rqWGk3NEeu0xqti1sYfhQ) {guard = "mainController.toOpen != -1" trigger = "" event = "" }
+Transition _vSjhYE3jEeue6MrnbO2HeQ _X45TUE3jEeue6MrnbO2HeQ
+(Transition _vSjhYE3jEeue6MrnbO2HeQ _X45TUE3jEeue6MrnbO2HeQ) {guard = "1" trigger = "" event = "" }
+Transition _vSjhYE3jEeue6MrnbO2HeQ _0rqWHk3NEeu0xqti1sYfhQ
+(Transition _vSjhYE3jEeue6MrnbO2HeQ _0rqWHk3NEeu0xqti1sYfhQ) {guard = "mainController.toClose != -1" trigger = "" event = "" }
+Transition _vSjhYE3jEeue6MrnbO2HeQ _0rqWHE3NEeu0xqti1sYfhQ
+(Transition _vSjhYE3jEeue6MrnbO2HeQ _0rqWHE3NEeu0xqti1sYfhQ) {guard = "mainController.toCloseMain != -1" trigger = "" event = "" }
+Transition _0rqWIE3NEeu0xqti1sYfhQ _0rpH9E3NEeu0xqti1sYfhQ
+(Transition _0rqWIE3NEeu0xqti1sYfhQ _0rpH9E3NEeu0xqti1sYfhQ) {guard = "" trigger = "after 1 s" event = "" }
+Transition _0rqWIE3NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ
+(Transition _0rqWIE3NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ) {guard = "" trigger = "powerOff" event = "" }
+Transition _Vgqn8E30EeurZsXXDl_aeg _WgEPcE30EeurZsXXDl_aeg
+(Transition _Vgqn8E30EeurZsXXDl_aeg _WgEPcE30EeurZsXXDl_aeg) {guard = "" trigger = "" event = "" }
+Transition _WgEPcE30EeurZsXXDl_aeg _0rqWI03NEeu0xqti1sYfhQ
+(Transition _WgEPcE30EeurZsXXDl_aeg _0rqWI03NEeu0xqti1sYfhQ) {guard = "mainController.turnOn != -1" trigger = "" event = "" }
+Transition _WgEPcE30EeurZsXXDl_aeg _0rqWJU3NEeu0xqti1sYfhQ
+(Transition _WgEPcE30EeurZsXXDl_aeg _0rqWJU3NEeu0xqti1sYfhQ) {guard = "" trigger = "default" event = "" }
+Transition _0rqWJ03NEeu0xqti1sYfhQ _0rpvGE3NEeu0xqti1sYfhQ
+(Transition _0rqWJ03NEeu0xqti1sYfhQ _0rpvGE3NEeu0xqti1sYfhQ) {guard = "mainController.mode == 1" trigger = "after 1 s\r\n" event = "" }
+Transition _0rqWJ03NEeu0xqti1sYfhQ _0rpvFk3NEeu0xqti1sYfhQ
+(Transition _0rqWJ03NEeu0xqti1sYfhQ _0rpvFk3NEeu0xqti1sYfhQ) {guard = "mainController.mode == 3" trigger = "after 1 s " event = "" }
+Transition _0rqWJ03NEeu0xqti1sYfhQ _0rpvFE3NEeu0xqti1sYfhQ
+(Transition _0rqWJ03NEeu0xqti1sYfhQ _0rpvFE3NEeu0xqti1sYfhQ) {guard = "mainController.mode == 0" trigger = "after 1 s \r\n" event = "" }
+Transition _0rqWJ03NEeu0xqti1sYfhQ _0rpvGk3NEeu0xqti1sYfhQ
+(Transition _0rqWJ03NEeu0xqti1sYfhQ _0rpvGk3NEeu0xqti1sYfhQ) {guard = "mainController.mode == 2" trigger = "after 1 s " event = "" }
+Transition _0rqWJ03NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ
+(Transition _0rqWJ03NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ) {guard = "" trigger = "powerOff" event = "" }
+Transition _NNeqgE6IEeuYLb9-_nrYDA _0GBL8E6JEeuYLb9-_nrYDA
+(Transition _NNeqgE6IEeuYLb9-_nrYDA _0GBL8E6JEeuYLb9-_nrYDA) {guard = "" trigger = "" event = "" }
+Transition _0GBL8E6JEeuYLb9-_nrYDA _0rqWLE3NEeu0xqti1sYfhQ
+(Transition _0GBL8E6JEeuYLb9-_nrYDA _0rqWLE3NEeu0xqti1sYfhQ) {guard = "" trigger = "default" event = "" }
+Transition _0GBL8E6JEeuYLb9-_nrYDA _0rqWKk3NEeu0xqti1sYfhQ
+(Transition _0GBL8E6JEeuYLb9-_nrYDA _0rqWKk3NEeu0xqti1sYfhQ) {guard = "mainController.airCond == true" trigger = "" event = "" }
+Transition _0rqWN03NEeu0xqti1sYfhQ _0rpH9E3NEeu0xqti1sYfhQ
+(Transition _0rqWN03NEeu0xqti1sYfhQ _0rpH9E3NEeu0xqti1sYfhQ) {guard = "" trigger = "after 1 s" event = "" }
+Transition _0rqWN03NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ
+(Transition _0rqWN03NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ) {guard = "" trigger = "powerOff" event = "" }
+Transition _-sQ4QE6REeuYLb9-_nrYDA __k8zwE6REeuYLb9-_nrYDA
+(Transition _-sQ4QE6REeuYLb9-_nrYDA __k8zwE6REeuYLb9-_nrYDA) {guard = "" trigger = "" event = "" }
+Transition __k8zwE6REeuYLb9-_nrYDA _0rqWOk3NEeu0xqti1sYfhQ
+(Transition __k8zwE6REeuYLb9-_nrYDA _0rqWOk3NEeu0xqti1sYfhQ) {guard = "" trigger = "default" event = "" }
+Transition __k8zwE6REeuYLb9-_nrYDA _0rqWPk3NEeu0xqti1sYfhQ
+(Transition __k8zwE6REeuYLb9-_nrYDA _0rqWPk3NEeu0xqti1sYfhQ) {guard = "(mainController.mode == 2 && mainController.timer > 150)\r\n|| (mainController.mode == 0 && mainController.timer > 40\r\n&& mainController.isate == false) \r\n|| smartWacth.mode == true && (smartWacth.pules > 120\r\n || smartWacth.pules < 20 || smartWacth.satoration <= 90\r\n|| smartWacth.bloodPrusreSys >= 140 || smartWacth.bloodPrusreSys <= 90\r\n|| smartWacth.bloodPrusreDia > 90 || smartWacth.bloodPrusreDia < 60)" trigger = "" event = "" }
+Transition __k8zwE6REeuYLb9-_nrYDA _0rqWPE3NEeu0xqti1sYfhQ
+(Transition __k8zwE6REeuYLb9-_nrYDA _0rqWPE3NEeu0xqti1sYfhQ) {guard = "(mainController.mode == 2 && mainController.timer > 100) \r\n|| (mainController.mode == 0 && mainController.timer > 20\r\n\t&& mainController.isate == false)\r\n||smartWacth.mode == true && (smartWacth.pules > 90 || \r\n\tsmartWacth.pules < 40 || (smartWacth.satoration < 95 \r\n\t\t&& smartWacth.satoration > 90) \r\n|| (smartWacth.bloodPrusreSys > 120\r\n&& smartWacth.bloodPrusreSys < 140)\r\n|| (smartWacth.bloodPrusreDia > 80 \r\n&& smartWacth.bloodPrusreDia < 90))" trigger = "" event = "" }
+Transition _1HbLYE3VEeuQnpzlNm1QdQ _0rpH9E3NEeu0xqti1sYfhQ
+(Transition _1HbLYE3VEeuQnpzlNm1QdQ _0rpH9E3NEeu0xqti1sYfhQ) {guard = "" trigger = "every 1s" event = "" }
+Transition _1HbLYE3VEeuQnpzlNm1QdQ _atq28FAmEeu11rsqXrFxFQ
+(Transition _1HbLYE3VEeuQnpzlNm1QdQ _atq28FAmEeu11rsqXrFxFQ) {guard = "" trigger = "powerOff" event = "" }
+Transition _N_rlwE3TEeu0xqti1sYfhQ _KjqK0E3TEeu0xqti1sYfhQ
+(Transition _N_rlwE3TEeu0xqti1sYfhQ _KjqK0E3TEeu0xqti1sYfhQ) {guard = "" trigger = "default" event = "" }
+Transition _N_rlwE3TEeu0xqti1sYfhQ _GgG10E3TEeu0xqti1sYfhQ
+(Transition _N_rlwE3TEeu0xqti1sYfhQ _GgG10E3TEeu0xqti1sYfhQ) {guard = "mainController.armed == true" trigger = "" event = "" }
+Transition _f-MhIE3QEeu0xqti1sYfhQ _jXWOQE3QEeu0xqti1sYfhQ
+(Transition _f-MhIE3QEeu0xqti1sYfhQ _jXWOQE3QEeu0xqti1sYfhQ) {guard = "" trigger = "default" event = "" }
+Transition _f-MhIE3QEeu0xqti1sYfhQ _0rpvH03NEeu0xqti1sYfhQ
+(Transition _f-MhIE3QEeu0xqti1sYfhQ _0rpvH03NEeu0xqti1sYfhQ) {guard = "fire == true" trigger = "" event = "" }
+Transition _f-MhIE3QEeu0xqti1sYfhQ _0rqWEk3NEeu0xqti1sYfhQ
+(Transition _f-MhIE3QEeu0xqti1sYfhQ _0rqWEk3NEeu0xqti1sYfhQ) {guard = "gasLeak == true" trigger = "" event = "" }
+Transition _0cHIEE3WEeuQnpzlNm1QdQ _f-MhIE3QEeu0xqti1sYfhQ
+(Transition _0cHIEE3WEeuQnpzlNm1QdQ _f-MhIE3QEeu0xqti1sYfhQ) {guard = "" trigger = "" event = "" }
+Transition _0cHIEE3WEeuQnpzlNm1QdQ _N_rlwE3TEeu0xqti1sYfhQ
+(Transition _0cHIEE3WEeuQnpzlNm1QdQ _N_rlwE3TEeu0xqti1sYfhQ) {guard = "" trigger = "" event = "" }
+Transition _uxqJ4E3aEeu-b9Yc7YzYYA _0rpH9E3NEeu0xqti1sYfhQ
+(Transition _uxqJ4E3aEeu-b9Yc7YzYYA _0rpH9E3NEeu0xqti1sYfhQ) {guard = "" trigger = "mainController.stopAlarm  " event = " mainController.alarm = false;\r\nmainController.report = false" }
+Transition _uxqJ4E3aEeu-b9Yc7YzYYA _atq28FAmEeu11rsqXrFxFQ
+(Transition _uxqJ4E3aEeu-b9Yc7YzYYA _atq28FAmEeu11rsqXrFxFQ) {guard = "" trigger = "powerOff" event = "" }
+Transition _ygtOgE3aEeu-b9Yc7YzYYA _zI-IYE3aEeu-b9Yc7YzYYA
+(Transition _ygtOgE3aEeu-b9Yc7YzYYA _zI-IYE3aEeu-b9Yc7YzYYA) {guard = "" trigger = "every 1s" event = "" }
+Transition _zI-IYE3aEeu-b9Yc7YzYYA _ygtOgE3aEeu-b9Yc7YzYYA
+(Transition _zI-IYE3aEeu-b9Yc7YzYYA _ygtOgE3aEeu-b9Yc7YzYYA) {guard = "" trigger = "after 1s" event = "" }
+Transition _1GEuQE3aEeu-b9Yc7YzYYA _0rpH9E3NEeu0xqti1sYfhQ
+(Transition _1GEuQE3aEeu-b9Yc7YzYYA _0rpH9E3NEeu0xqti1sYfhQ) {guard = "mainController.alarm == false" trigger = "after 2 s " event = " mainController.report = false" }
+Transition _Ui-kkE3cEeu-b9Yc7YzYYA _ygtOgE3aEeu-b9Yc7YzYYA
+(Transition _Ui-kkE3cEeu-b9Yc7YzYYA _ygtOgE3aEeu-b9Yc7YzYYA) {guard = "" trigger = "" event = "" }
+Transition _Ui-kkE3cEeu-b9Yc7YzYYA _1GEuQE3aEeu-b9Yc7YzYYA
+(Transition _Ui-kkE3cEeu-b9Yc7YzYYA _1GEuQE3aEeu-b9Yc7YzYYA) {guard = "" trigger = "" event = "" }
+Transition _atq28FAmEeu11rsqXrFxFQ _0rpH9E3NEeu0xqti1sYfhQ
+(Transition _atq28FAmEeu11rsqXrFxFQ _0rpH9E3NEeu0xqti1sYfhQ) {guard = "isStarted == false" trigger = "powerOn" event = " isStarted = true" }
+Transition _atq28FAmEeu11rsqXrFxFQ _kOyn4FAmEeu11rsqXrFxFQ
+(Transition _atq28FAmEeu11rsqXrFxFQ _kOyn4FAmEeu11rsqXrFxFQ) {guard = "" trigger = "continue" event = "" }
+Transition _atq28FAmEeu11rsqXrFxFQ _0rpH803NEeu0xqti1sYfhQ
+(Transition _atq28FAmEeu11rsqXrFxFQ _0rpH803NEeu0xqti1sYfhQ) {guard = "" trigger = "powerOff" event = "" }
+Transition _0rqWM03NEeu0xqti1sYfhQ _0rpH9E3NEeu0xqti1sYfhQ
+(Transition _0rqWM03NEeu0xqti1sYfhQ _0rpH9E3NEeu0xqti1sYfhQ) {guard = "" trigger = "after 1 s" event = "" }
+Transition _0rqWM03NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ
+(Transition _0rqWM03NEeu0xqti1sYfhQ _atq28FAmEeu11rsqXrFxFQ) {guard = "" trigger = "powerOff" event = "" }
+SubState _0rpH9E3NEeu0xqti1sYfhQ _0rpvFE3NEeu0xqti1sYfhQ
+SubState _0rpH9E3NEeu0xqti1sYfhQ _0rpvFk3NEeu0xqti1sYfhQ
+SubState _0rpH9E3NEeu0xqti1sYfhQ _0rpvGE3NEeu0xqti1sYfhQ
+SubState _0rpH9E3NEeu0xqti1sYfhQ _0rpvGk3NEeu0xqti1sYfhQ
+SubState _0rqWF03NEeu0xqti1sYfhQ _0rqWGk3NEeu0xqti1sYfhQ
+SubState _0rqWF03NEeu0xqti1sYfhQ _0rqWHE3NEeu0xqti1sYfhQ
+SubState _0rqWF03NEeu0xqti1sYfhQ _0rqWHk3NEeu0xqti1sYfhQ
+SubState _0rqWF03NEeu0xqti1sYfhQ _X45TUE3jEeue6MrnbO2HeQ
+SubState _0rqWIE3NEeu0xqti1sYfhQ _0rqWI03NEeu0xqti1sYfhQ
+SubState _0rqWIE3NEeu0xqti1sYfhQ _0rqWJU3NEeu0xqti1sYfhQ
+SubState _0rqWJ03NEeu0xqti1sYfhQ _0rqWKk3NEeu0xqti1sYfhQ
+SubState _0rqWJ03NEeu0xqti1sYfhQ _0rqWLE3NEeu0xqti1sYfhQ
+SubState _0rqWN03NEeu0xqti1sYfhQ _0rqWOk3NEeu0xqti1sYfhQ
+SubState _0rqWN03NEeu0xqti1sYfhQ _0rqWPE3NEeu0xqti1sYfhQ
+SubState _0rqWN03NEeu0xqti1sYfhQ _0rqWPk3NEeu0xqti1sYfhQ
+SubState _1HbLYE3VEeuQnpzlNm1QdQ _GgG10E3TEeu0xqti1sYfhQ
+SubState _1HbLYE3VEeuQnpzlNm1QdQ _KjqK0E3TEeu0xqti1sYfhQ
+SubState _1HbLYE3VEeuQnpzlNm1QdQ _jXWOQE3QEeu0xqti1sYfhQ
+SubState _1HbLYE3VEeuQnpzlNm1QdQ _0rqWEk3NEeu0xqti1sYfhQ
+SubState _1HbLYE3VEeuQnpzlNm1QdQ _0rpvH03NEeu0xqti1sYfhQ
+SubState _uxqJ4E3aEeu-b9Yc7YzYYA _ygtOgE3aEeu-b9Yc7YzYYA
+SubState _uxqJ4E3aEeu-b9Yc7YzYYA _zI-IYE3aEeu-b9Yc7YzYYA
+SubState _uxqJ4E3aEeu-b9Yc7YzYYA _1GEuQE3aEeu-b9Yc7YzYYA
+Concurrent _1HbycE3VEeuQnpzlNm1QdQ _1HbycU3VEeuQnpzlNm1QdQ
+(Concurrent _1HbycE3VEeuQnpzlNm1QdQ _1HbycU3VEeuQnpzlNm1QdQ) {L2 = "FireAlarmSystem" L1 = "SecurtyAlramSystem" }
+Concurrent _uxqw8U3aEeu-b9Yc7YzYYA _uxqw8k3aEeu-b9Yc7YzYYA
+(Concurrent _uxqw8U3aEeu-b9Yc7YzYYA _uxqw8k3aEeu-b9Yc7YzYYA) {L2 = "Report" L1 = "Alarm" }
+RegionOf _0rpH9E3NEeu0xqti1sYfhQ _0rpH9k3NEeu0xqti1sYfhQ
+(RegionOf _0rpH9E3NEeu0xqti1sYfhQ _0rpH9k3NEeu0xqti1sYfhQ) {sLabel = "Main Controller" }
+RegionOf _0rqWF03NEeu0xqti1sYfhQ _0rqWGU3NEeu0xqti1sYfhQ
+(RegionOf _0rqWF03NEeu0xqti1sYfhQ _0rqWGU3NEeu0xqti1sYfhQ) {rLabel = "Doors" sLabel = "Doors" }
+RegionOf _0rqWIE3NEeu0xqti1sYfhQ _0rqWIk3NEeu0xqti1sYfhQ
+(RegionOf _0rqWIE3NEeu0xqti1sYfhQ _0rqWIk3NEeu0xqti1sYfhQ) {rLabel = "Lights" sLabel = "Lights" }
+RegionOf _0rqWJ03NEeu0xqti1sYfhQ _0rqWKU3NEeu0xqti1sYfhQ
+(RegionOf _0rqWJ03NEeu0xqti1sYfhQ _0rqWKU3NEeu0xqti1sYfhQ) {rLabel = "AirConditioner" sLabel = "AirConditioner" }
+RegionOf _0rqWN03NEeu0xqti1sYfhQ _0rqWOU3NEeu0xqti1sYfhQ
+(RegionOf _0rqWN03NEeu0xqti1sYfhQ _0rqWOU3NEeu0xqti1sYfhQ) {rLabel = "HealthSystem" sLabel = "HealthSystem" }
+RegionOf _1HbLYE3VEeuQnpzlNm1QdQ _1HbycE3VEeuQnpzlNm1QdQ
+(RegionOf _1HbLYE3VEeuQnpzlNm1QdQ _1HbycE3VEeuQnpzlNm1QdQ) {rLabel = "SecurtyAlramSystem" sLabel = "AlramSystem" }
+RegionOf _1HbLYE3VEeuQnpzlNm1QdQ _1HbycU3VEeuQnpzlNm1QdQ
+(RegionOf _1HbLYE3VEeuQnpzlNm1QdQ _1HbycU3VEeuQnpzlNm1QdQ) {rLabel = "FireAlarmSystem" sLabel = "AlramSystem" }
+RegionOf _uxqJ4E3aEeu-b9Yc7YzYYA _uxqw8U3aEeu-b9Yc7YzYYA
+(RegionOf _uxqJ4E3aEeu-b9Yc7YzYYA _uxqw8U3aEeu-b9Yc7YzYYA) {rLabel = "Alarm" sLabel = "AlarmAndReport" }
+RegionOf _uxqJ4E3aEeu-b9Yc7YzYYA _uxqw8k3aEeu-b9Yc7YzYYA
+(RegionOf _uxqJ4E3aEeu-b9Yc7YzYYA _uxqw8k3aEeu-b9Yc7YzYYA) {rLabel = "Report" sLabel = "AlarmAndReport" }

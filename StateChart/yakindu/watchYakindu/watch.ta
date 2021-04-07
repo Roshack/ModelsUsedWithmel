@@ -1,0 +1,208 @@
+$INSTANCE _YX1FIBwqEeKIxfpHJtPpBA StateMachine
+_YX1FIBwqEeKIxfpHJtPpBA {name = "watch" }
+$INSTANCE _YaNqwBwqEeKIxfpHJtPpBA State
+_YaNqwBwqEeKIxfpHJtPpBA {type = "Entry" }
+$INSTANCE _YaQHABwqEeKIxfpHJtPpBA State
+_YaQHABwqEeKIxfpHJtPpBA {exitEvent = "" label = "Regular" alwaysEvent = "time_set = 0 // reset the set time as soon as possible" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _lIQjUBwtEeKIxfpHJtPpBA State
+_lIQjUBwtEeKIxfpHJtPpBA {type = "Entry" }
+$INSTANCE _QrFkcBxBEeKIxfpHJtPpBA State
+_QrFkcBxBEeKIxfpHJtPpBA {type = "Entry" label = "deep_entry" }
+$INSTANCE _IqgIQBw4EeKIxfpHJtPpBA State
+_IqgIQBw4EeKIxfpHJtPpBA {exitEvent = "" label = "Clock" alwaysEvent = "display.first = (time / 36000) % 24;\n  display.second = (time / 600) % 60;\n  display.third = (time / 10) % 60;\n  display.text = """ exitGuard = "" entryGuard = "time_set > 0" type = "State" alwaysGuard = "time % 10 == 0" entryEvent = "time = time_set" }
+$INSTANCE _a6KiMBwuEeKIxfpHJtPpBA State
+_a6KiMBwuEeKIxfpHJtPpBA {type = "State" label = "wait_set" }
+$INSTANCE _0IYxUKBjEeWDt4W4L22fSw State
+_0IYxUKBjEeWDt4W4L22fSw {type = "Entry" }
+$INSTANCE _2xKKYKBjEeWDt4W4L22fSw State
+_2xKKYKBjEeWDt4W4L22fSw {type = "State" label = "normal" }
+$INSTANCE _uhGHsBw9EeKIxfpHJtPpBA State
+_uhGHsBw9EeKIxfpHJtPpBA {exitEvent = "" label = "Date" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "display.first = 24;\n  display.second = 12;\n  display.third = 2005;\n  display.text = "Date"" }
+$INSTANCE _fW1_kKBkEeWDt4W4L22fSw State
+_fW1_kKBkEeWDt4W4L22fSw {type = "Exit" label = "set_time" }
+$INSTANCE _iKY94KBnEeWDt4W4L22fSw State
+_iKY94KBnEeWDt4W4L22fSw {type = "Entry" label = "time_set" }
+$INSTANCE _q1BO4KBrEeWDt4W4L22fSw State
+_q1BO4KBrEeWDt4W4L22fSw {exitEvent = "" label = "Alarm 1" alwaysEvent = "display.first = (alarm_1_time / 36000) % 24;\n  display.second = (alarm_1_time / 600) % 60;\n  display.third = (alarm_1_time / 10) % 60;\n  display.text = (alarm_1_enabled) \n    ? "Alarm 1 ON" : "Alarm 1 OFF"\n\t\nbutton.onoff / alarm_1_enabled = ! alarm_1_enabled" exitGuard = "" entryGuard = "time_set > 0" type = "State" alwaysGuard = "" entryEvent = "alarm_1_time = time_set" }
+$INSTANCE _BTIIy6BuEeWDt4W4L22fSw State
+_BTIIy6BuEeWDt4W4L22fSw {exitEvent = "" label = "Alarm 2" alwaysEvent = "display.first = (alarm_2_time / 36000) % 24;\n  display.second = (alarm_2_time / 600) % 60;\n  display.third = (alarm_2_time / 10) % 60;\n  display.text = (alarm_2_enabled) \n    ? "Alarm 2 ON" : "Alarm 2 OFF"\n\t\nbutton.onoff / alarm_2_enabled = !alarm_2_enabled" exitGuard = "" entryGuard = "time_set > 0" type = "State" alwaysGuard = "" entryEvent = "alarm_2_time = time_set" }
+$INSTANCE _wlnnYBxBEeKIxfpHJtPpBA State
+_wlnnYBxBEeKIxfpHJtPpBA {exitEvent = "" label = "Stop Watch" alwaysEvent = "display.first = (alarm_2_time / 600) % 60;\n  display.second = (stop_display_time / 10) % 60;\n  display.third = (stop_display_time) % 10;\n  display.text = "Stop"" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _05f3YBxBEeKIxfpHJtPpBA State
+_05f3YBxBEeKIxfpHJtPpBA {exitEvent = "" label = "Zero" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "stop_time = 0; \n  stop_lap_time = 0" }
+$INSTANCE _QzAU4BxCEeKIxfpHJtPpBA State
+_QzAU4BxCEeKIxfpHJtPpBA {type = "State" label = "Operation" }
+$INSTANCE _ukHNMBxCEeKIxfpHJtPpBA State
+_ukHNMBxCEeKIxfpHJtPpBA {exitEvent = "" label = "regular" alwaysEvent = "stop_display_time = stop_time" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _4WP1oBxCEeKIxfpHJtPpBA State
+_4WP1oBxCEeKIxfpHJtPpBA {type = "Entry" }
+$INSTANCE _xqK_MBxCEeKIxfpHJtPpBA State
+_xqK_MBxCEeKIxfpHJtPpBA {exitEvent = "" label = "lap" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "stop_lap_time = stop_time - stop_lap_time;\n  stop_display_time = stop_lap_time" }
+$INSTANCE _1tttIBxCEeKIxfpHJtPpBA State
+_1tttIBxCEeKIxfpHJtPpBA {exitEvent = "" label = "count" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _2i-hMBxCEeKIxfpHJtPpBA State
+_2i-hMBxCEeKIxfpHJtPpBA {exitEvent = "" label = "pause" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _4wjzEBxCEeKIxfpHJtPpBA State
+_4wjzEBxCEeKIxfpHJtPpBA {type = "Entry" }
+$INSTANCE _ZGhtcBxGEeKIxfpHJtPpBA State
+_ZGhtcBxGEeKIxfpHJtPpBA {type = "Entry" }
+$INSTANCE _Btv30KHlEeWijoaLnhzRTg State
+_Btv30KHlEeWijoaLnhzRTg {type = "Sync" }
+$INSTANCE _hMyHC6HkEeWijoaLnhzRTg State
+_hMyHC6HkEeWijoaLnhzRTg {exitEvent = "" label = "Set Chime" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "display.text = (chime_enabled) \n    ? "Chime ON" : "Chime OFF"" }
+$INSTANCE _WP8woBxAEeKIxfpHJtPpBA State
+_WP8woBxAEeKIxfpHJtPpBA {type = "State" label = "Alarm" }
+$INSTANCE _blXWIBxAEeKIxfpHJtPpBA State
+_blXWIBxAEeKIxfpHJtPpBA {type = "State" label = "alarm 1 beeps" }
+$INSTANCE _dwX1IBxAEeKIxfpHJtPpBA State
+_dwX1IBxAEeKIxfpHJtPpBA {type = "State" label = "alarm 2 beeps" }
+$INSTANCE __z-ikBwuEeKIxfpHJtPpBA State
+__z-ikBwuEeKIxfpHJtPpBA {exitEvent = "" label = "SetTime" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "display.first = (time_set / 36000) % 24;\n  display.second = (time_set / 600) % 60;\n  display.third = (time_set / 10) % 60" }
+$INSTANCE _mAbrABw5EeKIxfpHJtPpBA State
+_mAbrABw5EeKIxfpHJtPpBA {exitEvent = "" label = "sec" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _rcQIkBw7EeKIxfpHJtPpBA State
+_rcQIkBw7EeKIxfpHJtPpBA {exitEvent = "" label = "min" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _-MNAkBw7EeKIxfpHJtPpBA State
+_-MNAkBw7EeKIxfpHJtPpBA {exitEvent = "" label = "hr" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _qc4DYKBlEeWDt4W4L22fSw State
+_qc4DYKBlEeWDt4W4L22fSw {type = "Entry" }
+$INSTANCE _8KbrIB0BEeK8y5nqxOI-SA State
+_8KbrIB0BEeK8y5nqxOI-SA {type = "Entry" }
+$INSTANCE _nJ334B0AEeK8y5nqxOI-SA State
+_nJ334B0AEeK8y5nqxOI-SA {type = "State" label = "quiet" }
+$INSTANCE _wTbn8B0BEeK8y5nqxOI-SA State
+_wTbn8B0BEeK8y5nqxOI-SA {type = "State" label = "beep" }
+$INSTANCE _8tCzgB0CEeK8y5nqxOI-SA State
+_8tCzgB0CEeK8y5nqxOI-SA {type = "State" label = "off" }
+$INSTANCE _9f2wgB0CEeK8y5nqxOI-SA State
+_9f2wgB0CEeK8y5nqxOI-SA {type = "State" label = "on" }
+$INSTANCE __-c54B0CEeK8y5nqxOI-SA State
+__-c54B0CEeK8y5nqxOI-SA {type = "Entry" }
+$INSTANCE _kCiRYBwtEeKIxfpHJtPpBA Region
+_kCiRYBwtEeKIxfpHJtPpBA {label = "" }
+$INSTANCE _xY_L0KBjEeWDt4W4L22fSw Region
+$INSTANCE _zrS-4BxBEeKIxfpHJtPpBA Region
+_zrS-4BxBEeKIxfpHJtPpBA {label = "r1" }
+$INSTANCE _Uu1RQBxCEeKIxfpHJtPpBA Region
+_Uu1RQBxCEeKIxfpHJtPpBA {label = "display" }
+$INSTANCE _VYddEBxCEeKIxfpHJtPpBA Region
+_VYddEBxCEeKIxfpHJtPpBA {label = "run" }
+$INSTANCE _ZYrcIBxAEeKIxfpHJtPpBA Region
+_ZYrcIBxAEeKIxfpHJtPpBA {label = "r1" }
+$INSTANCE _itPb8Bw5EeKIxfpHJtPpBA Region
+_itPb8Bw5EeKIxfpHJtPpBA {label = "" }
+Transition _YaNqwBwqEeKIxfpHJtPpBA _YaQHABwqEeKIxfpHJtPpBA
+Transition _YaQHABwqEeKIxfpHJtPpBA _blXWIBxAEeKIxfpHJtPpBA
+(Transition _YaQHABwqEeKIxfpHJtPpBA _blXWIBxAEeKIxfpHJtPpBA) {guard = "time == alarm_1_time \n  && alarm_1_enabled" trigger = "" event = "" }
+Transition _YaQHABwqEeKIxfpHJtPpBA _dwX1IBxAEeKIxfpHJtPpBA
+(Transition _YaQHABwqEeKIxfpHJtPpBA _dwX1IBxAEeKIxfpHJtPpBA) {guard = "time == alarm_2_time \n && alarm_2_enabled" trigger = "" event = "" }
+Transition _YaQHABwqEeKIxfpHJtPpBA __z-ikBwuEeKIxfpHJtPpBA
+(Transition _YaQHABwqEeKIxfpHJtPpBA __z-ikBwuEeKIxfpHJtPpBA) {guard = "" trigger = " # set_time >" event = "" }
+Transition _lIQjUBwtEeKIxfpHJtPpBA _IqgIQBw4EeKIxfpHJtPpBA
+(Transition _lIQjUBwtEeKIxfpHJtPpBA _IqgIQBw4EeKIxfpHJtPpBA) {guard = "" trigger = "" event = "" }
+Transition _IqgIQBw4EeKIxfpHJtPpBA _uhGHsBw9EeKIxfpHJtPpBA
+(Transition _IqgIQBw4EeKIxfpHJtPpBA _uhGHsBw9EeKIxfpHJtPpBA) {guard = "" trigger = "button.onoff" event = "" }
+Transition _IqgIQBw4EeKIxfpHJtPpBA _q1BO4KBrEeWDt4W4L22fSw
+(Transition _IqgIQBw4EeKIxfpHJtPpBA _q1BO4KBrEeWDt4W4L22fSw) {guard = "" trigger = "button.mode" event = "" }
+Transition _a6KiMBwuEeKIxfpHJtPpBA _2xKKYKBjEeWDt4W4L22fSw
+(Transition _a6KiMBwuEeKIxfpHJtPpBA _2xKKYKBjEeWDt4W4L22fSw) {guard = "" trigger = "after 2s" event = "" }
+Transition _a6KiMBwuEeKIxfpHJtPpBA _fW1_kKBkEeWDt4W4L22fSw
+(Transition _a6KiMBwuEeKIxfpHJtPpBA _fW1_kKBkEeWDt4W4L22fSw) {guard = "" trigger = "button.set \n  " event = " time_set = time" }
+Transition _0IYxUKBjEeWDt4W4L22fSw _2xKKYKBjEeWDt4W4L22fSw
+Transition _2xKKYKBjEeWDt4W4L22fSw _a6KiMBwuEeKIxfpHJtPpBA
+(Transition _2xKKYKBjEeWDt4W4L22fSw _a6KiMBwuEeKIxfpHJtPpBA) {guard = "" trigger = "button.set" event = "" }
+Transition _uhGHsBw9EeKIxfpHJtPpBA _IqgIQBw4EeKIxfpHJtPpBA
+(Transition _uhGHsBw9EeKIxfpHJtPpBA _IqgIQBw4EeKIxfpHJtPpBA) {guard = "" trigger = "button.onoff, after 120s" event = "" }
+Transition _q1BO4KBrEeWDt4W4L22fSw _fW1_kKBkEeWDt4W4L22fSw
+(Transition _q1BO4KBrEeWDt4W4L22fSw _fW1_kKBkEeWDt4W4L22fSw) {guard = "" trigger = "button.set\n  " event = " time_set = alarm_1_time" }
+Transition _q1BO4KBrEeWDt4W4L22fSw _BTIIy6BuEeWDt4W4L22fSw
+(Transition _q1BO4KBrEeWDt4W4L22fSw _BTIIy6BuEeWDt4W4L22fSw) {guard = "" trigger = "button.mode" event = "" }
+Transition _BTIIy6BuEeWDt4W4L22fSw _fW1_kKBkEeWDt4W4L22fSw
+(Transition _BTIIy6BuEeWDt4W4L22fSw _fW1_kKBkEeWDt4W4L22fSw) {guard = "" trigger = "button.set \n  " event = " time_set = alarm_2_time" }
+Transition _BTIIy6BuEeWDt4W4L22fSw _hMyHC6HkEeWijoaLnhzRTg
+(Transition _BTIIy6BuEeWDt4W4L22fSw _hMyHC6HkEeWijoaLnhzRTg) {guard = "" trigger = "button.mode" event = "" }
+Transition _wlnnYBxBEeKIxfpHJtPpBA _IqgIQBw4EeKIxfpHJtPpBA
+(Transition _wlnnYBxBEeKIxfpHJtPpBA _IqgIQBw4EeKIxfpHJtPpBA) {guard = "" trigger = "button.mode" event = "" }
+Transition _05f3YBxBEeKIxfpHJtPpBA _QzAU4BxCEeKIxfpHJtPpBA
+(Transition _05f3YBxBEeKIxfpHJtPpBA _QzAU4BxCEeKIxfpHJtPpBA) {guard = "" trigger = "button.light" event = "" }
+Transition _ukHNMBxCEeKIxfpHJtPpBA _Btv30KHlEeWijoaLnhzRTg
+(Transition _ukHNMBxCEeKIxfpHJtPpBA _Btv30KHlEeWijoaLnhzRTg) {guard = "" trigger = "button.onoff" event = "" }
+Transition _ukHNMBxCEeKIxfpHJtPpBA _xqK_MBxCEeKIxfpHJtPpBA
+(Transition _ukHNMBxCEeKIxfpHJtPpBA _xqK_MBxCEeKIxfpHJtPpBA) {guard = "" trigger = "button.onoff" event = "" }
+Transition _4WP1oBxCEeKIxfpHJtPpBA _ukHNMBxCEeKIxfpHJtPpBA
+(Transition _4WP1oBxCEeKIxfpHJtPpBA _ukHNMBxCEeKIxfpHJtPpBA) {guard = "" trigger = "" event = "" }
+Transition _xqK_MBxCEeKIxfpHJtPpBA _ukHNMBxCEeKIxfpHJtPpBA
+(Transition _xqK_MBxCEeKIxfpHJtPpBA _ukHNMBxCEeKIxfpHJtPpBA) {guard = "" trigger = "button.onoff" event = "" }
+Transition _1tttIBxCEeKIxfpHJtPpBA _2i-hMBxCEeKIxfpHJtPpBA
+(Transition _1tttIBxCEeKIxfpHJtPpBA _2i-hMBxCEeKIxfpHJtPpBA) {guard = "" trigger = "button.light" event = "" }
+Transition _2i-hMBxCEeKIxfpHJtPpBA _1tttIBxCEeKIxfpHJtPpBA
+(Transition _2i-hMBxCEeKIxfpHJtPpBA _1tttIBxCEeKIxfpHJtPpBA) {guard = "" trigger = "button.light" event = "" }
+Transition _2i-hMBxCEeKIxfpHJtPpBA _Btv30KHlEeWijoaLnhzRTg
+(Transition _2i-hMBxCEeKIxfpHJtPpBA _Btv30KHlEeWijoaLnhzRTg) {guard = "" trigger = "always" event = "" }
+Transition _4wjzEBxCEeKIxfpHJtPpBA _1tttIBxCEeKIxfpHJtPpBA
+(Transition _4wjzEBxCEeKIxfpHJtPpBA _1tttIBxCEeKIxfpHJtPpBA) {guard = "" trigger = "" event = "" }
+Transition _ZGhtcBxGEeKIxfpHJtPpBA _05f3YBxBEeKIxfpHJtPpBA
+Transition _Btv30KHlEeWijoaLnhzRTg _05f3YBxBEeKIxfpHJtPpBA
+(Transition _Btv30KHlEeWijoaLnhzRTg _05f3YBxBEeKIxfpHJtPpBA) {guard = "" trigger = "" event = "" }
+Transition _hMyHC6HkEeWijoaLnhzRTg _wlnnYBxBEeKIxfpHJtPpBA
+(Transition _hMyHC6HkEeWijoaLnhzRTg _wlnnYBxBEeKIxfpHJtPpBA) {guard = "" trigger = "button.mode" event = "" }
+Transition _hMyHC6HkEeWijoaLnhzRTg _hMyHC6HkEeWijoaLnhzRTg
+(Transition _hMyHC6HkEeWijoaLnhzRTg _hMyHC6HkEeWijoaLnhzRTg) {guard = "" trigger = "button.onoff " event = " \n   chime_enabled = !chime_enabled" }
+Transition _WP8woBxAEeKIxfpHJtPpBA _QrFkcBxBEeKIxfpHJtPpBA
+(Transition _WP8woBxAEeKIxfpHJtPpBA _QrFkcBxBEeKIxfpHJtPpBA) {guard = "" trigger = "after 30s,\nbutton.mode, \nbutton.light,\nbutton.set, \nbutton.onoff" event = "" }
+Transition __z-ikBwuEeKIxfpHJtPpBA _iKY94KBnEeWDt4W4L22fSw
+(Transition __z-ikBwuEeKIxfpHJtPpBA _iKY94KBnEeWDt4W4L22fSw) {guard = "" trigger = "button.light, after 120s" event = "" }
+Transition _mAbrABw5EeKIxfpHJtPpBA _iKY94KBnEeWDt4W4L22fSw
+(Transition _mAbrABw5EeKIxfpHJtPpBA _iKY94KBnEeWDt4W4L22fSw) {guard = "" trigger = "button.set \n  " event = " time_set = \n    (3600 * display.first  \n    + 60 * display.second \n    + display.third) * 10\t" }
+Transition _rcQIkBw7EeKIxfpHJtPpBA _mAbrABw5EeKIxfpHJtPpBA
+(Transition _rcQIkBw7EeKIxfpHJtPpBA _mAbrABw5EeKIxfpHJtPpBA) {guard = "" trigger = "button.set" event = "" }
+Transition _-MNAkBw7EeKIxfpHJtPpBA _rcQIkBw7EeKIxfpHJtPpBA
+(Transition _-MNAkBw7EeKIxfpHJtPpBA _rcQIkBw7EeKIxfpHJtPpBA) {guard = "" trigger = "button.set" event = "" }
+Transition _qc4DYKBlEeWDt4W4L22fSw _-MNAkBw7EeKIxfpHJtPpBA
+(Transition _qc4DYKBlEeWDt4W4L22fSw _-MNAkBw7EeKIxfpHJtPpBA) {guard = "" trigger = "" event = "" }
+Transition _8KbrIB0BEeK8y5nqxOI-SA _nJ334B0AEeK8y5nqxOI-SA
+Transition _nJ334B0AEeK8y5nqxOI-SA _wTbn8B0BEeK8y5nqxOI-SA
+(Transition _nJ334B0AEeK8y5nqxOI-SA _wTbn8B0BEeK8y5nqxOI-SA) {guard = "chime_enabled \n&& time % 36000 == 0" trigger = "" event = "" }
+Transition _wTbn8B0BEeK8y5nqxOI-SA _nJ334B0AEeK8y5nqxOI-SA
+(Transition _wTbn8B0BEeK8y5nqxOI-SA _nJ334B0AEeK8y5nqxOI-SA) {guard = "" trigger = "after 2s" event = "" }
+Transition _8tCzgB0CEeK8y5nqxOI-SA _9f2wgB0CEeK8y5nqxOI-SA
+(Transition _8tCzgB0CEeK8y5nqxOI-SA _9f2wgB0CEeK8y5nqxOI-SA) {guard = "" trigger = "button.light" event = "" }
+Transition _9f2wgB0CEeK8y5nqxOI-SA _8tCzgB0CEeK8y5nqxOI-SA
+(Transition _9f2wgB0CEeK8y5nqxOI-SA _8tCzgB0CEeK8y5nqxOI-SA) {guard = "" trigger = "button.light_r" event = "" }
+Transition __-c54B0CEeK8y5nqxOI-SA _8tCzgB0CEeK8y5nqxOI-SA
+(Transition __-c54B0CEeK8y5nqxOI-SA _8tCzgB0CEeK8y5nqxOI-SA) {guard = "" trigger = "" event = "" }
+SubState _YaQHABwqEeKIxfpHJtPpBA _IqgIQBw4EeKIxfpHJtPpBA
+SubState _YaQHABwqEeKIxfpHJtPpBA _uhGHsBw9EeKIxfpHJtPpBA
+SubState _YaQHABwqEeKIxfpHJtPpBA _q1BO4KBrEeWDt4W4L22fSw
+SubState _YaQHABwqEeKIxfpHJtPpBA _BTIIy6BuEeWDt4W4L22fSw
+SubState _YaQHABwqEeKIxfpHJtPpBA _wlnnYBxBEeKIxfpHJtPpBA
+SubState _YaQHABwqEeKIxfpHJtPpBA _hMyHC6HkEeWijoaLnhzRTg
+SubState _IqgIQBw4EeKIxfpHJtPpBA _a6KiMBwuEeKIxfpHJtPpBA
+SubState _IqgIQBw4EeKIxfpHJtPpBA _2xKKYKBjEeWDt4W4L22fSw
+SubState _wlnnYBxBEeKIxfpHJtPpBA _05f3YBxBEeKIxfpHJtPpBA
+SubState _wlnnYBxBEeKIxfpHJtPpBA _QzAU4BxCEeKIxfpHJtPpBA
+SubState _QzAU4BxCEeKIxfpHJtPpBA _ukHNMBxCEeKIxfpHJtPpBA
+SubState _QzAU4BxCEeKIxfpHJtPpBA _xqK_MBxCEeKIxfpHJtPpBA
+SubState _QzAU4BxCEeKIxfpHJtPpBA _1tttIBxCEeKIxfpHJtPpBA
+SubState _QzAU4BxCEeKIxfpHJtPpBA _2i-hMBxCEeKIxfpHJtPpBA
+SubState _WP8woBxAEeKIxfpHJtPpBA _blXWIBxAEeKIxfpHJtPpBA
+SubState _WP8woBxAEeKIxfpHJtPpBA _dwX1IBxAEeKIxfpHJtPpBA
+SubState __z-ikBwuEeKIxfpHJtPpBA _mAbrABw5EeKIxfpHJtPpBA
+SubState __z-ikBwuEeKIxfpHJtPpBA _rcQIkBw7EeKIxfpHJtPpBA
+SubState __z-ikBwuEeKIxfpHJtPpBA _-MNAkBw7EeKIxfpHJtPpBA
+Concurrent _Uu1RQBxCEeKIxfpHJtPpBA _VYddEBxCEeKIxfpHJtPpBA
+(Concurrent _Uu1RQBxCEeKIxfpHJtPpBA _VYddEBxCEeKIxfpHJtPpBA) {L2 = "run" L1 = "display" }
+RegionOf _YaQHABwqEeKIxfpHJtPpBA _kCiRYBwtEeKIxfpHJtPpBA
+(RegionOf _YaQHABwqEeKIxfpHJtPpBA _kCiRYBwtEeKIxfpHJtPpBA) {rLabel = "" sLabel = "Regular" }
+RegionOf _IqgIQBw4EeKIxfpHJtPpBA _xY_L0KBjEeWDt4W4L22fSw
+(RegionOf _IqgIQBw4EeKIxfpHJtPpBA _xY_L0KBjEeWDt4W4L22fSw) {sLabel = "Clock" }
+RegionOf _wlnnYBxBEeKIxfpHJtPpBA _zrS-4BxBEeKIxfpHJtPpBA
+(RegionOf _wlnnYBxBEeKIxfpHJtPpBA _zrS-4BxBEeKIxfpHJtPpBA) {rLabel = "r1" sLabel = "Stop Watch" }
+RegionOf _QzAU4BxCEeKIxfpHJtPpBA _Uu1RQBxCEeKIxfpHJtPpBA
+(RegionOf _QzAU4BxCEeKIxfpHJtPpBA _Uu1RQBxCEeKIxfpHJtPpBA) {rLabel = "display" sLabel = "Operation" }
+RegionOf _QzAU4BxCEeKIxfpHJtPpBA _VYddEBxCEeKIxfpHJtPpBA
+(RegionOf _QzAU4BxCEeKIxfpHJtPpBA _VYddEBxCEeKIxfpHJtPpBA) {rLabel = "run" sLabel = "Operation" }
+RegionOf _WP8woBxAEeKIxfpHJtPpBA _ZYrcIBxAEeKIxfpHJtPpBA
+(RegionOf _WP8woBxAEeKIxfpHJtPpBA _ZYrcIBxAEeKIxfpHJtPpBA) {rLabel = "r1" sLabel = "Alarm" }
+RegionOf __z-ikBwuEeKIxfpHJtPpBA _itPb8Bw5EeKIxfpHJtPpBA
+(RegionOf __z-ikBwuEeKIxfpHJtPpBA _itPb8Bw5EeKIxfpHJtPpBA) {rLabel = "" sLabel = "SetTime" }

@@ -1,0 +1,87 @@
+$INSTANCE _qq-30BrcEeiDzpwyKJ3elw StateMachine
+_qq-30BrcEeiDzpwyKJ3elw {name = "ZowiSCT" }
+$INSTANCE _qrFlgRrcEeiDzpwyKJ3elw State
+_qrFlgRrcEeiDzpwyKJ3elw {type = "Entry" }
+$INSTANCE _qrGzpBrcEeiDzpwyKJ3elw State
+_qrGzpBrcEeiDzpwyKJ3elw {exitEvent = "" label = "WelcomeZowi" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "zowi.init(PIN_YL, PIN_YR, PIN_RL, PIN_RR);\nzowi.home" }
+$INSTANCE _7jJ5YBrdEeiLc73P6eDdCQ State
+_7jJ5YBrdEeiLc73P6eDdCQ {exitEvent = "roundCounter = 0" label = "Awake" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _7jLulRrdEeiLc73P6eDdCQ State
+_7jLulRrdEeiLc73P6eDdCQ {exitEvent = "" label = "WalkStraight" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "zowi.putMouth(roundCounter);\r\nzowi.walk" }
+$INSTANCE _7jNjxBrdEeiLc73P6eDdCQ State
+_7jNjxBrdEeiLc73P6eDdCQ {exitEvent = "" label = "WaitForTurn" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "zowi.home;\r\nzowi.sing(S_superHappy)" }
+$INSTANCE _7jQABBrdEeiLc73P6eDdCQ State
+_7jQABBrdEeiLc73P6eDdCQ {exitEvent = "" label = "TurnLeft" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "zowi.putMouth(bigSurprise);\r\nzowi.turn()" }
+$INSTANCE _wjIsEBreEeiLc73P6eDdCQ State
+_wjIsEBreEeiLc73P6eDdCQ {type = "Entry" }
+$INSTANCE _zOxL4BreEeiLc73P6eDdCQ State
+_zOxL4BreEeiLc73P6eDdCQ {exitEvent = "roundCounter++" label = "WaitForWalking" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "zowi.home;\nzowi.putMouth(heart)" }
+$INSTANCE _bL050BrqEeicEeBWcnNzHg State
+_bL050BrqEeicEeBWcnNzHg {type = "State" label = "IsSomeOneHere" }
+$INSTANCE _1WBV0BrqEeicEeBWcnNzHg State
+_1WBV0BrqEeicEeBWcnNzHg {exitEvent = "" label = "Suprised" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "zowi.putMouth(bigSurprise)" }
+$INSTANCE _2922UBrqEeicEeBWcnNzHg State
+_2922UBrqEeicEeBWcnNzHg {exitEvent = "" label = "Sad" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "zowi.putMouth(sadClosed)" }
+$INSTANCE _9xOAgBrqEeicEeBWcnNzHg State
+_9xOAgBrqEeicEeBWcnNzHg {type = "Entry" }
+$INSTANCE _knjigBrsEeiE7fyImEutaQ State
+_knjigBrsEeiE7fyImEutaQ {type = "State" label = "ObstacleDetected" }
+$INSTANCE _idMuUBrtEeiE7fyImEutaQ State
+_idMuUBrtEeiE7fyImEutaQ {exitEvent = "" label = "WalkBack" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "zowi.home;\nzowi.walk(2, 1000, BACKWARD)" }
+$INSTANCE _kF1gEBrtEeiE7fyImEutaQ State
+_kF1gEBrtEeiE7fyImEutaQ {type = "Entry" }
+$INSTANCE _zEOK8BrtEeiE7fyImEutaQ State
+_zEOK8BrtEeiE7fyImEutaQ {exitEvent = "" label = "WalkForward" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "zowi.home;\nzowi.walk(2, 1000, FORWARD)" }
+$INSTANCE _7jLulBrdEeiLc73P6eDdCQ Region
+_7jLulBrdEeiLc73P6eDdCQ {label = "walkAndAvoidObstacles" }
+$INSTANCE _zaSo8BrqEeicEeBWcnNzHg Region
+_zaSo8BrqEeicEeBWcnNzHg {label = "Changing mood" }
+$INSTANCE _eQxKIBrtEeiE7fyImEutaQ Region
+_eQxKIBrtEeiE7fyImEutaQ {label = "RemoveTheObstacle" }
+Transition _qrFlgRrcEeiDzpwyKJ3elw _qrGzpBrcEeiDzpwyKJ3elw
+Transition _qrGzpBrcEeiDzpwyKJ3elw _7jJ5YBrdEeiLc73P6eDdCQ
+(Transition _qrGzpBrcEeiDzpwyKJ3elw _7jJ5YBrdEeiLc73P6eDdCQ) {guard = "" trigger = "always" event = "" }
+Transition _7jJ5YBrdEeiLc73P6eDdCQ _bL050BrqEeicEeBWcnNzHg
+(Transition _7jJ5YBrdEeiLc73P6eDdCQ _bL050BrqEeicEeBWcnNzHg) {guard = "roundCounter > maxRounds" trigger = "always " event = "" }
+Transition _7jJ5YBrdEeiLc73P6eDdCQ _knjigBrsEeiE7fyImEutaQ
+(Transition _7jJ5YBrdEeiLc73P6eDdCQ _knjigBrsEeiE7fyImEutaQ) {guard = "zowi.getDistance < distance" trigger = "always " event = "" }
+Transition _7jLulRrdEeiLc73P6eDdCQ _7jNjxBrdEeiLc73P6eDdCQ
+(Transition _7jLulRrdEeiLc73P6eDdCQ _7jNjxBrdEeiLc73P6eDdCQ) {guard = "" trigger = "always" event = "" }
+Transition _7jNjxBrdEeiLc73P6eDdCQ _7jQABBrdEeiLc73P6eDdCQ
+(Transition _7jNjxBrdEeiLc73P6eDdCQ _7jQABBrdEeiLc73P6eDdCQ) {guard = "" trigger = "after 2 s" event = "" }
+Transition _7jQABBrdEeiLc73P6eDdCQ _zOxL4BreEeiLc73P6eDdCQ
+(Transition _7jQABBrdEeiLc73P6eDdCQ _zOxL4BreEeiLc73P6eDdCQ) {guard = "" trigger = "always" event = "" }
+Transition _wjIsEBreEeiLc73P6eDdCQ _7jLulRrdEeiLc73P6eDdCQ
+(Transition _wjIsEBreEeiLc73P6eDdCQ _7jLulRrdEeiLc73P6eDdCQ) {guard = "" trigger = "" event = "" }
+Transition _zOxL4BreEeiLc73P6eDdCQ _7jLulRrdEeiLc73P6eDdCQ
+(Transition _zOxL4BreEeiLc73P6eDdCQ _7jLulRrdEeiLc73P6eDdCQ) {guard = "" trigger = "after 2 s" event = "" }
+Transition _bL050BrqEeicEeBWcnNzHg _7jJ5YBrdEeiLc73P6eDdCQ
+(Transition _bL050BrqEeicEeBWcnNzHg _7jJ5YBrdEeiLc73P6eDdCQ) {guard = "zowi.getNoise > noise" trigger = "always " event = " roundCounter = 0" }
+Transition _1WBV0BrqEeicEeBWcnNzHg _2922UBrqEeicEeBWcnNzHg
+(Transition _1WBV0BrqEeicEeBWcnNzHg _2922UBrqEeicEeBWcnNzHg) {guard = "" trigger = "after 5 s" event = "" }
+Transition _2922UBrqEeicEeBWcnNzHg _1WBV0BrqEeicEeBWcnNzHg
+(Transition _2922UBrqEeicEeBWcnNzHg _1WBV0BrqEeicEeBWcnNzHg) {guard = "" trigger = "after 5 s" event = "" }
+Transition _9xOAgBrqEeicEeBWcnNzHg _1WBV0BrqEeicEeBWcnNzHg
+(Transition _9xOAgBrqEeicEeBWcnNzHg _1WBV0BrqEeicEeBWcnNzHg) {guard = "" trigger = "" event = "" }
+Transition _knjigBrsEeiE7fyImEutaQ _7jJ5YBrdEeiLc73P6eDdCQ
+(Transition _knjigBrsEeiE7fyImEutaQ _7jJ5YBrdEeiLc73P6eDdCQ) {guard = "zowi.getDistance >= distance" trigger = "always " event = "" }
+Transition _idMuUBrtEeiE7fyImEutaQ _zEOK8BrtEeiE7fyImEutaQ
+(Transition _idMuUBrtEeiE7fyImEutaQ _zEOK8BrtEeiE7fyImEutaQ) {guard = "" trigger = "after 2 s" event = "" }
+Transition _kF1gEBrtEeiE7fyImEutaQ _idMuUBrtEeiE7fyImEutaQ
+(Transition _kF1gEBrtEeiE7fyImEutaQ _idMuUBrtEeiE7fyImEutaQ) {guard = "" trigger = "" event = "" }
+Transition _zEOK8BrtEeiE7fyImEutaQ _idMuUBrtEeiE7fyImEutaQ
+(Transition _zEOK8BrtEeiE7fyImEutaQ _idMuUBrtEeiE7fyImEutaQ) {guard = "" trigger = "after 2 s" event = "" }
+SubState _7jJ5YBrdEeiLc73P6eDdCQ _7jLulRrdEeiLc73P6eDdCQ
+SubState _7jJ5YBrdEeiLc73P6eDdCQ _7jNjxBrdEeiLc73P6eDdCQ
+SubState _7jJ5YBrdEeiLc73P6eDdCQ _7jQABBrdEeiLc73P6eDdCQ
+SubState _7jJ5YBrdEeiLc73P6eDdCQ _zOxL4BreEeiLc73P6eDdCQ
+SubState _bL050BrqEeicEeBWcnNzHg _1WBV0BrqEeicEeBWcnNzHg
+SubState _bL050BrqEeicEeBWcnNzHg _2922UBrqEeicEeBWcnNzHg
+SubState _knjigBrsEeiE7fyImEutaQ _idMuUBrtEeiE7fyImEutaQ
+SubState _knjigBrsEeiE7fyImEutaQ _zEOK8BrtEeiE7fyImEutaQ
+RegionOf _7jJ5YBrdEeiLc73P6eDdCQ _7jLulBrdEeiLc73P6eDdCQ
+(RegionOf _7jJ5YBrdEeiLc73P6eDdCQ _7jLulBrdEeiLc73P6eDdCQ) {rLabel = "walkAndAvoidObstacles" sLabel = "Awake" }
+RegionOf _bL050BrqEeicEeBWcnNzHg _zaSo8BrqEeicEeBWcnNzHg
+(RegionOf _bL050BrqEeicEeBWcnNzHg _zaSo8BrqEeicEeBWcnNzHg) {rLabel = "Changing mood" sLabel = "IsSomeOneHere" }
+RegionOf _knjigBrsEeiE7fyImEutaQ _eQxKIBrtEeiE7fyImEutaQ
+(RegionOf _knjigBrsEeiE7fyImEutaQ _eQxKIBrtEeiE7fyImEutaQ) {rLabel = "RemoveTheObstacle" sLabel = "ObstacleDetected" }

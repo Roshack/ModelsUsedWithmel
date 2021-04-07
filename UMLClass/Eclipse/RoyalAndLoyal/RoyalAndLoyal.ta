@@ -1,0 +1,321 @@
+$INSTANCE ServiceLevel class
+$INSTANCE Transaction class
+$INSTANCE LoyaltyAccount class
+$INSTANCE Earning class
+$INSTANCE ProgramPartner class
+$INSTANCE Burning class
+$INSTANCE TransactionReport class
+$INSTANCE CustomerCard class
+$INSTANCE Date class
+$INSTANCE Membership class
+$INSTANCE Container_RandL class
+$INSTANCE Service class
+$INSTANCE Customer class
+$INSTANCE TransactionReportLine class
+$INSTANCE LoyaltyProgram class
+$INSTANCE RandLColor enum
+$INSTANCE Gender enum
+enumValues RandLColor silver
+(enumValues RandLColor silver) {value = "0" }
+enumValues RandLColor gold
+(enumValues RandLColor gold) {value = "1" }
+enumValues Gender male
+(enumValues Gender male) {value = "0" }
+enumValues Gender female
+(enumValues Gender female) {value = "1" }
+memberOf ServiceLevel name
+(memberOf ServiceLevel name) {type = "EString" }
+memberOf Transaction amount
+(memberOf Transaction amount) {type = "EDoubleObject" }
+memberOf Transaction points
+(memberOf Transaction points) {type = "EIntegerObject" }
+memberOf LoyaltyAccount points
+(memberOf LoyaltyAccount points) {type = "EIntegerObject" }
+memberOf LoyaltyAccount totalPointsEarned
+(memberOf LoyaltyAccount totalPointsEarned) {type = "EIntegerObject" }
+memberOf LoyaltyAccount number
+(memberOf LoyaltyAccount number) {type = "EIntegerObject" }
+memberOf ProgramPartner name
+(memberOf ProgramPartner name) {type = "EString" }
+memberOf ProgramPartner numberOfCustomers
+(memberOf ProgramPartner numberOfCustomers) {type = "EIntegerObject" }
+memberOf TransactionReport balance
+(memberOf TransactionReport balance) {type = "EIntegerObject" }
+memberOf TransactionReport totalEarned
+(memberOf TransactionReport totalEarned) {type = "EIntegerObject" }
+memberOf TransactionReport totalBurned
+(memberOf TransactionReport totalBurned) {type = "EIntegerObject" }
+memberOf TransactionReport number
+(memberOf TransactionReport number) {type = "EIntegerObject" }
+memberOf TransactionReport name
+(memberOf TransactionReport name) {type = "EString" }
+memberOf CustomerCard valid
+(memberOf CustomerCard valid) {type = "EBooleanObject" }
+memberOf CustomerCard color
+(memberOf CustomerCard color) {type = "RandLColor" }
+memberOf CustomerCard printedName
+(memberOf CustomerCard printedName) {type = "EString" }
+memberOf Date year
+(memberOf Date year) {type = "EIntegerObject" }
+memberOf Date month
+(memberOf Date month) {type = "EIntegerObject" }
+memberOf Date day
+(memberOf Date day) {type = "EIntegerObject" }
+memberOf Service serviceNr
+(memberOf Service serviceNr) {type = "EIntegerObject" }
+memberOf Service description
+(memberOf Service description) {type = "EString" }
+memberOf Service pointsEarned
+(memberOf Service pointsEarned) {type = "EIntegerObject" }
+memberOf Service condition
+(memberOf Service condition) {type = "EBooleanObject" }
+memberOf Service pointsBurned
+(memberOf Service pointsBurned) {type = "EIntegerObject" }
+memberOf Customer gender
+(memberOf Customer gender) {type = "Gender" }
+memberOf Customer isMale
+(memberOf Customer isMale) {type = "EBooleanObject" }
+memberOf Customer name
+(memberOf Customer name) {type = "EString" }
+memberOf Customer title
+(memberOf Customer title) {type = "EString" }
+memberOf Customer age
+(memberOf Customer age) {type = "EIntegerObject" }
+memberOf TransactionReportLine partnerName
+(memberOf TransactionReportLine partnerName) {type = "EString" }
+memberOf TransactionReportLine serviceDesc
+(memberOf TransactionReportLine serviceDesc) {type = "EString" }
+memberOf TransactionReportLine points
+(memberOf TransactionReportLine points) {type = "EIntegerObject" }
+memberOf TransactionReportLine amount
+(memberOf TransactionReportLine amount) {type = "EDoubleObject" }
+memberOf LoyaltyProgram name
+(memberOf LoyaltyProgram name) {type = "EString" }
+$INSTANCE program method
+program {type = "LoyaltyProgram" }
+$INSTANCE earn method
+$INSTANCE burn method
+$INSTANCE getCustomerName method
+getCustomerName {type = "EString" }
+$INSTANCE isEmpty method
+isEmpty {type = "EBooleanObject" }
+$INSTANCE getTransactions method
+getTransactions {type = "Transaction" }
+$INSTANCE isBefore method
+isBefore {type = "EBooleanObject" }
+$INSTANCE isEqual method
+isEqual {type = "EBooleanObject" }
+$INSTANCE fromYMD method
+fromYMD {type = "Date" }
+$INSTANCE isAfter method
+isAfter {type = "EBooleanObject" }
+$INSTANCE calcPoints method
+calcPoints {type = "EIntegerObject" }
+$INSTANCE upgradePointsEarned method
+$INSTANCE birthdayHappens method
+$INSTANCE age method
+age {type = "EIntegerObject" }
+$INSTANCE selectPopularPartners method
+selectPopularPartners {type = "ProgramPartner" }
+$INSTANCE addService method
+$INSTANCE getServices method
+getServices {type = "Service" }
+$INSTANCE enrollAndCreateCustomer method
+enrollAndCreateCustomer {type = "Customer" }
+$INSTANCE enroll method
+$INSTANCE addTransaction method
+$INSTANCE getServices method
+getServices {type = "Service" }
+parameterOf earn i
+(parameterOf earn i) {paramType = "EIntegerObject" }
+parameterOf burn i
+(parameterOf burn i) {paramType = "EIntegerObject" }
+parameterOf getTransactions until
+(parameterOf getTransactions until) {paramType = "Date" }
+parameterOf getTransactions from
+(parameterOf getTransactions from) {paramType = "Date" }
+parameterOf isBefore t
+(parameterOf isBefore t) {paramType = "Date" }
+parameterOf isEqual t
+(parameterOf isEqual t) {paramType = "Date" }
+parameterOf fromYMD m
+(parameterOf fromYMD m) {paramType = "EIntegerObject" }
+parameterOf fromYMD k
+(parameterOf fromYMD k) {paramType = "EIntegerObject" }
+parameterOf fromYMD y
+(parameterOf fromYMD y) {paramType = "EIntegerObject" }
+parameterOf isAfter t
+(parameterOf isAfter t) {paramType = "Date" }
+parameterOf upgradePointsEarned amount
+(parameterOf upgradePointsEarned amount) {paramType = "EIntegerObject" }
+parameterOf selectPopularPartners d
+(parameterOf selectPopularPartners d) {paramType = "Date" }
+parameterOf addService s
+(parameterOf addService s) {paramType = "Service" }
+parameterOf addService l
+(parameterOf addService l) {paramType = "ServiceLevel" }
+parameterOf addService p
+(parameterOf addService p) {paramType = "ProgramPartner" }
+parameterOf getServices pp
+(parameterOf getServices pp) {paramType = "ProgramPartner" }
+parameterOf enrollAndCreateCustomer n
+(parameterOf enrollAndCreateCustomer n) {paramType = "EString" }
+parameterOf enrollAndCreateCustomer d
+(parameterOf enrollAndCreateCustomer d) {paramType = "Date" }
+parameterOf enroll c
+(parameterOf enroll c) {paramType = "Customer" }
+parameterOf addTransaction d
+(parameterOf addTransaction d) {paramType = "Date" }
+parameterOf addTransaction servId
+(parameterOf addTransaction servId) {paramType = "EIntegerObject" }
+parameterOf addTransaction pName
+(parameterOf addTransaction pName) {paramType = "EString" }
+parameterOf addTransaction amnt
+(parameterOf addTransaction amnt) {paramType = "EDoubleObject" }
+parameterOf addTransaction accNr
+(parameterOf addTransaction accNr) {paramType = "EIntegerObject" }
+methodOf Transaction program
+(methodOf Transaction program) {type = "LoyaltyProgram" }
+methodOf LoyaltyAccount earn
+methodOf LoyaltyAccount burn
+methodOf LoyaltyAccount getCustomerName
+(methodOf LoyaltyAccount getCustomerName) {type = "EString" }
+methodOf LoyaltyAccount isEmpty
+(methodOf LoyaltyAccount isEmpty) {type = "EBooleanObject" }
+methodOf CustomerCard getTransactions
+(methodOf CustomerCard getTransactions) {type = "Transaction" }
+methodOf Date isBefore
+(methodOf Date isBefore) {type = "EBooleanObject" }
+methodOf Date isEqual
+(methodOf Date isEqual) {type = "EBooleanObject" }
+methodOf Date fromYMD
+(methodOf Date fromYMD) {type = "Date" }
+methodOf Date isAfter
+(methodOf Date isAfter) {type = "EBooleanObject" }
+methodOf Service calcPoints
+(methodOf Service calcPoints) {type = "EIntegerObject" }
+methodOf Service upgradePointsEarned
+methodOf Customer birthdayHappens
+methodOf Customer age
+(methodOf Customer age) {type = "EIntegerObject" }
+methodOf LoyaltyProgram selectPopularPartners
+(methodOf LoyaltyProgram selectPopularPartners) {type = "ProgramPartner" }
+methodOf LoyaltyProgram addService
+methodOf LoyaltyProgram getServices
+(methodOf LoyaltyProgram getServices) {type = "Service" }
+methodOf LoyaltyProgram enrollAndCreateCustomer
+(methodOf LoyaltyProgram enrollAndCreateCustomer) {type = "Customer" }
+methodOf LoyaltyProgram enroll
+methodOf LoyaltyProgram addTransaction
+methodOf LoyaltyProgram getServices
+(methodOf LoyaltyProgram getServices) {type = "Service" }
+superClass Transaction Earning
+superClass Transaction Burning
+association ServiceLevel LoyaltyProgram
+(association ServiceLevel LoyaltyProgram) {srcLabel = "program" lowerBound = "0" upperBound = "1" destLabel = "levels" }
+association ServiceLevel Service
+(association ServiceLevel Service) {srcLabel = "availableServices" lowerBound = "0" upperBound = "*" destLabel = "level" }
+association ServiceLevel Membership
+(association ServiceLevel Membership) {srcLabel = "Membership" lowerBound = "0" upperBound = "*" destLabel = "currentLevel" }
+association Transaction LoyaltyAccount
+(association Transaction LoyaltyAccount) {srcLabel = "account" lowerBound = "0" upperBound = "1" destLabel = "transactions" }
+association Transaction Service
+(association Transaction Service) {srcLabel = "generatedBy" lowerBound = "0" upperBound = "1" destLabel = "transactions" }
+association Transaction CustomerCard
+(association Transaction CustomerCard) {srcLabel = "card" lowerBound = "0" upperBound = "1" destLabel = "transactions" }
+association LoyaltyAccount Service
+(association LoyaltyAccount Service) {srcLabel = "usedServices" lowerBound = "0" upperBound = "*" }
+association LoyaltyAccount Membership
+(association LoyaltyAccount Membership) {srcLabel = "Membership" lowerBound = "0" upperBound = "1" destLabel = "account" }
+association LoyaltyAccount Transaction
+(association LoyaltyAccount Transaction) {srcLabel = "transactions" lowerBound = "0" upperBound = "*" destLabel = "account" }
+association ProgramPartner Service
+(association ProgramPartner Service) {srcLabel = "deliveredServices" lowerBound = "0" upperBound = "*" destLabel = "partner" }
+association ProgramPartner LoyaltyProgram
+(association ProgramPartner LoyaltyProgram) {srcLabel = "programs" lowerBound = "1" upperBound = "*" destLabel = "partners" }
+association TransactionReport TransactionReportLine
+(association TransactionReport TransactionReportLine) {srcLabel = "lines" lowerBound = "0" upperBound = "*" destLabel = "report" }
+association TransactionReport CustomerCard
+(association TransactionReport CustomerCard) {srcLabel = "card" lowerBound = "0" upperBound = "1" }
+association CustomerCard Customer
+(association CustomerCard Customer) {srcLabel = "owner" lowerBound = "0" upperBound = "1" destLabel = "cards" }
+association CustomerCard Membership
+(association CustomerCard Membership) {srcLabel = "Membership" lowerBound = "0" upperBound = "1" destLabel = "card" }
+association CustomerCard Transaction
+(association CustomerCard Transaction) {srcLabel = "transactions" lowerBound = "0" upperBound = "*" destLabel = "card" }
+association Membership ServiceLevel
+(association Membership ServiceLevel) {srcLabel = "currentLevel" lowerBound = "0" upperBound = "1" destLabel = "Membership" }
+association Membership CustomerCard
+(association Membership CustomerCard) {srcLabel = "card" lowerBound = "0" upperBound = "1" destLabel = "Membership" }
+association Membership LoyaltyAccount
+(association Membership LoyaltyAccount) {srcLabel = "account" lowerBound = "0" upperBound = "1" destLabel = "Membership" }
+association Membership LoyaltyProgram
+(association Membership LoyaltyProgram) {srcLabel = "programs" lowerBound = "1" upperBound = "1" }
+association Membership Customer
+(association Membership Customer) {srcLabel = "participants" lowerBound = "1" upperBound = "1" }
+association Service ProgramPartner
+(association Service ProgramPartner) {srcLabel = "partner" lowerBound = "0" upperBound = "1" destLabel = "deliveredServices" }
+association Service Transaction
+(association Service Transaction) {srcLabel = "transactions" lowerBound = "0" upperBound = "*" destLabel = "generatedBy" }
+association Service ServiceLevel
+(association Service ServiceLevel) {srcLabel = "level" lowerBound = "0" upperBound = "1" destLabel = "availableServices" }
+association Customer LoyaltyProgram
+(association Customer LoyaltyProgram) {srcLabel = "programs" lowerBound = "0" upperBound = "*" destLabel = "participants" }
+association Customer CustomerCard
+(association Customer CustomerCard) {srcLabel = "cards" lowerBound = "0" upperBound = "*" destLabel = "owner" }
+association Customer Membership
+(association Customer Membership) {srcLabel = "memberships" lowerBound = "0" upperBound = "*" }
+association TransactionReportLine Transaction
+(association TransactionReportLine Transaction) {srcLabel = "transaction" lowerBound = "0" upperBound = "1" }
+association TransactionReportLine TransactionReport
+(association TransactionReportLine TransactionReport) {srcLabel = "report" lowerBound = "0" upperBound = "1" destLabel = "lines" }
+association LoyaltyProgram ProgramPartner
+(association LoyaltyProgram ProgramPartner) {srcLabel = "partners" lowerBound = "1" upperBound = "*" destLabel = "programs" }
+association LoyaltyProgram ServiceLevel
+(association LoyaltyProgram ServiceLevel) {srcLabel = "levels" lowerBound = "1" upperBound = "*" destLabel = "program" }
+association LoyaltyProgram Customer
+(association LoyaltyProgram Customer) {srcLabel = "participants" lowerBound = "0" upperBound = "*" destLabel = "programs" }
+association LoyaltyProgram Membership
+(association LoyaltyProgram Membership) {srcLabel = "memberships" lowerBound = "0" upperBound = "*" }
+composition Transaction Date
+(composition Transaction Date) {srcLabel = "date" lowerBound = "0" upperBound = "1" }
+composition TransactionReport Date
+(composition TransactionReport Date) {srcLabel = "until" lowerBound = "0" upperBound = "1" }
+composition TransactionReport Date
+(composition TransactionReport Date) {srcLabel = "from" lowerBound = "0" upperBound = "1" }
+composition CustomerCard Date
+(composition CustomerCard Date) {srcLabel = "goodThru" lowerBound = "0" upperBound = "1" }
+composition CustomerCard Date
+(composition CustomerCard Date) {srcLabel = "validFrom" lowerBound = "0" upperBound = "1" }
+composition CustomerCard ServiceLevel
+(composition CustomerCard ServiceLevel) {srcLabel = "myLevel" lowerBound = "0" upperBound = "1" }
+composition Container_RandL Customer
+(composition Container_RandL Customer) {srcLabel = "ref_RandL_Customer" lowerBound = "0" upperBound = "*" }
+composition Container_RandL Date
+(composition Container_RandL Date) {srcLabel = "ref_RandL_Date" lowerBound = "0" upperBound = "*" }
+composition Container_RandL CustomerCard
+(composition Container_RandL CustomerCard) {srcLabel = "ref_RandL_CustomerCard" lowerBound = "0" upperBound = "*" }
+composition Container_RandL Membership
+(composition Container_RandL Membership) {srcLabel = "ref_RandL_Membership" lowerBound = "0" upperBound = "*" }
+composition Container_RandL Service
+(composition Container_RandL Service) {srcLabel = "ref_RandL_Service" lowerBound = "0" upperBound = "*" }
+composition Container_RandL LoyaltyProgram
+(composition Container_RandL LoyaltyProgram) {srcLabel = "ref_RandL_LoyaltyProgram" lowerBound = "0" upperBound = "*" }
+composition Container_RandL Earning
+(composition Container_RandL Earning) {srcLabel = "ref_RandL_Earning" lowerBound = "0" upperBound = "*" }
+composition Container_RandL LoyaltyAccount
+(composition Container_RandL LoyaltyAccount) {srcLabel = "ref_RandL_LoyaltyAccount" lowerBound = "0" upperBound = "*" }
+composition Container_RandL ServiceLevel
+(composition Container_RandL ServiceLevel) {srcLabel = "ref_RandL_ServiceLevel" lowerBound = "0" upperBound = "*" }
+composition Container_RandL TransactionReport
+(composition Container_RandL TransactionReport) {srcLabel = "ref_RandL_TransactionReport" lowerBound = "0" upperBound = "*" }
+composition Container_RandL ProgramPartner
+(composition Container_RandL ProgramPartner) {srcLabel = "ref_RandL_ProgramPartner" lowerBound = "0" upperBound = "*" }
+composition Container_RandL Burning
+(composition Container_RandL Burning) {srcLabel = "ref_RandL_Burning" lowerBound = "0" upperBound = "*" }
+composition Container_RandL TransactionReportLine
+(composition Container_RandL TransactionReportLine) {srcLabel = "ref_RandL_TransactionReportLine" lowerBound = "0" upperBound = "*" }
+composition Customer Date
+(composition Customer Date) {srcLabel = "dateOfBirth" lowerBound = "0" upperBound = "1" }
+composition TransactionReportLine Date
+(composition TransactionReportLine Date) {srcLabel = "date" lowerBound = "0" upperBound = "1" }

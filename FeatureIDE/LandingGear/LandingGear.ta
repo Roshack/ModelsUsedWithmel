@@ -1,0 +1,18 @@
+$INSTANCE HealthMonitor Feature
+$INSTANCE Sensors_v2 Feature
+$INSTANCE Cylinders_Valves Feature
+$INSTANCE Sensors Feature
+$INSTANCE Landing_Sets Feature
+$INSTANCE Cylinder_Valves_v2 Feature
+$INSTANCE LandingGear Feature
+LandingGear {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Base Feature
+FeatureOf Cylinders_Valves Sensors
+FeatureOf Sensors Landing_Sets
+FeatureOf Landing_Sets HealthMonitor
+FeatureOf Cylinder_Valves_v2 Sensors_v2
+FeatureOf Base Cylinders_Valves
+FeatureOf Base Cylinder_Valves_v2
+FeatureOf LandingGear Base
+MutuallyExclusive Cylinders_Valves Cylinder_Valves_v2
+(MutuallyExclusive Cylinders_Valves Cylinder_Valves_v2) {parent = "Base" }

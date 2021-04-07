@@ -1,0 +1,250 @@
+$INSTANCE YLocADxyEeuz8oPP6nVdWQ Class
+YLocADxyEeuz8oPP6nVdWQ {label = "PlayerHMI" }
+$INSTANCE bCuk8DxyEeuz8oPP6nVdWQ Class
+bCuk8DxyEeuz8oPP6nVdWQ {label = "IPlayerEventsFactory" }
+$INSTANCE ffz0QDxyEeuz8oPP6nVdWQ Class
+ffz0QDxyEeuz8oPP6nVdWQ {label = "GameEventsFactory" }
+$INSTANCE tEAZEDxyEeuz8oPP6nVdWQ Class
+tEAZEDxyEeuz8oPP6nVdWQ {label = "GameModel" }
+$INSTANCE urnaoDxzEeuz8oPP6nVdWQ Class
+urnaoDxzEeuz8oPP6nVdWQ {label = "GameModelController" }
+$INSTANCE L2jDwDx0Eeuz8oPP6nVdWQ Class
+L2jDwDx0Eeuz8oPP6nVdWQ {label = "IGameEvent" }
+$INSTANCE MB3bkDx3Eeuz8oPP6nVdWQ Class
+MB3bkDx3Eeuz8oPP6nVdWQ {label = "IGameEventsFactory" }
+$INSTANCE HOJc0DyWEeuz8oPP6nVdWQ Class
+HOJc0DyWEeuz8oPP6nVdWQ {label = "Company" }
+$INSTANCE LGVPUDyWEeuz8oPP6nVdWQ Class
+LGVPUDyWEeuz8oPP6nVdWQ {label = "ProductModel" }
+$INSTANCE ZhyMQDyWEeuz8oPP6nVdWQ Class
+ZhyMQDyWEeuz8oPP6nVdWQ {label = "ProductRecipe" }
+$INSTANCE Av-qEDyXEeuz8oPP6nVdWQ Class
+Av-qEDyXEeuz8oPP6nVdWQ {label = "ProductionLine" }
+$INSTANCE lLrLEDyXEeuz8oPP6nVdWQ Class
+lLrLEDyXEeuz8oPP6nVdWQ {label = "ProductionStep" }
+$INSTANCE H9TW8DyYEeuz8oPP6nVdWQ Class
+H9TW8DyYEeuz8oPP6nVdWQ {label = "ComponentType" }
+$INSTANCE JnGw4DyZEeuz8oPP6nVdWQ Class
+JnGw4DyZEeuz8oPP6nVdWQ {label = "IGraph" }
+$INSTANCE 2ulsID0vEeuz8oPP6nVdWQ Class
+2ulsID0vEeuz8oPP6nVdWQ {label = "IItemProcessor" }
+$INSTANCE kf6fwD0wEeuz8oPP6nVdWQ Class
+kf6fwD0wEeuz8oPP6nVdWQ {label = "INode" }
+$INSTANCE AKv_YD1CEeuz8oPP6nVdWQ Class
+AKv_YD1CEeuz8oPP6nVdWQ {label = "Item" }
+$INSTANCE DwEgQD1CEeuz8oPP6nVdWQ Class
+DwEgQD1CEeuz8oPP6nVdWQ {label = "IToken" }
+$INSTANCE fmUY8D1DEeuz8oPP6nVdWQ Class
+fmUY8D1DEeuz8oPP6nVdWQ {label = "IGraphElement" }
+$INSTANCE Y-1SID1EEeuz8oPP6nVdWQ Class
+Y-1SID1EEeuz8oPP6nVdWQ {label = "IEdge" }
+$INSTANCE TsADkD1lEeuz8oPP6nVdWQ Class
+TsADkD1lEeuz8oPP6nVdWQ {label = "ItemCarrier" }
+$INSTANCE dLutYD1lEeuz8oPP6nVdWQ Class
+dLutYD1lEeuz8oPP6nVdWQ {label = "ItemCarrierTransporter" }
+$INSTANCE 7I8vED1lEeuz8oPP6nVdWQ Class
+7I8vED1lEeuz8oPP6nVdWQ {label = "StorageArea" }
+$INSTANCE HuHDUD1nEeuz8oPP6nVdWQ Class
+HuHDUD1nEeuz8oPP6nVdWQ {label = "PickupArea" }
+$INSTANCE wc8McD1yEeuz8oPP6nVdWQ Class
+wc8McD1yEeuz8oPP6nVdWQ {label = "GameMap" }
+$INSTANCE O7W_MD5OEeuz8oPP6nVdWQ Class
+O7W_MD5OEeuz8oPP6nVdWQ {label = "UpgradableItem" }
+$INSTANCE YE93QEHsEeuz8oPP6nVdWQ Class
+YE93QEHsEeuz8oPP6nVdWQ {label = "ProductPlatform" }
+InheritsFrom MB3bkDx3Eeuz8oPP6nVdWQ bCuk8DxyEeuz8oPP6nVdWQ
+InheritsFrom MB3bkDx3Eeuz8oPP6nVdWQ ffz0QDxyEeuz8oPP6nVdWQ
+InheritsFrom JnGw4DyZEeuz8oPP6nVdWQ Av-qEDyXEeuz8oPP6nVdWQ
+InheritsFrom kf6fwD0wEeuz8oPP6nVdWQ 2ulsID0vEeuz8oPP6nVdWQ
+InheritsFrom fmUY8D1DEeuz8oPP6nVdWQ kf6fwD0wEeuz8oPP6nVdWQ
+InheritsFrom DwEgQD1CEeuz8oPP6nVdWQ AKv_YD1CEeuz8oPP6nVdWQ
+InheritsFrom fmUY8D1DEeuz8oPP6nVdWQ Y-1SID1EEeuz8oPP6nVdWQ
+InheritsFrom DwEgQD1CEeuz8oPP6nVdWQ dLutYD1lEeuz8oPP6nVdWQ
+InheritsFrom kf6fwD0wEeuz8oPP6nVdWQ 7I8vED1lEeuz8oPP6nVdWQ
+InheritsFrom kf6fwD0wEeuz8oPP6nVdWQ HuHDUD1nEeuz8oPP6nVdWQ
+InheritsFrom AKv_YD1CEeuz8oPP6nVdWQ O7W_MD5OEeuz8oPP6nVdWQ
+$INSTANCE _WXNAQDyOEeuz8oPP6nVdWQ Method
+_WXNAQDyOEeuz8oPP6nVdWQ {name = "addNewGameEvent" }
+$INSTANCE _p-UJwDyOEeuz8oPP6nVdWQ Method
+_p-UJwDyOEeuz8oPP6nVdWQ {name = "runTick" }
+$INSTANCE _B-aeADyVEeuz8oPP6nVdWQ Method
+_B-aeADyVEeuz8oPP6nVdWQ {name = "addGameElement" }
+$INSTANCE _rs37ED1DEeuz8oPP6nVdWQ Method
+_rs37ED1DEeuz8oPP6nVdWQ {name = "getToken" }
+MethodOf urnaoDxzEeuz8oPP6nVdWQ _WXNAQDyOEeuz8oPP6nVdWQ
+MethodOf urnaoDxzEeuz8oPP6nVdWQ _p-UJwDyOEeuz8oPP6nVdWQ
+MethodOf urnaoDxzEeuz8oPP6nVdWQ _B-aeADyVEeuz8oPP6nVdWQ
+MethodOf fmUY8D1DEeuz8oPP6nVdWQ _rs37ED1DEeuz8oPP6nVdWQ
+$INSTANCE Fdh38TyPEeuz8oPP6nVdWQ Field
+Fdh38TyPEeuz8oPP6nVdWQ {type = "IGameEventsFactory" multUpper = "1" multLower = "1" label = "iGameEventsFactorys" }
+FieldOf urnaoDxzEeuz8oPP6nVdWQ Fdh38TyPEeuz8oPP6nVdWQ
+FieldOf TsADkD1lEeuz8oPP6nVdWQ noUBAD1lEeuz8oPP6nVdWQ
+FieldOf TsADkD1lEeuz8oPP6nVdWQ vJxAQD1lEeuz8oPP6nVdWQ
+Association YLocADxyEeuz8oPP6nVdWQ bCuk8DxyEeuz8oPP6nVdWQ
+(Association YLocADxyEeuz8oPP6nVdWQ bCuk8DxyEeuz8oPP6nVdWQ) {associationID = "KfeawDyCEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association YLocADxyEeuz8oPP6nVdWQ YLocADxyEeuz8oPP6nVdWQ
+(Association YLocADxyEeuz8oPP6nVdWQ YLocADxyEeuz8oPP6nVdWQ) {associationID = "KfeawDyCEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association YLocADxyEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ
+(Association YLocADxyEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ) {associationID = "11tn8D1yEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association bCuk8DxyEeuz8oPP6nVdWQ bCuk8DxyEeuz8oPP6nVdWQ
+(Association bCuk8DxyEeuz8oPP6nVdWQ bCuk8DxyEeuz8oPP6nVdWQ) {associationID = "KfeawDyCEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association ffz0QDxyEeuz8oPP6nVdWQ ffz0QDxyEeuz8oPP6nVdWQ
+(Association ffz0QDxyEeuz8oPP6nVdWQ ffz0QDxyEeuz8oPP6nVdWQ) {associationID = "dGD6YDyNEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association ffz0QDxyEeuz8oPP6nVdWQ tEAZEDxyEeuz8oPP6nVdWQ
+(Association ffz0QDxyEeuz8oPP6nVdWQ tEAZEDxyEeuz8oPP6nVdWQ) {associationID = "dGD6YDyNEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association ffz0QDxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ
+(Association ffz0QDxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ) {associationID = "eP1sQDyVEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association tEAZEDxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ
+(Association tEAZEDxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ) {associationID = "zoKeEDx8Eeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association tEAZEDxyEeuz8oPP6nVdWQ tEAZEDxyEeuz8oPP6nVdWQ
+(Association tEAZEDxyEeuz8oPP6nVdWQ tEAZEDxyEeuz8oPP6nVdWQ) {associationID = "zoKeEDx8Eeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association tEAZEDxyEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ
+(Association tEAZEDxyEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ) {associationID = "43FHMD1yEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association urnaoDxzEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ
+(Association urnaoDxzEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ) {associationID = "zoKeEDx8Eeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association urnaoDxzEeuz8oPP6nVdWQ L2jDwDx0Eeuz8oPP6nVdWQ
+(Association urnaoDxzEeuz8oPP6nVdWQ L2jDwDx0Eeuz8oPP6nVdWQ) {associationID = "9D4KkDx8Eeuz8oPP6nVdWQ" label = "gameModelControllersToIGameEvents" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association L2jDwDx0Eeuz8oPP6nVdWQ L2jDwDx0Eeuz8oPP6nVdWQ
+(Association L2jDwDx0Eeuz8oPP6nVdWQ L2jDwDx0Eeuz8oPP6nVdWQ) {associationID = "9D4KkDx8Eeuz8oPP6nVdWQ" label = "gameModelControllersToIGameEvents" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association HOJc0DyWEeuz8oPP6nVdWQ HOJc0DyWEeuz8oPP6nVdWQ
+(Association HOJc0DyWEeuz8oPP6nVdWQ HOJc0DyWEeuz8oPP6nVdWQ) {associationID = "Sv8sEDyWEeuz8oPP6nVdWQ" label = "companysToProductModels" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association HOJc0DyWEeuz8oPP6nVdWQ LGVPUDyWEeuz8oPP6nVdWQ
+(Association HOJc0DyWEeuz8oPP6nVdWQ LGVPUDyWEeuz8oPP6nVdWQ) {associationID = "Sv8sEDyWEeuz8oPP6nVdWQ" label = "companysToProductModels" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association HOJc0DyWEeuz8oPP6nVdWQ Av-qEDyXEeuz8oPP6nVdWQ
+(Association HOJc0DyWEeuz8oPP6nVdWQ Av-qEDyXEeuz8oPP6nVdWQ) {associationID = "gzBIwDyXEeuz8oPP6nVdWQ" label = "companysToProductionLines" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association LGVPUDyWEeuz8oPP6nVdWQ LGVPUDyWEeuz8oPP6nVdWQ
+(Association LGVPUDyWEeuz8oPP6nVdWQ LGVPUDyWEeuz8oPP6nVdWQ) {associationID = "Sv8sEDyWEeuz8oPP6nVdWQ" label = "companysToProductModels" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association LGVPUDyWEeuz8oPP6nVdWQ ZhyMQDyWEeuz8oPP6nVdWQ
+(Association LGVPUDyWEeuz8oPP6nVdWQ ZhyMQDyWEeuz8oPP6nVdWQ) {associationID = "d9_44DyWEeuz8oPP6nVdWQ" label = "productModelsToProductRecipes" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association ZhyMQDyWEeuz8oPP6nVdWQ ZhyMQDyWEeuz8oPP6nVdWQ
+(Association ZhyMQDyWEeuz8oPP6nVdWQ ZhyMQDyWEeuz8oPP6nVdWQ) {associationID = "d9_44DyWEeuz8oPP6nVdWQ" label = "productModelsToProductRecipes" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association ZhyMQDyWEeuz8oPP6nVdWQ lLrLEDyXEeuz8oPP6nVdWQ
+(Association ZhyMQDyWEeuz8oPP6nVdWQ lLrLEDyXEeuz8oPP6nVdWQ) {associationID = "7VYu8D1tEeuz8oPP6nVdWQ" label = "productRecipesToProductionSteps" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association ZhyMQDyWEeuz8oPP6nVdWQ YE93QEHsEeuz8oPP6nVdWQ
+(Association ZhyMQDyWEeuz8oPP6nVdWQ YE93QEHsEeuz8oPP6nVdWQ) {associationID = "bDcakEHsEeuz8oPP6nVdWQ" label = "productPlatformsToProductRecipes" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association Av-qEDyXEeuz8oPP6nVdWQ Av-qEDyXEeuz8oPP6nVdWQ
+(Association Av-qEDyXEeuz8oPP6nVdWQ Av-qEDyXEeuz8oPP6nVdWQ) {associationID = "gzBIwDyXEeuz8oPP6nVdWQ" label = "companysToProductionLines" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association lLrLEDyXEeuz8oPP6nVdWQ lLrLEDyXEeuz8oPP6nVdWQ
+(Association lLrLEDyXEeuz8oPP6nVdWQ lLrLEDyXEeuz8oPP6nVdWQ) {associationID = "2aoU8DyYEeuz8oPP6nVdWQ" label = "productionStepsToComponents" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association lLrLEDyXEeuz8oPP6nVdWQ H9TW8DyYEeuz8oPP6nVdWQ
+(Association lLrLEDyXEeuz8oPP6nVdWQ H9TW8DyYEeuz8oPP6nVdWQ) {associationID = "2aoU8DyYEeuz8oPP6nVdWQ" label = "productionStepsToComponents" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association lLrLEDyXEeuz8oPP6nVdWQ 2ulsID0vEeuz8oPP6nVdWQ
+(Association lLrLEDyXEeuz8oPP6nVdWQ 2ulsID0vEeuz8oPP6nVdWQ) {associationID = "OAfnMD1CEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association H9TW8DyYEeuz8oPP6nVdWQ H9TW8DyYEeuz8oPP6nVdWQ
+(Association H9TW8DyYEeuz8oPP6nVdWQ H9TW8DyYEeuz8oPP6nVdWQ) {associationID = "2aoU8DyYEeuz8oPP6nVdWQ" label = "productionStepsToComponents" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association 2ulsID0vEeuz8oPP6nVdWQ 2ulsID0vEeuz8oPP6nVdWQ
+(Association 2ulsID0vEeuz8oPP6nVdWQ 2ulsID0vEeuz8oPP6nVdWQ) {associationID = "OAfnMD1CEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association kf6fwD0wEeuz8oPP6nVdWQ kf6fwD0wEeuz8oPP6nVdWQ
+(Association kf6fwD0wEeuz8oPP6nVdWQ kf6fwD0wEeuz8oPP6nVdWQ) {associationID = "kj0Q4D1HEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association kf6fwD0wEeuz8oPP6nVdWQ DwEgQD1CEeuz8oPP6nVdWQ
+(Association kf6fwD0wEeuz8oPP6nVdWQ DwEgQD1CEeuz8oPP6nVdWQ) {associationID = "kj0Q4D1HEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association kf6fwD0wEeuz8oPP6nVdWQ fmUY8D1DEeuz8oPP6nVdWQ
+(Association kf6fwD0wEeuz8oPP6nVdWQ fmUY8D1DEeuz8oPP6nVdWQ) {associationID = "D4GX4D1jEeuz8oPP6nVdWQ" label = "m_Inputs" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association DwEgQD1CEeuz8oPP6nVdWQ Y-1SID1EEeuz8oPP6nVdWQ
+(Association DwEgQD1CEeuz8oPP6nVdWQ Y-1SID1EEeuz8oPP6nVdWQ) {associationID = "hmC4MD1HEeuz8oPP6nVdWQ" label = "iEdgesToITokens" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association DwEgQD1CEeuz8oPP6nVdWQ DwEgQD1CEeuz8oPP6nVdWQ
+(Association DwEgQD1CEeuz8oPP6nVdWQ DwEgQD1CEeuz8oPP6nVdWQ) {associationID = "hmC4MD1HEeuz8oPP6nVdWQ" label = "iEdgesToITokens" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association fmUY8D1DEeuz8oPP6nVdWQ Y-1SID1EEeuz8oPP6nVdWQ
+(Association fmUY8D1DEeuz8oPP6nVdWQ Y-1SID1EEeuz8oPP6nVdWQ) {associationID = "9LLLsD1IEeuz8oPP6nVdWQ" label = "m_Source" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "1" }
+Association fmUY8D1DEeuz8oPP6nVdWQ fmUY8D1DEeuz8oPP6nVdWQ
+(Association fmUY8D1DEeuz8oPP6nVdWQ fmUY8D1DEeuz8oPP6nVdWQ) {associationID = "9LLLsD1IEeuz8oPP6nVdWQ" label = "m_Source" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association Y-1SID1EEeuz8oPP6nVdWQ Y-1SID1EEeuz8oPP6nVdWQ
+(Association Y-1SID1EEeuz8oPP6nVdWQ Y-1SID1EEeuz8oPP6nVdWQ) {associationID = "hmC4MD1HEeuz8oPP6nVdWQ" label = "iEdgesToITokens" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association TsADkD1lEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ
+(Association TsADkD1lEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ) {associationID = "XecacD1lEeuz8oPP6nVdWQ" ownerUpperMult = "1" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Association dLutYD1lEeuz8oPP6nVdWQ dLutYD1lEeuz8oPP6nVdWQ
+(Association dLutYD1lEeuz8oPP6nVdWQ dLutYD1lEeuz8oPP6nVdWQ) {associationID = "fb71cD1lEeuz8oPP6nVdWQ" ownerUpperMult = "1" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Association 7I8vED1lEeuz8oPP6nVdWQ 7I8vED1lEeuz8oPP6nVdWQ
+(Association 7I8vED1lEeuz8oPP6nVdWQ 7I8vED1lEeuz8oPP6nVdWQ) {associationID = "-za1sD1lEeuz8oPP6nVdWQ" label = "A_storageAreas_itemCarriers" ownerUpperMult = "1" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Association HuHDUD1nEeuz8oPP6nVdWQ HuHDUD1nEeuz8oPP6nVdWQ
+(Association HuHDUD1nEeuz8oPP6nVdWQ HuHDUD1nEeuz8oPP6nVdWQ) {associationID = "Md3XAD1nEeuz8oPP6nVdWQ" ownerUpperMult = "1" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Association wc8McD1yEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ
+(Association wc8McD1yEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ) {associationID = "11tn8D1yEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Association YE93QEHsEeuz8oPP6nVdWQ YE93QEHsEeuz8oPP6nVdWQ
+(Association YE93QEHsEeuz8oPP6nVdWQ YE93QEHsEeuz8oPP6nVdWQ) {associationID = "bDcakEHsEeuz8oPP6nVdWQ" label = "productPlatformsToProductRecipes" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation YLocADxyEeuz8oPP6nVdWQ bCuk8DxyEeuz8oPP6nVdWQ
+(Aggregation YLocADxyEeuz8oPP6nVdWQ bCuk8DxyEeuz8oPP6nVdWQ) {associationID = "KfeawDyCEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation YLocADxyEeuz8oPP6nVdWQ YLocADxyEeuz8oPP6nVdWQ
+(Aggregation YLocADxyEeuz8oPP6nVdWQ YLocADxyEeuz8oPP6nVdWQ) {associationID = "KfeawDyCEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation YLocADxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ
+(Aggregation YLocADxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ) {associationID = "83xUUDyUEeuz8oPP6nVdWQ" ownerUpperMult = "1" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation YLocADxyEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ
+(Aggregation YLocADxyEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ) {associationID = "11tn8D1yEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation bCuk8DxyEeuz8oPP6nVdWQ bCuk8DxyEeuz8oPP6nVdWQ
+(Aggregation bCuk8DxyEeuz8oPP6nVdWQ bCuk8DxyEeuz8oPP6nVdWQ) {associationID = "KfeawDyCEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation ffz0QDxyEeuz8oPP6nVdWQ ffz0QDxyEeuz8oPP6nVdWQ
+(Aggregation ffz0QDxyEeuz8oPP6nVdWQ ffz0QDxyEeuz8oPP6nVdWQ) {associationID = "dGD6YDyNEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation ffz0QDxyEeuz8oPP6nVdWQ tEAZEDxyEeuz8oPP6nVdWQ
+(Aggregation ffz0QDxyEeuz8oPP6nVdWQ tEAZEDxyEeuz8oPP6nVdWQ) {associationID = "dGD6YDyNEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation ffz0QDxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ
+(Aggregation ffz0QDxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ) {associationID = "eP1sQDyVEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation tEAZEDxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ
+(Aggregation tEAZEDxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ) {associationID = "zoKeEDx8Eeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation tEAZEDxyEeuz8oPP6nVdWQ tEAZEDxyEeuz8oPP6nVdWQ
+(Aggregation tEAZEDxyEeuz8oPP6nVdWQ tEAZEDxyEeuz8oPP6nVdWQ) {associationID = "zoKeEDx8Eeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation tEAZEDxyEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ
+(Aggregation tEAZEDxyEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ) {associationID = "43FHMD1yEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation urnaoDxzEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ
+(Aggregation urnaoDxzEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ) {associationID = "zoKeEDx8Eeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation HOJc0DyWEeuz8oPP6nVdWQ HOJc0DyWEeuz8oPP6nVdWQ
+(Aggregation HOJc0DyWEeuz8oPP6nVdWQ HOJc0DyWEeuz8oPP6nVdWQ) {associationID = "Sv8sEDyWEeuz8oPP6nVdWQ" label = "companysToProductModels" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation LGVPUDyWEeuz8oPP6nVdWQ LGVPUDyWEeuz8oPP6nVdWQ
+(Aggregation LGVPUDyWEeuz8oPP6nVdWQ LGVPUDyWEeuz8oPP6nVdWQ) {associationID = "d9_44DyWEeuz8oPP6nVdWQ" label = "productModelsToProductRecipes" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation ZhyMQDyWEeuz8oPP6nVdWQ ZhyMQDyWEeuz8oPP6nVdWQ
+(Aggregation ZhyMQDyWEeuz8oPP6nVdWQ ZhyMQDyWEeuz8oPP6nVdWQ) {associationID = "7VYu8D1tEeuz8oPP6nVdWQ" label = "productRecipesToProductionSteps" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation lLrLEDyXEeuz8oPP6nVdWQ lLrLEDyXEeuz8oPP6nVdWQ
+(Aggregation lLrLEDyXEeuz8oPP6nVdWQ lLrLEDyXEeuz8oPP6nVdWQ) {associationID = "2aoU8DyYEeuz8oPP6nVdWQ" label = "productionStepsToComponents" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation lLrLEDyXEeuz8oPP6nVdWQ 2ulsID0vEeuz8oPP6nVdWQ
+(Aggregation lLrLEDyXEeuz8oPP6nVdWQ 2ulsID0vEeuz8oPP6nVdWQ) {associationID = "OAfnMD1CEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation 2ulsID0vEeuz8oPP6nVdWQ 2ulsID0vEeuz8oPP6nVdWQ
+(Aggregation 2ulsID0vEeuz8oPP6nVdWQ 2ulsID0vEeuz8oPP6nVdWQ) {associationID = "OAfnMD1CEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation kf6fwD0wEeuz8oPP6nVdWQ kf6fwD0wEeuz8oPP6nVdWQ
+(Aggregation kf6fwD0wEeuz8oPP6nVdWQ kf6fwD0wEeuz8oPP6nVdWQ) {associationID = "kj0Q4D1HEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation kf6fwD0wEeuz8oPP6nVdWQ DwEgQD1CEeuz8oPP6nVdWQ
+(Aggregation kf6fwD0wEeuz8oPP6nVdWQ DwEgQD1CEeuz8oPP6nVdWQ) {associationID = "kj0Q4D1HEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation AKv_YD1CEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ
+(Aggregation AKv_YD1CEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ) {associationID = "XecacD1lEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Aggregation AKv_YD1CEeuz8oPP6nVdWQ AKv_YD1CEeuz8oPP6nVdWQ
+(Aggregation AKv_YD1CEeuz8oPP6nVdWQ AKv_YD1CEeuz8oPP6nVdWQ) {associationID = "XecacD1lEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation DwEgQD1CEeuz8oPP6nVdWQ DwEgQD1CEeuz8oPP6nVdWQ
+(Aggregation DwEgQD1CEeuz8oPP6nVdWQ DwEgQD1CEeuz8oPP6nVdWQ) {associationID = "kj0Q4D1HEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation fmUY8D1DEeuz8oPP6nVdWQ Y-1SID1EEeuz8oPP6nVdWQ
+(Aggregation fmUY8D1DEeuz8oPP6nVdWQ Y-1SID1EEeuz8oPP6nVdWQ) {associationID = "9LLLsD1IEeuz8oPP6nVdWQ" label = "m_Source" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "1" }
+Aggregation fmUY8D1DEeuz8oPP6nVdWQ fmUY8D1DEeuz8oPP6nVdWQ
+(Aggregation fmUY8D1DEeuz8oPP6nVdWQ fmUY8D1DEeuz8oPP6nVdWQ) {associationID = "9LLLsD1IEeuz8oPP6nVdWQ" label = "m_Source" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation Y-1SID1EEeuz8oPP6nVdWQ Y-1SID1EEeuz8oPP6nVdWQ
+(Aggregation Y-1SID1EEeuz8oPP6nVdWQ Y-1SID1EEeuz8oPP6nVdWQ) {associationID = "hmC4MD1HEeuz8oPP6nVdWQ" label = "iEdgesToITokens" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation TsADkD1lEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ
+(Aggregation TsADkD1lEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ) {associationID = "XecacD1lEeuz8oPP6nVdWQ" ownerUpperMult = "1" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Aggregation TsADkD1lEeuz8oPP6nVdWQ dLutYD1lEeuz8oPP6nVdWQ
+(Aggregation TsADkD1lEeuz8oPP6nVdWQ dLutYD1lEeuz8oPP6nVdWQ) {associationID = "fb71cD1lEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Aggregation TsADkD1lEeuz8oPP6nVdWQ 7I8vED1lEeuz8oPP6nVdWQ
+(Aggregation TsADkD1lEeuz8oPP6nVdWQ 7I8vED1lEeuz8oPP6nVdWQ) {associationID = "-za1sD1lEeuz8oPP6nVdWQ" label = "A_storageAreas_itemCarriers" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Aggregation TsADkD1lEeuz8oPP6nVdWQ HuHDUD1nEeuz8oPP6nVdWQ
+(Aggregation TsADkD1lEeuz8oPP6nVdWQ HuHDUD1nEeuz8oPP6nVdWQ) {associationID = "Md3XAD1nEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Aggregation dLutYD1lEeuz8oPP6nVdWQ dLutYD1lEeuz8oPP6nVdWQ
+(Aggregation dLutYD1lEeuz8oPP6nVdWQ dLutYD1lEeuz8oPP6nVdWQ) {associationID = "fb71cD1lEeuz8oPP6nVdWQ" ownerUpperMult = "1" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Aggregation 7I8vED1lEeuz8oPP6nVdWQ 7I8vED1lEeuz8oPP6nVdWQ
+(Aggregation 7I8vED1lEeuz8oPP6nVdWQ 7I8vED1lEeuz8oPP6nVdWQ) {associationID = "-za1sD1lEeuz8oPP6nVdWQ" label = "A_storageAreas_itemCarriers" ownerUpperMult = "1" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Aggregation HuHDUD1nEeuz8oPP6nVdWQ HuHDUD1nEeuz8oPP6nVdWQ
+(Aggregation HuHDUD1nEeuz8oPP6nVdWQ HuHDUD1nEeuz8oPP6nVdWQ) {associationID = "Md3XAD1nEeuz8oPP6nVdWQ" ownerUpperMult = "1" ownerLowerMult = "0" owneeUpperMult = "1" owneeLowerMult = "0" }
+Aggregation wc8McD1yEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ
+(Aggregation wc8McD1yEeuz8oPP6nVdWQ wc8McD1yEeuz8oPP6nVdWQ) {associationID = "11tn8D1yEeuz8oPP6nVdWQ" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Aggregation YE93QEHsEeuz8oPP6nVdWQ YE93QEHsEeuz8oPP6nVdWQ
+(Aggregation YE93QEHsEeuz8oPP6nVdWQ YE93QEHsEeuz8oPP6nVdWQ) {associationID = "bDcakEHsEeuz8oPP6nVdWQ" label = "productPlatformsToProductRecipes" ownerUpperMult = "*" ownerLowerMult = "0" owneeUpperMult = "*" owneeLowerMult = "0" }
+Composition YLocADxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ
+(Composition YLocADxyEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ) {owneeRoleName = "gameModelControllers" compositionID = "83xUUDyUEeuz8oPP6nVdWQ" SID = "_KfeaxDyCEeuz8oPP6nVdWQ" EID = "_Fdh39DyPEeuz8oPP6nVdWQ" ownerRoleName = "playerHMIs" }
+Composition urnaoDxzEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ
+(Composition urnaoDxzEeuz8oPP6nVdWQ urnaoDxzEeuz8oPP6nVdWQ) {owneeRoleName = "gameModelControllers" compositionID = "Fdh38DyPEeuz8oPP6nVdWQ" label = "m_GameModelController" SID = "_zoKeETx8Eeuz8oPP6nVdWQ" EID = "_Fdh39DyPEeuz8oPP6nVdWQ" ownerRoleName = "gameModelControllers" }
+Composition AKv_YD1CEeuz8oPP6nVdWQ AKv_YD1CEeuz8oPP6nVdWQ
+(Composition AKv_YD1CEeuz8oPP6nVdWQ AKv_YD1CEeuz8oPP6nVdWQ) {owneeRoleName = "productItems" compositionID = "XecacD1lEeuz8oPP6nVdWQ" SID = "_XecadD1lEeuz8oPP6nVdWQ" EID = "_XecadD1lEeuz8oPP6nVdWQ" ownerRoleName = "productItems" }
+Composition TsADkD1lEeuz8oPP6nVdWQ AKv_YD1CEeuz8oPP6nVdWQ
+(Composition TsADkD1lEeuz8oPP6nVdWQ AKv_YD1CEeuz8oPP6nVdWQ) {owneeRoleName = "productItems" compositionID = "XecacD1lEeuz8oPP6nVdWQ" SID = "_XecacT1lEeuz8oPP6nVdWQ" EID = "_XecadD1lEeuz8oPP6nVdWQ" ownerRoleName = "itemCarriers" }
+Composition TsADkD1lEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ
+(Composition TsADkD1lEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ) {owneeRoleName = "itemCarriers" compositionID = "fb71cD1lEeuz8oPP6nVdWQ" SID = "_XecacT1lEeuz8oPP6nVdWQ" EID = "_fb8cgz1lEeuz8oPP6nVdWQ" ownerRoleName = "itemCarriers" }
+Composition dLutYD1lEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ
+(Composition dLutYD1lEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ) {owneeRoleName = "itemCarriers" compositionID = "fb71cD1lEeuz8oPP6nVdWQ" SID = "_fb8cgD1lEeuz8oPP6nVdWQ" EID = "_fb8cgz1lEeuz8oPP6nVdWQ" ownerRoleName = "itemCarrierTransporters" }
+Composition 7I8vED1lEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ
+(Composition 7I8vED1lEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ) {owneeRoleName = "itemCarriers" compositionID = "-za1sD1lEeuz8oPP6nVdWQ" label = "A_storageAreas_itemCarriers" SID = "_-za1sT1lEeuz8oPP6nVdWQ" EID = "_fb8cgz1lEeuz8oPP6nVdWQ" ownerRoleName = "storageAreas" }
+Composition HuHDUD1nEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ
+(Composition HuHDUD1nEeuz8oPP6nVdWQ TsADkD1lEeuz8oPP6nVdWQ) {owneeRoleName = "itemCarriers" compositionID = "Md3XAD1nEeuz8oPP6nVdWQ" SID = "_Md3XAT1nEeuz8oPP6nVdWQ" EID = "_fb8cgz1lEeuz8oPP6nVdWQ" ownerRoleName = "pickupAreas" }

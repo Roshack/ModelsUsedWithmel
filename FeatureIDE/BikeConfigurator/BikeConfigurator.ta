@@ -1,0 +1,320 @@
+$INSTANCE Toolkit Feature
+$INSTANCE B Bag Feature
+$INSTANCE Saddle Bag Feature
+$INSTANCE Rack Sack Feature
+$INSTANCE Steel Feature
+$INSTANCE Steel/Titanimum Feature
+$INSTANCE S Type Feature
+$INSTANCE M Type Feature
+$INSTANCE P Type Feature
+$INSTANCE H Type Feature
+$INSTANCE Black Feature
+$INSTANCE Grey Feature
+$INSTANCE Raw Lacquer Feature
+$INSTANCE Version E Feature
+$INSTANCE Version L Feature
+$INSTANCE Version R Feature
+$INSTANCE 1 Feature
+$INSTANCE 2 Feature
+$INSTANCE 3 Feature
+$INSTANCE 6 Feature
+$INSTANCE Standard Feature
+$INSTANCE +8% Feature
+$INSTANCE -12% Feature
+$INSTANCE Marathon Racer Feature
+$INSTANCE Kojak Feature
+$INSTANCE Marathon Feature
+$INSTANCE Reflectors Only Feature
+$INSTANCE Battery Lightning Feature
+$INSTANCE Shimano Hub Dynamo Feature
+$INSTANCE SON Hub Dynamo Feature
+$INSTANCE Standard Height Feature
+$INSTANCE Extended Feature
+$INSTANCE Telescopic Feature
+$INSTANCE Brompton Feature
+$INSTANCE Brompton with Light Feature
+$INSTANCE Special Men Feature
+$INSTANCE Special Ladies Feature
+$INSTANCE Brompton Wide Feature
+$INSTANCE Brompton Wide with Light Feature
+$INSTANCE Carrier Block only Feature
+$INSTANCE Tote Bag Feature
+$INSTANCE Roll Top Bag Feature
+$INSTANCE O Bag Feature
+$INSTANCE BikeConfigurator Feature
+BikeConfigurator {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Frame Feature
+Frame {isMandatory = "true" }
+$INSTANCE Handlebar Feature
+Handlebar {isMandatory = "true" }
+$INSTANCE Frame Color Feature
+Frame Color {isMandatory = "true" }
+$INSTANCE Mudguards Feature
+Mudguards {isMandatory = "true" }
+$INSTANCE Number of Gears Feature
+Number of Gears {isMandatory = "true" }
+$INSTANCE Gear Ratio Feature
+Gear Ratio {isMandatory = "true" }
+$INSTANCE Tyres Feature
+Tyres {isMandatory = "true" }
+$INSTANCE Lightning Feature
+Lightning {isMandatory = "true" }
+$INSTANCE Saddle Height Feature
+Saddle Height {isMandatory = "true" }
+$INSTANCE Saddle Type Feature
+Saddle Type {isMandatory = "true" }
+$INSTANCE Front Luggage Feature
+FeatureOf BikeConfigurator Frame
+FeatureOf BikeConfigurator Handlebar
+FeatureOf BikeConfigurator Frame Color
+FeatureOf BikeConfigurator Mudguards
+FeatureOf BikeConfigurator Number of Gears
+FeatureOf BikeConfigurator Gear Ratio
+FeatureOf BikeConfigurator Tyres
+FeatureOf BikeConfigurator Lightning
+FeatureOf BikeConfigurator Saddle Height
+FeatureOf BikeConfigurator Saddle Type
+FeatureOf BikeConfigurator Front Luggage
+FeatureOf BikeConfigurator Toolkit
+FeatureOf BikeConfigurator B Bag
+FeatureOf BikeConfigurator Saddle Bag
+FeatureOf BikeConfigurator Rack Sack
+FeatureOf Frame Steel
+FeatureOf Frame Steel/Titanimum
+FeatureOf Handlebar S Type
+FeatureOf Handlebar M Type
+FeatureOf Handlebar P Type
+FeatureOf Handlebar H Type
+FeatureOf Frame Color Black
+FeatureOf Frame Color Grey
+FeatureOf Frame Color Raw Lacquer
+FeatureOf Mudguards Version E
+FeatureOf Mudguards Version L
+FeatureOf Mudguards Version R
+FeatureOf Number of Gears 1
+FeatureOf Number of Gears 2
+FeatureOf Number of Gears 3
+FeatureOf Number of Gears 6
+FeatureOf Gear Ratio Standard
+FeatureOf Gear Ratio +8%
+FeatureOf Gear Ratio -12%
+FeatureOf Tyres Marathon Racer
+FeatureOf Tyres Kojak
+FeatureOf Tyres Marathon
+FeatureOf Lightning Reflectors Only
+FeatureOf Lightning Battery Lightning
+FeatureOf Lightning Shimano Hub Dynamo
+FeatureOf Lightning SON Hub Dynamo
+FeatureOf Saddle Height Standard Height
+FeatureOf Saddle Height Extended
+FeatureOf Saddle Height Telescopic
+FeatureOf Saddle Type Brompton
+FeatureOf Saddle Type Brompton with Light
+FeatureOf Saddle Type Special Men
+FeatureOf Saddle Type Special Ladies
+FeatureOf Saddle Type Brompton Wide
+FeatureOf Saddle Type Brompton Wide with Light
+FeatureOf Front Luggage Carrier Block only
+FeatureOf Front Luggage Tote Bag
+FeatureOf Front Luggage Roll Top Bag
+FeatureOf Front Luggage O Bag
+MutuallyExclusive Steel Steel/Titanimum
+(MutuallyExclusive Steel Steel/Titanimum) {parent = "Frame" }
+MutuallyExclusive S Type M Type
+(MutuallyExclusive S Type M Type) {parent = "Handlebar" }
+MutuallyExclusive S Type P Type
+(MutuallyExclusive S Type P Type) {parent = "Handlebar" }
+MutuallyExclusive S Type H Type
+(MutuallyExclusive S Type H Type) {parent = "Handlebar" }
+MutuallyExclusive M Type P Type
+(MutuallyExclusive M Type P Type) {parent = "Handlebar" }
+MutuallyExclusive M Type H Type
+(MutuallyExclusive M Type H Type) {parent = "Handlebar" }
+MutuallyExclusive P Type H Type
+(MutuallyExclusive P Type H Type) {parent = "Handlebar" }
+MutuallyExclusive Black Grey
+(MutuallyExclusive Black Grey) {parent = "Frame Color" }
+MutuallyExclusive Black Raw Lacquer
+(MutuallyExclusive Black Raw Lacquer) {parent = "Frame Color" }
+MutuallyExclusive Grey Raw Lacquer
+(MutuallyExclusive Grey Raw Lacquer) {parent = "Frame Color" }
+MutuallyExclusive Version E Version L
+(MutuallyExclusive Version E Version L) {parent = "Mudguards" }
+MutuallyExclusive Version E Version R
+(MutuallyExclusive Version E Version R) {parent = "Mudguards" }
+MutuallyExclusive Version L Version R
+(MutuallyExclusive Version L Version R) {parent = "Mudguards" }
+MutuallyExclusive 1 2
+(MutuallyExclusive 1 2) {parent = "Number of Gears" }
+MutuallyExclusive 1 3
+(MutuallyExclusive 1 3) {parent = "Number of Gears" }
+MutuallyExclusive 1 6
+(MutuallyExclusive 1 6) {parent = "Number of Gears" }
+MutuallyExclusive 2 3
+(MutuallyExclusive 2 3) {parent = "Number of Gears" }
+MutuallyExclusive 2 6
+(MutuallyExclusive 2 6) {parent = "Number of Gears" }
+MutuallyExclusive 3 6
+(MutuallyExclusive 3 6) {parent = "Number of Gears" }
+MutuallyExclusive Standard +8%
+(MutuallyExclusive Standard +8%) {parent = "Gear Ratio" }
+MutuallyExclusive Standard -12%
+(MutuallyExclusive Standard -12%) {parent = "Gear Ratio" }
+MutuallyExclusive +8% -12%
+(MutuallyExclusive +8% -12%) {parent = "Gear Ratio" }
+MutuallyExclusive Marathon Racer Kojak
+(MutuallyExclusive Marathon Racer Kojak) {parent = "Tyres" }
+MutuallyExclusive Marathon Racer Marathon
+(MutuallyExclusive Marathon Racer Marathon) {parent = "Tyres" }
+MutuallyExclusive Kojak Marathon
+(MutuallyExclusive Kojak Marathon) {parent = "Tyres" }
+MutuallyExclusive Reflectors Only Battery Lightning
+(MutuallyExclusive Reflectors Only Battery Lightning) {parent = "Lightning" }
+MutuallyExclusive Reflectors Only Shimano Hub Dynamo
+(MutuallyExclusive Reflectors Only Shimano Hub Dynamo) {parent = "Lightning" }
+MutuallyExclusive Reflectors Only SON Hub Dynamo
+(MutuallyExclusive Reflectors Only SON Hub Dynamo) {parent = "Lightning" }
+MutuallyExclusive Battery Lightning Shimano Hub Dynamo
+(MutuallyExclusive Battery Lightning Shimano Hub Dynamo) {parent = "Lightning" }
+MutuallyExclusive Battery Lightning SON Hub Dynamo
+(MutuallyExclusive Battery Lightning SON Hub Dynamo) {parent = "Lightning" }
+MutuallyExclusive Shimano Hub Dynamo SON Hub Dynamo
+(MutuallyExclusive Shimano Hub Dynamo SON Hub Dynamo) {parent = "Lightning" }
+MutuallyExclusive Standard Height Extended
+(MutuallyExclusive Standard Height Extended) {parent = "Saddle Height" }
+MutuallyExclusive Standard Height Telescopic
+(MutuallyExclusive Standard Height Telescopic) {parent = "Saddle Height" }
+MutuallyExclusive Extended Telescopic
+(MutuallyExclusive Extended Telescopic) {parent = "Saddle Height" }
+MutuallyExclusive Brompton Brompton with Light
+(MutuallyExclusive Brompton Brompton with Light) {parent = "Saddle Type" }
+MutuallyExclusive Brompton Special Men
+(MutuallyExclusive Brompton Special Men) {parent = "Saddle Type" }
+MutuallyExclusive Brompton Special Ladies
+(MutuallyExclusive Brompton Special Ladies) {parent = "Saddle Type" }
+MutuallyExclusive Brompton Brompton Wide
+(MutuallyExclusive Brompton Brompton Wide) {parent = "Saddle Type" }
+MutuallyExclusive Brompton Brompton Wide with Light
+(MutuallyExclusive Brompton Brompton Wide with Light) {parent = "Saddle Type" }
+MutuallyExclusive Brompton with Light Special Men
+(MutuallyExclusive Brompton with Light Special Men) {parent = "Saddle Type" }
+MutuallyExclusive Brompton with Light Special Ladies
+(MutuallyExclusive Brompton with Light Special Ladies) {parent = "Saddle Type" }
+MutuallyExclusive Brompton with Light Brompton Wide
+(MutuallyExclusive Brompton with Light Brompton Wide) {parent = "Saddle Type" }
+MutuallyExclusive Brompton with Light Brompton Wide with Light
+(MutuallyExclusive Brompton with Light Brompton Wide with Light) {parent = "Saddle Type" }
+MutuallyExclusive Special Men Special Ladies
+(MutuallyExclusive Special Men Special Ladies) {parent = "Saddle Type" }
+MutuallyExclusive Special Men Brompton Wide
+(MutuallyExclusive Special Men Brompton Wide) {parent = "Saddle Type" }
+MutuallyExclusive Special Men Brompton Wide with Light
+(MutuallyExclusive Special Men Brompton Wide with Light) {parent = "Saddle Type" }
+MutuallyExclusive Special Ladies Brompton Wide
+(MutuallyExclusive Special Ladies Brompton Wide) {parent = "Saddle Type" }
+MutuallyExclusive Special Ladies Brompton Wide with Light
+(MutuallyExclusive Special Ladies Brompton Wide with Light) {parent = "Saddle Type" }
+MutuallyExclusive Brompton Wide Brompton Wide with Light
+(MutuallyExclusive Brompton Wide Brompton Wide with Light) {parent = "Saddle Type" }
+MutuallyExclusive Carrier Block only Tote Bag
+(MutuallyExclusive Carrier Block only Tote Bag) {parent = "Front Luggage" }
+MutuallyExclusive Carrier Block only Roll Top Bag
+(MutuallyExclusive Carrier Block only Roll Top Bag) {parent = "Front Luggage" }
+MutuallyExclusive Carrier Block only O Bag
+(MutuallyExclusive Carrier Block only O Bag) {parent = "Front Luggage" }
+MutuallyExclusive Tote Bag Roll Top Bag
+(MutuallyExclusive Tote Bag Roll Top Bag) {parent = "Front Luggage" }
+MutuallyExclusive Tote Bag O Bag
+(MutuallyExclusive Tote Bag O Bag) {parent = "Front Luggage" }
+MutuallyExclusive Roll Top Bag O Bag
+(MutuallyExclusive Roll Top Bag O Bag) {parent = "Front Luggage" }
+RequiredTogether Frame Handlebar
+(RequiredTogether Frame Handlebar) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Frame Color
+(RequiredTogether Frame Frame Color) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Mudguards
+(RequiredTogether Frame Mudguards) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Number of Gears
+(RequiredTogether Frame Number of Gears) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Gear Ratio
+(RequiredTogether Frame Gear Ratio) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Tyres
+(RequiredTogether Frame Tyres) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Lightning
+(RequiredTogether Frame Lightning) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Saddle Height
+(RequiredTogether Frame Saddle Height) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Saddle Type
+(RequiredTogether Frame Saddle Type) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Handlebar Frame Color
+(RequiredTogether Handlebar Frame Color) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Handlebar Mudguards
+(RequiredTogether Handlebar Mudguards) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Handlebar Number of Gears
+(RequiredTogether Handlebar Number of Gears) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Handlebar Gear Ratio
+(RequiredTogether Handlebar Gear Ratio) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Handlebar Tyres
+(RequiredTogether Handlebar Tyres) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Handlebar Lightning
+(RequiredTogether Handlebar Lightning) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Handlebar Saddle Height
+(RequiredTogether Handlebar Saddle Height) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Handlebar Saddle Type
+(RequiredTogether Handlebar Saddle Type) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Color Mudguards
+(RequiredTogether Frame Color Mudguards) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Color Number of Gears
+(RequiredTogether Frame Color Number of Gears) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Color Gear Ratio
+(RequiredTogether Frame Color Gear Ratio) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Color Tyres
+(RequiredTogether Frame Color Tyres) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Color Lightning
+(RequiredTogether Frame Color Lightning) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Color Saddle Height
+(RequiredTogether Frame Color Saddle Height) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Frame Color Saddle Type
+(RequiredTogether Frame Color Saddle Type) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Mudguards Number of Gears
+(RequiredTogether Mudguards Number of Gears) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Mudguards Gear Ratio
+(RequiredTogether Mudguards Gear Ratio) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Mudguards Tyres
+(RequiredTogether Mudguards Tyres) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Mudguards Lightning
+(RequiredTogether Mudguards Lightning) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Mudguards Saddle Height
+(RequiredTogether Mudguards Saddle Height) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Mudguards Saddle Type
+(RequiredTogether Mudguards Saddle Type) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Number of Gears Gear Ratio
+(RequiredTogether Number of Gears Gear Ratio) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Number of Gears Tyres
+(RequiredTogether Number of Gears Tyres) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Number of Gears Lightning
+(RequiredTogether Number of Gears Lightning) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Number of Gears Saddle Height
+(RequiredTogether Number of Gears Saddle Height) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Number of Gears Saddle Type
+(RequiredTogether Number of Gears Saddle Type) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Gear Ratio Tyres
+(RequiredTogether Gear Ratio Tyres) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Gear Ratio Lightning
+(RequiredTogether Gear Ratio Lightning) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Gear Ratio Saddle Height
+(RequiredTogether Gear Ratio Saddle Height) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Gear Ratio Saddle Type
+(RequiredTogether Gear Ratio Saddle Type) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Tyres Lightning
+(RequiredTogether Tyres Lightning) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Tyres Saddle Height
+(RequiredTogether Tyres Saddle Height) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Tyres Saddle Type
+(RequiredTogether Tyres Saddle Type) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Lightning Saddle Height
+(RequiredTogether Lightning Saddle Height) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Lightning Saddle Type
+(RequiredTogether Lightning Saddle Type) {parent = "BikeConfigurator" M = "true" }
+RequiredTogether Saddle Height Saddle Type
+(RequiredTogether Saddle Height Saddle Type) {parent = "BikeConfigurator" M = "true" }

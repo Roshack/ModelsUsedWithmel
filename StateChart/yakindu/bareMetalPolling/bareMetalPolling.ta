@@ -1,0 +1,16 @@
+$INSTANCE _eNExcPPVEemG_r1_dLU9vg StateMachine
+_eNExcPPVEemG_r1_dLU9vg {name = "StateMachine" }
+$INSTANCE _eNdL8fPVEemG_r1_dLU9vg State
+_eNdL8fPVEemG_r1_dLU9vg {type = "Entry" }
+$INSTANCE _eNeaFPPVEemG_r1_dLU9vg State
+_eNeaFPPVEemG_r1_dLU9vg {exitEvent = "" label = "StateA" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "raise outEvent1" }
+$INSTANCE _nt8qwPPVEemG_r1_dLU9vg State
+_nt8qwPPVEemG_r1_dLU9vg {exitEvent = "" label = "StateB" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "raise outEvent2" }
+$INSTANCE _9S-ScPPVEemG_r1_dLU9vg State
+Transition _eNdL8fPVEemG_r1_dLU9vg _eNeaFPPVEemG_r1_dLU9vg
+Transition _eNeaFPPVEemG_r1_dLU9vg _nt8qwPPVEemG_r1_dLU9vg
+(Transition _eNeaFPPVEemG_r1_dLU9vg _nt8qwPPVEemG_r1_dLU9vg) {guard = "" trigger = "inEvent1" event = "" }
+Transition _eNeaFPPVEemG_r1_dLU9vg _9S-ScPPVEemG_r1_dLU9vg
+(Transition _eNeaFPPVEemG_r1_dLU9vg _9S-ScPPVEemG_r1_dLU9vg) {guard = "" trigger = "inEvent2 " event = "" }
+Transition _nt8qwPPVEemG_r1_dLU9vg _eNeaFPPVEemG_r1_dLU9vg
+(Transition _nt8qwPPVEemG_r1_dLU9vg _eNeaFPPVEemG_r1_dLU9vg) {guard = "" trigger = "after 2 s" event = "" }

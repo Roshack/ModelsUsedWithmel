@@ -1,0 +1,160 @@
+$INSTANCE _5pp6gOjhEem63MxSZjUTmQ StateMachine
+_5pp6gOjhEem63MxSZjUTmQ {name = "ArduinoHMI" }
+$INSTANCE _5pxPQejhEem63MxSZjUTmQ State
+_5pxPQejhEem63MxSZjUTmQ {type = "Entry" }
+$INSTANCE _eXtvIOjoEem63MxSZjUTmQ State
+_eXtvIOjoEem63MxSZjUTmQ {exitEvent = "" label = "Handle States" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "displayLCDString("Handle States", 14, 0)" }
+$INSTANCE _ivjSEOjoEem63MxSZjUTmQ State
+_ivjSEOjoEem63MxSZjUTmQ {type = "Entry" }
+$INSTANCE _ivjSEujoEem63MxSZjUTmQ State
+_ivjSEujoEem63MxSZjUTmQ {exitEvent = "" label = "Selecting" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _ivj5IOjoEem63MxSZjUTmQ State
+_ivj5IOjoEem63MxSZjUTmQ {type = "State" label = "Handle States Active" }
+$INSTANCE _ivj5KOjoEem63MxSZjUTmQ State
+_ivj5KOjoEem63MxSZjUTmQ {exitEvent = "" label = "Top" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "displayLCDString("Top", 3, 1)" }
+$INSTANCE _ivj5LujoEem63MxSZjUTmQ State
+_ivj5LujoEem63MxSZjUTmQ {exitEvent = "" label = "Middle" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "displayLCDString("Middle", 6, 1)" }
+$INSTANCE _ivj5RujoEem63MxSZjUTmQ State
+_ivj5RujoEem63MxSZjUTmQ {exitEvent = "" label = "Left" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "displayLCDString("Left", 4, 1)" }
+$INSTANCE _ivj5TOjoEem63MxSZjUTmQ State
+_ivj5TOjoEem63MxSZjUTmQ {exitEvent = "" label = "Bottom" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "displayLCDString("Bottom", 6, 1)" }
+$INSTANCE _ivkgMOjoEem63MxSZjUTmQ State
+_ivkgMOjoEem63MxSZjUTmQ {type = "Entry" }
+$INSTANCE _ivj5QOjoEem63MxSZjUTmQ State
+_ivj5QOjoEem63MxSZjUTmQ {exitEvent = "" label = "Right" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "displayLCDString("Right", 5, 1)" }
+$INSTANCE _vbZSkOjoEem63MxSZjUTmQ State
+_vbZSkOjoEem63MxSZjUTmQ {exitEvent = "" label = "Stopwatch" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "displayLCDString("Stopwatch", 9, 0)" }
+$INSTANCE _lOwbQOjvEem63MxSZjUTmQ State
+_lOwbQOjvEem63MxSZjUTmQ {exitEvent = "" label = "Selecting" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _74w4kOjwEem63MxSZjUTmQ State
+_74w4kOjwEem63MxSZjUTmQ {type = "Entry" }
+$INSTANCE _GAVvEOj9EemNiKB0504_ZA State
+_GAVvEOj9EemNiKB0504_ZA {type = "State" label = "Stopwatch Active" }
+$INSTANCE _4RaEcOj9EemNiKB0504_ZA State
+_4RaEcOj9EemNiKB0504_ZA {type = "Entry" }
+$INSTANCE _Aj7UQOj-EemNiKB0504_ZA State
+_Aj7UQOj-EemNiKB0504_ZA {exitEvent = "" label = "Reset Timer" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "timeCnt = 0;\ndisplayLCDInteger(timeCnt, 1)" }
+$INSTANCE _eixtoOj-EemNiKB0504_ZA State
+_eixtoOj-EemNiKB0504_ZA {exitEvent = "" label = "Start Timer" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "displayLCDInteger(timeCnt, 1)" }
+$INSTANCE _FQ7ZcOj_EemNiKB0504_ZA State
+_FQ7ZcOj_EemNiKB0504_ZA {exitEvent = "" label = "Stop Timer" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "displayLCDInteger(timeCnt, 1)" }
+$INSTANCE __jOS8OkCEemNiKB0504_ZA State
+__jOS8OkCEemNiKB0504_ZA {exitEvent = "" label = "Counter" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "displayLCDString("Counter", 7, 0)" }
+$INSTANCE __jO6G-kCEemNiKB0504_ZA State
+__jO6G-kCEemNiKB0504_ZA {exitEvent = "" label = "Selecting" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE __jPhGOkCEemNiKB0504_ZA State
+__jPhGOkCEemNiKB0504_ZA {type = "Entry" }
+$INSTANCE __jPhGukCEemNiKB0504_ZA State
+__jPhGukCEemNiKB0504_ZA {type = "State" label = "Counter Active" }
+$INSTANCE __jQIK-kCEemNiKB0504_ZA State
+__jQIK-kCEemNiKB0504_ZA {type = "Entry" }
+$INSTANCE __jQILekCEemNiKB0504_ZA State
+__jQILekCEemNiKB0504_ZA {exitEvent = "" label = "Reset Counter" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "cnt = 0;\ndisplayLCDInteger(cnt, 1)" }
+$INSTANCE __jQvM-kCEemNiKB0504_ZA State
+__jQvM-kCEemNiKB0504_ZA {exitEvent = "" label = "Count" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "displayLCDInteger(cnt, 1)" }
+$INSTANCE _eXu9QujoEem63MxSZjUTmQ Region
+_eXu9QujoEem63MxSZjUTmQ {label = "r1" }
+$INSTANCE _ivj5J-joEem63MxSZjUTmQ Region
+_ivj5J-joEem63MxSZjUTmQ {label = "handle states" }
+$INSTANCE _vbZ5oOjoEem63MxSZjUTmQ Region
+_vbZ5oOjoEem63MxSZjUTmQ {label = "r1" }
+$INSTANCE _GAYyYOj9EemNiKB0504_ZA Region
+_GAYyYOj9EemNiKB0504_ZA {label = "stopwatch" }
+$INSTANCE __jO6GukCEemNiKB0504_ZA Region
+__jO6GukCEemNiKB0504_ZA {label = "r1" }
+$INSTANCE __jQIKukCEemNiKB0504_ZA Region
+__jQIKukCEemNiKB0504_ZA {label = "counter" }
+Transition _5pxPQejhEem63MxSZjUTmQ _eXtvIOjoEem63MxSZjUTmQ
+(Transition _5pxPQejhEem63MxSZjUTmQ _eXtvIOjoEem63MxSZjUTmQ) {guard = "" trigger = "" event = "" }
+Transition _ivjSEOjoEem63MxSZjUTmQ _ivjSEujoEem63MxSZjUTmQ
+(Transition _ivjSEOjoEem63MxSZjUTmQ _ivjSEujoEem63MxSZjUTmQ) {guard = "" trigger = "" event = "" }
+Transition _ivjSEujoEem63MxSZjUTmQ _ivj5IOjoEem63MxSZjUTmQ
+(Transition _ivjSEujoEem63MxSZjUTmQ _ivj5IOjoEem63MxSZjUTmQ) {guard = "" trigger = "select" event = "" }
+Transition _ivjSEujoEem63MxSZjUTmQ _lOwbQOjvEem63MxSZjUTmQ
+(Transition _ivjSEujoEem63MxSZjUTmQ _lOwbQOjvEem63MxSZjUTmQ) {guard = "" trigger = "right" event = "" }
+Transition _ivj5IOjoEem63MxSZjUTmQ _ivjSEujoEem63MxSZjUTmQ
+(Transition _ivj5IOjoEem63MxSZjUTmQ _ivjSEujoEem63MxSZjUTmQ) {guard = "" trigger = "select " event = " \nclearLCDRow(1)" }
+Transition _ivj5KOjoEem63MxSZjUTmQ _ivj5LujoEem63MxSZjUTmQ
+(Transition _ivj5KOjoEem63MxSZjUTmQ _ivj5LujoEem63MxSZjUTmQ) {guard = "" trigger = "down" event = "" }
+Transition _ivj5LujoEem63MxSZjUTmQ _ivj5QOjoEem63MxSZjUTmQ
+(Transition _ivj5LujoEem63MxSZjUTmQ _ivj5QOjoEem63MxSZjUTmQ) {guard = "" trigger = "right" event = "" }
+Transition _ivj5LujoEem63MxSZjUTmQ _ivj5TOjoEem63MxSZjUTmQ
+(Transition _ivj5LujoEem63MxSZjUTmQ _ivj5TOjoEem63MxSZjUTmQ) {guard = "" trigger = "down" event = "" }
+Transition _ivj5LujoEem63MxSZjUTmQ _ivj5RujoEem63MxSZjUTmQ
+(Transition _ivj5LujoEem63MxSZjUTmQ _ivj5RujoEem63MxSZjUTmQ) {guard = "" trigger = "left" event = "" }
+Transition _ivj5LujoEem63MxSZjUTmQ _ivj5KOjoEem63MxSZjUTmQ
+(Transition _ivj5LujoEem63MxSZjUTmQ _ivj5KOjoEem63MxSZjUTmQ) {guard = "" trigger = "up" event = "" }
+Transition _ivj5RujoEem63MxSZjUTmQ _ivj5LujoEem63MxSZjUTmQ
+(Transition _ivj5RujoEem63MxSZjUTmQ _ivj5LujoEem63MxSZjUTmQ) {guard = "" trigger = "right" event = "" }
+Transition _ivj5TOjoEem63MxSZjUTmQ _ivj5LujoEem63MxSZjUTmQ
+(Transition _ivj5TOjoEem63MxSZjUTmQ _ivj5LujoEem63MxSZjUTmQ) {guard = "" trigger = "up" event = "" }
+Transition _ivkgMOjoEem63MxSZjUTmQ _ivj5KOjoEem63MxSZjUTmQ
+(Transition _ivkgMOjoEem63MxSZjUTmQ _ivj5KOjoEem63MxSZjUTmQ) {guard = "" trigger = "" event = "" }
+Transition _ivj5QOjoEem63MxSZjUTmQ _ivj5LujoEem63MxSZjUTmQ
+(Transition _ivj5QOjoEem63MxSZjUTmQ _ivj5LujoEem63MxSZjUTmQ) {guard = "" trigger = "left" event = "" }
+Transition _lOwbQOjvEem63MxSZjUTmQ _ivjSEujoEem63MxSZjUTmQ
+(Transition _lOwbQOjvEem63MxSZjUTmQ _ivjSEujoEem63MxSZjUTmQ) {guard = "" trigger = "left" event = "" }
+Transition _lOwbQOjvEem63MxSZjUTmQ _GAVvEOj9EemNiKB0504_ZA
+(Transition _lOwbQOjvEem63MxSZjUTmQ _GAVvEOj9EemNiKB0504_ZA) {guard = "" trigger = "select" event = "" }
+Transition _lOwbQOjvEem63MxSZjUTmQ __jO6G-kCEemNiKB0504_ZA
+(Transition _lOwbQOjvEem63MxSZjUTmQ __jO6G-kCEemNiKB0504_ZA) {guard = "" trigger = "right" event = "" }
+Transition _74w4kOjwEem63MxSZjUTmQ _lOwbQOjvEem63MxSZjUTmQ
+(Transition _74w4kOjwEem63MxSZjUTmQ _lOwbQOjvEem63MxSZjUTmQ) {guard = "" trigger = "" event = "" }
+Transition _GAVvEOj9EemNiKB0504_ZA _lOwbQOjvEem63MxSZjUTmQ
+(Transition _GAVvEOj9EemNiKB0504_ZA _lOwbQOjvEem63MxSZjUTmQ) {guard = "" trigger = "select " event = " \nclearLCDRow(1)" }
+Transition _4RaEcOj9EemNiKB0504_ZA _Aj7UQOj-EemNiKB0504_ZA
+(Transition _4RaEcOj9EemNiKB0504_ZA _Aj7UQOj-EemNiKB0504_ZA) {guard = "" trigger = "" event = "" }
+Transition _Aj7UQOj-EemNiKB0504_ZA _eixtoOj-EemNiKB0504_ZA
+(Transition _Aj7UQOj-EemNiKB0504_ZA _eixtoOj-EemNiKB0504_ZA) {guard = "" trigger = "left" event = "" }
+Transition _eixtoOj-EemNiKB0504_ZA _FQ7ZcOj_EemNiKB0504_ZA
+(Transition _eixtoOj-EemNiKB0504_ZA _FQ7ZcOj_EemNiKB0504_ZA) {guard = "" trigger = "right" event = "" }
+Transition _eixtoOj-EemNiKB0504_ZA _eixtoOj-EemNiKB0504_ZA
+(Transition _eixtoOj-EemNiKB0504_ZA _eixtoOj-EemNiKB0504_ZA) {guard = "" trigger = "after 100 ms " event = " timeCnt = timeCnt +  100" }
+Transition _FQ7ZcOj_EemNiKB0504_ZA _eixtoOj-EemNiKB0504_ZA
+(Transition _FQ7ZcOj_EemNiKB0504_ZA _eixtoOj-EemNiKB0504_ZA) {guard = "" trigger = "left" event = "" }
+Transition _FQ7ZcOj_EemNiKB0504_ZA _Aj7UQOj-EemNiKB0504_ZA
+(Transition _FQ7ZcOj_EemNiKB0504_ZA _Aj7UQOj-EemNiKB0504_ZA) {guard = "" trigger = "up, down " event = " clearLCDRow(1)" }
+Transition __jO6G-kCEemNiKB0504_ZA __jPhGukCEemNiKB0504_ZA
+(Transition __jO6G-kCEemNiKB0504_ZA __jPhGukCEemNiKB0504_ZA) {guard = "" trigger = "select" event = "" }
+Transition __jO6G-kCEemNiKB0504_ZA _lOwbQOjvEem63MxSZjUTmQ
+(Transition __jO6G-kCEemNiKB0504_ZA _lOwbQOjvEem63MxSZjUTmQ) {guard = "" trigger = "left" event = "" }
+Transition __jPhGOkCEemNiKB0504_ZA __jO6G-kCEemNiKB0504_ZA
+(Transition __jPhGOkCEemNiKB0504_ZA __jO6G-kCEemNiKB0504_ZA) {guard = "" trigger = "" event = "" }
+Transition __jPhGukCEemNiKB0504_ZA __jO6G-kCEemNiKB0504_ZA
+(Transition __jPhGukCEemNiKB0504_ZA __jO6G-kCEemNiKB0504_ZA) {guard = "" trigger = "select " event = " \nclearLCDRow(1)" }
+Transition __jQIK-kCEemNiKB0504_ZA __jQILekCEemNiKB0504_ZA
+(Transition __jQIK-kCEemNiKB0504_ZA __jQILekCEemNiKB0504_ZA) {guard = "" trigger = "" event = "" }
+Transition __jQILekCEemNiKB0504_ZA __jQvM-kCEemNiKB0504_ZA
+(Transition __jQILekCEemNiKB0504_ZA __jQvM-kCEemNiKB0504_ZA) {guard = "" trigger = "left, right, up, down" event = "" }
+Transition __jQvM-kCEemNiKB0504_ZA __jQvM-kCEemNiKB0504_ZA
+(Transition __jQvM-kCEemNiKB0504_ZA __jQvM-kCEemNiKB0504_ZA) {guard = "" trigger = "up " event = " cnt = cnt +  1" }
+Transition __jQvM-kCEemNiKB0504_ZA __jQILekCEemNiKB0504_ZA
+(Transition __jQvM-kCEemNiKB0504_ZA __jQILekCEemNiKB0504_ZA) {guard = "" trigger = "left, right" event = "" }
+SubState _eXtvIOjoEem63MxSZjUTmQ _ivjSEujoEem63MxSZjUTmQ
+SubState _eXtvIOjoEem63MxSZjUTmQ _ivj5IOjoEem63MxSZjUTmQ
+SubState _ivj5IOjoEem63MxSZjUTmQ _ivj5KOjoEem63MxSZjUTmQ
+SubState _ivj5IOjoEem63MxSZjUTmQ _ivj5LujoEem63MxSZjUTmQ
+SubState _ivj5IOjoEem63MxSZjUTmQ _ivj5RujoEem63MxSZjUTmQ
+SubState _ivj5IOjoEem63MxSZjUTmQ _ivj5TOjoEem63MxSZjUTmQ
+SubState _ivj5IOjoEem63MxSZjUTmQ _ivj5QOjoEem63MxSZjUTmQ
+SubState _vbZSkOjoEem63MxSZjUTmQ _lOwbQOjvEem63MxSZjUTmQ
+SubState _vbZSkOjoEem63MxSZjUTmQ _GAVvEOj9EemNiKB0504_ZA
+SubState _GAVvEOj9EemNiKB0504_ZA _Aj7UQOj-EemNiKB0504_ZA
+SubState _GAVvEOj9EemNiKB0504_ZA _eixtoOj-EemNiKB0504_ZA
+SubState _GAVvEOj9EemNiKB0504_ZA _FQ7ZcOj_EemNiKB0504_ZA
+SubState __jOS8OkCEemNiKB0504_ZA __jO6G-kCEemNiKB0504_ZA
+SubState __jOS8OkCEemNiKB0504_ZA __jPhGukCEemNiKB0504_ZA
+SubState __jPhGukCEemNiKB0504_ZA __jQILekCEemNiKB0504_ZA
+SubState __jPhGukCEemNiKB0504_ZA __jQvM-kCEemNiKB0504_ZA
+RegionOf _eXtvIOjoEem63MxSZjUTmQ _eXu9QujoEem63MxSZjUTmQ
+(RegionOf _eXtvIOjoEem63MxSZjUTmQ _eXu9QujoEem63MxSZjUTmQ) {rLabel = "r1" sLabel = "Handle States" }
+RegionOf _ivj5IOjoEem63MxSZjUTmQ _ivj5J-joEem63MxSZjUTmQ
+(RegionOf _ivj5IOjoEem63MxSZjUTmQ _ivj5J-joEem63MxSZjUTmQ) {rLabel = "handle states" sLabel = "Handle States Active" }
+RegionOf _vbZSkOjoEem63MxSZjUTmQ _vbZ5oOjoEem63MxSZjUTmQ
+(RegionOf _vbZSkOjoEem63MxSZjUTmQ _vbZ5oOjoEem63MxSZjUTmQ) {rLabel = "r1" sLabel = "Stopwatch" }
+RegionOf _GAVvEOj9EemNiKB0504_ZA _GAYyYOj9EemNiKB0504_ZA
+(RegionOf _GAVvEOj9EemNiKB0504_ZA _GAYyYOj9EemNiKB0504_ZA) {rLabel = "stopwatch" sLabel = "Stopwatch Active" }
+RegionOf __jOS8OkCEemNiKB0504_ZA __jO6GukCEemNiKB0504_ZA
+(RegionOf __jOS8OkCEemNiKB0504_ZA __jO6GukCEemNiKB0504_ZA) {rLabel = "r1" sLabel = "Counter" }
+RegionOf __jPhGukCEemNiKB0504_ZA __jQIKukCEemNiKB0504_ZA
+(RegionOf __jPhGukCEemNiKB0504_ZA __jQIKukCEemNiKB0504_ZA) {rLabel = "counter" sLabel = "Counter Active" }

@@ -1,0 +1,18 @@
+$INSTANCE _j6o2wK9YEei7VJyblLElYA StateMachine
+_j6o2wK9YEei7VJyblLElYA {name = "Arduino_Blinky_SCT" }
+$INSTANCE _j7cIAK9YEei7VJyblLElYA State
+_j7cIAK9YEei7VJyblLElYA {type = "Entry" }
+$INSTANCE _j7d9MK9YEei7VJyblLElYA State
+_j7d9MK9YEei7VJyblLElYA {exitEvent = "" label = "Led On" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "digitalWrite(ledPin, HIGH)" }
+$INSTANCE _oSIbcK9YEei7VJyblLElYA State
+_oSIbcK9YEei7VJyblLElYA {exitEvent = "" label = "Led Off" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "digitalWrite(ledPin, LOW)" }
+$INSTANCE _B7hQcK9ZEei7VJyblLElYA State
+_B7hQcK9ZEei7VJyblLElYA {exitEvent = "" label = "Led Init" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "pinMode(ledPin, OUTPUT)" }
+Transition _j7cIAK9YEei7VJyblLElYA _B7hQcK9ZEei7VJyblLElYA
+(Transition _j7cIAK9YEei7VJyblLElYA _B7hQcK9ZEei7VJyblLElYA) {guard = "" trigger = "" event = "" }
+Transition _j7d9MK9YEei7VJyblLElYA _oSIbcK9YEei7VJyblLElYA
+(Transition _j7d9MK9YEei7VJyblLElYA _oSIbcK9YEei7VJyblLElYA) {guard = "" trigger = "after 1 s" event = "" }
+Transition _oSIbcK9YEei7VJyblLElYA _j7d9MK9YEei7VJyblLElYA
+(Transition _oSIbcK9YEei7VJyblLElYA _j7d9MK9YEei7VJyblLElYA) {guard = "" trigger = "after 1 s" event = "" }
+Transition _B7hQcK9ZEei7VJyblLElYA _j7d9MK9YEei7VJyblLElYA
+(Transition _B7hQcK9ZEei7VJyblLElYA _j7d9MK9YEei7VJyblLElYA) {guard = "" trigger = "always" event = "" }

@@ -1,0 +1,109 @@
+$INSTANCE _O39IYAClEea895739UzP5A StateMachine
+_O39IYAClEea895739UzP5A {name = "CoffeeMachineCpp" }
+$INSTANCE _O58scAClEea895739UzP5A State
+_O58scAClEea895739UzP5A {type = "Entry" }
+$INSTANCE _O5_vwAClEea895739UzP5A State
+_O5_vwAClEea895739UzP5A {exitEvent = "" label = "Off" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "cm.stopHeating" }
+$INSTANCE _b-92YACvEea895739UzP5A State
+_b-92YACvEea895739UzP5A {exitEvent = "" label = "On" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "hmi.show("** Welcome to YAKINDU Coffee Maker **\n")" }
+$INSTANCE _E_xEwAF1Eea895739UzP5A State
+_E_xEwAF1Eea895739UzP5A {type = "Entry" }
+$INSTANCE _qGqp0AHAEealScXSNgVnFg State
+_qGqp0AHAEealScXSNgVnFg {exitEvent = "processing = false" label = "Heating Up" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "cm.startHeating(); \n\thmi.show("* heating\n");\n\tprocessing = true" }
+$INSTANCE _pB-yUAHDEealScXSNgVnFg State
+_pB-yUAHDEealScXSNgVnFg {exitEvent = "" label = "Wait For Choice" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "hmi.show("* choose:\n");\nhmi.show("(1) coffee\n"); \nhmi.show("(2) espresso\n");\nhmi.show("(3) cappucino\n");\nhmi.show("(4) latte macchiato\n");\nhmi.show("(5) milk\n")" }
+$INSTANCE _8IKRoAHGEealScXSNgVnFg State
+_8IKRoAHGEealScXSNgVnFg {exitEvent = "" label = "Save Energy" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "cm.stopHeating;\n \thmi.show("* save energy - continue with any command ...\n")" }
+$INSTANCE _EQtfwAIMEealScXSNgVnFg State
+_EQtfwAIMEealScXSNgVnFg {exitEvent = "processing = false" label = "Process Recipe" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "hmi.showPrepare(userInput); lastChoice = userInput; processing = true" }
+$INSTANCE _YR0O4AISEealScXSNgVnFg State
+$INSTANCE _utECAAIUEealScXSNgVnFg State
+$INSTANCE _ktaQEAIWEealScXSNgVnFg State
+$INSTANCE _L5zXEAIXEealScXSNgVnFg State
+_L5zXEAIXEealScXSNgVnFg {type = "Exit" label = "" }
+$INSTANCE _HEZeIOclEeiM75VA08_rkw State
+_HEZeIOclEeiM75VA08_rkw {exitEvent = "" label = "Make Coffee" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _HEZeJeclEeiM75VA08_rkw State
+_HEZeJeclEeiM75VA08_rkw {exitEvent = "cm.stopMilling" label = "Milling Beans" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "cm.startMilling" }
+$INSTANCE _HEaFQuclEeiM75VA08_rkw State
+_HEaFQuclEeiM75VA08_rkw {exitEvent = "cm.stopPumping" label = "Brew Coffee" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "cm.startPumping" }
+$INSTANCE _HEasVeclEeiM75VA08_rkw State
+_HEasVeclEeiM75VA08_rkw {type = "Entry" }
+$INSTANCE _HEasV-clEeiM75VA08_rkw State
+_HEasV-clEeiM75VA08_rkw {type = "Exit" label = "" }
+$INSTANCE _MbcbXeclEeiM75VA08_rkw State
+_MbcbXeclEeiM75VA08_rkw {type = "State" label = "Make Milk" }
+$INSTANCE _MbdCZOclEeiM75VA08_rkw State
+_MbdCZOclEeiM75VA08_rkw {type = "Entry" }
+$INSTANCE _MbdCZuclEeiM75VA08_rkw State
+_MbdCZuclEeiM75VA08_rkw {type = "State" label = "Make Steam" }
+$INSTANCE _Mbdpd-clEeiM75VA08_rkw State
+_Mbdpd-clEeiM75VA08_rkw {type = "Exit" label = "" }
+$INSTANCE _EQQ6cAF1Eea895739UzP5A Region
+_EQQ6cAF1Eea895739UzP5A {label = "r" }
+$INSTANCE _dEXmoAIMEealScXSNgVnFg Region
+_dEXmoAIMEealScXSNgVnFg {label = "r" }
+$INSTANCE _HEZeJOclEeiM75VA08_rkw Region
+_HEZeJOclEeiM75VA08_rkw {label = "r" }
+$INSTANCE _MbdCY-clEeiM75VA08_rkw Region
+_MbdCY-clEeiM75VA08_rkw {label = "r" }
+Transition _O58scAClEea895739UzP5A _O5_vwAClEea895739UzP5A
+Transition _O5_vwAClEea895739UzP5A _b-92YACvEea895739UzP5A
+(Transition _O5_vwAClEea895739UzP5A _b-92YACvEea895739UzP5A) {guard = "userInput ==  CM_HMI.UserEvents.ON_OFF" trigger = "" event = "" }
+Transition _b-92YACvEea895739UzP5A _O5_vwAClEea895739UzP5A
+(Transition _b-92YACvEea895739UzP5A _O5_vwAClEea895739UzP5A) {guard = "userInput == CM_HMI.UserEvents.ON_OFF" trigger = "" event = "" }
+Transition _E_xEwAF1Eea895739UzP5A _qGqp0AHAEealScXSNgVnFg
+(Transition _E_xEwAF1Eea895739UzP5A _qGqp0AHAEealScXSNgVnFg) {guard = "" trigger = "" event = "" }
+Transition _qGqp0AHAEealScXSNgVnFg _pB-yUAHDEealScXSNgVnFg
+(Transition _qGqp0AHAEealScXSNgVnFg _pB-yUAHDEealScXSNgVnFg) {guard = "cm.heater.temp >= 95" trigger = "" event = " set heater.temp in simulation manually" }
+Transition _pB-yUAHDEealScXSNgVnFg _8IKRoAHGEealScXSNgVnFg
+(Transition _pB-yUAHDEealScXSNgVnFg _8IKRoAHGEealScXSNgVnFg) {guard = "" trigger = "after 30s" event = "" }
+Transition _pB-yUAHDEealScXSNgVnFg _YR0O4AISEealScXSNgVnFg
+(Transition _pB-yUAHDEealScXSNgVnFg _YR0O4AISEealScXSNgVnFg) {guard = " CM_HMI.UserEvents.COFFEE <= userInput && \n  userInput <= CM_HMI.UserEvents.MILK " trigger = "" event = " recipe = cm.get_recipe(userInput)\n\n// set recipe in simulation manually \n" }
+Transition _8IKRoAHGEealScXSNgVnFg _qGqp0AHAEealScXSNgVnFg
+(Transition _8IKRoAHGEealScXSNgVnFg _qGqp0AHAEealScXSNgVnFg) {guard = "userInput != CM_HMI.UserEvents.NONE" trigger = "" event = "" }
+Transition _EQtfwAIMEealScXSNgVnFg _pB-yUAHDEealScXSNgVnFg
+(Transition _EQtfwAIMEealScXSNgVnFg _pB-yUAHDEealScXSNgVnFg) {guard = "" trigger = "" event = " hmi.showDone(lastChoice)" }
+Transition _YR0O4AISEealScXSNgVnFg _MbcbXeclEeiM75VA08_rkw
+(Transition _YR0O4AISEealScXSNgVnFg _MbcbXeclEeiM75VA08_rkw) {guard = " recipe.milk_volume > 0 \n&& recipe.milk_first" trigger = "" event = "" }
+Transition _YR0O4AISEealScXSNgVnFg _HEZeIOclEeiM75VA08_rkw
+(Transition _YR0O4AISEealScXSNgVnFg _HEZeIOclEeiM75VA08_rkw) {guard = "" trigger = "else" event = "" }
+Transition _utECAAIUEealScXSNgVnFg _MbcbXeclEeiM75VA08_rkw
+(Transition _utECAAIUEealScXSNgVnFg _MbcbXeclEeiM75VA08_rkw) {guard = " (! recipe.milk_first) \n&& recipe.milk_volume > 0" trigger = "" event = "" }
+Transition _utECAAIUEealScXSNgVnFg _L5zXEAIXEealScXSNgVnFg
+(Transition _utECAAIUEealScXSNgVnFg _L5zXEAIXEealScXSNgVnFg) {guard = "" trigger = "else" event = "" }
+Transition _ktaQEAIWEealScXSNgVnFg _HEZeIOclEeiM75VA08_rkw
+(Transition _ktaQEAIWEealScXSNgVnFg _HEZeIOclEeiM75VA08_rkw) {guard = " recipe.milk_first\n&& recipe.coffee_mass > 0" trigger = "" event = "" }
+Transition _ktaQEAIWEealScXSNgVnFg _L5zXEAIXEealScXSNgVnFg
+(Transition _ktaQEAIWEealScXSNgVnFg _L5zXEAIXEealScXSNgVnFg) {guard = "" trigger = "else" event = "" }
+Transition _HEZeIOclEeiM75VA08_rkw _utECAAIUEealScXSNgVnFg
+(Transition _HEZeIOclEeiM75VA08_rkw _utECAAIUEealScXSNgVnFg) {guard = "" trigger = "" event = "" }
+Transition _HEZeJeclEeiM75VA08_rkw _HEaFQuclEeiM75VA08_rkw
+(Transition _HEZeJeclEeiM75VA08_rkw _HEaFQuclEeiM75VA08_rkw) {guard = "" trigger = "after recipe.coffee_mass s" event = "" }
+Transition _HEaFQuclEeiM75VA08_rkw _HEasV-clEeiM75VA08_rkw
+(Transition _HEaFQuclEeiM75VA08_rkw _HEasV-clEeiM75VA08_rkw) {guard = "" trigger = "after \nrecipe.water_volume * 60 ms" event = "" }
+Transition _HEasVeclEeiM75VA08_rkw _HEZeJeclEeiM75VA08_rkw
+(Transition _HEasVeclEeiM75VA08_rkw _HEZeJeclEeiM75VA08_rkw) {guard = "" trigger = "" event = "" }
+Transition _MbcbXeclEeiM75VA08_rkw _ktaQEAIWEealScXSNgVnFg
+(Transition _MbcbXeclEeiM75VA08_rkw _ktaQEAIWEealScXSNgVnFg) {guard = "" trigger = "" event = "" }
+Transition _MbdCZOclEeiM75VA08_rkw _MbdCZuclEeiM75VA08_rkw
+(Transition _MbdCZOclEeiM75VA08_rkw _MbdCZuclEeiM75VA08_rkw) {guard = "" trigger = "" event = "" }
+Transition _MbdCZuclEeiM75VA08_rkw _Mbdpd-clEeiM75VA08_rkw
+(Transition _MbdCZuclEeiM75VA08_rkw _Mbdpd-clEeiM75VA08_rkw) {guard = "" trigger = "after \n  recipe.milk_volume \n  * 60 \n  ms" event = "" }
+SubState _b-92YACvEea895739UzP5A _qGqp0AHAEealScXSNgVnFg
+SubState _b-92YACvEea895739UzP5A _pB-yUAHDEealScXSNgVnFg
+SubState _b-92YACvEea895739UzP5A _8IKRoAHGEealScXSNgVnFg
+SubState _b-92YACvEea895739UzP5A _EQtfwAIMEealScXSNgVnFg
+SubState _EQtfwAIMEealScXSNgVnFg _HEZeIOclEeiM75VA08_rkw
+SubState _EQtfwAIMEealScXSNgVnFg _MbcbXeclEeiM75VA08_rkw
+SubState _HEZeIOclEeiM75VA08_rkw _HEZeJeclEeiM75VA08_rkw
+SubState _HEZeIOclEeiM75VA08_rkw _HEaFQuclEeiM75VA08_rkw
+SubState _MbcbXeclEeiM75VA08_rkw _MbdCZuclEeiM75VA08_rkw
+RegionOf _b-92YACvEea895739UzP5A _EQQ6cAF1Eea895739UzP5A
+(RegionOf _b-92YACvEea895739UzP5A _EQQ6cAF1Eea895739UzP5A) {rLabel = "r" sLabel = "On" }
+RegionOf _EQtfwAIMEealScXSNgVnFg _dEXmoAIMEealScXSNgVnFg
+(RegionOf _EQtfwAIMEealScXSNgVnFg _dEXmoAIMEealScXSNgVnFg) {rLabel = "r" sLabel = "Process Recipe" }
+RegionOf _HEZeIOclEeiM75VA08_rkw _HEZeJOclEeiM75VA08_rkw
+(RegionOf _HEZeIOclEeiM75VA08_rkw _HEZeJOclEeiM75VA08_rkw) {rLabel = "r" sLabel = "Make Coffee" }
+RegionOf _MbcbXeclEeiM75VA08_rkw _MbdCY-clEeiM75VA08_rkw
+(RegionOf _MbcbXeclEeiM75VA08_rkw _MbdCY-clEeiM75VA08_rkw) {rLabel = "r" sLabel = "Make Milk" }

@@ -1,0 +1,118 @@
+$INSTANCE _NPjBgBA-EeGQ0KsLDV4EFg StateMachine
+_NPjBgBA-EeGQ0KsLDV4EFg {name = "TrafficLightCtrl" }
+$INSTANCE _vg8wEDPQEee5PeA_UCoIqQ State
+_vg8wEDPQEee5PeA_UCoIqQ {exitEvent = "raise TrafficLight.displayNone" label = "main" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _YM5ALSQsEeeu6I-nNWXkgQ State
+_YM5ALSQsEeeu6I-nNWXkgQ {type = "State" label = "interrupted" }
+$INSTANCE _YM5nNiQsEeeu6I-nNWXkgQ State
+_YM5nNiQsEeeu6I-nNWXkgQ {exitEvent = "" label = "Black" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "raise TrafficLight.displayNone" }
+$INSTANCE _YM5nQyQsEeeu6I-nNWXkgQ State
+_YM5nQyQsEeeu6I-nNWXkgQ {type = "Entry" }
+$INSTANCE _YM5nRSQsEeeu6I-nNWXkgQ State
+_YM5nRSQsEeeu6I-nNWXkgQ {exitEvent = "" label = "Yellow" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "raise TrafficLight.displayYellow" }
+$INSTANCE _iLXc8DP6Eee5PeA_UCoIqQ State
+_iLXc8DP6Eee5PeA_UCoIqQ {exitEvent = "" label = "normal" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _Nb3ruzPREee5PeA_UCoIqQ State
+_Nb3ruzPREee5PeA_UCoIqQ {exitEvent = "" label = "Red" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "raise TrafficLight.displayRed;\r\n\t\t\tcounter = redPeriod;\r\n\t\t\traise resetTimer" }
+$INSTANCE _Nb_AeTPREee5PeA_UCoIqQ State
+_Nb_AeTPREee5PeA_UCoIqQ {exitEvent = "" label = "Yellow" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "raise TrafficLight.displayYellow;\r\n\t\t\traise disableTimer" }
+$INSTANCE _Nb5g5TPREee5PeA_UCoIqQ State
+_Nb5g5TPREee5PeA_UCoIqQ {type = "Entry" }
+$INSTANCE _Nb79NDPREee5PeA_UCoIqQ State
+_Nb79NDPREee5PeA_UCoIqQ {exitEvent = "" label = "Green" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "raise TrafficLight.displayGreen;\r\n\t\t\tcounter = greenPeriod;\r\n\t\t\traise resetTimer" }
+$INSTANCE _yhdo0DPSEee5PeA_UCoIqQ State
+_yhdo0DPSEee5PeA_UCoIqQ {type = "Entry" label = "hist" }
+$INSTANCE _jy-hcDSeEeeAPdsPiQ6GsA State
+_jy-hcDSeEeeAPdsPiQ6GsA {type = "Entry" }
+$INSTANCE _NVPT4DQAEee5PeA_UCoIqQ State
+_NVPT4DQAEee5PeA_UCoIqQ {type = "State" label = "disabled" }
+$INSTANCE _Q0XGIDQAEee5PeA_UCoIqQ State
+_Q0XGIDQAEee5PeA_UCoIqQ {exitEvent = "raise Timer.updateTimerValue: Timer.OFF" label = "running" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _LxR4cDSdEeeAPdsPiQ6GsA State
+_LxR4cDSdEeeAPdsPiQ6GsA {type = "Entry" }
+$INSTANCE _QmALsDSdEeeAPdsPiQ6GsA State
+_QmALsDSdEeeAPdsPiQ6GsA {exitEvent = "" label = "Green" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "raise Timer.updateTimerValue: counter" }
+$INSTANCE _Q0yOkDSdEeeAPdsPiQ6GsA State
+_Q0yOkDSdEeeAPdsPiQ6GsA {exitEvent = "" label = "Red" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "raise Timer.updateTimerValue: counter" }
+$INSTANCE _8CvMUNOZEemDw8p9rD3eIQ State
+$INSTANCE _SnDS4DScEeeAPdsPiQ6GsA State
+_SnDS4DScEeeAPdsPiQ6GsA {type = "Entry" }
+$INSTANCE _wY2WgDPSEee5PeA_UCoIqQ State
+_wY2WgDPSEee5PeA_UCoIqQ {type = "Entry" }
+$INSTANCE _1Tw88DV1EeepxriBedJkbw State
+_1Tw88DV1EeepxriBedJkbw {exitEvent = "" label = "off" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _vhVKkDPQEee5PeA_UCoIqQ Region
+_vhVKkDPQEee5PeA_UCoIqQ {label = "trafficlight" }
+$INSTANCE _vhVKkTPQEee5PeA_UCoIqQ Region
+_vhVKkTPQEee5PeA_UCoIqQ {label = "timer" }
+$INSTANCE _YM5nNSQsEeeu6I-nNWXkgQ Region
+_YM5nNSQsEeeu6I-nNWXkgQ {label = "blinking" }
+$INSTANCE _iLYEAjP6Eee5PeA_UCoIqQ Region
+_iLYEAjP6Eee5PeA_UCoIqQ {label = "normal" }
+$INSTANCE _Dx2jwDSdEeeAPdsPiQ6GsA Region
+_Dx2jwDSdEeeAPdsPiQ6GsA {label = "running" }
+Transition _vg8wEDPQEee5PeA_UCoIqQ _1Tw88DV1EeepxriBedJkbw
+(Transition _vg8wEDPQEee5PeA_UCoIqQ _1Tw88DV1EeepxriBedJkbw) {guard = "" trigger = "toggle" event = "" }
+Transition _YM5ALSQsEeeu6I-nNWXkgQ _yhdo0DPSEee5PeA_UCoIqQ
+(Transition _YM5ALSQsEeeu6I-nNWXkgQ _yhdo0DPSEee5PeA_UCoIqQ) {guard = "" trigger = "police_interrupt \n" event = " raise enableTimer" }
+Transition _YM5nNiQsEeeu6I-nNWXkgQ _YM5nRSQsEeeu6I-nNWXkgQ
+(Transition _YM5nNiQsEeeu6I-nNWXkgQ _YM5nRSQsEeeu6I-nNWXkgQ) {guard = "" trigger = "after 500ms" event = "" }
+Transition _YM5nQyQsEeeu6I-nNWXkgQ _YM5nRSQsEeeu6I-nNWXkgQ
+Transition _YM5nRSQsEeeu6I-nNWXkgQ _YM5nNiQsEeeu6I-nNWXkgQ
+(Transition _YM5nRSQsEeeu6I-nNWXkgQ _YM5nNiQsEeeu6I-nNWXkgQ) {guard = "" trigger = "after 500ms" event = "" }
+Transition _iLXc8DP6Eee5PeA_UCoIqQ _YM5ALSQsEeeu6I-nNWXkgQ
+(Transition _iLXc8DP6Eee5PeA_UCoIqQ _YM5ALSQsEeeu6I-nNWXkgQ) {guard = "" trigger = "police_interrupt " event = " raise disableTimer" }
+Transition _Nb3ruzPREee5PeA_UCoIqQ _Nb79NDPREee5PeA_UCoIqQ
+(Transition _Nb3ruzPREee5PeA_UCoIqQ _Nb79NDPREee5PeA_UCoIqQ) {guard = "" trigger = "after  redPeriod s" event = "" }
+Transition _Nb_AeTPREee5PeA_UCoIqQ _Nb3ruzPREee5PeA_UCoIqQ
+(Transition _Nb_AeTPREee5PeA_UCoIqQ _Nb3ruzPREee5PeA_UCoIqQ) {guard = "" trigger = "after yellowPeriod s " event = " \n\traise enableTimer" }
+Transition _Nb5g5TPREee5PeA_UCoIqQ _Nb3ruzPREee5PeA_UCoIqQ
+Transition _Nb79NDPREee5PeA_UCoIqQ _Nb_AeTPREee5PeA_UCoIqQ
+(Transition _Nb79NDPREee5PeA_UCoIqQ _Nb_AeTPREee5PeA_UCoIqQ) {guard = "" trigger = "after greenPeriod s" event = "" }
+Transition _jy-hcDSeEeeAPdsPiQ6GsA _iLXc8DP6Eee5PeA_UCoIqQ
+(Transition _jy-hcDSeEeeAPdsPiQ6GsA _iLXc8DP6Eee5PeA_UCoIqQ) {guard = "" trigger = "" event = "" }
+Transition _NVPT4DQAEee5PeA_UCoIqQ _Q0XGIDQAEee5PeA_UCoIqQ
+(Transition _NVPT4DQAEee5PeA_UCoIqQ _Q0XGIDQAEee5PeA_UCoIqQ) {guard = "" trigger = "enableTimer" event = "" }
+Transition _Q0XGIDQAEee5PeA_UCoIqQ _NVPT4DQAEee5PeA_UCoIqQ
+(Transition _Q0XGIDQAEee5PeA_UCoIqQ _NVPT4DQAEee5PeA_UCoIqQ) {guard = "" trigger = "disableTimer" event = "" }
+Transition _Q0XGIDQAEee5PeA_UCoIqQ _Q0XGIDQAEee5PeA_UCoIqQ
+(Transition _Q0XGIDQAEee5PeA_UCoIqQ _Q0XGIDQAEee5PeA_UCoIqQ) {guard = "" trigger = "resetTimer" event = "" }
+Transition _LxR4cDSdEeeAPdsPiQ6GsA _8CvMUNOZEemDw8p9rD3eIQ
+(Transition _LxR4cDSdEeeAPdsPiQ6GsA _8CvMUNOZEemDw8p9rD3eIQ) {guard = "" trigger = "" event = "" }
+Transition _QmALsDSdEeeAPdsPiQ6GsA _QmALsDSdEeeAPdsPiQ6GsA
+(Transition _QmALsDSdEeeAPdsPiQ6GsA _QmALsDSdEeeAPdsPiQ6GsA) {guard = "" trigger = "after 1s " event = " counter -= 1" }
+Transition _Q0yOkDSdEeeAPdsPiQ6GsA _Q0yOkDSdEeeAPdsPiQ6GsA
+(Transition _Q0yOkDSdEeeAPdsPiQ6GsA _Q0yOkDSdEeeAPdsPiQ6GsA) {guard = "" trigger = "after 1s " event = " counter -= 1" }
+Transition _8CvMUNOZEemDw8p9rD3eIQ _QmALsDSdEeeAPdsPiQ6GsA
+(Transition _8CvMUNOZEemDw8p9rD3eIQ _QmALsDSdEeeAPdsPiQ6GsA) {guard = "active(TrafficLightCtrl.main.main.trafficlight.normal.normal.Green)" trigger = "" event = " raise Timer.updateTimerColour: "Green"" }
+Transition _8CvMUNOZEemDw8p9rD3eIQ _Q0yOkDSdEeeAPdsPiQ6GsA
+(Transition _8CvMUNOZEemDw8p9rD3eIQ _Q0yOkDSdEeeAPdsPiQ6GsA) {guard = "" trigger = "else\n\t" event = " raise Timer.updateTimerColour: "Red"" }
+Transition _SnDS4DScEeeAPdsPiQ6GsA _Q0XGIDQAEee5PeA_UCoIqQ
+(Transition _SnDS4DScEeeAPdsPiQ6GsA _Q0XGIDQAEee5PeA_UCoIqQ) {guard = "" trigger = "" event = "" }
+Transition _wY2WgDPSEee5PeA_UCoIqQ _1Tw88DV1EeepxriBedJkbw
+(Transition _wY2WgDPSEee5PeA_UCoIqQ _1Tw88DV1EeepxriBedJkbw) {guard = "" trigger = "" event = "" }
+Transition _1Tw88DV1EeepxriBedJkbw _vg8wEDPQEee5PeA_UCoIqQ
+(Transition _1Tw88DV1EeepxriBedJkbw _vg8wEDPQEee5PeA_UCoIqQ) {guard = "" trigger = "toggle" event = "" }
+SubState _vg8wEDPQEee5PeA_UCoIqQ _YM5ALSQsEeeu6I-nNWXkgQ
+SubState _vg8wEDPQEee5PeA_UCoIqQ _iLXc8DP6Eee5PeA_UCoIqQ
+SubState _vg8wEDPQEee5PeA_UCoIqQ _NVPT4DQAEee5PeA_UCoIqQ
+SubState _vg8wEDPQEee5PeA_UCoIqQ _Q0XGIDQAEee5PeA_UCoIqQ
+SubState _YM5ALSQsEeeu6I-nNWXkgQ _YM5nNiQsEeeu6I-nNWXkgQ
+SubState _YM5ALSQsEeeu6I-nNWXkgQ _YM5nRSQsEeeu6I-nNWXkgQ
+SubState _iLXc8DP6Eee5PeA_UCoIqQ _Nb3ruzPREee5PeA_UCoIqQ
+SubState _iLXc8DP6Eee5PeA_UCoIqQ _Nb_AeTPREee5PeA_UCoIqQ
+SubState _iLXc8DP6Eee5PeA_UCoIqQ _Nb79NDPREee5PeA_UCoIqQ
+SubState _Q0XGIDQAEee5PeA_UCoIqQ _QmALsDSdEeeAPdsPiQ6GsA
+SubState _Q0XGIDQAEee5PeA_UCoIqQ _Q0yOkDSdEeeAPdsPiQ6GsA
+Concurrent _vhVKkDPQEee5PeA_UCoIqQ _vhVKkTPQEee5PeA_UCoIqQ
+(Concurrent _vhVKkDPQEee5PeA_UCoIqQ _vhVKkTPQEee5PeA_UCoIqQ) {L2 = "timer" L1 = "trafficlight" }
+RegionOf _vg8wEDPQEee5PeA_UCoIqQ _vhVKkDPQEee5PeA_UCoIqQ
+(RegionOf _vg8wEDPQEee5PeA_UCoIqQ _vhVKkDPQEee5PeA_UCoIqQ) {rLabel = "trafficlight" sLabel = "main" }
+RegionOf _vg8wEDPQEee5PeA_UCoIqQ _vhVKkTPQEee5PeA_UCoIqQ
+(RegionOf _vg8wEDPQEee5PeA_UCoIqQ _vhVKkTPQEee5PeA_UCoIqQ) {rLabel = "timer" sLabel = "main" }
+RegionOf _YM5ALSQsEeeu6I-nNWXkgQ _YM5nNSQsEeeu6I-nNWXkgQ
+(RegionOf _YM5ALSQsEeeu6I-nNWXkgQ _YM5nNSQsEeeu6I-nNWXkgQ) {rLabel = "blinking" sLabel = "interrupted" }
+RegionOf _iLXc8DP6Eee5PeA_UCoIqQ _iLYEAjP6Eee5PeA_UCoIqQ
+(RegionOf _iLXc8DP6Eee5PeA_UCoIqQ _iLYEAjP6Eee5PeA_UCoIqQ) {rLabel = "normal" sLabel = "normal" }
+RegionOf _Q0XGIDQAEee5PeA_UCoIqQ _Dx2jwDSdEeeAPdsPiQ6GsA
+(RegionOf _Q0XGIDQAEee5PeA_UCoIqQ _Dx2jwDSdEeeAPdsPiQ6GsA) {rLabel = "running" sLabel = "running" }

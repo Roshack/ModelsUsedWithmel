@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[1974, 184, 2987, 877]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="Open">on</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="ZoomFactor">125</P>
+  <P Name="ReportName">simulink-default.rpt</P>
+  <P Name="SIDHighWatermark">351</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="CallbackButton" Name="Callback Button" SID="350">
+    <P Name="Position">[-70, 10, 5, 45]</P>
+    <P Name="ZOrder">142</P>
+    <P Name="ShowName">off</P>
+    <P Name="HideAutomaticName">off</P>
+    <P Name="ClickFcn">showExample(&apos;simulink_automotive/ModelingAFaultTolerantFuelControlSystemExample&apos;)</P>
+    <P Name="ButtonText">?</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant2" SID="1">
+    <P Name="Position">[285, 255, 305, 275]</P>
+    <P Name="ZOrder">28</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="NameLocation">left</P>
+    <P Name="ShowName">off</P>
+    <P Name="Value">0</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant3" SID="2">
+    <P Name="Position">[285, 340, 305, 360]</P>
+    <P Name="ZOrder">27</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="NameLocation">left</P>
+    <P Name="ShowName">off</P>
+    <P Name="Value">12</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant4" SID="3">
+    <P Name="Position">[285, 170, 305, 190]</P>
+    <P Name="ZOrder">26</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="NameLocation">left</P>
+    <P Name="ShowName">off</P>
+    <P Name="Value">0</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant5" SID="4">
+    <P Name="Position">[285, 425, 305, 445]</P>
+    <P Name="ZOrder">25</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="NameLocation">left</P>
+    <P Name="ShowName">off</P>
+    <P Name="Value">0</P>
+  </Block>
+  <Block BlockType="SubSystem" Name="Dashboard" SID="259">
+    <P Name="Ports">[]</P>
+    <P Name="Position">[26, 78, 101, 138]</P>
+    <P Name="ZOrder">-34</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">12</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_259"/>
+  </Block>
+  <Block BlockType="Constant" Name="EGO Fault Switch" SID="234">
+    <P Name="Position">[165, 299, 220, 321]</P>
+    <P Name="ZOrder">108</P>
+    <P Name="Value">ego_sw</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+    </Port>
+  </Block>
+  <Block BlockType="SubSystem" Name="Engine Gas Dynamics" SID="7">
+    <P Name="Ports">[3, 3]</P>
+    <P Name="Position">[730, 118, 825, 302]</P>
+    <P Name="ZOrder">22</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <Port>
+      <P Name="PortNumber">3</P>
+      <P Name="Name">air_fuel_ratio</P>
+    </Port>
+    <System Ref="system_7"/>
+  </Block>
+  <Block BlockType="Constant" Name="Engine Speed" SID="276">
+    <P Name="Position">[30, 194, 100, 216]</P>
+    <P Name="ZOrder">140</P>
+    <P Name="Value">engine_speed</P>
+    <P Name="SampleTime">[0,1]</P>
+  </Block>
+  <Block BlockType="Constant" Name="Engine Speed&#xA;Fault Switch" SID="228">
+    <P Name="Position">[165, 214, 220, 236]</P>
+    <P Name="ZOrder">78</P>
+    <P Name="Value">speed_sw</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+    </Port>
+  </Block>
+  <Block BlockType="Switch" Name="Engine_Speed_Selector" SID="229">
+    <P Name="Position">[360, 197, 380, 253]</P>
+    <P Name="ZOrder">77</P>
+    <P Name="Criteria">u2 ~= 0</P>
+    <P Name="Threshold">1</P>
+    <P Name="InputSameDT">off</P>
+    <P Name="SaturateOnIntegerOverflow">off</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">speed</P>
+    </Port>
+  </Block>
+  <Block BlockType="Constant" Name="MAP Fault Switch" SID="240">
+    <P Name="Position">[165, 384, 220, 406]</P>
+    <P Name="ZOrder">138</P>
+    <P Name="Value">map_sw</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+    </Port>
+  </Block>
+  <Block BlockType="Switch" Name="MAP_Selector" SID="241">
+    <P Name="Position">[360, 367, 380, 423]</P>
+    <P Name="ZOrder">137</P>
+    <P Name="Criteria">u2 ~= 0</P>
+    <P Name="Threshold">1</P>
+    <P Name="InputSameDT">off</P>
+    <P Name="SaturateOnIntegerOverflow">off</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">map</P>
+    </Port>
+  </Block>
+  <Block BlockType="Switch" Name="O2_Voltage_Selector" SID="235">
+    <P Name="Position">[360, 282, 380, 338]</P>
+    <P Name="ZOrder">107</P>
+    <P Name="Criteria">u2 ~= 0</P>
+    <P Name="Threshold">1</P>
+    <P Name="InputSameDT">off</P>
+    <P Name="SaturateOnIntegerOverflow">off</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">ego</P>
+    </Port>
+  </Block>
+  <Block BlockType="Scope" Name="Scope" SID="330">
+    <P Name="Ports">[2]</P>
+    <P Name="Position">[782, 375, 813, 405]</P>
+    <P Name="ZOrder">141</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">left</P>
+    <P Name="ShowName">off</P>
+    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingSaveFormat&apos;,&apos;StructureWithTime&apos;,&apos;DataLoggingDecimation&apos;,&apos;1&apos;,&apos;DataLoggingDecimateData&apos;,true,&apos;DataLoggingVariableName&apos;,&apos;ScopeData1&apos;),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;TimeAxisLabels&apos;,&apos;All&apos;,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;0.75&apos;,&apos;MaxYLimReal&apos;,&apos;2.25&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0&apos;,&apos;MaxYLimMag&apos;,&apos;10&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,0,&apos;LineNames&apos;,{{[]}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1),struct(&apos;MinYLimReal&apos;,&apos;11&apos;,&apos;MaxYLimReal&apos;,&apos;16&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0&apos;,&apos;MaxYLimMag&apos;,&apos;10&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,0,&apos;LineNames&apos;,{{[]}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,2)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;0.75&apos;,&apos;MaxYLimReal&apos;,&apos;2.25&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0&apos;,&apos;MaxYLimMag&apos;,&apos;10&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,0,&apos;LineNames&apos;,{{[]}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1),&apos;DisplayLayoutDimensions&apos;,[2 1],&apos;TimeRangeSamples&apos;,&apos;8&apos;,&apos;TimeRangeFrames&apos;,&apos;8&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true,&apos;OnceAtStop&apos;,false),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2016b&apos;)),&apos;Version&apos;,&apos;2016b&apos;,&apos;Location&apos;,[521 472 871 818])</P>
+    <P Name="NumInputPorts">2</P>
+    <P Name="Floating">off</P>
+  </Block>
+  <Block BlockType="Reference" Name="Throttle&#xA;Command" SID="60">
+    <P Name="Ports">[0, 1]</P>
+    <P Name="Position">[245, 70, 275, 100]</P>
+    <P Name="ZOrder">16</P>
+    <P Name="LibraryVersion">1.480</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence</P>
+    <P Name="SourceType">Repeating table</P>
+    <P Name="SourceProductBaseCode">SL</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="rep_seq_t">[0 2 4]</P>
+      <P Name="rep_seq_y">[10 20 10]</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Constant" Name="Throttle Angle&#xA;Fault Switch" SID="218">
+    <P Name="Position">[165, 129, 220, 151]</P>
+    <P Name="ZOrder">5</P>
+    <P Name="Value">throttle_sw</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+    </Port>
+  </Block>
+  <Block BlockType="Switch" Name="Throttle_Angle_Selector" SID="217">
+    <P Name="Position">[360, 112, 380, 168]</P>
+    <P Name="ZOrder">4</P>
+    <P Name="Criteria">u2 ~= 0</P>
+    <P Name="Threshold">1</P>
+    <P Name="InputSameDT">off</P>
+    <P Name="SaturateOnIntegerOverflow">off</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">throttle</P>
+    </Port>
+  </Block>
+  <Block BlockType="SubSystem" Name="To Controller" SID="62">
+    <P Name="Ports">[4, 1]</P>
+    <P Name="Position">[425, 101, 475, 434]</P>
+    <P Name="ZOrder">14</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off">fprintf(&apos;Convert&apos;)</Display>
+    </Mask>
+    <System Ref="system_62"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="To Plant" SID="75">
+    <P Name="Ports">[1, 1]</P>
+    <P Name="Position">[615, 245, 655, 295]</P>
+    <P Name="ZOrder">13</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <Mask>
+      <Display RunInitForIconRedraw="off">fprintf(&apos;Convert&apos;)</Display>
+    </Mask>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">fuel</P>
+    </Port>
+    <System Ref="system_75"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="fuel_rate_control" SID="80">
+    <P Name="Tag">FuelRateControl</P>
+    <P Name="Ports">[1, 1]</P>
+    <P Name="Position">[505, 210, 585, 330]</P>
+    <P Name="ZOrder">12</P>
+    <P Name="FontName">Arial</P>
+    <P Name="TreatAsAtomicUnit">on</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <System Ref="system_80"/>
+  </Block>
+  <Line>
+    <P Name="ZOrder">5</P>
+    <P Name="Src">80#out:1</P>
+    <P Name="Dst">75#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">fuel</P>
+    <P Name="ZOrder">21</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">75#out:1</P>
+    <P Name="Points">[42, 0]</P>
+    <Branch>
+      <P Name="ZOrder">238</P>
+      <P Name="Labels">[2, 1]</P>
+      <P Name="Points">[0, 73; 88, 0]</P>
+      <P Name="Dst">330#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">185</P>
+      <P Name="Dst">7#in:3</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">24</P>
+    <P Name="Src">62#out:1</P>
+    <P Name="Dst">80#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">throttle</P>
+    <P Name="ZOrder">72</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">217#out:1</P>
+    <P Name="Dst">62#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">speed</P>
+    <P Name="ZOrder">86</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">229#out:1</P>
+    <P Name="Dst">62#in:2</P>
+  </Line>
+  <Line>
+    <P Name="Name">ego</P>
+    <P Name="ZOrder">93</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">235#out:1</P>
+    <P Name="Dst">62#in:3</P>
+  </Line>
+  <Line>
+    <P Name="Name">map</P>
+    <P Name="ZOrder">96</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">241#out:1</P>
+    <P Name="Dst">62#in:4</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">73</P>
+    <P Name="Src">3#out:1</P>
+    <P Name="Points">[0, -5]</P>
+    <P Name="Dst">217#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">9</P>
+    <P Name="Src">60#out:1</P>
+    <P Name="Points">[33, 0]</P>
+    <Branch>
+      <P Name="ZOrder">145</P>
+      <P Name="Points">[0, 35]</P>
+      <P Name="Dst">217#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">143</P>
+      <P Name="Labels">[2, 0]</P>
+      <P Name="Points">[366, 0; 0, 125]</P>
+      <P Name="Dst">7#in:2</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">26</P>
+    <P Name="Src">218#out:1</P>
+    <P Name="Dst">217#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">4</P>
+    <P Name="Src">228#out:1</P>
+    <P Name="Dst">229#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">140</P>
+    <P Name="Src">276#out:1</P>
+    <P Name="Points">[28, 0]</P>
+    <Branch>
+      <P Name="ZOrder">264</P>
+      <P Name="Points">[0, -142; 567, 0; 0, 87]</P>
+      <P Name="Dst">7#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">187</P>
+      <P Name="Dst">229#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">87</P>
+    <P Name="Src">1#out:1</P>
+    <P Name="Points">[0, -5]</P>
+    <P Name="Dst">229#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">94</P>
+    <P Name="Src">2#out:1</P>
+    <P Name="Points">[0, -5]</P>
+    <P Name="Dst">235#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">95</P>
+    <P Name="Src">7#out:1</P>
+    <P Name="Points">[73, 0; 0, 332; -789, 0; 0, -192]</P>
+    <P Name="Dst">235#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">1</P>
+    <P Name="Src">234#out:1</P>
+    <P Name="Dst">235#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">4</P>
+    <P Name="Src">240#out:1</P>
+    <P Name="Dst">241#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">98</P>
+    <P Name="Src">7#out:2</P>
+    <P Name="Points">[55, 0; 0, 254; -753, 0; 0, -89]</P>
+    <P Name="Dst">241#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">97</P>
+    <P Name="Src">4#out:1</P>
+    <P Name="Points">[0, -5]</P>
+    <P Name="Dst">241#in:3</P>
+  </Line>
+  <Line>
+    <P Name="Name">air_fuel_ratio</P>
+    <P Name="ZOrder">237</P>
+    <P Name="Labels">[4, 0]</P>
+    <P Name="Src">7#out:3</P>
+    <P Name="Points">[37, 0; 0, 72; -62, 0]</P>
+    <P Name="Dst">330#in:2</P>
+  </Line>
+  <Annotation SID="208">
+    <P Name="Name">Fault-Tolerant Fuel Control System</P>
+    <P Name="Position">[316, 24, 684, 53]</P>
+    <P Name="InternalMargins">[1, 1, 1, 1]</P>
+    <P Name="ZOrder">-1</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">22</P>
+    <P Name="FontWeight">bold</P>
+  </Annotation>
+  <Annotation SID="209">
+    <P Name="Name">Copyright 1990-2017 The MathWorks, Inc.</P>
+    <P Name="Position">[536, 492, 727, 508]</P>
+    <P Name="InternalMargins">[1, 1, 1, 1]</P>
+    <P Name="ZOrder">-2</P>
+  </Annotation>
+  <Annotation SID="210">
+    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Arial&apos;; font-size:14px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;&quot;&gt;&lt;a href=&quot;matlab:open_system(&apos;sldemo_fuelsys/Dashboard&apos;,&apos;tab&apos;)&quot;&gt;&lt;span style=&quot; font-size:14px; text-decoration: underline; color:#0000ff;&quot;&gt;Open the Dashboard&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:14px;&quot;&gt; subsystem to simulate any combination of sensor failures.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
+    <P Name="Position">[22, 491, 518, 511]</P>
+    <P Name="InternalMargins">[1, 1, 1, 1]</P>
+    <P Name="BackgroundColor">[0.894118, 0.894118, 0.894118]</P>
+    <P Name="Interpreter">rich</P>
+    <P Name="ZOrder">-3</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">14</P>
+  </Annotation>
+</System>

@@ -1,0 +1,449 @@
+$INSTANCE System class
+$INSTANCE Package class
+$INSTANCE Class class
+$INSTANCE Association class
+$INSTANCE AssociationEndPrimary class
+$INSTANCE AssociationEndSecondary class
+$INSTANCE AssociationEnd class
+$INSTANCE AssociationClass class
+$INSTANCE Attribute class
+$INSTANCE AttributeReferential class
+$INSTANCE OperationSignature class
+$INSTANCE Operation class
+$INSTANCE FreeType class
+$INSTANCE Type class
+$INSTANCE Parameter class
+$INSTANCE ActionLanguage class
+$INSTANCE ObjectConstraintLanguage class
+$INSTANCE Named class
+$INSTANCE Identifier class
+$INSTANCE IdentifierPrimary class
+$INSTANCE IdentifierNonPrimary class
+$INSTANCE IdentifierParticipant class
+$INSTANCE Event class
+$INSTANCE SignalEvent class
+$INSTANCE TimerEvent class
+$INSTANCE ChangeEvent class
+$INSTANCE CallEvent class
+$INSTANCE ExceptionEvent class
+$INSTANCE PrimitiveType class
+$INSTANCE State class
+$INSTANCE Transition class
+$INSTANCE Procedure class
+$INSTANCE InitialState class
+$INSTANCE FinalState class
+$INSTANCE Stately class
+$INSTANCE StateMachine class
+$INSTANCE FromState class
+$INSTANCE ToState class
+$INSTANCE Index class
+$INSTANCE ClassPersistence class
+$INSTANCE AttributePersistence class
+$INSTANCE AssociationEndPersistence class
+$INSTANCE DataType class
+$INSTANCE SpecializationGroup class
+$INSTANCE Specialization class
+$INSTANCE Object class
+$INSTANCE Collaborator class
+$INSTANCE Communication class
+$INSTANCE Domain class
+$INSTANCE Bridge class
+$INSTANCE ClassDiagram class
+$INSTANCE StateMachineDiagram class
+$INSTANCE CollaborationDiagram class
+$INSTANCE DomainChart class
+$INSTANCE UseCaseDiagram class
+$INSTANCE ActivityDiagram class
+$INSTANCE Actor class
+$INSTANCE UseCase class
+$INSTANCE Condition class
+$INSTANCE UnitTest class
+$INSTANCE ParameterData class
+$INSTANCE Data class
+$INSTANCE Activity class
+$INSTANCE ActorUseCase class
+$INSTANCE Conditional class
+$INSTANCE Fork class
+$INSTANCE Join class
+$INSTANCE ActivityNode class
+$INSTANCE Primitive enum
+enumValues Primitive Boolean
+(enumValues Primitive Boolean) {value = "0" }
+enumValues Primitive Integer
+(enumValues Primitive Integer) {value = "1" }
+enumValues Primitive String
+(enumValues Primitive String) {value = "2" }
+enumValues Primitive Decimal
+(enumValues Primitive Decimal) {value = "3" }
+enumValues Primitive ArbitraryId
+(enumValues Primitive ArbitraryId) {value = "4" }
+enumValues Primitive Long
+(enumValues Primitive Long) {value = "5" }
+enumValues Primitive Date
+(enumValues Primitive Date) {value = "6" }
+enumValues Primitive Timestamp
+(enumValues Primitive Timestamp) {value = "7" }
+enumValues Primitive Time
+(enumValues Primitive Time) {value = "8" }
+memberOf AssociationEnd mandatory
+(memberOf AssociationEnd mandatory) {type = "EBoolean" }
+memberOf AssociationEnd multiple
+(memberOf AssociationEnd multiple) {type = "EBoolean" }
+memberOf AssociationEnd verbClause
+(memberOf AssociationEnd verbClause) {type = "EString" }
+memberOf AssociationEnd role
+(memberOf AssociationEnd role) {type = "EString" }
+memberOf AssociationEnd rolePlural
+(memberOf AssociationEnd rolePlural) {type = "EString" }
+memberOf Attribute unique
+(memberOf Attribute unique) {type = "EBoolean" }
+memberOf Attribute mandatory
+(memberOf Attribute mandatory) {type = "EBoolean" }
+memberOf Attribute values
+(memberOf Attribute values) {type = "EString" }
+memberOf OperationSignature returnsMultiple
+(memberOf OperationSignature returnsMultiple) {type = "EBoolean" }
+memberOf FreeType type
+(memberOf FreeType type) {type = "EString" }
+memberOf FreeType multiple
+(memberOf FreeType multiple) {type = "EBoolean" }
+memberOf Parameter multiple
+(memberOf Parameter multiple) {type = "EBoolean" }
+memberOf ActionLanguage action
+(memberOf ActionLanguage action) {type = "EString" }
+memberOf ObjectConstraintLanguage ocl
+(memberOf ObjectConstraintLanguage ocl) {type = "EString" }
+memberOf Named name
+(memberOf Named name) {type = "EString" }
+memberOf Named description
+(memberOf Named description) {type = "EString" }
+memberOf TimerEvent timeMs
+(memberOf TimerEvent timeMs) {type = "ELong" }
+memberOf PrimitiveType primitive
+(memberOf PrimitiveType primitive) {type = "Primitive" }
+memberOf PrimitiveType precision
+(memberOf PrimitiveType precision) {type = "EIntegerObject" }
+memberOf PrimitiveType scale
+(memberOf PrimitiveType scale) {type = "EIntegerObject" }
+memberOf PrimitiveType utc
+(memberOf PrimitiveType utc) {type = "EBoolean" }
+memberOf PrimitiveType length
+(memberOf PrimitiveType length) {type = "EIntegerObject" }
+memberOf PrimitiveType yesNo
+(memberOf PrimitiveType yesNo) {type = "EBoolean" }
+memberOf ClassPersistence schema
+(memberOf ClassPersistence schema) {type = "EString" }
+memberOf ClassPersistence table
+(memberOf ClassPersistence table) {type = "EString" }
+memberOf AttributePersistence column
+(memberOf AttributePersistence column) {type = "EString" }
+memberOf AttributePersistence generatedBySequence
+(memberOf AttributePersistence generatedBySequence) {type = "EBoolean" }
+memberOf AttributePersistence generatedValue
+(memberOf AttributePersistence generatedValue) {type = "EBoolean" }
+memberOf AttributePersistence generatedByIdentity
+(memberOf AttributePersistence generatedByIdentity) {type = "EBoolean" }
+memberOf AttributePersistence length
+(memberOf AttributePersistence length) {type = "EIntegerObject" }
+memberOf AttributePersistence scale
+(memberOf AttributePersistence scale) {type = "EIntegerObject" }
+memberOf AttributePersistence precision
+(memberOf AttributePersistence precision) {type = "EIntegerObject" }
+memberOf AssociationEndPersistence lazyFetch
+(memberOf AssociationEndPersistence lazyFetch) {type = "EBoolean" }
+memberOf Communication order
+(memberOf Communication order) {type = "EInt" }
+memberOf Condition description
+(memberOf Condition description) {type = "EString" }
+$INSTANCE passesTest method
+passesTest {type = "EBoolean" }
+parameterOf passesTest test
+(parameterOf passesTest test) {paramType = "use/UnitTest" }
+methodOf System passesTest
+(methodOf System passesTest) {type = "EBoolean" }
+superClass Class AssociationClass
+superClass Class Specialization
+superClass AssociationEnd AssociationEndPrimary
+superClass AssociationEnd AssociationEndSecondary
+superClass OperationSignature Operation
+superClass Type FreeType
+superClass Type PrimitiveType
+superClass Named System
+superClass Named Package
+superClass Named Class
+superClass Named Association
+superClass Named AssociationEnd
+superClass Named OperationSignature
+superClass Named Type
+superClass Named Parameter
+superClass Named ActionLanguage
+superClass Named ObjectConstraintLanguage
+superClass Named Identifier
+superClass Named IdentifierParticipant
+superClass Named Event
+superClass Named Transition
+superClass Named Procedure
+superClass Named Stately
+superClass Named Index
+superClass Named DataType
+superClass Named SpecializationGroup
+superClass Named Collaborator
+superClass Named Communication
+superClass Named Domain
+superClass Named Bridge
+superClass Named ClassDiagram
+superClass Named CollaborationDiagram
+superClass Named DomainChart
+superClass Named UseCaseDiagram
+superClass Named ActivityDiagram
+superClass Named UnitTest
+superClass Named Activity
+superClass Identifier IdentifierPrimary
+superClass Identifier IdentifierNonPrimary
+superClass IdentifierParticipant Attribute
+superClass IdentifierParticipant AttributeReferential
+superClass Event SignalEvent
+superClass Event TimerEvent
+superClass Event ChangeEvent
+superClass Event CallEvent
+superClass Event ExceptionEvent
+superClass Stately FromState
+superClass Stately ToState
+superClass FromState InitialState
+superClass ToState FinalState
+association Package Package
+(association Package Package) {srcLabel = "parent" lowerBound = "0" upperBound = "1" destLabel = "subPackage" }
+association Class Package
+(association Class Package) {srcLabel = "package" lowerBound = "0" upperBound = "1" destLabel = "class" }
+association Class AssociationEndPrimary
+(association Class AssociationEndPrimary) {srcLabel = "associationEndPrimary" lowerBound = "0" upperBound = "*" destLabel = "class" }
+association Class AssociationEndSecondary
+(association Class AssociationEndSecondary) {srcLabel = "associationEndSecondary" lowerBound = "0" upperBound = "*" destLabel = "class" }
+association Association AssociationClass
+(association Association AssociationClass) {srcLabel = "associationClass" lowerBound = "0" upperBound = "1" destLabel = "association" }
+association AssociationEndPrimary Class
+(association AssociationEndPrimary Class) {srcLabel = "class" lowerBound = "1" upperBound = "1" destLabel = "associationEndPrimary" }
+association AssociationEndPrimary Association
+(association AssociationEndPrimary Association) {srcLabel = "association" lowerBound = "1" upperBound = "1" destLabel = "primary" }
+association AssociationEndSecondary Class
+(association AssociationEndSecondary Class) {srcLabel = "class" lowerBound = "1" upperBound = "1" destLabel = "associationEndSecondary" }
+association AssociationEndSecondary Association
+(association AssociationEndSecondary Association) {srcLabel = "association" lowerBound = "1" upperBound = "1" destLabel = "secondary" }
+association AssociationEnd AttributeReferential
+(association AssociationEnd AttributeReferential) {srcLabel = "derivedAttribute" lowerBound = "0" upperBound = "*" destLabel = "associationEnd" }
+association AssociationClass Association
+(association AssociationClass Association) {srcLabel = "association" lowerBound = "1" upperBound = "1" destLabel = "associationClass" }
+association Attribute Class
+(association Attribute Class) {srcLabel = "class" lowerBound = "1" upperBound = "1" destLabel = "attribute" }
+association Attribute PrimitiveType
+(association Attribute PrimitiveType) {srcLabel = "type" lowerBound = "1" upperBound = "1" }
+association Attribute IdentifierPrimary
+(association Attribute IdentifierPrimary) {srcLabel = "identifierPrimary" lowerBound = "0" upperBound = "1" destLabel = "attribute" }
+association Attribute IdentifierNonPrimary
+(association Attribute IdentifierNonPrimary) {srcLabel = "identifierNonPrimary" lowerBound = "0" upperBound = "*" destLabel = "attribute" }
+association AttributeReferential AssociationEnd
+(association AttributeReferential AssociationEnd) {srcLabel = "associationEnd" lowerBound = "0" upperBound = "1" destLabel = "derivedAttribute" }
+association AttributeReferential Class
+(association AttributeReferential Class) {srcLabel = "class" lowerBound = "1" upperBound = "1" destLabel = "attributeReferential" }
+association AttributeReferential IdentifierPrimary
+(association AttributeReferential IdentifierPrimary) {srcLabel = "identifierPrimary" lowerBound = "0" upperBound = "*" destLabel = "attributeReferential" }
+association AttributeReferential IdentifierNonPrimary
+(association AttributeReferential IdentifierNonPrimary) {srcLabel = "identifierNonPrimary" lowerBound = "0" upperBound = "*" destLabel = "attributeReferential" }
+association OperationSignature Type
+(association OperationSignature Type) {srcLabel = "returns" lowerBound = "0" upperBound = "1" }
+association FreeType System
+(association FreeType System) {srcLabel = "system" lowerBound = "1" upperBound = "1" destLabel = "freeType" }
+association Parameter Type
+(association Parameter Type) {srcLabel = "type" lowerBound = "1" upperBound = "1" }
+association IdentifierPrimary Attribute
+(association IdentifierPrimary Attribute) {srcLabel = "attribute" lowerBound = "0" upperBound = "*" destLabel = "identifierPrimary" }
+association IdentifierPrimary AttributeReferential
+(association IdentifierPrimary AttributeReferential) {srcLabel = "attributeReferential" lowerBound = "0" upperBound = "*" destLabel = "identifierPrimary" }
+association IdentifierNonPrimary Attribute
+(association IdentifierNonPrimary Attribute) {srcLabel = "attribute" lowerBound = "0" upperBound = "*" destLabel = "identifierNonPrimary" }
+association IdentifierNonPrimary AttributeReferential
+(association IdentifierNonPrimary AttributeReferential) {srcLabel = "attributeReferential" lowerBound = "0" upperBound = "*" destLabel = "identifierNonPrimary" }
+association PrimitiveType System
+(association PrimitiveType System) {srcLabel = "system" lowerBound = "1" upperBound = "1" destLabel = "primitiveType" }
+association State StateMachine
+(association State StateMachine) {srcLabel = "stateMachine" lowerBound = "1" upperBound = "1" destLabel = "state" }
+association Transition Event
+(association Transition Event) {srcLabel = "event" lowerBound = "1" upperBound = "1" destLabel = "transition" }
+association Transition FromState
+(association Transition FromState) {srcLabel = "fromState" lowerBound = "1" upperBound = "1" destLabel = "transitionTo" }
+association Transition ToState
+(association Transition ToState) {srcLabel = "toState" lowerBound = "1" upperBound = "1" destLabel = "transitionFrom" }
+association InitialState StateMachine
+(association InitialState StateMachine) {srcLabel = "stateMachine" lowerBound = "1" upperBound = "1" destLabel = "initialState" }
+association FinalState StateMachine
+(association FinalState StateMachine) {srcLabel = "stateMachine" lowerBound = "1" upperBound = "1" destLabel = "finalState" }
+association StateMachine Class
+(association StateMachine Class) {srcLabel = "class" lowerBound = "1" upperBound = "1" destLabel = "stateMachine" }
+association FromState Transition
+(association FromState Transition) {srcLabel = "transitionTo" lowerBound = "1" upperBound = "*" destLabel = "fromState" }
+association ToState Transition
+(association ToState Transition) {srcLabel = "transitionFrom" lowerBound = "1" upperBound = "*" destLabel = "toState" }
+association ToState Event
+(association ToState Event) {srcLabel = "event" lowerBound = "0" upperBound = "*" }
+association Index Attribute
+(association Index Attribute) {srcLabel = "attribute" lowerBound = "0" upperBound = "*" }
+association AssociationEndPersistence Attribute
+(association AssociationEndPersistence Attribute) {srcLabel = "orderBy" lowerBound = "0" upperBound = "*" }
+association DataType Package
+(association DataType Package) {srcLabel = "package" lowerBound = "1" upperBound = "1" destLabel = "dataType" }
+association SpecializationGroup Class
+(association SpecializationGroup Class) {srcLabel = "generalization" lowerBound = "1" upperBound = "1" destLabel = "specializationGroup" }
+association SpecializationGroup Specialization
+(association SpecializationGroup Specialization) {srcLabel = "specialization" lowerBound = "1" upperBound = "*" destLabel = "group" }
+association Specialization SpecializationGroup
+(association Specialization SpecializationGroup) {srcLabel = "group" lowerBound = "1" upperBound = "*" destLabel = "specialization" }
+association Object Class
+(association Object Class) {srcLabel = "class" lowerBound = "1" upperBound = "1" }
+association Communication collaboration/Collaborator
+(association Communication collaboration/Collaborator) {srcLabel = "fromCollaborator" lowerBound = "1" upperBound = "1" }
+association Communication collaboration/Collaborator
+(association Communication collaboration/Collaborator) {srcLabel = "toCollaborator" lowerBound = "1" upperBound = "1" }
+association Communication SignalEvent
+(association Communication SignalEvent) {srcLabel = "signalEvent" lowerBound = "1" upperBound = "1" }
+association Bridge domain/Domain
+(association Bridge domain/Domain) {srcLabel = "aDomain" lowerBound = "1" upperBound = "1" }
+association Bridge domain/Domain
+(association Bridge domain/Domain) {srcLabel = "bDomain" lowerBound = "1" upperBound = "1" }
+association ClassDiagram Class
+(association ClassDiagram Class) {srcLabel = "class" lowerBound = "0" upperBound = "*" }
+association ClassDiagram Association
+(association ClassDiagram Association) {srcLabel = "association" lowerBound = "0" upperBound = "*" }
+association ClassDiagram ObjectConstraintLanguage
+(association ClassDiagram ObjectConstraintLanguage) {srcLabel = "constraints" lowerBound = "0" upperBound = "1" }
+association StateMachineDiagram StateMachine
+(association StateMachineDiagram StateMachine) {srcLabel = "stateMachine" lowerBound = "1" upperBound = "1" }
+association CollaborationDiagram collaboration/Collaborator
+(association CollaborationDiagram collaboration/Collaborator) {srcLabel = "collaborator" lowerBound = "0" upperBound = "*" }
+association CollaborationDiagram collaboration/Communication
+(association CollaborationDiagram collaboration/Communication) {srcLabel = "communication" lowerBound = "0" upperBound = "*" }
+association DomainChart domain/Domain
+(association DomainChart domain/Domain) {srcLabel = "domain" lowerBound = "0" upperBound = "*" }
+association DomainChart domain/Bridge
+(association DomainChart domain/Bridge) {srcLabel = "bridge" lowerBound = "0" upperBound = "*" }
+association UseCaseDiagram use/UseCase
+(association UseCaseDiagram use/UseCase) {srcLabel = "useCase" lowerBound = "0" upperBound = "*" }
+association ActivityDiagram activity/ActorUseCase
+(association ActivityDiagram activity/ActorUseCase) {srcLabel = "actorUseCase" lowerBound = "0" upperBound = "*" }
+association UseCase use/Actor
+(association UseCase use/Actor) {srcLabel = "actor" lowerBound = "1" upperBound = "1" }
+association UseCase activity/Activity
+(association UseCase activity/Activity) {srcLabel = "activity" lowerBound = "1" upperBound = "1" }
+association UseCase use/Condition
+(association UseCase use/Condition) {srcLabel = "precondition" lowerBound = "0" upperBound = "*" }
+association UseCase use/Condition
+(association UseCase use/Condition) {srcLabel = "postcondition" lowerBound = "0" upperBound = "*" }
+association UnitTest use/UseCase
+(association UnitTest use/UseCase) {srcLabel = "useCase" lowerBound = "1" upperBound = "1" }
+association Activity SignalEvent
+(association Activity SignalEvent) {srcLabel = "signalEvent" lowerBound = "1" upperBound = "1" }
+association ActorUseCase use/Actor
+(association ActorUseCase use/Actor) {srcLabel = "actor" lowerBound = "1" upperBound = "1" }
+association ActorUseCase activity/Activity
+(association ActorUseCase activity/Activity) {srcLabel = "activity" lowerBound = "1" upperBound = "1" }
+association ActorUseCase activity/ActivityNode
+(association ActorUseCase activity/ActivityNode) {srcLabel = "nextNode" lowerBound = "0" upperBound = "1" }
+association Conditional use/Condition
+(association Conditional use/Condition) {srcLabel = "condition" lowerBound = "1" upperBound = "1" }
+association Conditional activity/ActivityNode
+(association Conditional activity/ActivityNode) {srcLabel = "nextNodeOnTrue" lowerBound = "1" upperBound = "1" }
+association Conditional activity/ActivityNode
+(association Conditional activity/ActivityNode) {srcLabel = "nextNodeOnFalse" lowerBound = "1" upperBound = "1" }
+association Fork activity/ActivityNode
+(association Fork activity/ActivityNode) {srcLabel = "nextNode" lowerBound = "1" upperBound = "*" }
+association Join activity/ActivityNode
+(association Join activity/ActivityNode) {srcLabel = "nextNode" lowerBound = "1" upperBound = "1" }
+composition System Package
+(composition System Package) {srcLabel = "package" lowerBound = "0" upperBound = "*" }
+composition System Association
+(composition System Association) {srcLabel = "association" lowerBound = "0" upperBound = "*" }
+composition System ObjectConstraintLanguage
+(composition System ObjectConstraintLanguage) {srcLabel = "constraint" lowerBound = "0" upperBound = "*" }
+composition System collaboration/Collaborator
+(composition System collaboration/Collaborator) {srcLabel = "collaborator" lowerBound = "0" upperBound = "*" }
+composition System collaboration/Communication
+(composition System collaboration/Communication) {srcLabel = "communication" lowerBound = "0" upperBound = "*" }
+composition System domain/Domain
+(composition System domain/Domain) {srcLabel = "domain" lowerBound = "0" upperBound = "*" }
+composition System domain/Bridge
+(composition System domain/Bridge) {srcLabel = "bridge" lowerBound = "0" upperBound = "*" }
+composition System use/UseCase
+(composition System use/UseCase) {srcLabel = "useCase" lowerBound = "0" upperBound = "*" }
+composition System activity/ActorUseCase
+(composition System activity/ActorUseCase) {srcLabel = "actorUseCase" lowerBound = "0" upperBound = "*" }
+composition System use/UnitTest
+(composition System use/UnitTest) {srcLabel = "unitTest" lowerBound = "0" upperBound = "*" }
+composition System Event
+(composition System Event) {srcLabel = "event" lowerBound = "0" upperBound = "*" }
+composition System FreeType
+(composition System FreeType) {srcLabel = "freeType" lowerBound = "0" upperBound = "*" destLabel = "system" }
+composition System PrimitiveType
+(composition System PrimitiveType) {srcLabel = "primitiveType" lowerBound = "0" upperBound = "*" destLabel = "system" }
+composition Package Class
+(composition Package Class) {srcLabel = "class" lowerBound = "0" upperBound = "*" destLabel = "package" }
+composition Package Package
+(composition Package Package) {srcLabel = "subPackage" lowerBound = "0" upperBound = "*" destLabel = "parent" }
+composition Package DataType
+(composition Package DataType) {srcLabel = "dataType" lowerBound = "0" upperBound = "*" destLabel = "package" }
+composition Class Attribute
+(composition Class Attribute) {srcLabel = "attribute" lowerBound = "0" upperBound = "*" destLabel = "class" }
+composition Class AttributeReferential
+(composition Class AttributeReferential) {srcLabel = "attributeReferential" lowerBound = "0" upperBound = "*" destLabel = "class" }
+composition Class Operation
+(composition Class Operation) {srcLabel = "operation" lowerBound = "0" upperBound = "*" }
+composition Class ObjectConstraintLanguage
+(composition Class ObjectConstraintLanguage) {srcLabel = "constraints" lowerBound = "0" upperBound = "1" }
+composition Class StateMachine
+(composition Class StateMachine) {srcLabel = "stateMachine" lowerBound = "0" upperBound = "1" destLabel = "class" }
+composition Class IdentifierPrimary
+(composition Class IdentifierPrimary) {srcLabel = "identifierPrimary" lowerBound = "0" upperBound = "1" }
+composition Class IdentifierNonPrimary
+(composition Class IdentifierNonPrimary) {srcLabel = "identifierNonPrimary" lowerBound = "0" upperBound = "*" }
+composition Class ClassPersistence
+(composition Class ClassPersistence) {srcLabel = "persistence" lowerBound = "0" upperBound = "1" }
+composition Class SpecializationGroup
+(composition Class SpecializationGroup) {srcLabel = "specializationGroup" lowerBound = "0" upperBound = "*" destLabel = "generalization" }
+composition Association AssociationEndPrimary
+(composition Association AssociationEndPrimary) {srcLabel = "primary" lowerBound = "1" upperBound = "1" destLabel = "association" }
+composition Association AssociationEndSecondary
+(composition Association AssociationEndSecondary) {srcLabel = "secondary" lowerBound = "1" upperBound = "1" destLabel = "association" }
+composition AssociationEnd AssociationEndPersistence
+(composition AssociationEnd AssociationEndPersistence) {srcLabel = "persistence" lowerBound = "0" upperBound = "1" }
+composition Attribute ObjectConstraintLanguage
+(composition Attribute ObjectConstraintLanguage) {srcLabel = "constraints" lowerBound = "0" upperBound = "1" }
+composition Attribute AttributePersistence
+(composition Attribute AttributePersistence) {srcLabel = "persistence" lowerBound = "0" upperBound = "1" }
+composition OperationSignature Parameter
+(composition OperationSignature Parameter) {srcLabel = "parameter" lowerBound = "0" upperBound = "*" }
+composition Operation ActionLanguage
+(composition Operation ActionLanguage) {srcLabel = "action" lowerBound = "0" upperBound = "1" }
+composition Event Transition
+(composition Event Transition) {srcLabel = "transition" lowerBound = "0" upperBound = "*" destLabel = "event" }
+composition Event Parameter
+(composition Event Parameter) {srcLabel = "parameter" lowerBound = "0" upperBound = "*" }
+composition State Procedure
+(composition State Procedure) {srcLabel = "entryProcedure" lowerBound = "0" upperBound = "1" }
+composition Procedure ActionLanguage
+(composition Procedure ActionLanguage) {srcLabel = "action" lowerBound = "1" upperBound = "1" }
+composition StateMachine InitialState
+(composition StateMachine InitialState) {srcLabel = "initialState" lowerBound = "1" upperBound = "1" destLabel = "stateMachine" }
+composition StateMachine State
+(composition StateMachine State) {srcLabel = "state" lowerBound = "0" upperBound = "*" destLabel = "stateMachine" }
+composition StateMachine FinalState
+(composition StateMachine FinalState) {srcLabel = "finalState" lowerBound = "0" upperBound = "1" destLabel = "stateMachine" }
+composition StateMachine Event
+(composition StateMachine Event) {srcLabel = "event" lowerBound = "0" upperBound = "*" }
+composition ClassPersistence Index
+(composition ClassPersistence Index) {srcLabel = "index" lowerBound = "0" upperBound = "*" }
+composition DataType Type
+(composition DataType Type) {srcLabel = "attribute" lowerBound = "0" upperBound = "*" }
+composition UnitTest use/ParameterData
+(composition UnitTest use/ParameterData) {srcLabel = "parameterData" lowerBound = "0" upperBound = "*" }
+composition ParameterData FreeType
+(composition ParameterData FreeType) {srcLabel = "parameter" lowerBound = "1" upperBound = "1" }
+composition ParameterData use/Data
+(composition ParameterData use/Data) {srcLabel = "data" lowerBound = "1" upperBound = "1" }

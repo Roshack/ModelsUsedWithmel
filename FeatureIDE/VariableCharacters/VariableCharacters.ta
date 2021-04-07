@@ -1,0 +1,46 @@
+$INSTANCE RedSweater Feature
+$INSTANCE YellowSweater Feature
+$INSTANCE Jeans Feature
+$INSTANCE BrownPant Feature
+$INSTANCE Koala Feature
+$INSTANCE Frog Feature
+$INSTANCE Ball Feature
+$INSTANCE Balloon Feature
+$INSTANCE Character Feature
+Character {isMandatory = "true" }
+$INSTANCE NormalOutfit Feature
+NormalOutfit {isAbstract = "true" }
+$INSTANCE Objects Feature
+Objects {isAbstract = "true" }
+$INSTANCE Clothes Feature
+Clothes {isMandatory = "true" isAbstract = "true" }
+$INSTANCE TopClothing Feature
+TopClothing {isMandatory = "true" isAbstract = "true" }
+$INSTANCE BottomClothing Feature
+BottomClothing {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Costume Feature
+Costume {isAbstract = "true" }
+FeatureOf Character Clothes
+FeatureOf NormalOutfit TopClothing
+FeatureOf NormalOutfit BottomClothing
+FeatureOf Character Objects
+FeatureOf Clothes NormalOutfit
+FeatureOf Clothes Costume
+FeatureOf TopClothing RedSweater
+FeatureOf TopClothing YellowSweater
+FeatureOf BottomClothing Jeans
+FeatureOf BottomClothing BrownPant
+FeatureOf Costume Koala
+FeatureOf Costume Frog
+FeatureOf Objects Ball
+FeatureOf Objects Balloon
+MutuallyExclusive RedSweater YellowSweater
+(MutuallyExclusive RedSweater YellowSweater) {parent = "TopClothing" }
+MutuallyExclusive Jeans BrownPant
+(MutuallyExclusive Jeans BrownPant) {parent = "BottomClothing" }
+MutuallyExclusive Koala Frog
+(MutuallyExclusive Koala Frog) {parent = "Costume" }
+MutuallyExclusive NormalOutfit Costume
+(MutuallyExclusive NormalOutfit Costume) {parent = "Clothes" }
+RequiredTogether TopClothing BottomClothing
+(RequiredTogether TopClothing BottomClothing) {parent = "NormalOutfit" M = "true" }

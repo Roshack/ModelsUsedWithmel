@@ -1,0 +1,30 @@
+$INSTANCE 14 block
+14 {gainLabel = "-0.8" name = "Coefficient of\n Restitution" type = "Gain" }
+$INSTANCE 17 block
+17 {value = "-9.81" name = "Gravitational\nacceleration" type = "Constant" }
+$INSTANCE 16 block
+16 {value = "15" name = "Initial\nVelocity " type = "InitialCondition" }
+$INSTANCE 15 block
+15 {name = "Memory" type = "Memory" }
+$INSTANCE 1 block
+1 {name = "Second-Order \nIntegrator" type = "SecondOrderIntegrator" }
+$INSTANCE 20 block
+20 {name = "Terminator1" type = "Terminator" }
+$INSTANCE 21 block
+21 {name = "Terminator2" type = "Terminator" }
+$INSTANCE 22 block
+22 {name = "Scope" type = "Scope" }
+port 1 1
+(port 1 1) {name = "Position" }
+port 1 2
+(port 1 2) {name = "Velocity" }
+signal 17 1
+signal 1 20
+(signal 1 20) {label = "Position" }
+signal 15 14
+signal 16 1
+signal 14 16
+signal 1 15
+(signal 1 15) {label = "Velocity" }
+signal 1 21
+(signal 1 21) {label = "Velocity" }

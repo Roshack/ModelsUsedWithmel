@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[1529, -7, 3079, 871]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="Open">on</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="ZoomFactor">150</P>
+  <P Name="ReportName">simulink-default.rpt</P>
+  <P Name="SIDHighWatermark">22</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="Constant" Name="C1" SID="1">
+    <P Name="Position">[15, 231, 50, 259]</P>
+    <P Name="ZOrder">-1</P>
+    <P Name="ShowName">off</P>
+    <P Name="Value">0</P>
+  </Block>
+  <Block BlockType="Constant" Name="C5" SID="2">
+    <P Name="Position">[15, 76, 50, 104]</P>
+    <P Name="ZOrder">-2</P>
+    <P Name="ShowName">off</P>
+    <P Name="Value">100</P>
+  </Block>
+  <Block BlockType="ModelReference" Name="CounterA" SID="3">
+    <P Name="Ports">[3, 1]</P>
+    <P Name="Position">[85, 101, 225, 229]</P>
+    <P Name="ZOrder">-3</P>
+    <P Name="ModelNameDialog">sldemo_mdlref_counter</P>
+    <Array PropName="ParameterArgumentNames" Type="String" Dimension="1*0"/>
+    <Array PropName="ParameterArgumentValues" Type="String" Dimension="1*0"/>
+    <P Name="SimulationMode">Normal</P>
+    <List ListType="VisibleInports">
+      <P Name="port0">on</P>
+      <P Name="port1">on</P>
+      <P Name="port2">on</P>
+    </List>
+    <P Name="ModelReferenceVersion">2.1</P>
+    <List ListType="InputPortNames">
+      <P Name="port0"> upper</P>
+      <P Name="port1"> input</P>
+      <P Name="port2">lower</P>
+    </List>
+    <List ListType="OutputPortNames">
+      <P Name="port0">output</P>
+    </List>
+    <List ListType="OutputPortOutputBusAsStructs">
+      <P Name="port0">off</P>
+    </List>
+    <List ListType="OutputPortSignalNames">
+      <P Name="port0">output</P>
+    </List>
+    <List ListType="InputPortSignalNames">
+      <P Name="port0">upper</P>
+      <P Name="port1"/>
+      <P Name="port2">lower</P>
+    </List>
+    <List ListType="InputPortLatchByCopyingInsideSignal">
+      <P Name="port0">off</P>
+      <P Name="port1">off</P>
+      <P Name="port2">off</P>
+    </List>
+    <List ListType="OutputPortUnitExprs">
+      <P Name="port0">inherit</P>
+    </List>
+    <List ListType="InputPortUnitExprs">
+      <P Name="port0">inherit</P>
+      <P Name="port1">inherit</P>
+      <P Name="port2">inherit</P>
+    </List>
+    <List ListType="InputPortLatchByDelayingOutsideSignal">
+      <P Name="port0">off</P>
+      <P Name="port1">off</P>
+      <P Name="port2">off</P>
+    </List>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">OutA</P>
+      <P Name="PropagatedSignals">output</P>
+    </Port>
+  </Block>
+  <Block BlockType="ModelReference" Name="CounterB" SID="4">
+    <P Name="Ports">[3, 1]</P>
+    <P Name="Position">[370, 101, 510, 229]</P>
+    <P Name="ZOrder">-4</P>
+    <P Name="ModelNameDialog">sldemo_mdlref_counter</P>
+    <Array PropName="ParameterArgumentNames" Type="String" Dimension="1*0"/>
+    <Array PropName="ParameterArgumentValues" Type="String" Dimension="1*0"/>
+    <P Name="SimulationMode">Normal</P>
+    <List ListType="VisibleInports">
+      <P Name="port0">on</P>
+      <P Name="port1">on</P>
+      <P Name="port2">on</P>
+    </List>
+    <P Name="ModelReferenceVersion">2.1</P>
+    <List ListType="InputPortNames">
+      <P Name="port0"> upper</P>
+      <P Name="port1"> input</P>
+      <P Name="port2">lower</P>
+    </List>
+    <List ListType="OutputPortNames">
+      <P Name="port0">output</P>
+    </List>
+    <List ListType="OutputPortOutputBusAsStructs">
+      <P Name="port0">off</P>
+    </List>
+    <List ListType="OutputPortSignalNames">
+      <P Name="port0">output</P>
+    </List>
+    <List ListType="InputPortSignalNames">
+      <P Name="port0">upper</P>
+      <P Name="port1"/>
+      <P Name="port2">lower</P>
+    </List>
+    <List ListType="InputPortLatchByCopyingInsideSignal">
+      <P Name="port0">off</P>
+      <P Name="port1">off</P>
+      <P Name="port2">off</P>
+    </List>
+    <List ListType="OutputPortUnitExprs">
+      <P Name="port0">inherit</P>
+    </List>
+    <List ListType="InputPortUnitExprs">
+      <P Name="port0">inherit</P>
+      <P Name="port1">inherit</P>
+      <P Name="port2">inherit</P>
+    </List>
+    <List ListType="InputPortLatchByDelayingOutsideSignal">
+      <P Name="port0">off</P>
+      <P Name="port1">off</P>
+      <P Name="port2">off</P>
+    </List>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">OutB</P>
+      <P Name="PropagatedSignals">output</P>
+    </Port>
+  </Block>
+  <Block BlockType="ModelReference" Name="CounterC" SID="5">
+    <P Name="Ports">[3, 1]</P>
+    <P Name="Position">[650, 101, 790, 229]</P>
+    <P Name="ZOrder">-5</P>
+    <P Name="ModelNameDialog">sldemo_mdlref_counter</P>
+    <Array PropName="ParameterArgumentNames" Type="String" Dimension="1*0"/>
+    <Array PropName="ParameterArgumentValues" Type="String" Dimension="1*0"/>
+    <List ListType="VisibleInports">
+      <P Name="port0">on</P>
+      <P Name="port1">on</P>
+      <P Name="port2">on</P>
+    </List>
+    <P Name="ModelReferenceVersion">2.1</P>
+    <List ListType="InputPortNames">
+      <P Name="port0"> upper</P>
+      <P Name="port1"> input</P>
+      <P Name="port2">lower</P>
+    </List>
+    <List ListType="OutputPortNames">
+      <P Name="port0">output</P>
+    </List>
+    <List ListType="OutputPortOutputBusAsStructs">
+      <P Name="port0">off</P>
+    </List>
+    <List ListType="OutputPortSignalNames">
+      <P Name="port0">output</P>
+    </List>
+    <List ListType="InputPortSignalNames">
+      <P Name="port0">upper</P>
+      <P Name="port1"/>
+      <P Name="port2">lower</P>
+    </List>
+    <List ListType="InputPortLatchByCopyingInsideSignal">
+      <P Name="port0">off</P>
+      <P Name="port1">off</P>
+      <P Name="port2">off</P>
+    </List>
+    <List ListType="OutputPortUnitExprs">
+      <P Name="port0">inherit</P>
+    </List>
+    <List ListType="InputPortUnitExprs">
+      <P Name="port0">inherit</P>
+      <P Name="port1">inherit</P>
+      <P Name="port2">inherit</P>
+    </List>
+    <List ListType="InputPortLatchByDelayingOutsideSignal">
+      <P Name="port0">off</P>
+      <P Name="port1">off</P>
+      <P Name="port2">off</P>
+    </List>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">OutC</P>
+      <P Name="PropagatedSignals">output</P>
+    </Port>
+  </Block>
+  <Block BlockType="DiscretePulseGenerator" Name="Pulse&#xA;Generator&#xA; with Ts=0.1" SID="7">
+    <P Name="Ports">[0, 1]</P>
+    <P Name="Position">[15, 148, 60, 182]</P>
+    <P Name="ZOrder">-7</P>
+    <P Name="SampleTime">0.1</P>
+    <P Name="VectorParams1D">off</P>
+  </Block>
+  <Block BlockType="DiscretePulseGenerator" Name="Pulse&#xA;Generator &#xA;with Ts=0.5" SID="8">
+    <P Name="Ports">[0, 1]</P>
+    <P Name="Position">[300, 148, 345, 182]</P>
+    <P Name="ZOrder">-8</P>
+    <P Name="SampleTime">0.5</P>
+  </Block>
+  <Block BlockType="DiscretePulseGenerator" Name="Pulse&#xA;Generator &#xA;with Ts=1.0" SID="9">
+    <P Name="Ports">[0, 1]</P>
+    <P Name="Position">[580, 148, 625, 182]</P>
+    <P Name="ZOrder">-9</P>
+    <P Name="SampleTime">1.0</P>
+  </Block>
+  <Block BlockType="Outport" Name="OutA" SID="17">
+    <P Name="Position">[265, 158, 295, 172]</P>
+    <P Name="ZOrder">17</P>
+    <P Name="VectorParamsAs1DForOutWhenUnconnected">off</P>
+  </Block>
+  <Block BlockType="Outport" Name="OutB" SID="18">
+    <P Name="Position">[545, 158, 575, 172]</P>
+    <P Name="ZOrder">18</P>
+    <P Name="Port">2</P>
+    <P Name="VectorParamsAs1DForOutWhenUnconnected">off</P>
+  </Block>
+  <Block BlockType="Outport" Name="OutC" SID="19">
+    <P Name="Position">[825, 158, 855, 172]</P>
+    <P Name="ZOrder">19</P>
+    <P Name="Port">3</P>
+    <P Name="VectorParamsAs1DForOutWhenUnconnected">off</P>
+  </Block>
+  <Block BlockType="Scope" Name="ScopeA" SID="20">
+    <P Name="Ports">[]</P>
+    <P Name="Position">[185, 14, 215, 46]</P>
+    <P Name="ZOrder">20</P>
+    <P Name="IOType">viewer</P>
+    <List ListType="IOSignalStrings">
+      <P Name="set0ParseKeys">11</P>
+      <P Name="set0Sigs">CounterA:o1</P>
+    </List>
+    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingSaveFormat&apos;,&apos;StructureWithTime&apos;,&apos;DataLoggingDecimation&apos;,&apos;1&apos;),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;0&apos;,&apos;MaxYLimReal&apos;,&apos;100&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0&apos;,&apos;MaxYLimMag&apos;,&apos;10&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,0,&apos;LineNames&apos;,{{[]}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;0&apos;,&apos;MaxYLimReal&apos;,&apos;100&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0&apos;,&apos;MaxYLimMag&apos;,&apos;10&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,0,&apos;LineNames&apos;,{{[]}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1),&apos;TimeRangeSamples&apos;,&apos;10&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true,&apos;OnceAtStop&apos;,false),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2021a&apos;)),&apos;Version&apos;,&apos;2021a&apos;,&apos;Location&apos;,[5 658 373 931])</P>
+    <P Name="NumInputPorts">1</P>
+    <P Name="Floating">off</P>
+  </Block>
+  <Block BlockType="Scope" Name="ScopeB" SID="21">
+    <P Name="Ports">[]</P>
+    <P Name="Position">[185, 14, 215, 46]</P>
+    <P Name="ZOrder">21</P>
+    <P Name="IOType">viewer</P>
+    <List ListType="IOSignalStrings">
+      <P Name="set0ParseKeys">11</P>
+      <P Name="set0Sigs">CounterB:o1</P>
+    </List>
+    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingVariableName&apos;,&apos;ScopeData1&apos;,&apos;DataLoggingSaveFormat&apos;,&apos;StructureWithTime&apos;,&apos;DataLoggingDecimation&apos;,&apos;1&apos;),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;0&apos;,&apos;MaxYLimReal&apos;,&apos;25&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0&apos;,&apos;MaxYLimMag&apos;,&apos;10&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,0,&apos;LineNames&apos;,{{[]}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;0&apos;,&apos;MaxYLimReal&apos;,&apos;25&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0&apos;,&apos;MaxYLimMag&apos;,&apos;10&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,0,&apos;LineNames&apos;,{{[]}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1),&apos;TimeRangeSamples&apos;,&apos;10&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true,&apos;OnceAtStop&apos;,false),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2021a&apos;)),&apos;Version&apos;,&apos;2021a&apos;,&apos;Location&apos;,[380 657 747 931])</P>
+    <P Name="NumInputPorts">1</P>
+    <P Name="Floating">off</P>
+  </Block>
+  <Block BlockType="Scope" Name="ScopeC" SID="22">
+    <P Name="Ports">[]</P>
+    <P Name="Position">[185, 14, 215, 46]</P>
+    <P Name="ZOrder">22</P>
+    <P Name="IOType">viewer</P>
+    <List ListType="IOSignalStrings">
+      <P Name="set0ParseKeys">11</P>
+      <P Name="set0Sigs">CounterC:o1</P>
+    </List>
+    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingVariableName&apos;,&apos;ScopeData2&apos;,&apos;DataLoggingSaveFormat&apos;,&apos;StructureWithTime&apos;,&apos;DataLoggingDecimation&apos;,&apos;1&apos;),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;0&apos;,&apos;MaxYLimReal&apos;,&apos;15&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0&apos;,&apos;MaxYLimMag&apos;,&apos;10&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,0,&apos;LineNames&apos;,{{[]}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;0&apos;,&apos;MaxYLimReal&apos;,&apos;15&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0&apos;,&apos;MaxYLimMag&apos;,&apos;10&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,0,&apos;LineNames&apos;,{{[]}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1),&apos;TimeRangeSamples&apos;,&apos;10&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true,&apos;OnceAtStop&apos;,false),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2021a&apos;)),&apos;Version&apos;,&apos;2021a&apos;,&apos;Location&apos;,[754 656 1121 931])</P>
+    <P Name="NumInputPorts">1</P>
+    <P Name="Floating">off</P>
+  </Block>
+  <Line>
+    <P Name="Name">OutB</P>
+    <P Name="ZOrder">18</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">4#out:1</P>
+    <P Name="Dst">18#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">OutA</P>
+    <P Name="ZOrder">17</P>
+    <P Name="Labels">[-1, 0]</P>
+    <P Name="Src">3#out:1</P>
+    <P Name="Dst">17#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">OutC</P>
+    <P Name="ZOrder">19</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">5#out:1</P>
+    <P Name="Dst">19#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">4</P>
+    <P Name="Src">7#out:1</P>
+    <P Name="Dst">3#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">5</P>
+    <P Name="Src">8#out:1</P>
+    <P Name="Dst">4#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">6</P>
+    <P Name="Src">9#out:1</P>
+    <P Name="Dst">5#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">7</P>
+    <P Name="Src">1#out:1</P>
+    <P Name="Points">[10, 0]</P>
+    <Branch>
+      <P Name="ZOrder">8</P>
+      <P Name="Points">[0, -40]</P>
+      <P Name="Dst">3#in:3</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">9</P>
+      <P Name="Labels">[1, 0]</P>
+      <P Name="Points">[285, 0]</P>
+      <Branch>
+        <P Name="ZOrder">10</P>
+        <P Name="Points">[0, -40]</P>
+        <P Name="Dst">4#in:3</P>
+      </Branch>
+      <Branch>
+        <P Name="ZOrder">11</P>
+        <P Name="Points">[280, 0; 0, -40]</P>
+        <P Name="Dst">5#in:3</P>
+      </Branch>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">12</P>
+    <P Name="Src">2#out:1</P>
+    <P Name="Points">[10, 0]</P>
+    <Branch>
+      <P Name="ZOrder">13</P>
+      <P Name="Points">[0, 35]</P>
+      <P Name="Dst">3#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">14</P>
+      <P Name="Points">[285, 0]</P>
+      <Branch>
+        <P Name="ZOrder">15</P>
+        <P Name="Points">[0, 35]</P>
+        <P Name="Dst">4#in:1</P>
+      </Branch>
+      <Branch>
+        <P Name="ZOrder">16</P>
+        <P Name="Points">[280, 0; 0, 35]</P>
+        <P Name="Dst">5#in:1</P>
+      </Branch>
+    </Branch>
+  </Line>
+  <Annotation SID="15">
+    <P Name="Name"> Component-Based Modeling</P>
+    <P Name="Position">[273, 15, 509, 40]</P>
+    <P Name="InternalMargins">[1, 1, 1, 1]</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="ZOrder">-1</P>
+    <P Name="FontSize">18</P>
+  </Annotation>
+  <Annotation SID="16">
+    <P Name="Name">Copyright 1990-2014 The MathWorks, Inc.</P>
+    <P Name="Position">[315, 288, 506, 304]</P>
+    <P Name="InternalMargins">[1, 1, 1, 1]</P>
+    <P Name="ZOrder">-2</P>
+  </Annotation>
+</System>

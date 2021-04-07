@@ -1,0 +1,84 @@
+$INSTANCE 350 block
+350 {name = "Callback Button" type = "CallbackButton" }
+$INSTANCE 1 block
+1 {value = "0" name = "Constant2" type = "Constant" }
+$INSTANCE 2 block
+2 {value = "12" name = "Constant3" type = "Constant" }
+$INSTANCE 3 block
+3 {value = "0" name = "Constant4" type = "Constant" }
+$INSTANCE 4 block
+4 {value = "0" name = "Constant5" type = "Constant" }
+$INSTANCE 259 block
+259 {name = "Dashboard" type = "SubSystem" }
+$INSTANCE 234 block
+234 {value = "ego_sw" name = "EGO Fault Switch" type = "Constant" }
+$INSTANCE 7 block
+7 {name = "Engine Gas Dynamics" type = "SubSystem" }
+$INSTANCE 276 block
+276 {value = "engine_speed" name = "Engine Speed" type = "Constant" }
+$INSTANCE 228 block
+228 {value = "speed_sw" name = "Engine Speed\nFault Switch" type = "Constant" }
+$INSTANCE 229 block
+229 {name = "Engine_Speed_Selector" type = "Switch" }
+$INSTANCE 240 block
+240 {value = "map_sw" name = "MAP Fault Switch" type = "Constant" }
+$INSTANCE 241 block
+241 {name = "MAP_Selector" type = "Switch" }
+$INSTANCE 235 block
+235 {name = "O2_Voltage_Selector" type = "Switch" }
+$INSTANCE 330 block
+330 {name = "Scope" type = "Scope" }
+$INSTANCE 60 block
+60 {name = "Throttle\nCommand" type = "Reference" }
+$INSTANCE 218 block
+218 {value = "throttle_sw" name = "Throttle Angle\nFault Switch" type = "Constant" }
+$INSTANCE 217 block
+217 {name = "Throttle_Angle_Selector" type = "Switch" }
+$INSTANCE 62 block
+62 {name = "To Controller" type = "SubSystem" }
+$INSTANCE 75 block
+75 {name = "To Plant" type = "SubSystem" }
+$INSTANCE 80 block
+80 {name = "fuel_rate_control" type = "SubSystem" }
+port 7 3
+(port 7 3) {name = "air_fuel_ratio" }
+port 229 1
+(port 229 1) {name = "speed" }
+port 241 1
+(port 241 1) {name = "map" }
+port 235 1
+(port 235 1) {name = "ego" }
+port 217 1
+(port 217 1) {name = "throttle" }
+port 75 1
+(port 75 1) {name = "fuel" }
+signal 80 75
+signal 62 80
+signal 217 62
+(signal 217 62) {label = "throttle" }
+signal 229 62
+(signal 229 62) {label = "speed" }
+signal 235 62
+(signal 235 62) {label = "ego" }
+signal 241 62
+(signal 241 62) {label = "map" }
+signal 3 217
+signal 218 217
+signal 228 229
+signal 1 229
+signal 2 235
+signal 7 235
+signal 234 235
+signal 240 241
+signal 7 241
+signal 4 241
+signal 7 330
+(signal 7 330) {label = "air_fuel_ratio" }
+signal 75 330
+(signal 75 330) {label = "fuel" }
+signal 75 7
+(signal 75 7) {label = "fuel" }
+signal 60 217
+signal 60 7
+signal 276 7
+signal 276 229

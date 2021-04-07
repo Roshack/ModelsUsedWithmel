@@ -1,0 +1,24 @@
+$INSTANCE 22 block
+22 {name = "Engine Speed, N" type = "Inport" }
+$INSTANCE 23 block
+23 {name = "Throttle Ang." type = "Inport" }
+$INSTANCE 24 block
+24 {value = "1.0" name = "Atmospheric\nPressure, Pa\n(bar)" type = "Constant" }
+$INSTANCE 25 block
+25 {name = "Intake Manifold" type = "SubSystem" }
+$INSTANCE 34 block
+34 {name = "Limit to Positive" type = "Saturate" }
+$INSTANCE 35 block
+35 {name = "Throttle" type = "SubSystem" }
+$INSTANCE 50 block
+50 {name = "Mass Airflow Rate" type = "Outport" }
+$INSTANCE 51 block
+51 {name = "MAP (bar)" type = "Outport" }
+signal 34 35
+signal 23 34
+signal 35 25
+signal 22 25
+signal 25 50
+signal 24 35
+signal 25 35
+signal 25 51

@@ -1,0 +1,149 @@
+$INSTANCE 22 block
+22 {name = "Add" type = "Sum" }
+$INSTANCE 23 block
+23 {name = "Add1" type = "Sum" }
+$INSTANCE 28 block
+28 {name = "Force\nImpulse" type = "DiscretePulseGenerator" }
+$INSTANCE 73 block
+73 {gainLabel = "pi" name = "Gain" type = "Gain" }
+$INSTANCE 29 block
+29 {name = "Inverted Pendulum Model" type = "SubSystem" }
+$INSTANCE 32 block
+32 {name = "Force" type = "Inport" }
+$INSTANCE 33 block
+33 {name = "Inverted Pendulum \nSubModel" type = "SubSystem" }
+$INSTANCE 34 block
+34 {name = "Force" type = "Inport" }
+$INSTANCE 35 block
+35 {name = "Integrator" type = "Integrator" }
+$INSTANCE 36 block
+36 {name = "Integrator1" type = "Integrator" }
+$INSTANCE 37 block
+37 {name = "Integrator2" type = "Integrator" }
+$INSTANCE 38 block
+38 {name = "Integrator3" type = "Integrator" }
+$INSTANCE 39 block
+39 {name = "Mux" type = "Mux" }
+$INSTANCE 40 block
+40 {name = "Mux1" type = "Mux" }
+$INSTANCE 41 block
+41 {name = "Mux2" type = "Mux" }
+$INSTANCE 42 block
+42 {name = "Mux3" type = "Mux" }
+$INSTANCE 43 block
+43 {name = "N" type = "Fcn" }
+$INSTANCE 44 block
+44 {name = "P" type = "Fcn" }
+$INSTANCE 45 block
+45 {name = "thetaddot" type = "Fcn" }
+$INSTANCE 46 block
+46 {name = "xddot" type = "Fcn" }
+$INSTANCE 47 block
+47 {name = "Position" type = "Outport" }
+$INSTANCE 48 block
+48 {name = "Angle" type = "Outport" }
+$INSTANCE 53 block
+53 {name = "Cart Position" type = "Outport" }
+$INSTANCE 54 block
+54 {name = "Pendulum Angle" type = "Outport" }
+$INSTANCE 26 block
+26 {name = "PID Controller" type = "Reference" }
+$INSTANCE 60 block
+60 {name = "PRBS Function" type = "SubSystem" }
+$INSTANCE 61 block
+61 {name = "In1" type = "Inport" }
+$INSTANCE 62 block
+62 {name = "Delay" type = "Delay" }
+$INSTANCE 63 block
+63 {name = "Delay3" type = "Delay" }
+$INSTANCE 64 block
+64 {name = "Delay6" type = "Delay" }
+$INSTANCE 65 block
+65 {name = "Delay7" type = "Delay" }
+$INSTANCE 66 block
+66 {name = "Logical\nOperator" type = "Logic" }
+$INSTANCE 67 block
+67 {name = "Sum" type = "Sum" }
+$INSTANCE 68 block
+68 {name = "Out1" type = "Outport" }
+$INSTANCE 25 block
+25 {value = "pi" name = "Pendulum\nReference" type = "Constant" }
+$INSTANCE 24 block
+24 {name = "Scope" type = "Scope" }
+$INSTANCE 70 block
+70 {name = "Step2" type = "Step" }
+$INSTANCE 59 block
+59 {name = "Test\nSignal" type = "ManualSwitch" }
+$INSTANCE 832 block
+832 {name = "To Workspace1" type = "ToWorkspace" }
+$INSTANCE 833 block
+833 {name = "To Workspace2" type = "ToWorkspace" }
+$INSTANCE 831 block
+831 {name = "To Workspace3" type = "ToWorkspace" }
+parent 29 32
+parent 29 33
+parent 29 53
+parent 29 54
+parent 33 34
+parent 33 35
+parent 33 36
+parent 33 37
+parent 33 38
+parent 33 39
+parent 33 40
+parent 33 41
+parent 33 42
+parent 33 43
+parent 33 44
+parent 33 45
+parent 33 46
+parent 33 47
+parent 33 48
+parent 60 61
+parent 60 62
+parent 60 63
+parent 60 64
+parent 60 65
+parent 60 66
+parent 60 67
+parent 60 68
+signal 34 39
+signal 41 43
+signal 39 46
+signal 44 40
+signal 42 44
+signal 40 45
+signal 37 47
+signal 33 54
+signal 33 53
+signal 32 33
+signal 67 62
+signal 66 67
+signal 61 67
+signal 62 63
+signal 63 64
+signal 26 22
+signal 28 22
+signal 22 29
+signal 70 60
+signal 25 59
+signal 60 73
+signal 73 59
+signal 43 40
+signal 43 39
+signal 46 41
+signal 46 35
+signal 45 42
+signal 35 39
+signal 35 37
+signal 36 41
+signal 38 41
+signal 38 40
+signal 64 66
+signal 64 65
+signal 65 68
+signal 65 66
+signal 23 831
+signal 23 26
+signal 29 24
+signal 59 23

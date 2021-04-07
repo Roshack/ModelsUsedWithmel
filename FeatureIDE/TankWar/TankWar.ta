@@ -1,0 +1,124 @@
+$INSTANCE explodieren Feature
+$INSTANCE PC Feature
+$INSTANCE Handy Feature
+$INSTANCE Beschleunigung Feature
+$INSTANCE einfrieren Feature
+$INSTANCE Bombe Feature
+$INSTANCE Energie Feature
+$INSTANCE Feuerkraft Feature
+$INSTANCE Mars Feature
+$INSTANCE M_240 Feature
+$INSTANCE M_600 Feature
+$INSTANCE M_780 Feature
+$INSTANCE fuer_PC Feature
+$INSTANCE fuer_Handy Feature
+$INSTANCE IMG_tool Feature
+$INSTANCE Re_fuer_PC Feature
+$INSTANCE Re_fuer_Handy Feature
+$INSTANCE Sound_fuer_pc Feature
+$INSTANCE Sound_fuer_Handy Feature
+$INSTANCE EN Feature
+$INSTANCE DE Feature
+$INSTANCE USA_M1Abrams Feature
+$INSTANCE Germany_Leopard Feature
+$INSTANCE China_Type99 Feature
+$INSTANCE Easy Feature
+$INSTANCE Hard Feature
+$INSTANCE TankWar Feature
+TankWar {isMandatory = "true" }
+$INSTANCE GUI Feature
+GUI {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Image Feature
+$INSTANCE Tools Feature
+$INSTANCE Tanks Feature
+Tanks {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Platform Feature
+Platform {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Map Feature
+Map {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Record Feature
+$INSTANCE Soundeffekt Feature
+$INSTANCE Language Feature
+Language {isMandatory = "true" isAbstract = "true" }
+$INSTANCE AI Feature
+AI {isMandatory = "true" isAbstract = "true" }
+FeatureOf TankWar GUI
+FeatureOf GUI Image
+FeatureOf TankWar Platform
+FeatureOf TankWar Record
+FeatureOf TankWar Soundeffekt
+FeatureOf TankWar Language
+FeatureOf TankWar AI
+FeatureOf GUI Map
+FeatureOf TankWar Tools
+FeatureOf TankWar Tanks
+FeatureOf TankWar explodieren
+FeatureOf Image fuer_PC
+FeatureOf Image fuer_Handy
+FeatureOf Image IMG_tool
+FeatureOf Platform PC
+FeatureOf Platform Handy
+FeatureOf Map M_240
+FeatureOf Map M_600
+FeatureOf Map M_780
+FeatureOf Record Re_fuer_PC
+FeatureOf Record Re_fuer_Handy
+FeatureOf Soundeffekt Sound_fuer_pc
+FeatureOf Soundeffekt Sound_fuer_Handy
+FeatureOf Language EN
+FeatureOf Language DE
+FeatureOf AI Easy
+FeatureOf AI Hard
+FeatureOf Tools Beschleunigung
+FeatureOf Tools einfrieren
+FeatureOf Tools Bombe
+FeatureOf Tools Energie
+FeatureOf Tools Feuerkraft
+FeatureOf Tools Mars
+FeatureOf Tanks USA_M1Abrams
+FeatureOf Tanks Germany_Leopard
+FeatureOf Tanks China_Type99
+MutuallyExclusive PC Handy
+(MutuallyExclusive PC Handy) {parent = "Platform" }
+MutuallyExclusive M_240 M_600
+(MutuallyExclusive M_240 M_600) {parent = "Map" }
+MutuallyExclusive M_240 M_780
+(MutuallyExclusive M_240 M_780) {parent = "Map" }
+MutuallyExclusive M_600 M_780
+(MutuallyExclusive M_600 M_780) {parent = "Map" }
+MutuallyExclusive Re_fuer_PC Re_fuer_Handy
+(MutuallyExclusive Re_fuer_PC Re_fuer_Handy) {parent = "Record" }
+MutuallyExclusive Sound_fuer_pc Sound_fuer_Handy
+(MutuallyExclusive Sound_fuer_pc Sound_fuer_Handy) {parent = "Soundeffekt" }
+MutuallyExclusive EN DE
+(MutuallyExclusive EN DE) {parent = "Language" }
+MutuallyExclusive Easy Hard
+(MutuallyExclusive Easy Hard) {parent = "AI" }
+RequiredTogether GUI Tanks
+(RequiredTogether GUI Tanks) {parent = "TankWar" M = "true" }
+RequiredTogether GUI Platform
+(RequiredTogether GUI Platform) {parent = "TankWar" M = "true" }
+RequiredTogether GUI Language
+(RequiredTogether GUI Language) {parent = "TankWar" M = "true" }
+RequiredTogether GUI AI
+(RequiredTogether GUI AI) {parent = "TankWar" M = "true" }
+RequiredTogether Tanks Platform
+(RequiredTogether Tanks Platform) {parent = "TankWar" M = "true" }
+RequiredTogether Tanks Language
+(RequiredTogether Tanks Language) {parent = "TankWar" M = "true" }
+RequiredTogether Tanks AI
+(RequiredTogether Tanks AI) {parent = "TankWar" M = "true" }
+RequiredTogether Platform Language
+(RequiredTogether Platform Language) {parent = "TankWar" M = "true" }
+RequiredTogether Platform AI
+(RequiredTogether Platform AI) {parent = "TankWar" M = "true" }
+RequiredTogether Language AI
+(RequiredTogether Language AI) {parent = "TankWar" M = "true" }
+Disjoint Re_fuer_PC Sound_fuer_pc
+Disjoint Sound_fuer_pc Re_fuer_PC
+Disjoint Re_fuer_Handy Sound_fuer_Handy
+Disjoint Sound_fuer_Handy Re_fuer_Handy
+Disjoint fuer_Handy fuer_PC
+Disjoint fuer_PC fuer_Handy
+Disjoint fuer_PC fuer_Handy
+Disjoint fuer_Handy fuer_PC

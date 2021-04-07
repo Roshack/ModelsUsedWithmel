@@ -1,0 +1,56 @@
+$INSTANCE Carbody Feature
+Carbody {isMandatory = "true" }
+$INSTANCE GearboxTest Feature
+GearboxTest {isMandatory = "true" }
+$INSTANCE Bluetooth Feature
+$INSTANCE USB Feature
+$INSTANCE CD Feature
+$INSTANCE GPSAntenna Feature
+GPSAntenna {isMandatory = "true" }
+$INSTANCE Europe Feature
+$INSTANCE USA Feature
+$INSTANCE Manual Feature
+$INSTANCE Automatic Feature
+$INSTANCE Car Feature
+Car {isMandatory = "true" }
+$INSTANCE Radio Feature
+$INSTANCE Navigation Feature
+$INSTANCE Ports Feature
+$INSTANCE DigitalCards Feature
+$INSTANCE Gearbox Feature
+Gearbox {isMandatory = "true" }
+FeatureOf Car Radio
+FeatureOf Radio Navigation
+FeatureOf Car Gearbox
+FeatureOf Navigation DigitalCards
+FeatureOf Radio Ports
+FeatureOf Car Carbody
+FeatureOf Car GearboxTest
+FeatureOf Radio Bluetooth
+FeatureOf Navigation GPSAntenna
+FeatureOf DigitalCards Europe
+FeatureOf DigitalCards USA
+FeatureOf Gearbox Manual
+FeatureOf Gearbox Automatic
+FeatureOf Ports USB
+FeatureOf Ports CD
+MutuallyExclusive Europe USA
+(MutuallyExclusive Europe USA) {parent = "DigitalCards" }
+MutuallyExclusive Manual Automatic
+(MutuallyExclusive Manual Automatic) {parent = "Gearbox" }
+RequiredTogether Carbody GearboxTest
+(RequiredTogether Carbody GearboxTest) {parent = "Car" M = "true" }
+RequiredTogether Carbody Gearbox
+(RequiredTogether Carbody Gearbox) {parent = "Car" M = "true" }
+RequiredTogether GearboxTest Gearbox
+(RequiredTogether GearboxTest Gearbox) {parent = "Car" M = "true" }
+Implies Navigation USB
+Implies USB Navigation
+Implies Europe Gearbox
+Implies Gearbox Europe
+Implies GPSAntenna USB
+Implies USB GPSAntenna
+Conjoint Carbody Gearbox
+Conjoint Gearbox Carbody
+Conjoint Gearbox Radio
+Conjoint Radio Gearbox

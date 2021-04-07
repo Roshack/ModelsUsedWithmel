@@ -1,0 +1,72 @@
+$INSTANCE _3AQUYJOAEeWuO-fDDpYHyA StateMachine
+_3AQUYJOAEeWuO-fDDpYHyA {name = "LightSwitch" }
+$INSTANCE _HslsYDekEeaQIqD3TyMHVw State
+_HslsYDekEeaQIqD3TyMHVw {exitEvent = "" label = "ManualMode" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "brightness += 1" }
+$INSTANCE _dY0WwOkQEemeGdc82b-fAg State
+_dY0WwOkQEemeGdc82b-fAg {type = "State" label = "AutomaticMode" }
+$INSTANCE _jgptIOkPEemeGdc82b-fAg State
+_jgptIOkPEemeGdc82b-fAg {type = "State" label = "TwilightDetectionMode" }
+$INSTANCE __1CasOkNEemeGdc82b-fAg State
+__1CasOkNEemeGdc82b-fAg {exitEvent = "" label = "Idle" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "brightness = 0" }
+$INSTANCE _CrZj0OkOEemeGdc82b-fAg State
+_CrZj0OkOEemeGdc82b-fAg {exitEvent = "" label = "TwilightDetected" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "brightness = 1" }
+$INSTANCE _plI_IOkPEemeGdc82b-fAg State
+_plI_IOkPEemeGdc82b-fAg {type = "Entry" }
+$INSTANCE _3gF3EOkPEemeGdc82b-fAg State
+_3gF3EOkPEemeGdc82b-fAg {type = "State" label = "MotionDetectionMode" }
+$INSTANCE _Rr-5AOkMEemeGdc82b-fAg State
+_Rr-5AOkMEemeGdc82b-fAg {exitEvent = "" label = "Idle" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "brightness = 0" }
+$INSTANCE _QYhGAOkMEemeGdc82b-fAg State
+_QYhGAOkMEemeGdc82b-fAg {exitEvent = "" label = "MotionDetected" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "brightness = 1" }
+$INSTANCE _--jMsOkPEemeGdc82b-fAg State
+_--jMsOkPEemeGdc82b-fAg {type = "Entry" }
+$INSTANCE _6MCDcOkQEemeGdc82b-fAg State
+_6MCDcOkQEemeGdc82b-fAg {type = "Entry" }
+$INSTANCE _7HK2AOkQEemeGdc82b-fAg State
+_7HK2AOkQEemeGdc82b-fAg {type = "Entry" }
+$INSTANCE _dY1k4ukQEemeGdc82b-fAg Region
+_dY1k4ukQEemeGdc82b-fAg {label = "r1" }
+$INSTANCE _jgriUOkPEemeGdc82b-fAg Region
+_jgriUOkPEemeGdc82b-fAg {label = "r1" }
+$INSTANCE _3gHsQOkPEemeGdc82b-fAg Region
+_3gHsQOkPEemeGdc82b-fAg {label = "r1" }
+Transition _HslsYDekEeaQIqD3TyMHVw _dY0WwOkQEemeGdc82b-fAg
+(Transition _HslsYDekEeaQIqD3TyMHVw _dY0WwOkQEemeGdc82b-fAg) {guard = "" trigger = "user.off_button" event = "" }
+Transition _HslsYDekEeaQIqD3TyMHVw _HslsYDekEeaQIqD3TyMHVw
+(Transition _HslsYDekEeaQIqD3TyMHVw _HslsYDekEeaQIqD3TyMHVw) {guard = "brightness < 10" trigger = "user.on_button " event = "" }
+Transition _dY0WwOkQEemeGdc82b-fAg _HslsYDekEeaQIqD3TyMHVw
+(Transition _dY0WwOkQEemeGdc82b-fAg _HslsYDekEeaQIqD3TyMHVw) {guard = "" trigger = "user.on_button" event = "" }
+Transition _jgptIOkPEemeGdc82b-fAg _3gF3EOkPEemeGdc82b-fAg
+(Transition _jgptIOkPEemeGdc82b-fAg _3gF3EOkPEemeGdc82b-fAg) {guard = "" trigger = "user.mode_button" event = "" }
+Transition __1CasOkNEemeGdc82b-fAg _CrZj0OkOEemeGdc82b-fAg
+(Transition __1CasOkNEemeGdc82b-fAg _CrZj0OkOEemeGdc82b-fAg) {guard = "" trigger = "lum_sensor.dark" event = "" }
+Transition _CrZj0OkOEemeGdc82b-fAg __1CasOkNEemeGdc82b-fAg
+(Transition _CrZj0OkOEemeGdc82b-fAg __1CasOkNEemeGdc82b-fAg) {guard = "" trigger = "lum_sensor.bright" event = "" }
+Transition _plI_IOkPEemeGdc82b-fAg __1CasOkNEemeGdc82b-fAg
+(Transition _plI_IOkPEemeGdc82b-fAg __1CasOkNEemeGdc82b-fAg) {guard = "" trigger = "" event = "" }
+Transition _3gF3EOkPEemeGdc82b-fAg _jgptIOkPEemeGdc82b-fAg
+(Transition _3gF3EOkPEemeGdc82b-fAg _jgptIOkPEemeGdc82b-fAg) {guard = "" trigger = "user.mode_button" event = "" }
+Transition _Rr-5AOkMEemeGdc82b-fAg _QYhGAOkMEemeGdc82b-fAg
+(Transition _Rr-5AOkMEemeGdc82b-fAg _QYhGAOkMEemeGdc82b-fAg) {guard = "" trigger = "sensor.motion" event = "" }
+Transition _QYhGAOkMEemeGdc82b-fAg _Rr-5AOkMEemeGdc82b-fAg
+(Transition _QYhGAOkMEemeGdc82b-fAg _Rr-5AOkMEemeGdc82b-fAg) {guard = "" trigger = "after 30s" event = "" }
+Transition _QYhGAOkMEemeGdc82b-fAg _QYhGAOkMEemeGdc82b-fAg
+(Transition _QYhGAOkMEemeGdc82b-fAg _QYhGAOkMEemeGdc82b-fAg) {guard = "" trigger = "sensor.motion" event = "" }
+Transition _--jMsOkPEemeGdc82b-fAg _Rr-5AOkMEemeGdc82b-fAg
+(Transition _--jMsOkPEemeGdc82b-fAg _Rr-5AOkMEemeGdc82b-fAg) {guard = "" trigger = "" event = "" }
+Transition _6MCDcOkQEemeGdc82b-fAg _3gF3EOkPEemeGdc82b-fAg
+(Transition _6MCDcOkQEemeGdc82b-fAg _3gF3EOkPEemeGdc82b-fAg) {guard = "" trigger = "" event = "" }
+Transition _7HK2AOkQEemeGdc82b-fAg _dY0WwOkQEemeGdc82b-fAg
+(Transition _7HK2AOkQEemeGdc82b-fAg _dY0WwOkQEemeGdc82b-fAg) {guard = "" trigger = "" event = "" }
+SubState _dY0WwOkQEemeGdc82b-fAg _jgptIOkPEemeGdc82b-fAg
+SubState _dY0WwOkQEemeGdc82b-fAg _3gF3EOkPEemeGdc82b-fAg
+SubState _jgptIOkPEemeGdc82b-fAg __1CasOkNEemeGdc82b-fAg
+SubState _jgptIOkPEemeGdc82b-fAg _CrZj0OkOEemeGdc82b-fAg
+SubState _3gF3EOkPEemeGdc82b-fAg _Rr-5AOkMEemeGdc82b-fAg
+SubState _3gF3EOkPEemeGdc82b-fAg _QYhGAOkMEemeGdc82b-fAg
+RegionOf _dY0WwOkQEemeGdc82b-fAg _dY1k4ukQEemeGdc82b-fAg
+(RegionOf _dY0WwOkQEemeGdc82b-fAg _dY1k4ukQEemeGdc82b-fAg) {rLabel = "r1" sLabel = "AutomaticMode" }
+RegionOf _jgptIOkPEemeGdc82b-fAg _jgriUOkPEemeGdc82b-fAg
+(RegionOf _jgptIOkPEemeGdc82b-fAg _jgriUOkPEemeGdc82b-fAg) {rLabel = "r1" sLabel = "TwilightDetectionMode" }
+RegionOf _3gF3EOkPEemeGdc82b-fAg _3gHsQOkPEemeGdc82b-fAg
+(RegionOf _3gF3EOkPEemeGdc82b-fAg _3gHsQOkPEemeGdc82b-fAg) {rLabel = "r1" sLabel = "MotionDetectionMode" }

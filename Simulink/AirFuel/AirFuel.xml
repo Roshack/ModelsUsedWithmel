@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[32, 254, 612, 607]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="PaperOrientation">landscape</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="Inport" Name="Engine Speed, N" SID="22">
+    <P Name="Position">[120, 222, 150, 238]</P>
+    <P Name="ZOrder">-1</P>
+    <P Name="Unit">rad/s</P>
+  </Block>
+  <Block BlockType="Inport" Name="Throttle Ang." SID="23">
+    <P Name="Position">[25, 52, 55, 68]</P>
+    <P Name="ZOrder">-2</P>
+    <P Name="Port">2</P>
+    <P Name="Unit">deg</P>
+  </Block>
+  <Block BlockType="Constant" Name="Atmospheric&#xA;Pressure, Pa&#xA;(bar)" SID="24">
+    <P Name="Position">[100, 110, 120, 130]</P>
+    <P Name="ZOrder">-3</P>
+    <P Name="Value">1.0</P>
+  </Block>
+  <Block BlockType="SubSystem" Name="Intake Manifold" SID="25">
+    <P Name="Ports">[2, 2]</P>
+    <P Name="Position">[215, 178, 450, 247]</P>
+    <P Name="ZOrder">-4</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <System Ref="system_25"/>
+  </Block>
+  <Block BlockType="Saturate" Name="Limit to Positive" SID="34">
+    <P Name="Position">[115, 48, 135, 72]</P>
+    <P Name="ZOrder">-5</P>
+    <P Name="UpperLimit">inf</P>
+    <P Name="LowerLimit">0</P>
+  </Block>
+  <Block BlockType="SubSystem" Name="Throttle" SID="35">
+    <P Name="Ports">[3, 1]</P>
+    <P Name="Position">[180, 48, 485, 132]</P>
+    <P Name="ZOrder">-6</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <System Ref="system_35"/>
+  </Block>
+  <Block BlockType="Outport" Name="Mass Airflow Rate" SID="50">
+    <P Name="Position">[505, 187, 535, 203]</P>
+    <P Name="ZOrder">-7</P>
+    <P Name="Unit">g/s</P>
+    <P Name="VectorParamsAs1DForOutWhenUnconnected">off</P>
+  </Block>
+  <Block BlockType="Outport" Name="MAP (bar)" SID="51">
+    <P Name="Position">[510, 222, 540, 238]</P>
+    <P Name="ZOrder">-8</P>
+    <P Name="Port">2</P>
+    <P Name="Unit">bar</P>
+    <P Name="VectorParamsAs1DForOutWhenUnconnected">off</P>
+  </Block>
+  <Line>
+    <P Name="ZOrder">1</P>
+    <P Name="Src">34#out:1</P>
+    <P Name="Dst">35#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">2</P>
+    <P Name="Src">23#out:1</P>
+    <P Name="Dst">34#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">3</P>
+    <P Name="Src">35#out:1</P>
+    <P Name="Points">[35, 0; 0, 70; -330, 0; 0, 35]</P>
+    <P Name="Dst">25#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">4</P>
+    <P Name="Src">22#out:1</P>
+    <P Name="Dst">25#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">5</P>
+    <P Name="Src">25#out:1</P>
+    <P Name="Dst">50#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">6</P>
+    <P Name="Src">24#out:1</P>
+    <P Name="Dst">35#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">7</P>
+    <P Name="Src">25#out:2</P>
+    <P Name="Points">[20, 0]</P>
+    <Branch>
+      <P Name="ZOrder">8</P>
+      <P Name="Points">[0, 40; -410, 0; 0, -180]</P>
+      <P Name="Dst">35#in:2</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">9</P>
+      <P Name="Dst">51#in:1</P>
+    </Branch>
+  </Line>
+  <Annotation SID="195">
+    <P Name="Name">Air-Fuel Intake Dynamics</P>
+    <P Name="Position">[185, 302, 380, 324]</P>
+    <P Name="InternalMargins">[1, 1, 1, 1]</P>
+    <P Name="ZOrder">-1</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">16</P>
+    <P Name="FontWeight">bold</P>
+  </Annotation>
+</System>

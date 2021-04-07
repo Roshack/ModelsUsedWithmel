@@ -1,0 +1,73 @@
+$INSTANCE Base Feature
+Base {isMandatory = "true" }
+$INSTANCE HTML Feature
+$INSTANCE TXT Feature
+$INSTANCE LATEX Feature
+$INSTANCE Commandline Feature
+$INSTANCE Gui_Preferences Feature
+$INSTANCE Query_History Feature
+$INSTANCE Index_History Feature
+$INSTANCE Single_Directory Feature
+$INSTANCE Multi_Directory Feature
+$INSTANCE Tree_View Feature
+$INSTANCE Normal_View Feature
+$INSTANCE Windows Feature
+$INSTANCE Linux Feature
+$INSTANCE Root Feature
+Root {isMandatory = "true" isAbstract = "true" }
+$INSTANCE GUI Feature
+$INSTANCE ContentHandler Feature
+ContentHandler {isMandatory = "true" isAbstract = "true" }
+$INSTANCE History Feature
+History {isAbstract = "true" }
+$INSTANCE User_Interface Feature
+User_Interface {isMandatory = "true" }
+$INSTANCE Index Feature
+Index {isMandatory = "true" isAbstract = "true" }
+$INSTANCE View Feature
+View {isMandatory = "true" isAbstract = "true" }
+$INSTANCE OS Feature
+OS {isMandatory = "true" isAbstract = "true" }
+FeatureOf Root User_Interface
+FeatureOf Root OS
+FeatureOf GUI Index
+FeatureOf GUI View
+FeatureOf Root ContentHandler
+FeatureOf GUI History
+FeatureOf Root Base
+FeatureOf GUI Gui_Preferences
+FeatureOf User_Interface GUI
+FeatureOf User_Interface Commandline
+FeatureOf Index Single_Directory
+FeatureOf Index Multi_Directory
+FeatureOf View Tree_View
+FeatureOf View Normal_View
+FeatureOf OS Windows
+FeatureOf OS Linux
+FeatureOf ContentHandler HTML
+FeatureOf ContentHandler TXT
+FeatureOf ContentHandler LATEX
+FeatureOf History Query_History
+FeatureOf History Index_History
+MutuallyExclusive Commandline GUI
+(MutuallyExclusive Commandline GUI) {parent = "User_Interface" }
+MutuallyExclusive Single_Directory Multi_Directory
+(MutuallyExclusive Single_Directory Multi_Directory) {parent = "Index" }
+MutuallyExclusive Tree_View Normal_View
+(MutuallyExclusive Tree_View Normal_View) {parent = "View" }
+MutuallyExclusive Windows Linux
+(MutuallyExclusive Windows Linux) {parent = "OS" }
+RequiredTogether Base ContentHandler
+(RequiredTogether Base ContentHandler) {parent = "Root" M = "true" }
+RequiredTogether Base User_Interface
+(RequiredTogether Base User_Interface) {parent = "Root" M = "true" }
+RequiredTogether Base OS
+(RequiredTogether Base OS) {parent = "Root" M = "true" }
+RequiredTogether ContentHandler User_Interface
+(RequiredTogether ContentHandler User_Interface) {parent = "Root" M = "true" }
+RequiredTogether ContentHandler OS
+(RequiredTogether ContentHandler OS) {parent = "Root" M = "true" }
+RequiredTogether User_Interface OS
+(RequiredTogether User_Interface OS) {parent = "Root" M = "true" }
+RequiredTogether Index View
+(RequiredTogether Index View) {parent = "GUI" M = "true" }

@@ -1,0 +1,209 @@
+$INSTANCE 14 block
+14 {name = "Input" type = "Inport" }
+$INSTANCE 15 block
+15 {gainLabel = "Mq" name = "Gain" type = "Gain" }
+$INSTANCE 16 block
+16 {name = "Integrate\nqdot" type = "Integrator" }
+$INSTANCE 17 block
+17 {name = "Sum" type = "Sum" }
+$INSTANCE 18 block
+18 {name = "q" type = "Outport" }
+$INSTANCE 19 block
+19 {name = "qdot" type = "Outport" }
+$INSTANCE 23 block
+23 {name = "Input" type = "Inport" }
+$INSTANCE 24 block
+24 {gainLabel = "Zw" name = "Gain" type = "Gain" }
+$INSTANCE 25 block
+25 {name = "Integrate" type = "Integrator" }
+$INSTANCE 26 block
+26 {name = "Sum" type = "Sum" }
+$INSTANCE 27 block
+27 {name = "wdot" type = "Outport" }
+$INSTANCE 28 block
+28 {name = "w" type = "Outport" }
+$INSTANCE 4 block
+4 {name = "Elevator\nDeflection\nd (deg)" type = "Inport" }
+$INSTANCE 5 block
+5 {name = "Vertical Gust\nwGust (ft/sec)" type = "Inport" }
+$INSTANCE 6 block
+6 {name = "Rotary Gust\nqGust (rad/sec)" type = "Inport" }
+$INSTANCE 7 block
+7 {name = "Elevator\nDeflection\nd (deg)1" type = "InportShadow" }
+$INSTANCE 8 block
+8 {gainLabel = "1/Uo" name = "Gain1" type = "Gain" }
+$INSTANCE 9 block
+9 {gainLabel = "Uo" name = "Gain3" type = "Gain" }
+$INSTANCE 10 block
+10 {gainLabel = "Mw" name = "Gain4" type = "Gain" }
+$INSTANCE 11 block
+11 {gainLabel = "Zd" name = "Gain5" type = "Gain" }
+$INSTANCE 12 block
+12 {gainLabel = "Md" name = "Gain6" type = "Gain" }
+$INSTANCE 13 block
+13 {name = "Pitch Channel" type = "SubSystem" }
+$INSTANCE 20 block
+20 {name = "Sum1" type = "Sum" }
+$INSTANCE 21 block
+21 {name = "Sum2" type = "Sum" }
+$INSTANCE 22 block
+22 {name = "Vertical Channel" type = "SubSystem" }
+$INSTANCE 29 block
+29 {name = "wdot (ft/sec^2)" type = "Outport" }
+$INSTANCE 30 block
+30 {name = "Pitch Accel\nqdot (rad/sec2)" type = "Outport" }
+$INSTANCE 31 block
+31 {name = "Pitch Rate\nq (rad/sec)" type = "Outport" }
+$INSTANCE 32 block
+32 {name = "Alpha, deg" type = "Outport" }
+$INSTANCE 34 block
+34 {name = "Stick\nInput (in)" type = "Inport" }
+$INSTANCE 35 block
+35 {name = "q (rad/sec)" type = "Inport" }
+$INSTANCE 36 block
+36 {name = "alpha (rad)" type = "Inport" }
+$INSTANCE 37 block
+37 {name = "Alpha-sensor\nLow-pass Filter" type = "TransferFcn" }
+$INSTANCE 38 block
+38 {gainLabel = "Kf" name = "Gain" type = "Gain" }
+$INSTANCE 39 block
+39 {gainLabel = "Kq" name = "Gain2" type = "Gain" }
+$INSTANCE 40 block
+40 {gainLabel = "Ka" name = "Gain3" type = "Gain" }
+$INSTANCE 41 block
+41 {name = "Pitch Rate\nLead Filter" type = "TransferFcn" }
+$INSTANCE 42 block
+42 {name = "Proportional\nplus integral\ncompensator" type = "TransferFcn" }
+$INSTANCE 43 block
+43 {name = "Stick\nPrefilter" type = "TransferFcn" }
+$INSTANCE 44 block
+44 {name = "Sum" type = "Sum" }
+$INSTANCE 45 block
+45 {name = "Sum1" type = "Sum" }
+$INSTANCE 46 block
+46 {name = "Sum2" type = "Sum" }
+$INSTANCE 47 block
+47 {name = "Elevator\nCommand (deg)" type = "Outport" }
+$INSTANCE 49 block
+49 {name = "Band-Limited\nWhite Noise" type = "Reference" }
+$INSTANCE 50 block
+50 {name = "Q-gust model" type = "TransferFcn" }
+$INSTANCE 51 block
+51 {name = "W-gust model" type = "TransferFcn" }
+$INSTANCE 52 block
+52 {name = "Wg" type = "Outport" }
+$INSTANCE 53 block
+53 {name = "Qg" type = "Outport" }
+$INSTANCE 1 block
+1 {name = "u" type = "Inport" }
+$INSTANCE 2 block
+2 {name = "Actuator\nModel" type = "TransferFcn" }
+$INSTANCE 3 block
+3 {name = "Aircraft\nDynamics\nModel" type = "SubSystem" }
+$INSTANCE 33 block
+33 {name = "Controller" type = "SubSystem" }
+$INSTANCE 48 block
+48 {name = "Dryden Wind\nGust Models" type = "SubSystem" }
+$INSTANCE 54 block
+54 {gainLabel = "Zw" name = "Gain" type = "Gain" }
+$INSTANCE 55 block
+55 {gainLabel = "Mq" name = "Gain1" type = "Gain" }
+$INSTANCE 56 block
+56 {gainLabel = "Mw" name = "Gain2" type = "Gain" }
+$INSTANCE 57 block
+57 {name = "More Info" type = "SubSystem" }
+$INSTANCE 58 block
+58 {name = "Pilot" type = "SignalGenerator" }
+$INSTANCE 70 block
+70 {name = "Sum" type = "Sum" }
+$INSTANCE 71 block
+71 {name = "Sum1" type = "Sum" }
+$INSTANCE 79 block
+79 {name = "qdot" type = "Terminator" }
+$INSTANCE 78 block
+78 {name = "wdot" type = "Terminator" }
+$INSTANCE 72 block
+72 {name = "alpha, rad" type = "Outport" }
+$INSTANCE 74 block
+74 {name = "Scope1" type = "Scope" }
+port 3 3
+(port 3 3) {name = "q, rad/sec" }
+port 3 4
+(port 3 4) {name = "alpha, rad" }
+port 48 1
+(port 48 1) {name = "wGust" }
+port 48 2
+(port 48 2) {name = "qGust" }
+port 58 1
+(port 58 1) {name = "Stick" }
+signal 15 17
+signal 14 17
+signal 23 26
+signal 24 26
+signal 12 21
+signal 11 20
+signal 9 20
+signal 6 21
+signal 21 13
+signal 20 22
+signal 10 21
+signal 5 20
+signal 4 11
+signal 7 12
+signal 8 32
+signal 22 29
+signal 13 30
+signal 38 44
+signal 42 44
+signal 43 46
+signal 44 47
+signal 39 45
+signal 40 45
+signal 45 46
+signal 41 39
+signal 35 41
+signal 37 40
+signal 36 37
+signal 34 43
+signal 49 51
+signal 50 53
+signal 56 70
+signal 54 3
+signal 48 55
+(signal 48 55) {label = "qGust" }
+signal 70 3
+signal 55 70
+signal 2 3
+signal 33 2
+signal 71 33
+signal 58 71
+(signal 58 71) {label = "Stick" }
+signal 1 71
+signal 3 78
+signal 3 79
+signal 3 33
+(signal 3 33) {label = "q, rad/sec" }
+signal 17 19
+signal 17 16
+signal 16 15
+signal 16 18
+signal 25 28
+signal 25 24
+signal 26 25
+signal 26 27
+signal 22 10
+signal 22 8
+signal 13 31
+signal 13 9
+signal 46 42
+signal 46 38
+signal 51 52
+signal 51 50
+signal 48 56
+(signal 48 56) {label = "wGust" }
+signal 48 54
+(signal 48 54) {label = "wGust" }
+signal 3 33
+(signal 3 33) {label = "alpha, rad" }
+signal 3 72
+(signal 3 72) {label = "alpha, rad" }

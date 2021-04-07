@@ -1,0 +1,18 @@
+$INSTANCE Hello Feature
+Hello {isMandatory = "true" }
+$INSTANCE World Feature
+$INSTANCE Wonderful Feature
+$INSTANCE Beautiful Feature
+$INSTANCE HelloWorld Feature
+HelloWorld {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Feature Feature
+Feature {isAbstract = "true" }
+FeatureOf HelloWorld Feature
+FeatureOf HelloWorld Hello
+FeatureOf HelloWorld World
+FeatureOf Feature Wonderful
+FeatureOf Feature Beautiful
+MutuallyExclusive Wonderful Beautiful
+(MutuallyExclusive Wonderful Beautiful) {parent = "Feature" }
+Implies Feature World
+Implies World Feature

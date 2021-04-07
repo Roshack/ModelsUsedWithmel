@@ -1,0 +1,1944 @@
+$INSTANCE b53c8d8c-2b31-4875-9308-30a07b074720 absFunction
+b53c8d8c-2b31-4875-9308-30a07b074720 {label = "Start and cross the crossing" }
+$INSTANCE ae7aba9c-0b95-4623-bcda-92f19f895183 absFunction
+ae7aba9c-0b95-4623-bcda-92f19f895183 {label = "Cross the crossing" }
+$INSTANCE 8b7717f7-bb4b-45c6-9551-ac4d7e811c3b absFunction
+8b7717f7-bb4b-45c6-9551-ac4d7e811c3b {label = "Stop before the crossing" }
+$INSTANCE d4a043ef-aadb-4463-803f-e1e6c7b3244a absFunction
+d4a043ef-aadb-4463-803f-e1e6c7b3244a {label = "Cross the crossing" }
+$INSTANCE 99b0ff08-2727-4e23-8bfa-faf9048fc71c absFunction
+99b0ff08-2727-4e23-8bfa-faf9048fc71c {label = "Stop before the crossing" }
+$INSTANCE d7e5b145-d26b-4734-82a1-9ddec03c1471 absFunction
+d7e5b145-d26b-4734-82a1-9ddec03c1471 {label = "Stop road traffic" }
+$INSTANCE ba65c041-dcc1-446a-896f-458dc28888dc absFunction
+ba65c041-dcc1-446a-896f-458dc28888dc {label = "Allow road traffic" }
+$INSTANCE 9c73e4c2-9e53-4950-92f5-867372a2b3a2 absFunction
+9c73e4c2-9e53-4950-92f5-867372a2b3a2 {label = "Analyze possible collision risks" }
+$INSTANCE 9045b02e-2995-4ade-965a-9247e50cc44c absFunction
+9045b02e-2995-4ade-965a-9247e50cc44c {label = "Approach the crossing" }
+$INSTANCE 02a91359-eefb-4e89-933b-d566cc00de3c absFunction
+02a91359-eefb-4e89-933b-d566cc00de3c {label = "Determine the train timetables" }
+$INSTANCE 123c4d66-9122-49a8-9a97-6aee9a67e8ef absFunction
+123c4d66-9122-49a8-9a97-6aee9a67e8ef {label = "Maintain tracks" }
+$INSTANCE feb11f52-54bd-49ab-b4dd-3e5ac75ab630 absFunction
+feb11f52-54bd-49ab-b4dd-3e5ac75ab630 {label = "Stop the traffic" }
+$INSTANCE dc51adac-590c-4ca7-a4f1-378a69c3e0ba absFunction
+dc51adac-590c-4ca7-a4f1-378a69c3e0ba {label = "Check the operation conditions" }
+$INSTANCE 1f00daa6-ba79-49c4-b753-fa63e638e368 absFunction
+1f00daa6-ba79-49c4-b753-fa63e638e368 {label = "Maintain and repair" }
+$INSTANCE ce1f6a79-067d-402d-b409-94c4398859af absFunction
+ce1f6a79-067d-402d-b409-94c4398859af {label = "Delay the train departure" }
+$INSTANCE 7117c203-45cc-4c72-ab51-0a4070c8bdec absFunction
+7117c203-45cc-4c72-ab51-0a4070c8bdec {label = "Prepare to leave" }
+$INSTANCE cb6179ce-0b71-478e-be94-93fa879a899b absFunction
+cb6179ce-0b71-478e-be94-93fa879a899b {label = "Authorize the train departure" }
+$INSTANCE b990fa30-a197-4ff3-898b-ad69f8c01c1a absFunction
+b990fa30-a197-4ff3-898b-ad69f8c01c1a {label = "Stop the train arriving " }
+$INSTANCE 1612642c-f5a6-4667-b0c9-3a4c1e3277dc absFunction
+1612642c-f5a6-4667-b0c9-3a4c1e3277dc {label = "Approach the crossing" }
+$INSTANCE 119113c7-6243-4b77-8287-5d3e3b39d391 absFunction
+119113c7-6243-4b77-8287-5d3e3b39d391 {label = "Authorize train arrival" }
+$INSTANCE 1d2914ca-cf49-4d35-9179-8a1b43669871 absFunction
+1d2914ca-cf49-4d35-9179-8a1b43669871 {label = "Wait for the departure authorization " }
+$INSTANCE 7e401d9f-31c9-40d5-9627-c944380d637b absFunction
+7e401d9f-31c9-40d5-9627-c944380d637b {label = "Launch the departure procedure" }
+$INSTANCE ae837622-3201-4b3d-8e48-069390d03c73 absFunction
+ae837622-3201-4b3d-8e48-069390d03c73 {label = "Stop on the crossing" }
+$INSTANCE 8a127304-de5a-4c11-b7d7-68bf1a0d5486 absFunction
+8a127304-de5a-4c11-b7d7-68bf1a0d5486 {label = "Cross the railway" }
+$INSTANCE 842ef64e-a2a8-4f33-bfcc-f5748dcc4bff absFunction
+842ef64e-a2a8-4f33-bfcc-f5748dcc4bff {label = "Cross the crossing" }
+$INSTANCE 03327669-186a-4e17-8b02-2b9170d66d53 absFunction
+03327669-186a-4e17-8b02-2b9170d66d53 {label = "Stop before the crossing" }
+$INSTANCE 817a5ef2-28cd-4fb4-944f-15300d47014b absFunction
+817a5ef2-28cd-4fb4-944f-15300d47014b {label = "Approach the crossing" }
+$INSTANCE 0af29ba2-d7c7-45fe-a5c8-a7e47bf6d310 absFunction
+0af29ba2-d7c7-45fe-a5c8-a7e47bf6d310 {label = "Leave the station " }
+$INSTANCE cc600fc2-e6af-486c-9346-69b49cc8cb21 absFunction
+cc600fc2-e6af-486c-9346-69b49cc8cb21 {label = "Start and cross the crossing" }
+$INSTANCE ecf9a6e4-7eb7-4428-ab4f-f61e29c92624 absFunction
+ecf9a6e4-7eb7-4428-ab4f-f61e29c92624 {label = "Prepare to leave" }
+$INSTANCE f845f6d1-b10a-4cb2-b8ad-4cf46da4b0eb absFunction
+f845f6d1-b10a-4cb2-b8ad-4cf46da4b0eb {label = "Wait for the departure authorization " }
+$INSTANCE 4634ba3e-abfe-49e6-826c-7e92a843d7cf absFunction
+4634ba3e-abfe-49e6-826c-7e92a843d7cf {label = "Arrive at the station " }
+$INSTANCE fc31f93c-a6cc-43c8-bafa-15e2535c4cb4 absFunction
+fc31f93c-a6cc-43c8-bafa-15e2535c4cb4 {label = "Cross the crossing" }
+$INSTANCE 7919d7bb-edbf-4f20-87d9-7e87659fa3f4 absFunction
+7919d7bb-edbf-4f20-87d9-7e87659fa3f4 {label = "Stop before crossing" }
+$INSTANCE 5ec58430-4c8f-44c2-abbe-0077fe77989e absFunction
+5ec58430-4c8f-44c2-abbe-0077fe77989e {label = "Arrive near the crossing" }
+$INSTANCE 67865306-1660-43da-bd81-b3831b4875d6 absFunction
+67865306-1660-43da-bd81-b3831b4875d6 {label = "Manage train traffic" }
+$INSTANCE f71d04ac-f98f-44ac-a54b-bf2e571b9db8 absFunction
+f71d04ac-f98f-44ac-a54b-bf2e571b9db8 {label = "Determine train timetables" }
+$INSTANCE 3d6e5811-132e-4366-be8d-3c781083e703 absFunction
+3d6e5811-132e-4366-be8d-3c781083e703 {label = "Launch the departure procedure" }
+$INSTANCE 2dadb0f7-31e0-482e-b6e3-917abf1051df absFunction
+2dadb0f7-31e0-482e-b6e3-917abf1051df {label = "Manage the level crossing " }
+$INSTANCE c6d78358-b8cc-43bd-b8de-73f6ca67938d absFunction
+c6d78358-b8cc-43bd-b8de-73f6ca67938d {label = "Monitor traffic" }
+$INSTANCE 744d29c0-81a5-47d8-a755-5a0d3a7cda8c absFunction
+744d29c0-81a5-47d8-a755-5a0d3a7cda8c {label = "Monitor instructions status" }
+$INSTANCE 25f0cf4f-0362-4590-8cd2-ca1851f0a369 absFunction
+25f0cf4f-0362-4590-8cd2-ca1851f0a369 {label = "Monitor the proper system operation" }
+$INSTANCE 01659fc9-926e-4515-9f90-86a4f591db6e absFunction
+01659fc9-926e-4515-9f90-86a4f591db6e {label = "Unlock trains after emergency stop" }
+$INSTANCE c35f1b2a-5b8d-42d7-8bd4-3c4272b6f7df absFunction
+c35f1b2a-5b8d-42d7-8bd4-3c4272b6f7df {label = "Stop trains in an emergency" }
+$INSTANCE eece1e5a-b5ba-44d7-8fda-0befff5cb9bc absFunction
+eece1e5a-b5ba-44d7-8fda-0befff5cb9bc {label = "Regulate rail and road traffic" }
+$INSTANCE c0e573df-9ebe-49b0-a8d3-6cb987b7772d absFunction
+c0e573df-9ebe-49b0-a8d3-6cb987b7772d {label = "Control vehicle traffic" }
+$INSTANCE 4827a14b-4396-4ee3-9734-8ae3c0db294b absFunction
+4827a14b-4396-4ee3-9734-8ae3c0db294b {label = "Stop vehicle traffic" }
+$INSTANCE 610efa2d-22f1-4d5c-a058-0287baa9af70 absFunction
+610efa2d-22f1-4d5c-a058-0287baa9af70 {label = "Release vehicle traffic" }
+$INSTANCE 126ece23-ef3b-4fe0-bec4-b3dbd903bfa6 absFunction
+126ece23-ef3b-4fe0-bec4-b3dbd903bfa6 {label = "Verify the absence of vehicle in the crossing" }
+$INSTANCE 8ca590c8-7ff2-42f3-a194-2ef4c12cd543 absFunction
+8ca590c8-7ff2-42f3-a194-2ef4c12cd543 {label = "Manage train movements" }
+$INSTANCE 988274ad-347e-460c-b033-266b120721df absFunction
+988274ad-347e-460c-b033-266b120721df {label = "Implement the departure procedure" }
+$INSTANCE d35e2a23-cd82-487f-a8e9-ca58eca0e547 absFunction
+d35e2a23-cd82-487f-a8e9-ca58eca0e547 {label = "Detect crossing by the train leaving" }
+$INSTANCE cd468610-1bc9-46b8-b111-aef755fcf780 absFunction
+cd468610-1bc9-46b8-b111-aef755fcf780 {label = "Signal departure permission to the train" }
+$INSTANCE fa59b83b-f039-44a7-98f6-a3bb04639b20 absFunction
+fa59b83b-f039-44a7-98f6-a3bb04639b20 {label = "Signal departure prohibition to the train" }
+$INSTANCE 54b14102-3ad6-4a2e-bfe3-90c76680f870 absFunction
+54b14102-3ad6-4a2e-bfe3-90c76680f870 {label = "Supervise the departure procedure" }
+$INSTANCE d9a3496b-f48a-44ee-adef-64b67c3ec38f absFunction
+d9a3496b-f48a-44ee-adef-64b67c3ec38f {label = "Implement the arrival procedure" }
+$INSTANCE 0f8e67c3-5d84-47eb-bc95-6ae45e1db7a5 absFunction
+0f8e67c3-5d84-47eb-bc95-6ae45e1db7a5 {label = "Detect train arrival" }
+$INSTANCE 19fbbd53-5adc-4511-b228-af4196a42629 absFunction
+19fbbd53-5adc-4511-b228-af4196a42629 {label = "Detect crossing by the train arriving" }
+$INSTANCE eb0f13c4-2ac1-483e-941f-d135ee0d4b03 absFunction
+eb0f13c4-2ac1-483e-941f-d135ee0d4b03 {label = "Signal crossing permission to the train" }
+$INSTANCE 858beec0-b275-4549-bd1f-27aca5052327 absFunction
+858beec0-b275-4549-bd1f-27aca5052327 {label = "Signal to the train unavailable track" }
+$INSTANCE c3dab7d3-fca0-463f-b02d-fb1b7a6a9697 absFunction
+c3dab7d3-fca0-463f-b02d-fb1b7a6a9697 {label = "Supervise the arrival procedure" }
+$INSTANCE 2b927113-b21d-4b57-b7d9-d00690525b11 absFunction
+2b927113-b21d-4b57-b7d9-d00690525b11 {label = "Monitor the operation" }
+$INSTANCE c792cf67-3aff-4e55-ba1e-d60fa32c27a0 absFunction
+c792cf67-3aff-4e55-ba1e-d60fa32c27a0 {label = "Summarize the traffic status" }
+$INSTANCE 8baf918d-1507-4e8f-adf8-8103dddb9534 absFunction
+8baf918d-1507-4e8f-adf8-8103dddb9534 {label = "Collect the system operational status" }
+$INSTANCE 4169a14c-1705-4994-ba41-de595f81ed8e absFunction
+4169a14c-1705-4994-ba41-de595f81ed8e {label = "Collect instructions status" }
+$INSTANCE 9dee1092-e1c0-4b92-a255-59ce9e0943c2 absFunction
+9dee1092-e1c0-4b92-a255-59ce9e0943c2 {label = "Shut down the power supply in emergency" }
+$INSTANCE 34377b11-d0e9-4934-95f8-facae4de8707 absFunction
+34377b11-d0e9-4934-95f8-facae4de8707 {label = "Resume trains power supply" }
+$INSTANCE 9954e1a6-2f65-4e6a-abdb-4abe7671c8e4 absFunction
+9954e1a6-2f65-4e6a-abdb-4abe7671c8e4 {label = "Control rail and road traffic" }
+$INSTANCE 1a1c5ffe-73ac-4002-bf16-690b0ea275b9 absFunction
+1a1c5ffe-73ac-4002-bf16-690b0ea275b9 {label = "Control movements on the track" }
+$INSTANCE f074bddc-c074-49f0-b79f-17fb44bb6bc6 absFunction
+f074bddc-c074-49f0-b79f-17fb44bb6bc6 {label = "Detect the train passing the level crossing, dircetion, track" }
+$INSTANCE 8f548e36-be87-4213-9f73-fcf7933d1ea9 absFunction
+8f548e36-be87-4213-9f73-fcf7933d1ea9 {label = "Detect a train arriving in the distance" }
+$INSTANCE 6d164771-ec91-4312-bbec-778616414d24 absFunction
+6d164771-ec91-4312-bbec-778616414d24 {label = "Detect the train departure from the platform" }
+$INSTANCE a8fd68f5-4f66-4e07-abc1-f7d2697b297c absFunction
+a8fd68f5-4f66-4e07-abc1-f7d2697b297c {label = "Detect a vehicle accessing the track" }
+$INSTANCE d5b33a68-2bb9-4ae1-88e3-e45dfa201bad absFunction
+d5b33a68-2bb9-4ae1-88e3-e45dfa201bad {label = "Detect the vehicle exiting the track" }
+$INSTANCE 1ebc8427-2605-4a3b-8b52-57309463bee3 absFunction
+1ebc8427-2605-4a3b-8b52-57309463bee3 {label = "Control vehicles crossing" }
+$INSTANCE 12271a97-e1bb-415e-9929-8ce7550c82b9 absFunction
+12271a97-e1bb-415e-9929-8ce7550c82b9 {label = "Control road traffic" }
+$INSTANCE 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1 absFunction
+3b6cd39c-8c48-4c89-9f40-8e4e756b72a1 {label = "Stop road traffic" }
+$INSTANCE f5705971-3645-448e-94e5-f1f4c2a86440 absFunction
+f5705971-3645-448e-94e5-f1f4c2a86440 {label = "Release road traffic" }
+$INSTANCE a5d17402-4c08-45d7-893d-d9b7e607c59a absFunction
+a5d17402-4c08-45d7-893d-d9b7e607c59a {label = "Control road devices" }
+$INSTANCE db24b704-619b-41f2-8950-91e7609df3fc absFunction
+db24b704-619b-41f2-8950-91e7609df3fc {label = "Activate the crossing prevention device" }
+$INSTANCE 9b0be423-58bd-4827-a60e-791ab856ccc1 absFunction
+9b0be423-58bd-4827-a60e-791ab856ccc1 {label = "Provide the fluid" }
+$INSTANCE da9254ae-0b2d-4c8e-8534-56b6db160d4a absFunction
+da9254ae-0b2d-4c8e-8534-56b6db160d4a {label = "Control & command the crossing prevention device" }
+$INSTANCE 3f74dd29-99d5-4561-91b1-6ca272830836 absFunction
+3f74dd29-99d5-4561-91b1-6ca272830836 {label = "Pressurize the fluid" }
+$INSTANCE 47c3e966-98c4-4e93-8f09-a1709a725ece absFunction
+47c3e966-98c4-4e93-8f09-a1709a725ece {label = "Maintain a constant flow rate" }
+$INSTANCE e6820a88-8524-4dc3-9905-d572a1741362 absFunction
+e6820a88-8524-4dc3-9905-d572a1741362 {label = "Maintain a constant pressure" }
+$INSTANCE 376dbf0b-f43c-42d1-8489-fa61c44a7d44 absFunction
+376dbf0b-f43c-42d1-8489-fa61c44a7d44 {label = "Convert hydraulic energy into motion" }
+$INSTANCE 180638ff-f8d6-440c-b832-1952c59e089a absFunction
+180638ff-f8d6-440c-b832-1952c59e089a {label = "Activate devices" }
+$INSTANCE 5a482ba1-67a7-416c-b603-33ad4d9d7c95 absFunction
+5a482ba1-67a7-416c-b603-33ad4d9d7c95 {label = "Gather 8" }
+$INSTANCE 9d1610ae-d16f-40af-bbb5-08d90b3320de absFunction
+9d1610ae-d16f-40af-bbb5-08d90b3320de {label = "Activate the visual safety barrier" }
+$INSTANCE 12e226b7-9e07-4861-9c11-0798824696f9 absFunction
+12e226b7-9e07-4861-9c11-0798824696f9 {label = "Switch road signaling to Red" }
+$INSTANCE 06cf1b18-9112-47c1-9389-4c2d0ea6537d absFunction
+06cf1b18-9112-47c1-9389-4c2d0ea6537d {label = "Switch road signaling to Green" }
+$INSTANCE e3daa37c-8403-4714-8b5a-90f18c7ebdf4 absFunction
+e3daa37c-8403-4714-8b5a-90f18c7ebdf4 {label = "Ensure the proper functioning of the system" }
+$INSTANCE bfbd3e33-8476-411a-8d8f-a56fe8d461d1 absFunction
+bfbd3e33-8476-411a-8d8f-a56fe8d461d1 {label = "Detect conflicting accesses to the crossing" }
+$INSTANCE afaab29b-188b-41e4-952e-a6056684abaa absFunction
+afaab29b-188b-41e4-952e-a6056684abaa {label = "Test the proper operation of the system " }
+$INSTANCE 1ce222ef-aebe-4b88-855f-50700dd138e6 absFunction
+1ce222ef-aebe-4b88-855f-50700dd138e6 {label = "Detect and secure a vehicle stopped on the track" }
+$INSTANCE b0ff811a-f491-4bc8-9d76-01bc26429484 absFunction
+b0ff811a-f491-4bc8-9d76-01bc26429484 {label = "Control the power supply to trains" }
+$INSTANCE 04aa133b-aab5-4e22-8f2f-6d8d6a659f56 absFunction
+04aa133b-aab5-4e22-8f2f-6d8d6a659f56 {label = "Shut down the power supply to trains in emergency" }
+$INSTANCE 989d69e5-34d0-4f0d-aa32-06427a766c15 absFunction
+989d69e5-34d0-4f0d-aa32-06427a766c15 {label = "Resume trains power supply" }
+$INSTANCE 5e457e10-8d44-46da-961d-9df684611cda absFunction
+5e457e10-8d44-46da-961d-9df684611cda {label = "Control the road traffic status" }
+$INSTANCE cbe533d4-cff2-4bdd-a01d-d1dd6e0381bc absFunction
+cbe533d4-cff2-4bdd-a01d-d1dd6e0381bc {label = "Detect length of vehicles queue" }
+$INSTANCE 457dab08-da48-400f-bd80-805f0162d25e absFunction
+457dab08-da48-400f-bd80-805f0162d25e {label = "Detect approaching vehicles" }
+$INSTANCE 89eee517-0675-4391-b304-0d443079e5c1 absFunction
+89eee517-0675-4391-b304-0d443079e5c1 {label = "Detect vehicle stops before the barrier" }
+$INSTANCE 372d8c41-5f1d-4b59-9dd7-406c027bdafe absFunction
+372d8c41-5f1d-4b59-9dd7-406c027bdafe {label = "Implement the arrival procedure" }
+$INSTANCE d8a238af-9284-4a99-9ed1-b12e9f9dcc76 absFunction
+d8a238af-9284-4a99-9ed1-b12e9f9dcc76 {label = "Launch an arrival procedure" }
+$INSTANCE 65178be6-ec42-4ae3-8b9a-924d9c1eb038 absFunction
+65178be6-ec42-4ae3-8b9a-924d9c1eb038 {label = "Monitor the nominal arrival procedure" }
+$INSTANCE 7217c139-b364-4199-bf74-316aa9bb102f absFunction
+7217c139-b364-4199-bf74-316aa9bb102f {label = "Supervise delayed arrival" }
+$INSTANCE 3aa0f235-3ecb-4ea5-82da-41b1aee8ec1f absFunction
+3aa0f235-3ecb-4ea5-82da-41b1aee8ec1f {label = "Implement the departure procedure" }
+$INSTANCE e37d07d4-bbfe-43e5-b301-9c5e952f6146 absFunction
+e37d07d4-bbfe-43e5-b301-9c5e952f6146 {label = "Launch a departure procedure" }
+$INSTANCE 00383c1b-80a8-439b-9f94-2b2632095037 absFunction
+00383c1b-80a8-439b-9f94-2b2632095037 {label = "Supervise delayed departure" }
+$INSTANCE 3921d0e7-98e5-4c70-843b-4f5501e08e0f absFunction
+3921d0e7-98e5-4c70-843b-4f5501e08e0f {label = "Monitor the nominal departure procedure" }
+$INSTANCE 89b2350c-9b09-481b-af1e-c3a4b9ee7ebe absFunction
+89b2350c-9b09-481b-af1e-c3a4b9ee7ebe {label = "Control train movements" }
+$INSTANCE 8891ff27-1e33-4004-bb00-33cae810b5e5 absFunction
+8891ff27-1e33-4004-bb00-33cae810b5e5 {label = "Switch on the train arrival signal" }
+$INSTANCE a937007d-1000-4225-85a4-3cc4b14523c5 absFunction
+a937007d-1000-4225-85a4-3cc4b14523c5 {label = "Switch off the train arrival signal" }
+$INSTANCE 0b241979-7964-42f5-85c2-89228c02b241 absFunction
+0b241979-7964-42f5-85c2-89228c02b241 {label = "Switch on the arriving train stop signal" }
+$INSTANCE 49b8806f-f6d5-4f63-b5dd-f3480b0a08a4 absFunction
+49b8806f-f6d5-4f63-b5dd-f3480b0a08a4 {label = "Switch off the arriving train stop signal" }
+$INSTANCE c70f3327-92f7-460d-a26d-8b256edfe64e absFunction
+c70f3327-92f7-460d-a26d-8b256edfe64e {label = "Switch on the train departure signal" }
+$INSTANCE 144dc867-b127-43f8-b8fb-f3f36d4dff4b absFunction
+144dc867-b127-43f8-b8fb-f3f36d4dff4b {label = "Switch off the train departure signal" }
+$INSTANCE b4a9d5fb-c562-4dd9-a78e-8f8392e78712 absFunction
+b4a9d5fb-c562-4dd9-a78e-8f8392e78712 {label = "Verify the status of devices" }
+$INSTANCE b8880dda-8e50-4963-9b9e-df351d1f4a0a absFunction
+b8880dda-8e50-4963-9b9e-df351d1f4a0a {label = "Verify the status of road devices" }
+$INSTANCE f3d31347-836a-41e2-b5e9-a8563e674c7f absFunction
+f3d31347-836a-41e2-b5e9-a8563e674c7f {label = "Verify the status of barriers and devices" }
+$INSTANCE 0dbafbe6-664c-492a-a1f3-5531c8d986a6 absFunction
+0dbafbe6-664c-492a-a1f3-5531c8d986a6 {label = "Verify the status of traffic lights" }
+$INSTANCE 6983633d-c6ba-45f6-bcdf-ec22ec5ebb4d absFunction
+6983633d-c6ba-45f6-bcdf-ec22ec5ebb4d {label = "Verify the status of vehicle detectors" }
+$INSTANCE 43e29918-ceb2-4654-8524-445fca6ba02e absFunction
+43e29918-ceb2-4654-8524-445fca6ba02e {label = "Verify the status of rail track devices" }
+$INSTANCE 443555c2-952b-45e1-8f12-ca743e599c76 absFunction
+443555c2-952b-45e1-8f12-ca743e599c76 {label = "Verify the status of train detectors" }
+$INSTANCE 0594a76f-6b82-4952-bbed-4a94eb70c497 absFunction
+0594a76f-6b82-4952-bbed-4a94eb70c497 {label = "Verify the status of vehicle on the track detectors" }
+$INSTANCE fb2b82d4-10f1-45a5-94ea-846d028b9f86 absFunction
+fb2b82d4-10f1-45a5-94ea-846d028b9f86 {label = "Verify the status of train signals" }
+$INSTANCE df885f1a-a8d9-4edc-92bb-e42551e518ad absFunction
+df885f1a-a8d9-4edc-92bb-e42551e518ad {label = "Verify the status of train emergency stop commands" }
+$INSTANCE 6e98c3c5-84d2-4c3e-95fb-dfdf74afb5e4 absFunction
+6e98c3c5-84d2-4c3e-95fb-dfdf74afb5e4 {label = "Trains and road vehicles traffic" }
+$INSTANCE 71ae2900-5132-421f-be88-4d4a7e01c16c absFunction
+71ae2900-5132-421f-be88-4d4a7e01c16c {label = "Manage the level crossing" }
+$INSTANCE 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78 absFunction
+0cc18fe5-083b-42d4-9a2b-b3aec57c9d78 {label = "Stop trains in an emergency" }
+$INSTANCE 0a6b0230-cbb9-4e00-9a8d-f5c08239e355 absFunction
+0a6b0230-cbb9-4e00-9a8d-f5c08239e355 {label = "Monitor the traffic" }
+$INSTANCE 9c9eeb0b-4aab-4953-9a25-b791b1972d1a absFunction
+9c9eeb0b-4aab-4953-9a25-b791b1972d1a {label = "Monitor the status of instructions" }
+$INSTANCE c3c4dcca-8e26-408b-8c69-af2a73224aed absFunction
+c3c4dcca-8e26-408b-8c69-af2a73224aed {label = "Release road traffic after emergency stop" }
+$INSTANCE 7a971e96-75a4-4a91-8878-ac4f68a06715 absFunction
+7a971e96-75a4-4a91-8878-ac4f68a06715 {label = "Release trains after emergency stop" }
+$INSTANCE 4bc7baef-474e-4cd6-9a7c-970b3509d061 absFunction
+4bc7baef-474e-4cd6-9a7c-970b3509d061 {label = "Monitor the proper functioning of the system" }
+$INSTANCE 2ff8f87d-1f0f-4721-9024-ea0e0298577c absFunction
+2ff8f87d-1f0f-4721-9024-ea0e0298577c {label = "Arrive at the station" }
+$INSTANCE b5789bb6-3ede-4f80-b5e6-72df7711c0be absFunction
+b5789bb6-3ede-4f80-b5e6-72df7711c0be {label = "Stop before the crossing" }
+$INSTANCE 039f7109-3bbd-4d6c-9177-2f0ce6ef653c absFunction
+039f7109-3bbd-4d6c-9177-2f0ce6ef653c {label = "Cross the crossing" }
+$INSTANCE 4a3cf01f-df06-4948-8109-7947dbdfafed absFunction
+4a3cf01f-df06-4948-8109-7947dbdfafed {label = "Arrive near the corssing" }
+$INSTANCE 4d2dbaa9-65cc-423a-b44d-77a6184db62d absFunction
+4d2dbaa9-65cc-423a-b44d-77a6184db62d {label = "Cross the railway" }
+$INSTANCE 4b63558b-8da5-4e7b-9574-ec7bc05a6069 absFunction
+4b63558b-8da5-4e7b-9574-ec7bc05a6069 {label = "Arrive near the crossing" }
+$INSTANCE b5399c80-9c3c-4194-8061-0157a5bd610a absFunction
+b5399c80-9c3c-4194-8061-0157a5bd610a {label = "Stop before the crossing" }
+$INSTANCE 08ba794b-b95c-4fab-be9a-17c996539742 absFunction
+08ba794b-b95c-4fab-be9a-17c996539742 {label = "Cross the crossing" }
+$INSTANCE 8288b5c3-b781-4331-bb31-afa2318f7c8d absFunction
+8288b5c3-b781-4331-bb31-afa2318f7c8d {label = "Leave the station" }
+$INSTANCE 85d2fbbf-fcaf-4557-a505-c89fe60d2aec absFunction
+85d2fbbf-fcaf-4557-a505-c89fe60d2aec {label = "Wait for the departure authorization" }
+$INSTANCE c59c7584-726a-4417-a51f-34e2530a008d absFunction
+c59c7584-726a-4417-a51f-34e2530a008d {label = "Prepare to leave" }
+$INSTANCE 659b1fba-b63e-4190-9e61-05c2d602d553 absFunction
+659b1fba-b63e-4190-9e61-05c2d602d553 {label = "Start and cross the crossing" }
+$INSTANCE 6b6e033d-d2ef-4627-aa41-6e62929a2594 absFunction
+6b6e033d-d2ef-4627-aa41-6e62929a2594 {label = "Manage train traffic" }
+$INSTANCE 276b6221-888d-4279-8ed2-f642037e3d3e absFunction
+276b6221-888d-4279-8ed2-f642037e3d3e {label = "Launch the departure procedure" }
+$INSTANCE f6505b67-051a-4a95-b914-59d203015bd9 absFunction
+f6505b67-051a-4a95-b914-59d203015bd9 {label = "Determine train timetables" }
+$INSTANCE 1890c905-ba64-416a-a5b3-bac23814b80e absFunction
+1890c905-ba64-416a-a5b3-bac23814b80e {label = "Control rail and road traffic" }
+$INSTANCE aac55733-93ec-4b76-b061-f832da430208 absFunction
+aac55733-93ec-4b76-b061-f832da430208 {label = "Control movements on the track" }
+$INSTANCE a94f98dc-174d-44f7-8905-ec61aa7c4083 absFunction
+a94f98dc-174d-44f7-8905-ec61aa7c4083 {label = "Detect the train passing the level crossing, dircetion, track" }
+$INSTANCE 45e41083-2941-4f6d-b95d-984cbfb76964 absFunction
+45e41083-2941-4f6d-b95d-984cbfb76964 {label = "Detect a train arriving in the distance" }
+$INSTANCE 9734f4f6-10a1-485d-93ca-728623998aa3 absFunction
+9734f4f6-10a1-485d-93ca-728623998aa3 {label = "Detect the train departure from the platform" }
+$INSTANCE 8149a820-9f6a-415a-8cba-ead629dccb6e absFunction
+8149a820-9f6a-415a-8cba-ead629dccb6e {label = "Detect a vehicle accessing the track" }
+$INSTANCE ced410be-f413-4b82-9bf7-b15b20fdb2e2 absFunction
+ced410be-f413-4b82-9bf7-b15b20fdb2e2 {label = "Detect the vehicle exiting the track" }
+$INSTANCE 9c8131fa-ebf4-4953-a733-d29b0aec704c absFunction
+9c8131fa-ebf4-4953-a733-d29b0aec704c {label = "Control vehicles crossing" }
+$INSTANCE 4bfbeaf0-6225-4862-8333-2365a93ac105 absFunction
+4bfbeaf0-6225-4862-8333-2365a93ac105 {label = "Control road traffic" }
+$INSTANCE 7cbf5dc5-cb2d-4817-9135-179362218fbc absFunction
+7cbf5dc5-cb2d-4817-9135-179362218fbc {label = "Stop road traffic" }
+$INSTANCE 98aa003b-683a-45ed-b0a5-86bb69449842 absFunction
+98aa003b-683a-45ed-b0a5-86bb69449842 {label = "Release road traffic" }
+$INSTANCE 55e5d725-3240-42cc-8c95-fd6fd7073ec0 absFunction
+55e5d725-3240-42cc-8c95-fd6fd7073ec0 {label = "Control road devices" }
+$INSTANCE ddd1c449-3e30-4d57-b472-13f8bd769aa0 absFunction
+ddd1c449-3e30-4d57-b472-13f8bd769aa0 {label = "Activate the crossing prevention device" }
+$INSTANCE 620f5f9d-eadb-457d-8e18-20921f06f844 absFunction
+620f5f9d-eadb-457d-8e18-20921f06f844 {label = "Convert the movement direction into separated signals" }
+$INSTANCE 843d4418-cfbd-4e7b-96f0-725d4589c34d absFunction
+843d4418-cfbd-4e7b-96f0-725d4589c34d {label = "Determine the barrier status 2" }
+$INSTANCE f00a9bbb-8d0d-4abc-94f5-d7127d924c8f absFunction
+f00a9bbb-8d0d-4abc-94f5-d7127d924c8f {label = "Reverse the movement 2" }
+$INSTANCE 22aeb9be-9bc9-44d8-b71a-41495e1e49c0 absFunction
+22aeb9be-9bc9-44d8-b71a-41495e1e49c0 {label = "Start/stop movement 2" }
+$INSTANCE 95b29126-4e1d-422e-9ba1-c924bf4b3206 absFunction
+95b29126-4e1d-422e-9ba1-c924bf4b3206 {label = "Detect movement obstacles 2" }
+$INSTANCE b49c4513-8126-441a-a9d4-54a9b2d1a360 absFunction
+b49c4513-8126-441a-a9d4-54a9b2d1a360 {label = "Filter impurities" }
+$INSTANCE 1df5246b-f74b-4419-8fe0-28beefe4f79a absFunction
+1df5246b-f74b-4419-8fe0-28beefe4f79a {label = "Reduce pressure on request" }
+$INSTANCE cdb8a7a2-e968-4f3e-b2b9-22a8e01a4437 absFunction
+cdb8a7a2-e968-4f3e-b2b9-22a8e01a4437 {label = "Activate ground obstacles" }
+$INSTANCE 02183a6c-07a7-4109-8359-e0defb19e753 absFunction
+02183a6c-07a7-4109-8359-e0defb19e753 {label = "Maintain a constant flow rate" }
+$INSTANCE 69cde6e1-1f6d-4d79-b006-c33324845a27 absFunction
+69cde6e1-1f6d-4d79-b006-c33324845a27 {label = "Direct the fluid towards multiple receivers" }
+$INSTANCE 64319a90-9d1f-4ea2-b0e2-32064d7a5599 absFunction
+64319a90-9d1f-4ea2-b0e2-32064d7a5599 {label = "Convert hydraulic energy into motion" }
+$INSTANCE c121a4ec-2e95-42c7-9e1f-1dfdcdaf0fd0 absFunction
+c121a4ec-2e95-42c7-9e1f-1dfdcdaf0fd0 {label = "Divert part of the fluid in case of over-pressure" }
+$INSTANCE eb16a158-0956-4bbb-8b10-a54eb7222ae6 absFunction
+eb16a158-0956-4bbb-8b10-a54eb7222ae6 {label = "Pressurize the fluid" }
+$INSTANCE 0ec04746-a513-47c4-aa36-e988c3e71a12 absFunction
+0ec04746-a513-47c4-aa36-e988c3e71a12 {label = "Retrieve the excess fluid" }
+$INSTANCE 39bbc77d-26b2-497d-976b-a028fc5fcde9 absFunction
+39bbc77d-26b2-497d-976b-a028fc5fcde9 {label = "Provide the fluid" }
+$INSTANCE 4905f8f1-a867-4889-855c-72dfc0a488da absFunction
+4905f8f1-a867-4889-855c-72dfc0a488da {label = "Detect the arrival in raised stop position" }
+$INSTANCE 0503bda8-15ea-4ae2-a762-305dc1aa5d9c absFunction
+0503bda8-15ea-4ae2-a762-305dc1aa5d9c {label = "Detect the arrival in lowered stop position" }
+$INSTANCE fadf42be-25aa-4cf7-b891-a2b21aa27c35 absFunction
+fadf42be-25aa-4cf7-b891-a2b21aa27c35 {label = "Provide the fluid" }
+$INSTANCE 21f020df-f50c-40ad-bbc7-2a476a2b7d64 absFunction
+21f020df-f50c-40ad-bbc7-2a476a2b7d64 {label = "Control & command the crossing prevention device" }
+$INSTANCE ef53362e-8629-46ab-9c3f-0deab490d479 absFunction
+ef53362e-8629-46ab-9c3f-0deab490d479 {label = "Pressurize the fluid" }
+$INSTANCE 4e8d9656-b807-4c37-a016-8a4f4efab6b2 absFunction
+4e8d9656-b807-4c37-a016-8a4f4efab6b2 {label = "Maintain a constant flow rate" }
+$INSTANCE bdb94c2b-712e-4437-8f6c-ec19a17cf226 absFunction
+bdb94c2b-712e-4437-8f6c-ec19a17cf226 {label = "Maintain a constant pressure" }
+$INSTANCE daa62f10-035f-4046-9df8-f9e44e168df8 absFunction
+daa62f10-035f-4046-9df8-f9e44e168df8 {label = "Convert hydraulic energy into motion" }
+$INSTANCE 1155b8e5-5661-42b6-96c0-642d9574d929 absFunction
+1155b8e5-5661-42b6-96c0-642d9574d929 {label = "Activate devices" }
+$INSTANCE f844eb2e-c90e-472d-8768-e6da2ac7a987 absFunction
+f844eb2e-c90e-472d-8768-e6da2ac7a987 {label = "Activate the visual safety barrier" }
+$INSTANCE 7c4036f5-dd14-4865-abad-2d00cb699146 absFunction
+7c4036f5-dd14-4865-abad-2d00cb699146 {label = "Detect movement obstacles" }
+$INSTANCE 408c70bd-bb83-4aa0-9d3a-8172c37cc921 absFunction
+408c70bd-bb83-4aa0-9d3a-8172c37cc921 {label = "Reverse the movement" }
+$INSTANCE 35f50175-9dac-486e-be2f-304fdcca29cc absFunction
+35f50175-9dac-486e-be2f-304fdcca29cc {label = "Start/stop movement" }
+$INSTANCE 562a40db-38d0-4c70-93c8-65f0e5c23da1 absFunction
+562a40db-38d0-4c70-93c8-65f0e5c23da1 {label = "Determine the barrier status" }
+$INSTANCE d127b682-baf6-4c30-9586-784b8a937049 absFunction
+d127b682-baf6-4c30-9586-784b8a937049 {label = "Activate the barrier" }
+$INSTANCE de33f8ec-c413-445b-bcc5-58f96a3804dd absFunction
+de33f8ec-c413-445b-bcc5-58f96a3804dd {label = "Module the intensity according to setpoint and speed" }
+$INSTANCE c4a250c6-276d-42e1-a40f-8c8548e30ee0 absFunction
+c4a250c6-276d-42e1-a40f-8c8548e30ee0 {label = "Transform an electrical voltage into mechanical torque" }
+$INSTANCE c3a8a53a-e6ac-411d-8f5e-9efceb37e12c absFunction
+c3a8a53a-e6ac-411d-8f5e-9efceb37e12c {label = "Reduce speed and increase torque" }
+$INSTANCE 16302d02-a3fc-435e-9251-c0815a95b21b absFunction
+16302d02-a3fc-435e-9251-c0815a95b21b {label = "Detect arrival in lowered stop position" }
+$INSTANCE bd3ee997-2cc0-438e-992c-3fc5e479abf2 absFunction
+bd3ee997-2cc0-438e-992c-3fc5e479abf2 {label = "Detect arrival in raised stop position" }
+$INSTANCE ec1fcf9e-aae0-4c2a-8574-4f6817fb41aa absFunction
+ec1fcf9e-aae0-4c2a-8574-4f6817fb41aa {label = "Switch road signaling to Red" }
+$INSTANCE 5e6a1042-a5cb-45bb-b06f-343ba4c8e0d9 absFunction
+5e6a1042-a5cb-45bb-b06f-343ba4c8e0d9 {label = "Switch road signaling to Green" }
+$INSTANCE 981c1744-3278-4c1c-8be0-24b4ae9af670 absFunction
+981c1744-3278-4c1c-8be0-24b4ae9af670 {label = "Ensure the proper functioning of the system" }
+$INSTANCE 386a8764-c96f-4434-8875-174654ea136c absFunction
+386a8764-c96f-4434-8875-174654ea136c {label = "Detect conflicting accesses to the crossing" }
+$INSTANCE 5b224099-914e-4d77-ba0f-43cf36b787ac absFunction
+5b224099-914e-4d77-ba0f-43cf36b787ac {label = "Test the proper operation of the system " }
+$INSTANCE 436572ec-cae6-410b-b078-5810fe86588b absFunction
+436572ec-cae6-410b-b078-5810fe86588b {label = "Detect and secure a vehicle stopped on the track" }
+$INSTANCE e4c7b543-903d-4863-b4f2-fc8faf5f6d5d absFunction
+e4c7b543-903d-4863-b4f2-fc8faf5f6d5d {label = "Control the power supply to trains" }
+$INSTANCE 6621e828-9a03-444b-85f1-f26ceff43eeb absFunction
+6621e828-9a03-444b-85f1-f26ceff43eeb {label = "Shut down the power supply to trains in emergency" }
+$INSTANCE 1663f3e6-a9ca-4b4e-a65a-87d4ae8f5cf9 absFunction
+1663f3e6-a9ca-4b4e-a65a-87d4ae8f5cf9 {label = "Resume trains power supply" }
+$INSTANCE cdc99efa-454a-44e2-b3c1-1ee143d4211d absFunction
+cdc99efa-454a-44e2-b3c1-1ee143d4211d {label = "Detect a critical fault" }
+$INSTANCE dcf27bbd-eb59-4b4b-a2f4-8b05f3ad6714 absFunction
+dcf27bbd-eb59-4b4b-a2f4-8b05f3ad6714 {label = "Control the road traffic status" }
+$INSTANCE 1876c9e7-8697-438c-8e66-00512e1194b8 absFunction
+1876c9e7-8697-438c-8e66-00512e1194b8 {label = "Detect length of vehicles queue" }
+$INSTANCE 4750aac6-7d1c-41a8-95ef-d180be6ff10a absFunction
+4750aac6-7d1c-41a8-95ef-d180be6ff10a {label = "Detect approaching vehicles" }
+$INSTANCE 73e883fa-25eb-4824-8ce3-99d2536de5ce absFunction
+73e883fa-25eb-4824-8ce3-99d2536de5ce {label = "Detect vehicle stops before the barrier" }
+$INSTANCE 03e6bd71-45ed-409f-86be-fdd672c61a49 absFunction
+03e6bd71-45ed-409f-86be-fdd672c61a49 {label = "Implement the arrival procedure" }
+$INSTANCE cb602305-a966-4216-b3b0-b4ad9bf8c0c2 absFunction
+cb602305-a966-4216-b3b0-b4ad9bf8c0c2 {label = "Launch an arrival procedure" }
+$INSTANCE aa609fd2-8b59-4652-81ae-ce19058adefd absFunction
+aa609fd2-8b59-4652-81ae-ce19058adefd {label = "Monitor the nominal arrival procedure" }
+$INSTANCE 383f2412-c3ed-4409-a88a-30773e211d34 absFunction
+383f2412-c3ed-4409-a88a-30773e211d34 {label = "Supervise delayed arrival" }
+$INSTANCE 0583dee5-5c1b-43b1-a1b5-8d0148912b5f absFunction
+0583dee5-5c1b-43b1-a1b5-8d0148912b5f {label = "Implement the departure procedure" }
+$INSTANCE 74a976e4-b270-4765-b88b-9d2f52a2ab6c absFunction
+74a976e4-b270-4765-b88b-9d2f52a2ab6c {label = "Launch a departure procedure" }
+$INSTANCE 8e495f23-8ea4-4bf1-8f4a-8af7405b6180 absFunction
+8e495f23-8ea4-4bf1-8f4a-8af7405b6180 {label = "Supervise delayed departure" }
+$INSTANCE c9d0e2c4-c59e-49b6-8393-81a7204495a9 absFunction
+c9d0e2c4-c59e-49b6-8393-81a7204495a9 {label = "Monitor the nominal departure procedure" }
+$INSTANCE 593671ad-0adb-41ad-9e19-ec6870b89cc4 absFunction
+593671ad-0adb-41ad-9e19-ec6870b89cc4 {label = "Control train movements" }
+$INSTANCE 6964a070-b532-4b34-8684-7447e325f50b absFunction
+6964a070-b532-4b34-8684-7447e325f50b {label = "Close signal" }
+$INSTANCE 2995f8a6-57f0-4967-9174-58324dcdca35 absFunction
+2995f8a6-57f0-4967-9174-58324dcdca35 {label = "Open signal" }
+$INSTANCE ab77dbdf-3248-4dba-808b-74c5935b9e08 absFunction
+ab77dbdf-3248-4dba-808b-74c5935b9e08 {label = "Close signal" }
+$INSTANCE d79084f5-f283-435c-b9a7-94f269029836 absFunction
+d79084f5-f283-435c-b9a7-94f269029836 {label = "Open signal" }
+$INSTANCE fbc1a7cd-1357-4db3-bd14-1d6d88d678cb absFunction
+fbc1a7cd-1357-4db3-bd14-1d6d88d678cb {label = "Close signal" }
+$INSTANCE d428b650-b840-4cba-89fa-9d84f4a32b29 absFunction
+d428b650-b840-4cba-89fa-9d84f4a32b29 {label = "Open signal" }
+$INSTANCE f3f40883-0902-4576-a46d-ee095745a701 absFunction
+f3f40883-0902-4576-a46d-ee095745a701 {label = "Switch on the train arrival signal" }
+$INSTANCE b34528d3-d1be-45bc-b3eb-7c57675f67c4 absFunction
+b34528d3-d1be-45bc-b3eb-7c57675f67c4 {label = "Switch off the train arrival signal" }
+$INSTANCE c944d733-7ae0-4b90-8d67-e5978108d033 absFunction
+c944d733-7ae0-4b90-8d67-e5978108d033 {label = "Switch on the arriving train stop signal" }
+$INSTANCE 837e550d-e1ce-49df-b26c-3f96b8fe025a absFunction
+837e550d-e1ce-49df-b26c-3f96b8fe025a {label = "Switch off the arriving train stop signal" }
+$INSTANCE de4086d9-d2d8-4f30-a6e6-f72e23679854 absFunction
+de4086d9-d2d8-4f30-a6e6-f72e23679854 {label = "Switch on the train departure signal" }
+$INSTANCE cfe92ad1-ca9d-4b35-a3e3-bab68a700cd4 absFunction
+cfe92ad1-ca9d-4b35-a3e3-bab68a700cd4 {label = "Switch off the train departure signal" }
+$INSTANCE 3ad4a45a-06e2-4e3d-baea-b6b32375c02f absFunction
+3ad4a45a-06e2-4e3d-baea-b6b32375c02f {label = "Verify the status of devices" }
+$INSTANCE 68fc1e06-7059-49b6-b2aa-841d3b65481e absFunction
+68fc1e06-7059-49b6-b2aa-841d3b65481e {label = "Verify the status of road devices" }
+$INSTANCE 90063840-9eb5-4f88-8ef2-1b4b1d1f51eb absFunction
+90063840-9eb5-4f88-8ef2-1b4b1d1f51eb {label = "Verify the status of barriers and devices" }
+$INSTANCE 4e38aad9-badd-4460-a525-0897c886f86a absFunction
+4e38aad9-badd-4460-a525-0897c886f86a {label = "Verify the status of traffic lights" }
+$INSTANCE 103c3d35-3dbc-40c0-bb85-10ed6b87133f absFunction
+103c3d35-3dbc-40c0-bb85-10ed6b87133f {label = "Verify the status of vehicle on the track detectors" }
+$INSTANCE 95c5a204-b35e-477e-95dd-2b3389436fe0 absFunction
+95c5a204-b35e-477e-95dd-2b3389436fe0 {label = "Verify the status of rail track devices" }
+$INSTANCE 9a11dccf-48f3-4449-a593-44bfcca55ca3 absFunction
+9a11dccf-48f3-4449-a593-44bfcca55ca3 {label = "Verify the status of train detectors" }
+$INSTANCE 2e810c91-3587-4465-88e6-32efe9d2c151 absFunction
+2e810c91-3587-4465-88e6-32efe9d2c151 {label = "Verify the status of train signals" }
+$INSTANCE 7e9be2ae-c4e3-47f2-ae9e-1b3465abaca0 absFunction
+7e9be2ae-c4e3-47f2-ae9e-1b3465abaca0 {label = "Verify the status of train emergency stop commands" }
+$INSTANCE d23df4fb-af3d-47ef-bdcc-63a61b52362f absFunction
+d23df4fb-af3d-47ef-bdcc-63a61b52362f {label = "Verify the status of detector" }
+$INSTANCE a30f7ddd-dcec-454d-80c2-f5ac0acf76ea absFunction
+a30f7ddd-dcec-454d-80c2-f5ac0acf76ea {label = "Verify the status of detector" }
+$INSTANCE d1c5dc24-958f-442c-bba0-f7e57acb6c7e absFunction
+d1c5dc24-958f-442c-bba0-f7e57acb6c7e {label = "Verify the signal status" }
+$INSTANCE a8d38aa3-a2d9-454c-ad47-13958a4f2975 absFunction
+a8d38aa3-a2d9-454c-ad47-13958a4f2975 {label = "Verify the signal status" }
+$INSTANCE b331d251-3682-4730-b02a-b881e80f5412 absFunction
+b331d251-3682-4730-b02a-b881e80f5412 {label = "Verify the signal status" }
+$INSTANCE 526ab326-1f26-4e4e-9850-cdc6da7ed299 absFunction
+526ab326-1f26-4e4e-9850-cdc6da7ed299 {label = "Interact with the operator" }
+$INSTANCE 21130155-e4c9-403b-bdae-bb2ad7186ec4 absFunction
+21130155-e4c9-403b-bdae-bb2ad7186ec4 {label = "Display the traffic and the system map situation" }
+$INSTANCE d9afc3f5-806b-4d3d-8083-825589c74ce5 absFunction
+d9afc3f5-806b-4d3d-8083-825589c74ce5 {label = "Process operator commands" }
+$INSTANCE a8e68d7c-e796-469a-8e48-8ca38de358fc absFunction
+a8e68d7c-e796-469a-8e48-8ca38de358fc {label = "Display traffic and system alerts" }
+$INSTANCE 670a0ace-6889-4c45-ab24-2a8b384625ed absFunction
+670a0ace-6889-4c45-ab24-2a8b384625ed {label = "Trains and road vehicles traffic" }
+$INSTANCE da5dcc4e-21c6-40ac-86a7-58575946946d absFunction
+da5dcc4e-21c6-40ac-86a7-58575946946d {label = "Manage the level crossing" }
+$INSTANCE fc77ccfe-f164-4725-82be-4d1944bfab57 absFunction
+fc77ccfe-f164-4725-82be-4d1944bfab57 {label = "Monitor the traffic" }
+$INSTANCE cd5154ba-105b-46d3-91b4-afe974604c50 absFunction
+cd5154ba-105b-46d3-91b4-afe974604c50 {label = "Monitor the status of instructions" }
+$INSTANCE 5d740a10-93a9-4a5a-85f1-95cc6c5bdbbb absFunction
+5d740a10-93a9-4a5a-85f1-95cc6c5bdbbb {label = "Monitor the proper functioning of the system" }
+$INSTANCE f27188d0-9c61-4fbe-bdb0-adbeec54650c absFunction
+f27188d0-9c61-4fbe-bdb0-adbeec54650c {label = "Stop trains in an emergency" }
+$INSTANCE 9b2b4841-4058-4e1f-a9d2-1b348579f855 absFunction
+9b2b4841-4058-4e1f-a9d2-1b348579f855 {label = "Release trains after emergency stop" }
+$INSTANCE b53506f8-69fb-4335-a16a-13a6dd9c44ec absFunction
+b53506f8-69fb-4335-a16a-13a6dd9c44ec {label = "Release road traffic after emergency stop" }
+$INSTANCE 74f5b030-48c0-4689-b203-85e94753e0a7 absFunction
+74f5b030-48c0-4689-b203-85e94753e0a7 {label = "Arrive at the station" }
+$INSTANCE 7b400743-3d82-4cbf-b54c-3aac75e85a03 absFunction
+7b400743-3d82-4cbf-b54c-3aac75e85a03 {label = "Stop before the crossing" }
+$INSTANCE 27dde584-37f2-41e6-8841-7772f050c78f absFunction
+27dde584-37f2-41e6-8841-7772f050c78f {label = "Cross the crossing" }
+$INSTANCE 88a7e3eb-ee5b-4d3e-8cb1-4ec60f724e6c absFunction
+88a7e3eb-ee5b-4d3e-8cb1-4ec60f724e6c {label = "Arrive near the corssing" }
+$INSTANCE b8edfbda-1e9b-433c-879f-0bd617aefeb1 absFunction
+b8edfbda-1e9b-433c-879f-0bd617aefeb1 {label = "Cross the railway" }
+$INSTANCE a6c50af0-6aea-4007-b7c3-ec9392ed8c34 absFunction
+a6c50af0-6aea-4007-b7c3-ec9392ed8c34 {label = "Arrive near the crossing" }
+$INSTANCE cd98fcb8-ce32-4658-994d-dca8e524d1fe absFunction
+cd98fcb8-ce32-4658-994d-dca8e524d1fe {label = "Stop before the crossing" }
+$INSTANCE d7326c4d-0517-46dc-8ef4-3b4b480f1115 absFunction
+d7326c4d-0517-46dc-8ef4-3b4b480f1115 {label = "Cross the crossing" }
+$INSTANCE 9c67a5cf-d949-4381-86d5-098fcb0d7a3a absFunction
+9c67a5cf-d949-4381-86d5-098fcb0d7a3a {label = "Leave the station" }
+$INSTANCE b1597ee2-3237-4d53-8898-dcc964fd72ea absFunction
+b1597ee2-3237-4d53-8898-dcc964fd72ea {label = "Wait for the departure authorization" }
+$INSTANCE 61298d48-51dc-47df-a21d-76c4b5d500ec absFunction
+61298d48-51dc-47df-a21d-76c4b5d500ec {label = "Prepare to leave" }
+$INSTANCE 062bf31b-62c1-479e-a241-92cf68043f69 absFunction
+062bf31b-62c1-479e-a241-92cf68043f69 {label = "Start and cross the crossing" }
+$INSTANCE 70df0a59-904c-4d96-9337-f87ad5f5a3b1 absFunction
+70df0a59-904c-4d96-9337-f87ad5f5a3b1 {label = "Manage train traffic" }
+$INSTANCE 5f6870ae-13f8-4d81-a890-e74b63e85cbb absFunction
+5f6870ae-13f8-4d81-a890-e74b63e85cbb {label = "Launch the departure procedure" }
+$INSTANCE b97fca51-a2de-453b-947a-abb4932b7b15 absFunction
+b97fca51-a2de-453b-947a-abb4932b7b15 {label = "Determine train timetables" }
+$INSTANCE 792efbda-9fcc-4b4a-882f-9cd1bf58cc5c absComponent
+792efbda-9fcc-4b4a-882f-9cd1bf58cc5c {label = "Control system" }
+$INSTANCE a84deb77-acdd-4bdf-99f2-68b031fc3203 absComponent
+a84deb77-acdd-4bdf-99f2-68b031fc3203 {label = "Control system" }
+$INSTANCE d634e743-7ef1-429c-91a2-9e947a49596c absComponent
+d634e743-7ef1-429c-91a2-9e947a49596c {label = "Safety command control" }
+$INSTANCE fd4b6574-88bc-4566-be0b-53313c22e3e9 absComponent
+fd4b6574-88bc-4566-be0b-53313c22e3e9 {label = "Procedures command control " }
+$INSTANCE 92ba8fa6-60b0-4203-bd16-ae29a6a5a0fa absComponent
+92ba8fa6-60b0-4203-bd16-ae29a6a5a0fa {label = "Road facilities" }
+$INSTANCE 1419c4b1-e3df-4418-ad01-28ddf9609703 absComponent
+1419c4b1-e3df-4418-ad01-28ddf9609703 {label = "Road signaling" }
+$INSTANCE c16d18f2-13b5-49d6-8b98-bb9d2a189561 absComponent
+c16d18f2-13b5-49d6-8b98-bb9d2a189561 {label = "Road detection" }
+$INSTANCE 5191790b-980d-4599-af50-bf781b4832be absComponent
+5191790b-980d-4599-af50-bf781b4832be {label = "Road barriers " }
+$INSTANCE 40d96838-ed9e-48f1-a452-f765b042f6f1 absComponent
+40d96838-ed9e-48f1-a452-f765b042f6f1 {label = "Railway facilities" }
+$INSTANCE a6659623-06a9-4df8-a0da-b8dd2a602440 absComponent
+a6659623-06a9-4df8-a0da-b8dd2a602440 {label = "Railway signaling" }
+$INSTANCE b0e13280-d8ef-4bb9-8779-0059a6691800 absComponent
+b0e13280-d8ef-4bb9-8779-0059a6691800 {label = "Railway detection" }
+$INSTANCE 7e8d68d3-c45b-47da-aa91-3e1ae09fd550 absComponent
+7e8d68d3-c45b-47da-aa91-3e1ae09fd550 {label = "Detection on the track" }
+$INSTANCE f18dae54-641d-48a8-afcd-0a6cd177bbb7 absComponent
+f18dae54-641d-48a8-afcd-0a6cd177bbb7 {label = "Train emergency stop" }
+$INSTANCE e50c9aef-0fc6-4f0f-a69a-03808a6bde1a absComponent
+e50c9aef-0fc6-4f0f-a69a-03808a6bde1a {label = "Road vehicle" }
+$INSTANCE d6f0af0c-e60c-4c3a-a859-11302d625cdf absComponent
+d6f0af0c-e60c-4c3a-a859-11302d625cdf {label = "Station information system" }
+$INSTANCE 5a343a5d-c01e-49cd-bc4d-3c0365429c7d absComponent
+5a343a5d-c01e-49cd-bc4d-3c0365429c7d {label = "Traffic control operators" }
+$INSTANCE 3a8a6eab-23d4-4ded-b4c7-71a6f9ef7888 absComponent
+3a8a6eab-23d4-4ded-b4c7-71a6f9ef7888 {label = "Train arriving in the station" }
+$INSTANCE ee89cbc6-3c47-4cfb-8a8d-ce19021acf0c absComponent
+ee89cbc6-3c47-4cfb-8a8d-ce19021acf0c {label = "Train leaving" }
+$INSTANCE 43091dec-d765-46e0-96d3-ab4fcdce967e absData
+43091dec-d765-46e0-96d3-ab4fcdce967e {label = "Vehicle stopped information" }
+$INSTANCE f79c76b8-f66f-42ac-8dd8-9e7a4107db57 absData
+f79c76b8-f66f-42ac-8dd8-9e7a4107db57 {label = "Departing or arriving trains" }
+$INSTANCE fa9961e5-9ff7-45a1-a069-292a8db4dc36 absData
+fa9961e5-9ff7-45a1-a069-292a8db4dc36 {label = "No risk" }
+$INSTANCE 3c092a1a-678a-48fb-a1ce-163c783ce72b absData
+3c092a1a-678a-48fb-a1ce-163c783ce72b {label = "Departed train information" }
+$INSTANCE 704dc279-e7af-42e7-9bea-9848cc03dcaa absData
+704dc279-e7af-42e7-9bea-9848cc03dcaa {label = "Vehicle arrival information" }
+$INSTANCE db1548b3-ed51-4874-87af-e65b0da57469 absData
+db1548b3-ed51-4874-87af-e65b0da57469 {label = "Crossing forbidden" }
+$INSTANCE e08372af-f656-4089-beec-0d5e5b845214 absData
+e08372af-f656-4089-beec-0d5e5b845214 {label = "Permission for the vehicle to pass" }
+$INSTANCE c9b72452-10f4-42f5-8ecb-88abab66f200 absData
+c9b72452-10f4-42f5-8ecb-88abab66f200 {label = "Arrived train information" }
+$INSTANCE b3fa2745-92b1-4a0b-97e3-7ca1dc41ce7d absData
+b3fa2745-92b1-4a0b-97e3-7ca1dc41ce7d {label = "Cars crossing" }
+$INSTANCE 1fbcb499-bb01-4f65-826f-3e4888ba2e16 absData
+1fbcb499-bb01-4f65-826f-3e4888ba2e16 {label = "Starting forbidden" }
+$INSTANCE 7c1b6fa7-a212-49cd-8540-b3abd46a7483 absData
+7c1b6fa7-a212-49cd-8540-b3abd46a7483 {label = "Departing train information " }
+$INSTANCE f341db0e-db38-458f-af09-154b34b07b9e absData
+f341db0e-db38-458f-af09-154b34b07b9e {label = "Schedules and trains statuses" }
+$INSTANCE d9680740-ca22-4625-84b4-212ecab6b961 absData
+d9680740-ca22-4625-84b4-212ecab6b961 {label = "Train departure authorization" }
+$INSTANCE 6d6a273f-df03-41a4-acac-0db4e28bdfb2 absData
+6d6a273f-df03-41a4-acac-0db4e28bdfb2 {label = "Departure preparation order" }
+$INSTANCE 7e6a3463-4b66-4a61-aab3-71300f88ac17 absData
+7e6a3463-4b66-4a61-aab3-71300f88ac17 {label = "Cars crossing" }
+$INSTANCE 555951e1-8b9d-45ea-8fcb-2738053cf398 absData
+555951e1-8b9d-45ea-8fcb-2738053cf398 {label = "Command to stop the train" }
+$INSTANCE 93948524-9290-4c52-b2f0-66d3091f7206 absData
+93948524-9290-4c52-b2f0-66d3091f7206 {label = "Train arrival information" }
+$INSTANCE b7146837-2ed7-436f-aed4-9f1ebd990eff absData
+b7146837-2ed7-436f-aed4-9f1ebd990eff {label = "No risk" }
+$INSTANCE 5a79850e-a71a-401c-b249-e8d057df4c7c absData
+5a79850e-a71a-401c-b249-e8d057df4c7c {label = "No risk" }
+$INSTANCE 7e273962-2829-4f27-9f9a-82ab4dd20008 absData
+7e273962-2829-4f27-9f9a-82ab4dd20008 {label = "Permission for the train to pass" }
+$INSTANCE 05110230-3748-4244-bb08-df2d52c8c079 absData
+05110230-3748-4244-bb08-df2d52c8c079 {label = "Vehicle crossed information" }
+$INSTANCE 7d892bd3-9eca-4ca0-8e73-fc79d732e722 absData
+7d892bd3-9eca-4ca0-8e73-fc79d732e722 {label = "Stop train information" }
+$INSTANCE ce54c614-fc42-4167-9bde-bf705b3cb7b6 absData
+ce54c614-fc42-4167-9bde-bf705b3cb7b6 {label = "Departing train information" }
+$INSTANCE f7f58caa-7a39-483d-b6ab-0f33bb68502c absData
+f7f58caa-7a39-483d-b6ab-0f33bb68502c {label = "Train arrival information" }
+$INSTANCE 34724664-4177-458f-93ee-09b500706d48 absData
+34724664-4177-458f-93ee-09b500706d48 {label = "Arrived train information" }
+$INSTANCE 2cb2ccf2-27cb-4d53-9cbd-35ad8e9d2f54 absData
+2cb2ccf2-27cb-4d53-9cbd-35ad8e9d2f54 {label = "Departed train information " }
+$INSTANCE 82893f4c-2ddd-4ad3-ae60-5f12f23d8232 absData
+82893f4c-2ddd-4ad3-ae60-5f12f23d8232 {label = "Departure preparation order " }
+$INSTANCE c0893db7-2ae2-4fc5-b7bf-11c68b14ee48 absData
+c0893db7-2ae2-4fc5-b7bf-11c68b14ee48 {label = "Train leaving passing the crossing" }
+$INSTANCE 61e16db8-cd53-47df-9654-76ff0019000a absData
+61e16db8-cd53-47df-9654-76ff0019000a {label = "Train departure instruction" }
+$INSTANCE 347b1622-4e1d-4513-9434-a843f9eec92e absData
+347b1622-4e1d-4513-9434-a843f9eec92e {label = "Train departure blocking instruction" }
+$INSTANCE 766ef336-4b56-4a23-8071-459c4301249e absData
+766ef336-4b56-4a23-8071-459c4301249e {label = "Train arriving announced information" }
+$INSTANCE c24872ea-28e3-4c31-90e2-6b2d81aa4bf7 absData
+c24872ea-28e3-4c31-90e2-6b2d81aa4bf7 {label = "Train arriving passing the crossing" }
+$INSTANCE c41b62d5-14f0-4a87-89fa-b5b52c7dc6d7 absData
+c41b62d5-14f0-4a87-89fa-b5b52c7dc6d7 {label = "Vehicles on crossing" }
+$INSTANCE f9729f21-d62f-474c-99c5-bd1367c07e81 absData
+f9729f21-d62f-474c-99c5-bd1367c07e81 {label = "Train arrival permission instruction" }
+$INSTANCE 9ddc7d46-775c-44c3-829a-d1715a47273f absData
+9ddc7d46-775c-44c3-829a-d1715a47273f {label = "Stopped vehicle information" }
+$INSTANCE 4dfc75b2-23c9-4b6d-ae09-0f2032f1be1e absData
+4dfc75b2-23c9-4b6d-ae09-0f2032f1be1e {label = "Stop road traffic instruction" }
+$INSTANCE cb006dd6-6ae6-423c-a684-40ec93d0c1cb absData
+cb006dd6-6ae6-423c-a684-40ec93d0c1cb {label = "Road traffic permission instruction" }
+$INSTANCE 1a284f4c-e169-4d5f-94ae-f37e7cd9e14e absData
+1a284f4c-e169-4d5f-94ae-f37e7cd9e14e {label = "Passed train information" }
+$INSTANCE 55e467aa-939b-493a-89c8-9a80b40f8a8b absData
+55e467aa-939b-493a-89c8-9a80b40f8a8b {label = "Vehicle arrival information " }
+$INSTANCE aecee461-f9b2-43f6-b7f5-23f3bb40eb3d absData
+aecee461-f9b2-43f6-b7f5-23f3bb40eb3d {label = "Crossing forbidden" }
+$INSTANCE 2f3e16b5-9c29-40a2-aaad-0175954d52e7 absData
+2f3e16b5-9c29-40a2-aaad-0175954d52e7 {label = "Permission for the vehicle to pass" }
+$INSTANCE f1b96c69-4b60-4d9e-97c0-db56e45a0f98 absData
+f1b96c69-4b60-4d9e-97c0-db56e45a0f98 {label = "Start forbidden instruction" }
+$INSTANCE 54522c92-70ed-4342-ad53-e59491f698b1 absData
+54522c92-70ed-4342-ad53-e59491f698b1 {label = "Train leaving information" }
+$INSTANCE 0812acad-b57c-4e90-a572-085854a909bd absData
+0812acad-b57c-4e90-a572-085854a909bd {label = "Schedules and trains statuses" }
+$INSTANCE fcb06ea3-07ed-42aa-8fa1-d3e9e609aa0e absData
+fcb06ea3-07ed-42aa-8fa1-d3e9e609aa0e {label = "Train departure authorization " }
+$INSTANCE def080bc-3288-4e87-af04-901954ecd24f absData
+def080bc-3288-4e87-af04-901954ecd24f {label = "Departure preparation order" }
+$INSTANCE 63bc340c-2266-4cd9-b311-be71ee531ab5 absData
+63bc340c-2266-4cd9-b311-be71ee531ab5 {label = "Stop train command" }
+$INSTANCE 137f21b6-e7cc-4a94-b305-9061f70a7a98 absData
+137f21b6-e7cc-4a94-b305-9061f70a7a98 {label = "Train arrival information" }
+$INSTANCE 4b76d307-7773-47fe-be89-e6c439e3dd76 absData
+4b76d307-7773-47fe-be89-e6c439e3dd76 {label = "Permission for the train to pass" }
+$INSTANCE 88de66c4-875a-47b3-84c8-75e9592777d6 absData
+88de66c4-875a-47b3-84c8-75e9592777d6 {label = "Vehicle crossed information" }
+$INSTANCE ac6d0f53-7a60-43e3-95c0-446753a2ae7f absData
+ac6d0f53-7a60-43e3-95c0-446753a2ae7f {label = "Vehicle presence status in the crossing" }
+$INSTANCE db76b1c5-9ef1-4f48-a007-20fc8ef903a5 absData
+db76b1c5-9ef1-4f48-a007-20fc8ef903a5 {label = "Vehicle entered the crossing information" }
+$INSTANCE 1bb6bb52-5b61-4397-84f3-eb444297c3dc absData
+1bb6bb52-5b61-4397-84f3-eb444297c3dc {label = "Vehicle arrival information" }
+$INSTANCE de7d1d21-0537-41a5-acee-8d6bf057958d absData
+de7d1d21-0537-41a5-acee-8d6bf057958d {label = "Stop road traffic instruction" }
+$INSTANCE e985c86a-a9da-4099-8c40-220eb1f8fa4d absData
+e985c86a-a9da-4099-8c40-220eb1f8fa4d {label = "Stopped vehicle information" }
+$INSTANCE 94c94fb2-ad0f-4758-b4fc-5f61f5e4d2c7 absData
+94c94fb2-ad0f-4758-b4fc-5f61f5e4d2c7 {label = "Road traffic permission instruction" }
+$INSTANCE 53dcd518-abf1-4cb7-956c-687fb2b4a3ab absData
+53dcd518-abf1-4cb7-956c-687fb2b4a3ab {label = "Vehicle presence in the crossing status" }
+$INSTANCE 3ba4bfbc-170a-4b09-88c4-4a931b1f7a72 absData
+3ba4bfbc-170a-4b09-88c4-4a931b1f7a72 {label = "Schedule and trains statuses" }
+$INSTANCE bbe1ac75-b9a6-4045-bdb5-81def92d0737 absData
+bbe1ac75-b9a6-4045-bdb5-81def92d0737 {label = "Passed train information" }
+$INSTANCE 33541e0a-05d6-4f5e-9c58-cf6dd53eb83b absData
+33541e0a-05d6-4f5e-9c58-cf6dd53eb83b {label = "System status" }
+$INSTANCE 27691bb5-b722-4d9f-87c5-d386fe694079 absData
+27691bb5-b722-4d9f-87c5-d386fe694079 {label = "Stop trains in an emergency" }
+$INSTANCE 8bd24e51-1f2e-4603-aac8-dcd92b97d7a0 absData
+8bd24e51-1f2e-4603-aac8-dcd92b97d7a0 {label = "Traffic" }
+$INSTANCE c14089fb-a49a-4a93-9824-b7eabf8a4ac0 absData
+c14089fb-a49a-4a93-9824-b7eabf8a4ac0 {label = "Emergency stop command" }
+$INSTANCE cc2861a0-e83e-4086-81a5-67d1873830be absData
+cc2861a0-e83e-4086-81a5-67d1873830be {label = "Resume power supply command" }
+$INSTANCE 95dada15-0338-4c05-bc58-32e297b64b2b absData
+95dada15-0338-4c05-bc58-32e297b64b2b {label = "Activation request " }
+$INSTANCE 3eb7b292-d8b7-4344-8651-f629cd8db99d absData
+3eb7b292-d8b7-4344-8651-f629cd8db99d {label = "Low pressure fluid" }
+$INSTANCE 2baeb99a-c582-441d-8bdc-d1348711893a absData
+2baeb99a-c582-441d-8bdc-d1348711893a {label = "Variable flow rate" }
+$INSTANCE b0efab42-3c21-4be3-afa0-6466231817c0 absData
+b0efab42-3c21-4be3-afa0-6466231817c0 {label = "Variable pressure" }
+$INSTANCE 106e678e-369f-42b3-ab10-511e32fdc7fe absData
+106e678e-369f-42b3-ab10-511e32fdc7fe {label = "Regulated pressure" }
+$INSTANCE 206700d9-6d66-4faf-8b60-af93143b734d absData
+206700d9-6d66-4faf-8b60-af93143b734d {label = "Regulated flow rate" }
+$INSTANCE 4c2b1af0-d174-4722-aa66-6ff01d396332 absData
+4c2b1af0-d174-4722-aa66-6ff01d396332 {label = "Fluid under regulated pressure and flow rate" }
+$INSTANCE e5151f2a-e0be-43bf-a39c-68be9b22d422 absData
+e5151f2a-e0be-43bf-a39c-68be9b22d422 {label = "Mechanical motion" }
+$INSTANCE 60ff300f-4790-41ad-864d-313759771a31 absData
+60ff300f-4790-41ad-864d-313759771a31 {label = "Operating status" }
+$INSTANCE 81ede22b-85ee-4d3e-a046-2196c28caa0c absData
+81ede22b-85ee-4d3e-a046-2196c28caa0c {label = "Vehicle stopped on the track information" }
+$INSTANCE 5cfcd3d2-2fea-49dc-ad5b-850481578661 absData
+5cfcd3d2-2fea-49dc-ad5b-850481578661 {label = "Operational status of instructions, detectors and devices" }
+$INSTANCE 1477f6f6-f5da-467f-81ab-7195b3f6251f absData
+1477f6f6-f5da-467f-81ab-7195b3f6251f {label = "Health status of instructions, detectors and devices" }
+$INSTANCE 9c2f0af5-3dcc-427c-95d0-b79b7e8849ba absData
+9c2f0af5-3dcc-427c-95d0-b79b7e8849ba {label = "Nominal arrival command" }
+$INSTANCE 75d1d135-4aaa-4e16-84dc-3044f23a05a7 absData
+75d1d135-4aaa-4e16-84dc-3044f23a05a7 {label = "Delayed arrival command" }
+$INSTANCE ab14db9c-0502-4dff-83ae-b644bff37339 absData
+ab14db9c-0502-4dff-83ae-b644bff37339 {label = "Nominal arrival command" }
+$INSTANCE c5a1dd45-dbc3-464e-a36e-7f413f5984f5 absData
+c5a1dd45-dbc3-464e-a36e-7f413f5984f5 {label = "Delayed departure command" }
+$INSTANCE 989c8ed7-3965-4295-a608-c9aaf5ecd56f absData
+989c8ed7-3965-4295-a608-c9aaf5ecd56f {label = "Nominal departure command " }
+$INSTANCE 27007dfa-9020-4319-9d7a-602c9d9ae167 absData
+27007dfa-9020-4319-9d7a-602c9d9ae167 {label = "Nominal departure command " }
+$INSTANCE 66f734ec-18c4-4f7f-9603-02199aaeca93 absData
+66f734ec-18c4-4f7f-9603-02199aaeca93 {label = "Vehicle arrival information" }
+$INSTANCE 61e58714-fab2-418d-8926-ff45b95f954f absData
+61e58714-fab2-418d-8926-ff45b95f954f {label = "Vehicle stop information" }
+$INSTANCE 99303c01-e840-47dc-8b09-9d2767ee4141 absData
+99303c01-e840-47dc-8b09-9d2767ee4141 {label = "Train departure prohibition" }
+$INSTANCE 47af0637-c47b-461e-8498-71dbc305e345 absData
+47af0637-c47b-461e-8498-71dbc305e345 {label = "Length of vehicle queue" }
+$INSTANCE 8f646617-fe9e-4e8b-804e-506b78dad451 absData
+8f646617-fe9e-4e8b-804e-506b78dad451 {label = "Length of vehicle queue" }
+$INSTANCE ff9af204-32e2-4046-b5dc-f3393f8e34b7 absData
+ff9af204-32e2-4046-b5dc-f3393f8e34b7 {label = "Train passing the level crossing information" }
+$INSTANCE 08ad70aa-323e-4c4e-88e8-887ecb11a2b8 absData
+08ad70aa-323e-4c4e-88e8-887ecb11a2b8 {label = "Arriving train stop command" }
+$INSTANCE 4d19ae05-7905-4d8c-a1bc-f012a74a1694 absData
+4d19ae05-7905-4d8c-a1bc-f012a74a1694 {label = "Arriving train stop command" }
+$INSTANCE edb8baa5-8152-4e53-882c-1b6d421ca0e2 absData
+edb8baa5-8152-4e53-882c-1b6d421ca0e2 {label = "Arriving train release command" }
+$INSTANCE c2aa3bd1-af4c-4c9a-bbea-5e93252149b5 absData
+c2aa3bd1-af4c-4c9a-bbea-5e93252149b5 {label = "Arriving train crossing authorization" }
+$INSTANCE 3eb445b2-8a9f-43b8-bba9-b5c0e8709a9d absData
+3eb445b2-8a9f-43b8-bba9-b5c0e8709a9d {label = "Arriving train crossing forbidden" }
+$INSTANCE bb669a13-5f38-4169-ae0c-60675e665fc2 absData
+bb669a13-5f38-4169-ae0c-60675e665fc2 {label = "Arriving train crossing forbidden" }
+$INSTANCE 130c650e-6254-45db-8e49-faf3b4ee7197 absData
+130c650e-6254-45db-8e49-faf3b4ee7197 {label = "Arriving train approaching information" }
+$INSTANCE 425d6486-aae5-4ce3-bffb-375362ccfb50 absData
+425d6486-aae5-4ce3-bffb-375362ccfb50 {label = "Vehicle arrival information" }
+$INSTANCE 8ef75fb0-9dbd-4c33-aa10-d3e898c28332 absData
+8ef75fb0-9dbd-4c33-aa10-d3e898c28332 {label = "Vehicle stop information" }
+$INSTANCE a375070c-c419-4b5a-a243-b4edb0442695 absData
+a375070c-c419-4b5a-a243-b4edb0442695 {label = "Vehicle crossed information" }
+$INSTANCE d6af88f2-4487-4fec-930b-be4fb9d6ed6e absData
+d6af88f2-4487-4fec-930b-be4fb9d6ed6e {label = "Vehicle entered the crossing information" }
+$INSTANCE 77ac68e1-174c-4b5a-8592-26c8f721c431 absData
+77ac68e1-174c-4b5a-8592-26c8f721c431 {label = "Vehicle stopped on the track information" }
+$INSTANCE e4b29e20-32fe-45c4-b2de-667010fe9a29 absData
+e4b29e20-32fe-45c4-b2de-667010fe9a29 {label = "Vehicle stopped on the track information " }
+$INSTANCE 44b56d0b-0657-4827-9566-2221feca4929 absData
+44b56d0b-0657-4827-9566-2221feca4929 {label = "Status of barriers and devices" }
+$INSTANCE 60281245-64d1-46d4-be02-4a44c5c40797 absData
+60281245-64d1-46d4-be02-4a44c5c40797 {label = "Status of road traffic lights" }
+$INSTANCE a3da5698-2ecd-422b-bc2a-d6fd5a89dad1 absData
+a3da5698-2ecd-422b-bc2a-d6fd5a89dad1 {label = "Status of vehicle on the track detectors" }
+$INSTANCE 01224a72-8824-4ede-a3f4-4f49e9bf7779 absData
+01224a72-8824-4ede-a3f4-4f49e9bf7779 {label = "Status of train detectors" }
+$INSTANCE 13ddb4bc-0294-4447-b3f2-69bc39f18a3f absData
+13ddb4bc-0294-4447-b3f2-69bc39f18a3f {label = "Train emergency stops status" }
+$INSTANCE 588c89bd-f316-4c95-8f0c-095482df09d9 absData
+588c89bd-f316-4c95-8f0c-095482df09d9 {label = "Vehicle detectors status" }
+$INSTANCE 5f8c17fe-e502-411b-9848-81c01f9e657e absData
+5f8c17fe-e502-411b-9848-81c01f9e657e {label = "Train signals status" }
+$INSTANCE 0bd3bfd9-1925-4988-b471-cb2b01e92c54 absData
+0bd3bfd9-1925-4988-b471-cb2b01e92c54 {label = "Vehicle arrival information" }
+$INSTANCE 96e7ff73-1bbf-4406-9b2c-682b7d76f8c2 absData
+96e7ff73-1bbf-4406-9b2c-682b7d76f8c2 {label = "Arriving train approaching information" }
+$INSTANCE a5a77cfb-3bd2-406b-a60d-41f50128699d absData
+a5a77cfb-3bd2-406b-a60d-41f50128699d {label = "Departed train information" }
+$INSTANCE 37555a80-f8df-4459-9d19-ecc91f2c634c absData
+37555a80-f8df-4459-9d19-ecc91f2c634c {label = "Train passing the level crossing information" }
+$INSTANCE 6f8f6d5f-d458-4f03-bdb0-8c864d9a4927 absData
+6f8f6d5f-d458-4f03-bdb0-8c864d9a4927 {label = "Vehicle passed information" }
+$INSTANCE 460f6edf-b961-4c62-8e19-ef21797dd214 absData
+460f6edf-b961-4c62-8e19-ef21797dd214 {label = "Vehicle entered the crossing information" }
+$INSTANCE fea6cbca-ba4c-422c-a589-31a5487da6fd absData
+fea6cbca-ba4c-422c-a589-31a5487da6fd {label = "Vehicle stop information" }
+$INSTANCE c72b33ec-cc71-4aa4-995e-f7a7c8c73bd0 absData
+c72b33ec-cc71-4aa4-995e-f7a7c8c73bd0 {label = "Length of vehicle queue" }
+$INSTANCE b7b1415f-aa2e-4b02-8438-5bc89b55a0c6 absData
+b7b1415f-aa2e-4b02-8438-5bc89b55a0c6 {label = "Train departure authorization" }
+$INSTANCE 6c5428f8-745e-464c-b98d-5dec7de76f68 absData
+6c5428f8-745e-464c-b98d-5dec7de76f68 {label = "Train departure prohibition " }
+$INSTANCE acce0ba3-ceba-4143-9717-afced26b57fb absData
+acce0ba3-ceba-4143-9717-afced26b57fb {label = "Train passing the level crossing information" }
+$INSTANCE f493c239-393a-42c5-941c-5ba1eb4eac75 absData
+f493c239-393a-42c5-941c-5ba1eb4eac75 {label = "Departed train information" }
+$INSTANCE 3ac46586-ede9-4cd3-abff-657e55b18772 absData
+3ac46586-ede9-4cd3-abff-657e55b18772 {label = "Departed train information" }
+$INSTANCE 3908d4ad-bc89-45d7-b3e9-d2e0d2fb7a87 absData
+3908d4ad-bc89-45d7-b3e9-d2e0d2fb7a87 {label = "Train passing departure direction information" }
+$INSTANCE e32f217a-b7ba-4259-bd5b-a27bec28b19e absData
+e32f217a-b7ba-4259-bd5b-a27bec28b19e {label = "Departure authorization" }
+$INSTANCE 92c90728-5935-41ff-9aea-22c8b8800605 absData
+92c90728-5935-41ff-9aea-22c8b8800605 {label = "Departure prohibition" }
+$INSTANCE 52b105fb-d2f1-4c3c-bdfe-780f56904ee4 absData
+52b105fb-d2f1-4c3c-bdfe-780f56904ee4 {label = "Schedules and trains statuses" }
+$INSTANCE 3c4bb9f9-aedf-46ad-a30b-e7c0a0d78aef absData
+3c4bb9f9-aedf-46ad-a30b-e7c0a0d78aef {label = "Schedules and trains statuses" }
+$INSTANCE 039da9c5-9162-486f-8f8d-18c78a24996d absData
+039da9c5-9162-486f-8f8d-18c78a24996d {label = "Vehicle arrival information" }
+$INSTANCE 9f3b6b17-a98f-4c8f-b039-5122fd746baf absData
+9f3b6b17-a98f-4c8f-b039-5122fd746baf {label = "Vehicle stop information" }
+$INSTANCE 30f8cca2-acf3-4b3f-b8cb-75513276569e absData
+30f8cca2-acf3-4b3f-b8cb-75513276569e {label = "Crossing forbidden" }
+$INSTANCE bb4c0949-06d0-4d2b-918e-ca96b86b8342 absData
+bb4c0949-06d0-4d2b-918e-ca96b86b8342 {label = "Permission for the vehicle to pass" }
+$INSTANCE 9fc9e96f-d679-4d39-8651-d3d3365ae5df absData
+9fc9e96f-d679-4d39-8651-d3d3365ae5df {label = "Vehicle passed information" }
+$INSTANCE 49883325-f9c6-48cd-8a99-e33e70964af6 absData
+49883325-f9c6-48cd-8a99-e33e70964af6 {label = "Vehicle entered the crossing information" }
+$INSTANCE 3ef3e69d-7582-4a5a-9e03-106dac7bbd45 absData
+3ef3e69d-7582-4a5a-9e03-106dac7bbd45 {label = "Vehicle stop information" }
+$INSTANCE 16fb3365-258e-421d-95c4-850202490652 absData
+16fb3365-258e-421d-95c4-850202490652 {label = "Departing train information" }
+$INSTANCE 6feb83bb-e4d1-4699-a25c-c2e2d720ebac absData
+6feb83bb-e4d1-4699-a25c-c2e2d720ebac {label = "Train delay on departure" }
+$INSTANCE 585e9b76-b260-4109-a924-95a955a17eef absData
+585e9b76-b260-4109-a924-95a955a17eef {label = "Train delay on arrival" }
+$INSTANCE 443d20fe-23b2-48d2-a518-853eef099cbd absData
+443d20fe-23b2-48d2-a518-853eef099cbd {label = "Instructions, sensors and devices operating status" }
+$INSTANCE 9a28ca59-5bdd-40a6-88e0-262a88ba022f absData
+9a28ca59-5bdd-40a6-88e0-262a88ba022f {label = "Instructions, sensors and devices operating status" }
+$INSTANCE 23fc5aca-fce8-4245-bc91-47db7f36fc8b absData
+23fc5aca-fce8-4245-bc91-47db7f36fc8b {label = "Vehicle stopped on the track information" }
+$INSTANCE 784b841e-d23b-4979-a8c3-edb62860086b absData
+784b841e-d23b-4979-a8c3-edb62860086b {label = "Conflict situation" }
+$INSTANCE 77117153-c130-4b00-942c-5d9b159701a1 absData
+77117153-c130-4b00-942c-5d9b159701a1 {label = "Emergency train stop command" }
+$INSTANCE 55d007ba-ad25-4af2-af59-ee2bb348f2df absData
+55d007ba-ad25-4af2-af59-ee2bb348f2df {label = "Train traffic release command" }
+$INSTANCE 5d765586-a7ad-4be0-9bb6-189ac94e9161 absData
+5d765586-a7ad-4be0-9bb6-189ac94e9161 {label = "Road traffic release command" }
+$INSTANCE 993c4653-2cd1-4867-864d-baa45772d3ff absData
+993c4653-2cd1-4867-864d-baa45772d3ff {label = "Train arrival information" }
+$INSTANCE 46093ea5-c608-4928-bbc8-f7ae6ef742f0 absData
+46093ea5-c608-4928-bbc8-f7ae6ef742f0 {label = "Train stop command" }
+$INSTANCE 1f45b13c-0256-47a0-9e7a-018f1cb1e351 absData
+1f45b13c-0256-47a0-9e7a-018f1cb1e351 {label = "Train stop command" }
+$INSTANCE e0b89404-4fe7-4580-8a4e-b20ac6b83f4c absData
+e0b89404-4fe7-4580-8a4e-b20ac6b83f4c {label = "Train passing arrival direction information" }
+$INSTANCE 5ee3540c-d8f8-43cf-ba31-54972d21956e absData
+5ee3540c-d8f8-43cf-ba31-54972d21956e {label = "Authorization to restart on arrival" }
+$INSTANCE b0b5a5b3-aae7-4c2c-adb1-3007d807cbfb absData
+b0b5a5b3-aae7-4c2c-adb1-3007d807cbfb {label = "Authorization to cross on arrival" }
+$INSTANCE 9f651aa5-6c78-4ac3-bddf-ef6fe9a5fa5b absData
+9f651aa5-6c78-4ac3-bddf-ef6fe9a5fa5b {label = "Risk on traffic" }
+$INSTANCE b79abdf4-80b8-4bcb-b7fb-788dad85c654 absData
+b79abdf4-80b8-4bcb-b7fb-788dad85c654 {label = "Risk on erroneous instructions" }
+$INSTANCE b9a1b608-171d-498c-ad53-fc54a26dd9f4 absData
+b9a1b608-171d-498c-ad53-fc54a26dd9f4 {label = "Risk of system failure" }
+$INSTANCE 7f8d5fd6-c16a-4fa6-98f5-30958e3d5b35 absData
+7f8d5fd6-c16a-4fa6-98f5-30958e3d5b35 {label = "Preparation to departure command" }
+$INSTANCE abab56d2-70f1-4575-ad4c-2c0f24a04796 absData
+abab56d2-70f1-4575-ad4c-2c0f24a04796 {label = "Vehicle crossing forbidden" }
+$INSTANCE 9d3e243b-af0e-4317-9e51-de9d47a845d3 absData
+9d3e243b-af0e-4317-9e51-de9d47a845d3 {label = "Road vehicles traffic authorization" }
+$INSTANCE 3fef19b2-7372-404c-895b-1da597a9e17b absData
+3fef19b2-7372-404c-895b-1da597a9e17b {label = "Vehicle crossing forbidden" }
+$INSTANCE a491bea1-4581-46e4-b9bf-1774ce3b7692 absData
+a491bea1-4581-46e4-b9bf-1774ce3b7692 {label = "Road vehicles traffic authorization" }
+$INSTANCE 2d7340ce-c41d-4eb5-bb97-a94d4c596b78 absData
+2d7340ce-c41d-4eb5-bb97-a94d4c596b78 {label = "Road traffic delay command" }
+$INSTANCE 6cd183a8-c8cd-4abb-bba7-ab065ef59781 absData
+6cd183a8-c8cd-4abb-bba7-ab065ef59781 {label = "Road traffic delay command" }
+$INSTANCE c7e2fdb5-9e73-4dd1-a3d6-1321358563e8 absData
+c7e2fdb5-9e73-4dd1-a3d6-1321358563e8 {label = "Vehicle crossing forbidden" }
+$INSTANCE 68597c5c-629b-4d3f-b699-3aa1740472c0 absData
+68597c5c-629b-4d3f-b699-3aa1740472c0 {label = "Road traffic release command" }
+$INSTANCE 1681cab8-173b-41b0-84b1-aa8b1225311f absData
+1681cab8-173b-41b0-84b1-aa8b1225311f {label = "Road traffic release command" }
+$INSTANCE bbcae9d7-8fcc-4aae-b022-665a409cabe7 absData
+bbcae9d7-8fcc-4aae-b022-665a409cabe7 {label = "Road vehicles traffic authorization" }
+$INSTANCE 5aaf9fff-8593-4596-9634-655c9c6411c5 absData
+5aaf9fff-8593-4596-9634-655c9c6411c5 {label = "Emergency train stop command" }
+$INSTANCE 0a472680-9fbe-4518-9c44-674469d6453d absData
+0a472680-9fbe-4518-9c44-674469d6453d {label = "Emergency road traffic stop command" }
+$INSTANCE 2411225f-f7b1-4fae-ad5d-8b0af625e243 absData
+2411225f-f7b1-4fae-ad5d-8b0af625e243 {label = "Train traffic release command" }
+$INSTANCE e34addf1-9cfa-45ff-8b87-31de4676e5b5 absData
+e34addf1-9cfa-45ff-8b87-31de4676e5b5 {label = "Road traffic release command" }
+$INSTANCE 1f352d09-d9f1-447e-b5ae-3e34202afc7d absData
+1f352d09-d9f1-447e-b5ae-3e34202afc7d {label = "Barrier in end stop position" }
+$INSTANCE 218e9814-e8de-4ea3-a1af-64aff1e8ae3b absData
+218e9814-e8de-4ea3-a1af-64aff1e8ae3b {label = "Movement direction" }
+$INSTANCE 8a243a2c-2591-4f0e-8d1b-7d7089641aa8 absData
+8a243a2c-2591-4f0e-8d1b-7d7089641aa8 {label = "Supply voltage " }
+$INSTANCE 566485f1-3683-4d9b-b1f9-a8f75f05b996 absData
+566485f1-3683-4d9b-b1f9-a8f75f05b996 {label = "Blocked barrier" }
+$INSTANCE ea4b34df-531d-4d5c-9fd9-f20e78797e23 absData
+ea4b34df-531d-4d5c-9fd9-f20e78797e23 {label = "Blocked barrier" }
+$INSTANCE f72993c6-dcef-422f-8e8f-5ab002b19045 absData
+f72993c6-dcef-422f-8e8f-5ab002b19045 {label = "Locking command" }
+$INSTANCE 7e0d3d6f-4e1b-408b-a386-753a8ae140a1 absData
+7e0d3d6f-4e1b-408b-a386-753a8ae140a1 {label = "Fluid" }
+$INSTANCE eecfdb73-39d8-4d77-825b-29f57dd48e0b absData
+eecfdb73-39d8-4d77-825b-29f57dd48e0b {label = "Fluid" }
+$INSTANCE d26f2cb3-a42d-4ea8-b1bf-5bdc2b3a715e absData
+d26f2cb3-a42d-4ea8-b1bf-5bdc2b3a715e {label = "Fluid" }
+$INSTANCE 6853f546-5c55-4b1e-99e5-c8354cc7eef9 absData
+6853f546-5c55-4b1e-99e5-c8354cc7eef9 {label = "Travel speed" }
+$INSTANCE 7dd97dbf-d93d-40c1-b44a-edf0ee1b1752 absData
+7dd97dbf-d93d-40c1-b44a-edf0ee1b1752 {label = "Force" }
+$INSTANCE 40875828-4936-4a39-868b-3bcc1a323048 absData
+40875828-4936-4a39-868b-3bcc1a323048 {label = "Lifting power supply command" }
+$INSTANCE 49e0d3d1-f321-4506-a904-7f1f0e313d91 absData
+49e0d3d1-f321-4506-a904-7f1f0e313d91 {label = "High-pressure fluid" }
+$INSTANCE fed6fdd4-516e-4f03-b4f5-d7eee3ed91a1 absData
+fed6fdd4-516e-4f03-b4f5-d7eee3ed91a1 {label = "High-pressure fluid" }
+$INSTANCE 84f678fa-0997-4998-ab2e-62c03465154b absData
+84f678fa-0997-4998-ab2e-62c03465154b {label = "High-pressure fluid" }
+$INSTANCE b70f364b-f654-4877-9c5c-ab877bafd931 absData
+b70f364b-f654-4877-9c5c-ab877bafd931 {label = "Fluid in excess" }
+$INSTANCE 4ef36377-0da3-4a6b-8989-62d2ea80d7ab absData
+4ef36377-0da3-4a6b-8989-62d2ea80d7ab {label = "Fluid in excess" }
+$INSTANCE 30430666-5b5b-418a-84a5-c557a76c1ca4 absData
+30430666-5b5b-418a-84a5-c557a76c1ca4 {label = "Fluid" }
+$INSTANCE 7651ae08-1210-405c-8007-83a76eed17ba absData
+7651ae08-1210-405c-8007-83a76eed17ba {label = "Fluid" }
+$INSTANCE 57786685-1745-41d2-a62f-54c289f2f1b7 absData
+57786685-1745-41d2-a62f-54c289f2f1b7 {label = "Low-pressure fluid" }
+$INSTANCE 318f7ac5-f889-47d3-83fe-301da52e6af8 absData
+318f7ac5-f889-47d3-83fe-301da52e6af8 {label = "Obstacle position" }
+$INSTANCE d76b4dcb-fde9-4de5-9670-ecab8b0fbb44 absData
+d76b4dcb-fde9-4de5-9670-ecab8b0fbb44 {label = "Blocked obstacle" }
+$INSTANCE bbe694c4-df9c-4083-bafd-bbea8e28754e absData
+bbe694c4-df9c-4083-bafd-bbea8e28754e {label = "Blocked obstacle" }
+$INSTANCE d263190c-8e48-4378-89a1-999b91875f55 absData
+d263190c-8e48-4378-89a1-999b91875f55 {label = "Obstacle position" }
+$INSTANCE b2598d29-d0ef-4967-b77f-27cf3d5f8f6a absData
+b2598d29-d0ef-4967-b77f-27cf3d5f8f6a {label = "Blocked obstacle" }
+$INSTANCE d09c89be-5b61-4003-9ab2-0e5e6714c9b4 absData
+d09c89be-5b61-4003-9ab2-0e5e6714c9b4 {label = "Blocked obstacle" }
+$INSTANCE 697592bc-9e70-481b-ab01-4644fc535b67 absData
+697592bc-9e70-481b-ab01-4644fc535b67 {label = "Blocked barrier" }
+$INSTANCE 602fdec3-4241-4af6-9c3f-0e76f2fb4704 absData
+602fdec3-4241-4af6-9c3f-0e76f2fb4704 {label = "Blocked barrier" }
+$INSTANCE 6a664c44-a051-42b4-b3fc-81a5d1a317f3 absData
+6a664c44-a051-42b4-b3fc-81a5d1a317f3 {label = "Barrier in end stop position" }
+$INSTANCE 0c2a3404-256f-44fd-bd98-70f802180f78 absData
+0c2a3404-256f-44fd-bd98-70f802180f78 {label = "Supply voltage " }
+$INSTANCE f58ec0c6-3d83-4423-8290-181dac6e6088 absData
+f58ec0c6-3d83-4423-8290-181dac6e6088 {label = "Electric intensity" }
+$INSTANCE b58ec6da-7aa7-4f2f-9b13-5646ed975006 absData
+b58ec6da-7aa7-4f2f-9b13-5646ed975006 {label = "Supply voltage " }
+$INSTANCE f6d64198-7d45-4b2e-b0b5-ec326e47ce9c absData
+f6d64198-7d45-4b2e-b0b5-ec326e47ce9c {label = "Rotation direction" }
+$INSTANCE 2f8c65b8-40fe-49bc-a781-737464910f01 absData
+2f8c65b8-40fe-49bc-a781-737464910f01 {label = "Torque" }
+$INSTANCE 13c916b3-f901-4b93-8d45-0fcf99017b84 absData
+13c916b3-f901-4b93-8d45-0fcf99017b84 {label = "Rotation speed" }
+$INSTANCE a4bcca3b-828d-4603-9dd3-fc234bc1e85a absData
+a4bcca3b-828d-4603-9dd3-fc234bc1e85a {label = "Rotation speed" }
+$INSTANCE 64c798dc-838c-4bed-8c93-024ffe29e56c absData
+64c798dc-838c-4bed-8c93-024ffe29e56c {label = "Torque" }
+$INSTANCE 27115bac-652f-4035-bd17-b48d48574112 absData
+27115bac-652f-4035-bd17-b48d48574112 {label = "Barrier position" }
+$INSTANCE 6b6ea70d-9db3-499d-8679-e38ee0586635 absData
+6b6ea70d-9db3-499d-8679-e38ee0586635 {label = "Barrière bloquée" }
+$INSTANCE 8111d9b3-92c2-45f6-848e-d59ee1700171 absData
+8111d9b3-92c2-45f6-848e-d59ee1700171 {label = "Blocked barrier" }
+$INSTANCE 56e2764e-5e25-4bde-a424-321bc460d44f absData
+56e2764e-5e25-4bde-a424-321bc460d44f {label = "Barrier position" }
+$INSTANCE 737b2153-da4d-4b0d-8823-2b3c166a378d absData
+737b2153-da4d-4b0d-8823-2b3c166a378d {label = "Blocked barrier" }
+$INSTANCE 70cae7b8-f839-4cb0-90d7-16d44502e1ff absData
+70cae7b8-f839-4cb0-90d7-16d44502e1ff {label = "Blocked barrier" }
+$INSTANCE c6256855-4c81-4720-b8ad-fff9679e5772 absData
+c6256855-4c81-4720-b8ad-fff9679e5772 {label = "Vehicle crossing forbidden" }
+$INSTANCE bc9007fe-5c31-4c86-82b0-945797b7f7c5 absData
+bc9007fe-5c31-4c86-82b0-945797b7f7c5 {label = "Road vehicles traffic authorization" }
+$INSTANCE 425e5ff0-17a9-4322-89e3-fbb25038e3dc absData
+425e5ff0-17a9-4322-89e3-fbb25038e3dc {label = "Crossing prevention devices activation command " }
+$INSTANCE dd7a06db-3760-4cb3-94f5-d1fae7340221 absData
+dd7a06db-3760-4cb3-94f5-d1fae7340221 {label = "Crossing prevention devices activation command " }
+$INSTANCE 5d45238d-d0dc-4612-ae7b-52cd87687beb absData
+5d45238d-d0dc-4612-ae7b-52cd87687beb {label = "Vehicle stopped on the track information" }
+$INSTANCE 73273854-2a6b-4469-91a0-a26519ac7320 absData
+73273854-2a6b-4469-91a0-a26519ac7320 {label = "Operational status of instructions, detectors and devices" }
+$INSTANCE 62193dda-79e1-426b-898b-02b1dc8d6a67 absData
+62193dda-79e1-426b-898b-02b1dc8d6a67 {label = "Health status of instructions, detectors and devices" }
+$INSTANCE d21373a2-932b-458d-ac07-13ac512fd886 absData
+d21373a2-932b-458d-ac07-13ac512fd886 {label = "System operating configuration" }
+$INSTANCE ae998f9d-abd0-41b1-83fa-43f20a6a9e87 absData
+ae998f9d-abd0-41b1-83fa-43f20a6a9e87 {label = "Nominal arrival command" }
+$INSTANCE 7537efbc-0ee9-40b8-885b-2a7c90a70248 absData
+7537efbc-0ee9-40b8-885b-2a7c90a70248 {label = "Delayed arrival command" }
+$INSTANCE 261def66-fcae-4409-ac2e-e42304b8770b absData
+261def66-fcae-4409-ac2e-e42304b8770b {label = "Nominal arrival command" }
+$INSTANCE df85313e-a59c-4995-849a-72e44bd6a35d absData
+df85313e-a59c-4995-849a-72e44bd6a35d {label = "Delayed departure command" }
+$INSTANCE c1730227-eb36-490a-a022-cc4f5c789ccb absData
+c1730227-eb36-490a-a022-cc4f5c789ccb {label = "Nominal departure command " }
+$INSTANCE 292790ea-eaab-4923-bb6b-380737b77043 absData
+292790ea-eaab-4923-bb6b-380737b77043 {label = "Nominal departure command " }
+$INSTANCE 4f0651d4-2eca-4b54-b284-540cece707a5 absData
+4f0651d4-2eca-4b54-b284-540cece707a5 {label = "Vehicle arrival information" }
+$INSTANCE b8762215-7144-4a9a-9b22-664f3782a1f4 absData
+b8762215-7144-4a9a-9b22-664f3782a1f4 {label = "Vehicle stop information" }
+$INSTANCE 5f14daa8-63b7-4a90-9fef-270ae368d56f absData
+5f14daa8-63b7-4a90-9fef-270ae368d56f {label = "Length of vehicle queue" }
+$INSTANCE 0c6e173c-3a3a-4b1c-a384-496ca865e7da absData
+0c6e173c-3a3a-4b1c-a384-496ca865e7da {label = "Length of vehicle queue" }
+$INSTANCE 2008ebac-5896-47cc-bf9a-0e62f6f33ddf absData
+2008ebac-5896-47cc-bf9a-0e62f6f33ddf {label = "Train passing the level crossing information" }
+$INSTANCE 6ff03ed3-99d0-4ff7-b3d5-1d0c8f6801d8 absData
+6ff03ed3-99d0-4ff7-b3d5-1d0c8f6801d8 {label = "Arriving train approaching information" }
+$INSTANCE 33608471-027d-4bda-9aee-da6edaa816ff absData
+33608471-027d-4bda-9aee-da6edaa816ff {label = "Vehicle arrival information" }
+$INSTANCE 973ad827-21b3-415d-938f-86b14f7b105c absData
+973ad827-21b3-415d-938f-86b14f7b105c {label = "Vehicle stop information" }
+$INSTANCE 7ba56b67-1f0c-4569-9322-5f3ca2d86436 absData
+7ba56b67-1f0c-4569-9322-5f3ca2d86436 {label = "Vehicle crossed information" }
+$INSTANCE ab3c79d8-ea54-4a6f-a1f3-fda44ff2f069 absData
+ab3c79d8-ea54-4a6f-a1f3-fda44ff2f069 {label = "Vehicle entered the crossing information" }
+$INSTANCE c966abbb-0e0b-47f4-ac46-d56a451bd1a2 absData
+c966abbb-0e0b-47f4-ac46-d56a451bd1a2 {label = "Vehicle stopped on the track information" }
+$INSTANCE 3fb57fa8-96f6-41be-83a6-de1f69f6488c absData
+3fb57fa8-96f6-41be-83a6-de1f69f6488c {label = "Vehicle stopped on the track information " }
+$INSTANCE 10301a7b-1728-4f17-be5c-a66d1fdaf703 absData
+10301a7b-1728-4f17-be5c-a66d1fdaf703 {label = "Status of road traffic lights" }
+$INSTANCE 5df3948a-54b7-42e9-a29d-6aba08a92d33 absData
+5df3948a-54b7-42e9-a29d-6aba08a92d33 {label = "Status of train detectors" }
+$INSTANCE 13eabae4-2c76-4fc0-b7e3-663b337bdb63 absData
+13eabae4-2c76-4fc0-b7e3-663b337bdb63 {label = "Train emergency stops status" }
+$INSTANCE 97002da7-7952-4b0b-b139-2f27bbb2e04c absData
+97002da7-7952-4b0b-b139-2f27bbb2e04c {label = "Vehicle detectors status" }
+$INSTANCE 21c872c2-df34-425c-9889-99af58a2b40d absData
+21c872c2-df34-425c-9889-99af58a2b40d {label = "Vehicle arrival information" }
+$INSTANCE 32604dad-50f8-4c5c-ad93-1b71e6cd3751 absData
+32604dad-50f8-4c5c-ad93-1b71e6cd3751 {label = "Arriving train approaching information" }
+$INSTANCE 1a74fe91-65b0-495d-a0d9-d17377777530 absData
+1a74fe91-65b0-495d-a0d9-d17377777530 {label = "Departed train information" }
+$INSTANCE e3e7fd25-bb57-4cce-9c50-fa85a09d3979 absData
+e3e7fd25-bb57-4cce-9c50-fa85a09d3979 {label = "Train passing the level crossing information" }
+$INSTANCE a022d4a2-5d09-425b-87a6-767d44bfc9d2 absData
+a022d4a2-5d09-425b-87a6-767d44bfc9d2 {label = "Vehicle passed information" }
+$INSTANCE e85cc777-5c24-422a-b319-a27988d8da8e absData
+e85cc777-5c24-422a-b319-a27988d8da8e {label = "Vehicle entered the crossing information" }
+$INSTANCE ee831eaa-8a7f-4783-b508-2027f1c20a83 absData
+ee831eaa-8a7f-4783-b508-2027f1c20a83 {label = "Vehicle stop information" }
+$INSTANCE 3ff26ce8-5e17-4fc4-b5d4-93b396558090 absData
+3ff26ce8-5e17-4fc4-b5d4-93b396558090 {label = "Length of vehicle queue" }
+$INSTANCE 061c1cb6-cdab-4d94-aaba-73915b171834 absData
+061c1cb6-cdab-4d94-aaba-73915b171834 {label = "Train detectors statuses" }
+$INSTANCE cd400fc4-6173-46a0-9658-553ac807c48a absData
+cd400fc4-6173-46a0-9658-553ac807c48a {label = "Train detectors statuses" }
+$INSTANCE eca844a7-e846-477e-8862-00bb89986df5 absData
+eca844a7-e846-477e-8862-00bb89986df5 {label = "Arriving train crossing forbidden" }
+$INSTANCE 1369a1b2-5496-4c1a-bd71-d259150e167f absData
+1369a1b2-5496-4c1a-bd71-d259150e167f {label = "Arriving train crossing forbidden" }
+$INSTANCE 01e3d61b-ca1a-4d5d-be4b-e378477101d9 absData
+01e3d61b-ca1a-4d5d-be4b-e378477101d9 {label = "Arriving train crossing authorization" }
+$INSTANCE 15e1862d-f24e-4d5a-bff4-15a335f4831c absData
+15e1862d-f24e-4d5a-bff4-15a335f4831c {label = "Arriving train stop command" }
+$INSTANCE 17576ef3-0832-4e51-9efb-5ea1f83c15e9 absData
+17576ef3-0832-4e51-9efb-5ea1f83c15e9 {label = "Arriving train stop command" }
+$INSTANCE 68b603ce-26ec-4a8e-b33e-5e72e75d8b7d absData
+68b603ce-26ec-4a8e-b33e-5e72e75d8b7d {label = "Train departure authorization" }
+$INSTANCE 543a7596-80c3-4811-a714-95179ca5c154 absData
+543a7596-80c3-4811-a714-95179ca5c154 {label = "Train departure prohibition" }
+$INSTANCE 628df02e-bec4-431c-8eb9-dfb028ef618c absData
+628df02e-bec4-431c-8eb9-dfb028ef618c {label = "Train departure prohibition " }
+$INSTANCE 622e4484-ff7e-4e07-b657-86b726425bc2 absData
+622e4484-ff7e-4e07-b657-86b726425bc2 {label = "Arriving train release command" }
+$INSTANCE 711728eb-b850-4189-871f-67e459944e7e absData
+711728eb-b850-4189-871f-67e459944e7e {label = "Arriving train stop signal statuses" }
+$INSTANCE db28a8db-4250-4dab-ad4c-56b740f3d307 absData
+db28a8db-4250-4dab-ad4c-56b740f3d307 {label = "Arriving train crossing signal statuses" }
+$INSTANCE 37eafad7-5fbb-4db3-8b25-84395f8a06cd absData
+37eafad7-5fbb-4db3-8b25-84395f8a06cd {label = "Train signals status" }
+$INSTANCE 702072c2-fa87-4f7c-a6cf-4afc26009c99 absData
+702072c2-fa87-4f7c-a6cf-4afc26009c99 {label = "Status of barriers and devices" }
+$INSTANCE 75d57cca-5d24-42cd-accc-4e86de83bad0 absData
+75d57cca-5d24-42cd-accc-4e86de83bad0 {label = "Status of crossing prevention devices" }
+$INSTANCE 76438c53-d22e-485d-b5a6-10705fcd792f absData
+76438c53-d22e-485d-b5a6-10705fcd792f {label = "Critical failure" }
+$INSTANCE f31ed83d-470f-4bcb-9405-0122e4a1b94f absData
+f31ed83d-470f-4bcb-9405-0122e4a1b94f {label = "Train traffic release command" }
+$INSTANCE 0c8f5b52-80e2-4c48-8120-1477194ccb32 absData
+0c8f5b52-80e2-4c48-8120-1477194ccb32 {label = "Risk on traffic" }
+$INSTANCE f22b3650-cd19-45cd-9a56-65b81cf68503 absData
+f22b3650-cd19-45cd-9a56-65b81cf68503 {label = "Risk of erroneous instructions" }
+$INSTANCE c819c7de-8bc2-4831-881f-4e5f17acf879 absData
+c819c7de-8bc2-4831-881f-4e5f17acf879 {label = "Risk of system failure" }
+$INSTANCE dde107e4-5266-4c34-a462-d06eef750670 absData
+dde107e4-5266-4c34-a462-d06eef750670 {label = "Train passing the level crossing information" }
+$INSTANCE 83cf2835-3020-48c6-b8e3-ed63a1b9f77a absData
+83cf2835-3020-48c6-b8e3-ed63a1b9f77a {label = "Departed train information" }
+$INSTANCE 007783fc-b155-4748-9075-1cde32fda77d absData
+007783fc-b155-4748-9075-1cde32fda77d {label = "Departed train information" }
+$INSTANCE 83a1c359-440b-42b7-a6c7-b1fd3296e42c absData
+83a1c359-440b-42b7-a6c7-b1fd3296e42c {label = "Train passing departure direction information" }
+$INSTANCE 8d6e0722-3a22-4758-94b3-9b03e6ca89a6 absData
+8d6e0722-3a22-4758-94b3-9b03e6ca89a6 {label = "Departure authorization" }
+$INSTANCE 59ec07bb-5351-4bcb-a7c0-c14170dbd405 absData
+59ec07bb-5351-4bcb-a7c0-c14170dbd405 {label = "Departure prohibition" }
+$INSTANCE 5a6b3924-e08e-41d7-9bd5-df120ce2b11e absData
+5a6b3924-e08e-41d7-9bd5-df120ce2b11e {label = "Schedules and trains statuses" }
+$INSTANCE fc914f16-3285-40ea-b0c2-893957b96980 absData
+fc914f16-3285-40ea-b0c2-893957b96980 {label = "Schedules and trains statuses" }
+$INSTANCE e334275b-74e2-436d-9f15-4032490887cb absData
+e334275b-74e2-436d-9f15-4032490887cb {label = "Vehicle arrival information" }
+$INSTANCE f46a64dd-9617-47db-a109-1d48e565d3e4 absData
+f46a64dd-9617-47db-a109-1d48e565d3e4 {label = "Vehicle stop information" }
+$INSTANCE 3cf234e9-0a32-4b8e-9112-2b9660a9caa6 absData
+3cf234e9-0a32-4b8e-9112-2b9660a9caa6 {label = "Crossing forbidden" }
+$INSTANCE a787826e-94c2-4dce-bb16-56c0901f3fad absData
+a787826e-94c2-4dce-bb16-56c0901f3fad {label = "Permission for the vehicle to pass" }
+$INSTANCE 8ed170aa-f58a-4cb9-aaf7-9ce16ed639a0 absData
+8ed170aa-f58a-4cb9-aaf7-9ce16ed639a0 {label = "Vehicle passed information" }
+$INSTANCE 39941372-8a44-4885-bba0-586d5aba28b3 absData
+39941372-8a44-4885-bba0-586d5aba28b3 {label = "Vehicle entered the crossing information" }
+$INSTANCE 54b2900c-025f-443a-aa08-8b6ac76cfc04 absData
+54b2900c-025f-443a-aa08-8b6ac76cfc04 {label = "Vehicle stop information" }
+$INSTANCE d03f8b70-058f-4f5d-a02d-c711da1cec44 absData
+d03f8b70-058f-4f5d-a02d-c711da1cec44 {label = "Departing train information" }
+$INSTANCE e12f96b4-09cf-4cfe-9074-b477386ee5b4 absData
+e12f96b4-09cf-4cfe-9074-b477386ee5b4 {label = "Train arrival information" }
+$INSTANCE 4c0c34ae-12f9-4ae6-b54e-dfac844f34dc absData
+4c0c34ae-12f9-4ae6-b54e-dfac844f34dc {label = "Train stop command" }
+$INSTANCE e6e7b614-385c-4b27-ab53-55378b52f555 absData
+e6e7b614-385c-4b27-ab53-55378b52f555 {label = "Train stop command" }
+$INSTANCE 6ae41967-799d-44af-b061-b9394f30d03f absData
+6ae41967-799d-44af-b061-b9394f30d03f {label = "Train passing arrival direction information" }
+$INSTANCE b7065dbe-3f17-4bed-9746-28e98d4cae8f absData
+b7065dbe-3f17-4bed-9746-28e98d4cae8f {label = "Authorization to restart on arrival" }
+$INSTANCE 44eb0423-068f-49df-a20c-52f537de15f9 absData
+44eb0423-068f-49df-a20c-52f537de15f9 {label = "Authorization to cross on arrival" }
+$INSTANCE fb72e66f-85ce-4be8-ac12-bd1832642e00 absData
+fb72e66f-85ce-4be8-ac12-bd1832642e00 {label = "Vehicle crossing forbidden" }
+$INSTANCE 59f0f84a-91b4-4e82-b925-130ffac7110f absData
+59f0f84a-91b4-4e82-b925-130ffac7110f {label = "Road vehicles traffic authorization" }
+$INSTANCE 7557b762-5d7c-47a0-a293-abd5907a02b2 absData
+7557b762-5d7c-47a0-a293-abd5907a02b2 {label = "Road traffic delay command" }
+$INSTANCE 395bd185-4c62-46f5-b7f5-374c274ae6b8 absData
+395bd185-4c62-46f5-b7f5-374c274ae6b8 {label = "Road traffic delay command" }
+$INSTANCE 316bdb1d-37b2-4ae1-a8fb-544a14e0282a absData
+316bdb1d-37b2-4ae1-a8fb-544a14e0282a {label = "Road traffic release command" }
+$INSTANCE c0ae7d7f-f235-4e46-9fb4-1988093dd690 absData
+c0ae7d7f-f235-4e46-9fb4-1988093dd690 {label = "Preparation to departure command" }
+$INSTANCE 3ec6d16d-6160-4ad7-ad34-f656c2b9526e absData
+3ec6d16d-6160-4ad7-ad34-f656c2b9526e {label = "Road traffic release command" }
+$INSTANCE 840c0981-771b-4454-a2cd-0f18620a5181 absData
+840c0981-771b-4454-a2cd-0f18620a5181 {label = "Emergency train stop command" }
+$INSTANCE daf3528e-65d7-45b9-8901-d18dbdc3cb8e absData
+daf3528e-65d7-45b9-8901-d18dbdc3cb8e {label = "Train delay on departure" }
+$INSTANCE a8abb47c-f732-451d-b7db-eeb3ef1c2d36 absData
+a8abb47c-f732-451d-b7db-eeb3ef1c2d36 {label = "Train delay on arrival" }
+$INSTANCE 5dfb1ac6-a108-4976-92c5-fa7f50b98a7d absData
+5dfb1ac6-a108-4976-92c5-fa7f50b98a7d {label = "Conflict situation " }
+$INSTANCE 0a259803-1f40-460d-a94d-81b440290a36 absData
+0a259803-1f40-460d-a94d-81b440290a36 {label = "Vehicle stopped on the track information" }
+$INSTANCE d97d2d83-78af-4f7d-a8b7-5acd5a1ff960 absData
+d97d2d83-78af-4f7d-a8b7-5acd5a1ff960 {label = "Instructions, sensors and devices operating status" }
+$INSTANCE bcb61f3a-d7fb-4b8d-b6a4-fc00b1682534 absData
+bcb61f3a-d7fb-4b8d-b6a4-fc00b1682534 {label = "Localization, instructions, sensors and devices operating status" }
+$INSTANCE dedca031-a99f-4e47-bb62-bb869edbcecb absData
+dedca031-a99f-4e47-bb62-bb869edbcecb {label = "Emergency train stop command" }
+$INSTANCE e968b1dc-ec80-4fa3-9de1-64b090ddb572 absData
+e968b1dc-ec80-4fa3-9de1-64b090ddb572 {label = "Emergency road traffic stop comma" }
+$INSTANCE 6ab24760-f30c-4fa9-a5c7-e4b65ae76009 absData
+6ab24760-f30c-4fa9-a5c7-e4b65ae76009 {label = "Train traffic release command" }
+$INSTANCE 73ed3e50-9e8a-4a27-9a00-0b3da010d1b8 absData
+73ed3e50-9e8a-4a27-9a00-0b3da010d1b8 {label = "Road traffic release command" }
+$INSTANCE 73df687f-d464-4035-aa42-f044c65547bd absData
+73df687f-d464-4035-aa42-f044c65547bd {label = "Road traffic release command" }
+$INSTANCE 4e565f50-04fe-4c85-938e-cf5b8dfc1406 absData
+4e565f50-04fe-4c85-938e-cf5b8dfc1406 {label = "System operating configuration" }
+$INSTANCE 3ba31884-d5bc-46df-893c-9786705b65f0 absData
+3ba31884-d5bc-46df-893c-9786705b65f0 {label = "Instructions, sensors and devices operating status" }
+$INSTANCE 660b5812-412c-48f3-892c-8b75ae928ead absData
+660b5812-412c-48f3-892c-8b75ae928ead {label = "Trains and vehicles position" }
+$INSTANCE ceeab640-22e7-4b51-9a91-b108cc65a35f absData
+ceeab640-22e7-4b51-9a91-b108cc65a35f {label = "Conflict situation" }
+$INSTANCE 1cb38d91-0c9e-497f-a241-54465387b808 absData
+1cb38d91-0c9e-497f-a241-54465387b808 {label = "Geographical map of the surroundings" }
+$INSTANCE 750718dc-7826-4207-9769-df4cb3abba10 absData
+750718dc-7826-4207-9769-df4cb3abba10 {label = "Trains and vehicles position" }
+$INSTANCE 9591d202-d4fa-438c-bcd8-a593d8c4dd2b absData
+9591d202-d4fa-438c-bcd8-a593d8c4dd2b {label = "Vehicle stopped on the track information" }
+$INSTANCE 7e2a0900-8636-4cdf-829c-bc29d993bdf7 absData
+7e2a0900-8636-4cdf-829c-bc29d993bdf7 {label = "Conflict situation" }
+$INSTANCE c81f5de8-e961-462f-bd9e-9c22c5bb1359 absData
+c81f5de8-e961-462f-bd9e-9c22c5bb1359 {label = "Train traffic release command" }
+$INSTANCE d8c1b7f7-2c12-44ac-805d-a2c6625936ec absData
+d8c1b7f7-2c12-44ac-805d-a2c6625936ec {label = "Road traffic release command" }
+$INSTANCE 810be83a-88ed-435e-a519-978291187669 absData
+810be83a-88ed-435e-a519-978291187669 {label = "Train delay on arrival" }
+$INSTANCE f9a5230c-f8f5-4263-a10d-4ea30a761a7a absData
+f9a5230c-f8f5-4263-a10d-4ea30a761a7a {label = "Train delay on departure" }
+$INSTANCE d69a19e0-9ff6-4e6b-9020-9dfe2497823b absData
+d69a19e0-9ff6-4e6b-9020-9dfe2497823b {label = "Road traffic delay command" }
+contain d634e743-7ef1-429c-91a2-9e947a49596c afaab29b-188b-41e4-952e-a6056684abaa
+contain d634e743-7ef1-429c-91a2-9e947a49596c bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+contain d634e743-7ef1-429c-91a2-9e947a49596c 1ce222ef-aebe-4b88-855f-50700dd138e6
+contain fd4b6574-88bc-4566-be0b-53313c22e3e9 d8a238af-9284-4a99-9ed1-b12e9f9dcc76
+contain fd4b6574-88bc-4566-be0b-53313c22e3e9 00383c1b-80a8-439b-9f94-2b2632095037
+contain fd4b6574-88bc-4566-be0b-53313c22e3e9 e37d07d4-bbfe-43e5-b301-9c5e952f6146
+contain fd4b6574-88bc-4566-be0b-53313c22e3e9 3921d0e7-98e5-4c70-843b-4f5501e08e0f
+contain fd4b6574-88bc-4566-be0b-53313c22e3e9 65178be6-ec42-4ae3-8b9a-924d9c1eb038
+contain fd4b6574-88bc-4566-be0b-53313c22e3e9 7217c139-b364-4199-bf74-316aa9bb102f
+contain fd4b6574-88bc-4566-be0b-53313c22e3e9 f5705971-3645-448e-94e5-f1f4c2a86440
+contain fd4b6574-88bc-4566-be0b-53313c22e3e9 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1
+contain 1419c4b1-e3df-4418-ad01-28ddf9609703 12e226b7-9e07-4861-9c11-0798824696f9
+contain 1419c4b1-e3df-4418-ad01-28ddf9609703 06cf1b18-9112-47c1-9389-4c2d0ea6537d
+contain 1419c4b1-e3df-4418-ad01-28ddf9609703 0dbafbe6-664c-492a-a1f3-5531c8d986a6
+contain c16d18f2-13b5-49d6-8b98-bb9d2a189561 457dab08-da48-400f-bd80-805f0162d25e
+contain c16d18f2-13b5-49d6-8b98-bb9d2a189561 89eee517-0675-4391-b304-0d443079e5c1
+contain c16d18f2-13b5-49d6-8b98-bb9d2a189561 cbe533d4-cff2-4bdd-a01d-d1dd6e0381bc
+contain c16d18f2-13b5-49d6-8b98-bb9d2a189561 6983633d-c6ba-45f6-bcdf-ec22ec5ebb4d
+contain 5191790b-980d-4599-af50-bf781b4832be 9d1610ae-d16f-40af-bbb5-08d90b3320de
+contain 5191790b-980d-4599-af50-bf781b4832be db24b704-619b-41f2-8950-91e7609df3fc
+contain 5191790b-980d-4599-af50-bf781b4832be f3d31347-836a-41e2-b5e9-a8563e674c7f
+contain 5191790b-980d-4599-af50-bf781b4832be 9b0be423-58bd-4827-a60e-791ab856ccc1
+contain 5191790b-980d-4599-af50-bf781b4832be 5a482ba1-67a7-416c-b603-33ad4d9d7c95
+contain 5191790b-980d-4599-af50-bf781b4832be e6820a88-8524-4dc3-9905-d572a1741362
+contain 5191790b-980d-4599-af50-bf781b4832be da9254ae-0b2d-4c8e-8534-56b6db160d4a
+contain 5191790b-980d-4599-af50-bf781b4832be 3f74dd29-99d5-4561-91b1-6ca272830836
+contain 5191790b-980d-4599-af50-bf781b4832be 180638ff-f8d6-440c-b832-1952c59e089a
+contain 5191790b-980d-4599-af50-bf781b4832be 376dbf0b-f43c-42d1-8489-fa61c44a7d44
+contain 5191790b-980d-4599-af50-bf781b4832be 47c3e966-98c4-4e93-8f09-a1709a725ece
+contain a6659623-06a9-4df8-a0da-b8dd2a602440 144dc867-b127-43f8-b8fb-f3f36d4dff4b
+contain a6659623-06a9-4df8-a0da-b8dd2a602440 c70f3327-92f7-460d-a26d-8b256edfe64e
+contain a6659623-06a9-4df8-a0da-b8dd2a602440 0b241979-7964-42f5-85c2-89228c02b241
+contain a6659623-06a9-4df8-a0da-b8dd2a602440 fb2b82d4-10f1-45a5-94ea-846d028b9f86
+contain a6659623-06a9-4df8-a0da-b8dd2a602440 49b8806f-f6d5-4f63-b5dd-f3480b0a08a4
+contain a6659623-06a9-4df8-a0da-b8dd2a602440 8891ff27-1e33-4004-bb00-33cae810b5e5
+contain a6659623-06a9-4df8-a0da-b8dd2a602440 a937007d-1000-4225-85a4-3cc4b14523c5
+contain b0e13280-d8ef-4bb9-8779-0059a6691800 f074bddc-c074-49f0-b79f-17fb44bb6bc6
+contain b0e13280-d8ef-4bb9-8779-0059a6691800 8f548e36-be87-4213-9f73-fcf7933d1ea9
+contain b0e13280-d8ef-4bb9-8779-0059a6691800 6d164771-ec91-4312-bbec-778616414d24
+contain b0e13280-d8ef-4bb9-8779-0059a6691800 443555c2-952b-45e1-8f12-ca743e599c76
+contain 7e8d68d3-c45b-47da-aa91-3e1ae09fd550 a8fd68f5-4f66-4e07-abc1-f7d2697b297c
+contain 7e8d68d3-c45b-47da-aa91-3e1ae09fd550 d5b33a68-2bb9-4ae1-88e3-e45dfa201bad
+contain 7e8d68d3-c45b-47da-aa91-3e1ae09fd550 0594a76f-6b82-4952-bbed-4a94eb70c497
+contain f18dae54-641d-48a8-afcd-0a6cd177bbb7 04aa133b-aab5-4e22-8f2f-6d8d6a659f56
+contain f18dae54-641d-48a8-afcd-0a6cd177bbb7 989d69e5-34d0-4f0d-aa32-06427a766c15
+contain f18dae54-641d-48a8-afcd-0a6cd177bbb7 df885f1a-a8d9-4edc-92bb-e42551e518ad
+contain e50c9aef-0fc6-4f0f-a69a-03808a6bde1a 08ba794b-b95c-4fab-be9a-17c996539742
+contain e50c9aef-0fc6-4f0f-a69a-03808a6bde1a b5399c80-9c3c-4194-8061-0157a5bd610a
+contain e50c9aef-0fc6-4f0f-a69a-03808a6bde1a 4b63558b-8da5-4e7b-9574-ec7bc05a6069
+contain e50c9aef-0fc6-4f0f-a69a-03808a6bde1a 4d2dbaa9-65cc-423a-b44d-77a6184db62d
+contain d6f0af0c-e60c-4c3a-a859-11302d625cdf f6505b67-051a-4a95-b914-59d203015bd9
+contain d6f0af0c-e60c-4c3a-a859-11302d625cdf 276b6221-888d-4279-8ed2-f642037e3d3e
+contain d6f0af0c-e60c-4c3a-a859-11302d625cdf 6b6e033d-d2ef-4627-aa41-6e62929a2594
+contain 5a343a5d-c01e-49cd-bc4d-3c0365429c7d 0a6b0230-cbb9-4e00-9a8d-f5c08239e355
+contain 5a343a5d-c01e-49cd-bc4d-3c0365429c7d 9c9eeb0b-4aab-4953-9a25-b791b1972d1a
+contain 5a343a5d-c01e-49cd-bc4d-3c0365429c7d 4bc7baef-474e-4cd6-9a7c-970b3509d061
+contain 5a343a5d-c01e-49cd-bc4d-3c0365429c7d 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78
+contain 5a343a5d-c01e-49cd-bc4d-3c0365429c7d 7a971e96-75a4-4a91-8878-ac4f68a06715
+contain 5a343a5d-c01e-49cd-bc4d-3c0365429c7d c3c4dcca-8e26-408b-8c69-af2a73224aed
+contain 5a343a5d-c01e-49cd-bc4d-3c0365429c7d 71ae2900-5132-421f-be88-4d4a7e01c16c
+contain 3a8a6eab-23d4-4ded-b4c7-71a6f9ef7888 039f7109-3bbd-4d6c-9177-2f0ce6ef653c
+contain 3a8a6eab-23d4-4ded-b4c7-71a6f9ef7888 b5789bb6-3ede-4f80-b5e6-72df7711c0be
+contain 3a8a6eab-23d4-4ded-b4c7-71a6f9ef7888 4a3cf01f-df06-4948-8109-7947dbdfafed
+contain 3a8a6eab-23d4-4ded-b4c7-71a6f9ef7888 2ff8f87d-1f0f-4721-9024-ea0e0298577c
+contain ee89cbc6-3c47-4cfb-8a8d-ce19021acf0c 659b1fba-b63e-4190-9e61-05c2d602d553
+contain ee89cbc6-3c47-4cfb-8a8d-ce19021acf0c c59c7584-726a-4417-a51f-34e2530a008d
+contain ee89cbc6-3c47-4cfb-8a8d-ce19021acf0c 85d2fbbf-fcaf-4557-a505-c89fe60d2aec
+contain ee89cbc6-3c47-4cfb-8a8d-ce19021acf0c 8288b5c3-b781-4331-bb31-afa2318f7c8d
+dataFlow d35e2a23-cd82-487f-a8e9-ca58eca0e547 54b14102-3ad6-4a2e-bfe3-90c76680f870
+(dataFlow d35e2a23-cd82-487f-a8e9-ca58eca0e547 54b14102-3ad6-4a2e-bfe3-90c76680f870) {O = "b33c3343-6663-47aa-823e-382186ae94d5" I = "fbdc1b94-1e72-422d-a4f3-57a75df7e39c" label = "Train leaving passing the crossing" }
+dataFlow 54b14102-3ad6-4a2e-bfe3-90c76680f870 cd468610-1bc9-46b8-b111-aef755fcf780
+(dataFlow 54b14102-3ad6-4a2e-bfe3-90c76680f870 cd468610-1bc9-46b8-b111-aef755fcf780) {O = "c6944df2-32ff-404d-b3b9-76f56845218a" I = "da1fdc45-4f06-44c9-b7c1-0c24be5c93ea" label = "Train departure instruction" }
+dataFlow 54b14102-3ad6-4a2e-bfe3-90c76680f870 fa59b83b-f039-44a7-98f6-a3bb04639b20
+(dataFlow 54b14102-3ad6-4a2e-bfe3-90c76680f870 fa59b83b-f039-44a7-98f6-a3bb04639b20) {O = "3f36e064-ad7e-48f0-8863-3a935ff65a91" I = "4398bc4c-d79f-49f2-bba0-1cd4ae42ef03" label = "Train departure blocking instruction" }
+dataFlow 0f8e67c3-5d84-47eb-bc95-6ae45e1db7a5 c3dab7d3-fca0-463f-b02d-fb1b7a6a9697
+(dataFlow 0f8e67c3-5d84-47eb-bc95-6ae45e1db7a5 c3dab7d3-fca0-463f-b02d-fb1b7a6a9697) {O = "be95c913-a4b2-46a1-90ec-a04d6540dc54" I = "5dfa59d1-9b03-41bb-aeb2-d268e87ef105" label = "Train arriving announced information" }
+dataFlow 19fbbd53-5adc-4511-b228-af4196a42629 c3dab7d3-fca0-463f-b02d-fb1b7a6a9697
+(dataFlow 19fbbd53-5adc-4511-b228-af4196a42629 c3dab7d3-fca0-463f-b02d-fb1b7a6a9697) {O = "2f500f01-4149-4573-9f63-a17acaffd92e" I = "468b961b-fab3-4c34-ac42-961faee4565d" label = "Train arriving passing the crossing" }
+dataFlow c3dab7d3-fca0-463f-b02d-fb1b7a6a9697 858beec0-b275-4549-bd1f-27aca5052327
+(dataFlow c3dab7d3-fca0-463f-b02d-fb1b7a6a9697 858beec0-b275-4549-bd1f-27aca5052327) {O = "885e0286-291a-4bcd-a6e5-8b31fd0832ff" I = "e796ff2b-3e4f-4a7c-afc0-d8791375130d" label = "Vehicles on crossing" }
+dataFlow c3dab7d3-fca0-463f-b02d-fb1b7a6a9697 eb0f13c4-2ac1-483e-941f-d135ee0d4b03
+(dataFlow c3dab7d3-fca0-463f-b02d-fb1b7a6a9697 eb0f13c4-2ac1-483e-941f-d135ee0d4b03) {O = "5daa5a22-b3bd-4dff-b676-466f9a7143f9" I = "2a5d71bb-1d5a-4723-ba24-9e5a5ba54466" label = "Train arrival permission instruction" }
+dataFlow 03327669-186a-4e17-8b02-2b9170d66d53 54b14102-3ad6-4a2e-bfe3-90c76680f870
+(dataFlow 03327669-186a-4e17-8b02-2b9170d66d53 54b14102-3ad6-4a2e-bfe3-90c76680f870) {O = "c8909f70-d47c-4e83-8c92-1868efe56f9a" I = "f9ff5838-8441-4cc4-b593-2e78ba490561" label = "Stopped vehicle information" }
+dataFlow 54b14102-3ad6-4a2e-bfe3-90c76680f870 4827a14b-4396-4ee3-9734-8ae3c0db294b
+(dataFlow 54b14102-3ad6-4a2e-bfe3-90c76680f870 4827a14b-4396-4ee3-9734-8ae3c0db294b) {O = "9ccee6b1-2bb2-49b9-ac11-1e08c928c3e7" I = "2888cb7d-8e75-4d7e-9e17-50a02b5c1640" label = "Stop road traffic instruction" }
+dataFlow 54b14102-3ad6-4a2e-bfe3-90c76680f870 610efa2d-22f1-4d5c-a058-0287baa9af70
+(dataFlow 54b14102-3ad6-4a2e-bfe3-90c76680f870 610efa2d-22f1-4d5c-a058-0287baa9af70) {O = "88356ead-e004-4219-bc60-fc57dc0142df" I = "36693cc1-0f96-4098-9ee3-0db3a4511fca" label = "Road traffic permission instruction" }
+dataFlow cc600fc2-e6af-486c-9346-69b49cc8cb21 d35e2a23-cd82-487f-a8e9-ca58eca0e547
+(dataFlow cc600fc2-e6af-486c-9346-69b49cc8cb21 d35e2a23-cd82-487f-a8e9-ca58eca0e547) {O = "66101908-2042-4a95-8b4d-f7a8b8bd4bd3" I = "7605eef5-8dca-4e49-8a32-9143a44e0306" label = "Passed train information" }
+dataFlow 817a5ef2-28cd-4fb4-944f-15300d47014b 54b14102-3ad6-4a2e-bfe3-90c76680f870
+(dataFlow 817a5ef2-28cd-4fb4-944f-15300d47014b 54b14102-3ad6-4a2e-bfe3-90c76680f870) {O = "e1446792-aef7-4367-b630-df2530f02c76" I = "03359ef7-42d7-4ce2-8ea9-6b2a93872ba5" label = "Vehicle arrival information " }
+dataFlow 4827a14b-4396-4ee3-9734-8ae3c0db294b 03327669-186a-4e17-8b02-2b9170d66d53
+(dataFlow 4827a14b-4396-4ee3-9734-8ae3c0db294b 03327669-186a-4e17-8b02-2b9170d66d53) {O = "35a2df5c-1257-4715-8292-3222be90be0e" I = "2db42e51-366b-452f-ba63-c69eb08ee545" label = "Crossing forbidden" }
+dataFlow 610efa2d-22f1-4d5c-a058-0287baa9af70 842ef64e-a2a8-4f33-bfcc-f5748dcc4bff
+(dataFlow 610efa2d-22f1-4d5c-a058-0287baa9af70 842ef64e-a2a8-4f33-bfcc-f5748dcc4bff) {O = "c3486ba6-7258-4185-ad3c-3ff79e213bac" I = "eb9fc215-b861-4227-a5d1-635e63067d0b" label = "Permission for the vehicle to pass" }
+dataFlow fa59b83b-f039-44a7-98f6-a3bb04639b20 f845f6d1-b10a-4cb2-b8ad-4cf46da4b0eb
+(dataFlow fa59b83b-f039-44a7-98f6-a3bb04639b20 f845f6d1-b10a-4cb2-b8ad-4cf46da4b0eb) {O = "ebb19a43-cec5-4263-b7dc-7e50b4baa861" I = "19df2259-13ed-4ded-b283-f6c30dd24480" label = "Start forbidden instruction" }
+dataFlow 3d6e5811-132e-4366-be8d-3c781083e703 54b14102-3ad6-4a2e-bfe3-90c76680f870
+(dataFlow 3d6e5811-132e-4366-be8d-3c781083e703 54b14102-3ad6-4a2e-bfe3-90c76680f870) {O = "c1ef73d3-2dae-476f-a369-e99638749581" I = "6968a885-8253-46ab-9e62-7f4ab1747522" label = "Train leaving information" }
+dataFlow f71d04ac-f98f-44ac-a54b-bf2e571b9db8 54b14102-3ad6-4a2e-bfe3-90c76680f870
+(dataFlow f71d04ac-f98f-44ac-a54b-bf2e571b9db8 54b14102-3ad6-4a2e-bfe3-90c76680f870) {O = "05ba128d-b3a0-4a1b-b24e-d163a8b2271f" I = "ff6a097d-0db1-49b1-81a2-406cb7bbf7cc" label = "Schedules and trains statuses" }
+dataFlow cd468610-1bc9-46b8-b111-aef755fcf780 cc600fc2-e6af-486c-9346-69b49cc8cb21
+(dataFlow cd468610-1bc9-46b8-b111-aef755fcf780 cc600fc2-e6af-486c-9346-69b49cc8cb21) {O = "97d28236-5a9d-4199-865a-5913a4499e3e" I = "a098839e-9d84-476a-95a7-06e04d28525a" label = "Train departure authorization " }
+dataFlow 3d6e5811-132e-4366-be8d-3c781083e703 ecf9a6e4-7eb7-4428-ab4f-f61e29c92624
+(dataFlow 3d6e5811-132e-4366-be8d-3c781083e703 ecf9a6e4-7eb7-4428-ab4f-f61e29c92624) {O = "8f2962eb-5899-48c7-94ef-fa6e203ce903" I = "6f9c9c8e-ea45-4279-b347-c183a8082683" label = "Departure preparation order" }
+dataFlow 858beec0-b275-4549-bd1f-27aca5052327 7919d7bb-edbf-4f20-87d9-7e87659fa3f4
+(dataFlow 858beec0-b275-4549-bd1f-27aca5052327 7919d7bb-edbf-4f20-87d9-7e87659fa3f4) {O = "05de87db-5cdd-4a6a-9e95-0279665023e6" I = "f805d3f3-df8e-40d0-bd1e-09827283b802" label = "Stop train command" }
+dataFlow 5ec58430-4c8f-44c2-abbe-0077fe77989e 0f8e67c3-5d84-47eb-bc95-6ae45e1db7a5
+(dataFlow 5ec58430-4c8f-44c2-abbe-0077fe77989e 0f8e67c3-5d84-47eb-bc95-6ae45e1db7a5) {O = "5fff36b7-8765-47b5-a185-c28117a81a15" I = "fc50b347-8d70-4166-a000-9e5ccd1b55b0" label = "Train arrival information" }
+dataFlow eb0f13c4-2ac1-483e-941f-d135ee0d4b03 fc31f93c-a6cc-43c8-bafa-15e2535c4cb4
+(dataFlow eb0f13c4-2ac1-483e-941f-d135ee0d4b03 fc31f93c-a6cc-43c8-bafa-15e2535c4cb4) {O = "8b0b217a-50a1-4790-942e-e5665f1ce98e" I = "a36123a4-68e2-425a-bfd6-5231d36c621c" label = "Permission for the train to pass" }
+dataFlow 842ef64e-a2a8-4f33-bfcc-f5748dcc4bff 126ece23-ef3b-4fe0-bec4-b3dbd903bfa6
+(dataFlow 842ef64e-a2a8-4f33-bfcc-f5748dcc4bff 126ece23-ef3b-4fe0-bec4-b3dbd903bfa6) {O = "5985c1c2-7601-4b41-8874-3400d703aa82" I = "ebb84ff7-d212-4e41-a6f0-6faec3f81633" label = "Vehicle crossed information" }
+dataFlow 126ece23-ef3b-4fe0-bec4-b3dbd903bfa6 54b14102-3ad6-4a2e-bfe3-90c76680f870
+(dataFlow 126ece23-ef3b-4fe0-bec4-b3dbd903bfa6 54b14102-3ad6-4a2e-bfe3-90c76680f870) {O = "d5e0d0fd-83ec-4257-96d1-12710297a0d2" I = "e2ba355e-d56f-4803-a522-df6d55955435" label = "Vehicle presence status in the crossing" }
+dataFlow 842ef64e-a2a8-4f33-bfcc-f5748dcc4bff 126ece23-ef3b-4fe0-bec4-b3dbd903bfa6
+(dataFlow 842ef64e-a2a8-4f33-bfcc-f5748dcc4bff 126ece23-ef3b-4fe0-bec4-b3dbd903bfa6) {O = "4dfb375e-2576-4de8-9f2a-73776db08def" I = "7abc4021-9006-4cd9-abd5-8792bbe81aa5" label = "Vehicle entered the crossing information" }
+dataFlow 817a5ef2-28cd-4fb4-944f-15300d47014b c3dab7d3-fca0-463f-b02d-fb1b7a6a9697
+(dataFlow 817a5ef2-28cd-4fb4-944f-15300d47014b c3dab7d3-fca0-463f-b02d-fb1b7a6a9697) {O = "e1446792-aef7-4367-b630-df2530f02c76" I = "fc4d55bd-f03d-40cc-9e6e-ea29d2bf7492" label = "Vehicle arrival information" }
+dataFlow c3dab7d3-fca0-463f-b02d-fb1b7a6a9697 4827a14b-4396-4ee3-9734-8ae3c0db294b
+(dataFlow c3dab7d3-fca0-463f-b02d-fb1b7a6a9697 4827a14b-4396-4ee3-9734-8ae3c0db294b) {O = "390639f0-3675-4ded-b309-b943eb5ead47" I = "2888cb7d-8e75-4d7e-9e17-50a02b5c1640" label = "Stop road traffic instruction" }
+dataFlow 03327669-186a-4e17-8b02-2b9170d66d53 c3dab7d3-fca0-463f-b02d-fb1b7a6a9697
+(dataFlow 03327669-186a-4e17-8b02-2b9170d66d53 c3dab7d3-fca0-463f-b02d-fb1b7a6a9697) {O = "c8909f70-d47c-4e83-8c92-1868efe56f9a" I = "cbeb5061-8291-46ca-a3b7-0512316ea281" label = "Stopped vehicle information" }
+dataFlow c3dab7d3-fca0-463f-b02d-fb1b7a6a9697 610efa2d-22f1-4d5c-a058-0287baa9af70
+(dataFlow c3dab7d3-fca0-463f-b02d-fb1b7a6a9697 610efa2d-22f1-4d5c-a058-0287baa9af70) {O = "4c925b00-3a1a-456e-9cc6-255d0cc4c2af" I = "36693cc1-0f96-4098-9ee3-0db3a4511fca" label = "Road traffic permission instruction" }
+dataFlow 126ece23-ef3b-4fe0-bec4-b3dbd903bfa6 c3dab7d3-fca0-463f-b02d-fb1b7a6a9697
+(dataFlow 126ece23-ef3b-4fe0-bec4-b3dbd903bfa6 c3dab7d3-fca0-463f-b02d-fb1b7a6a9697) {O = "d5e0d0fd-83ec-4257-96d1-12710297a0d2" I = "9eb092d1-71cd-4a34-9cb4-a9b9760f4f7a" label = "Vehicle presence in the crossing status" }
+dataFlow f71d04ac-f98f-44ac-a54b-bf2e571b9db8 c3dab7d3-fca0-463f-b02d-fb1b7a6a9697
+(dataFlow f71d04ac-f98f-44ac-a54b-bf2e571b9db8 c3dab7d3-fca0-463f-b02d-fb1b7a6a9697) {O = "05ba128d-b3a0-4a1b-b24e-d163a8b2271f" I = "3e3b2f0a-f86b-4325-b072-1d102284948f" label = "Schedule and trains statuses" }
+dataFlow fc31f93c-a6cc-43c8-bafa-15e2535c4cb4 19fbbd53-5adc-4511-b228-af4196a42629
+(dataFlow fc31f93c-a6cc-43c8-bafa-15e2535c4cb4 19fbbd53-5adc-4511-b228-af4196a42629) {O = "7d3a9c57-c07a-47bd-af44-d57731baf058" I = "60be8d77-03ef-458e-ad20-2c86cd4ed0cc" label = "Passed train information" }
+dataFlow 8baf918d-1507-4e8f-adf8-8103dddb9534 25f0cf4f-0362-4590-8cd2-ca1851f0a369
+(dataFlow 8baf918d-1507-4e8f-adf8-8103dddb9534 25f0cf4f-0362-4590-8cd2-ca1851f0a369) {O = "d25bab76-e6cc-49bf-b565-ad5016b0e39e" I = "24574cf9-e40f-4a40-a43b-4d0124ced17e" label = "System status" }
+dataFlow 4169a14c-1705-4994-ba41-de595f81ed8e 744d29c0-81a5-47d8-a755-5a0d3a7cda8c
+(dataFlow 4169a14c-1705-4994-ba41-de595f81ed8e 744d29c0-81a5-47d8-a755-5a0d3a7cda8c) {O = "44ca1008-a76c-4dc1-98cf-73893e111fbd" I = "16010c43-29f5-4cc7-a3fd-33161ff62c19" label = "Stop trains in an emergency" }
+dataFlow c792cf67-3aff-4e55-ba1e-d60fa32c27a0 c6d78358-b8cc-43bd-b8de-73f6ca67938d
+(dataFlow c792cf67-3aff-4e55-ba1e-d60fa32c27a0 c6d78358-b8cc-43bd-b8de-73f6ca67938d) {O = "63ca5661-80e0-4557-a57b-aa10da6cc433" I = "f3025538-860b-443e-b990-3e75f0817203" label = "Traffic" }
+dataFlow c35f1b2a-5b8d-42d7-8bd4-3c4272b6f7df 9dee1092-e1c0-4b92-a255-59ce9e0943c2
+(dataFlow c35f1b2a-5b8d-42d7-8bd4-3c4272b6f7df 9dee1092-e1c0-4b92-a255-59ce9e0943c2) {O = "aee80208-dd54-4324-a18a-d3cd3aa3a793" I = "7614f7ed-2cc9-4caf-b851-f6847ff51fb2" label = "Emergency stop command" }
+dataFlow 01659fc9-926e-4515-9f90-86a4f591db6e 34377b11-d0e9-4934-95f8-facae4de8707
+(dataFlow 01659fc9-926e-4515-9f90-86a4f591db6e 34377b11-d0e9-4934-95f8-facae4de8707) {O = "b8b59a1f-1d8b-4aca-9a48-cf0ca48eb244" I = "ddf3e45f-d9d3-4652-bb68-7f7143a9e073" label = "Resume power supply command" }
+dataFlow da9254ae-0b2d-4c8e-8534-56b6db160d4a 3f74dd29-99d5-4561-91b1-6ca272830836
+(dataFlow da9254ae-0b2d-4c8e-8534-56b6db160d4a 3f74dd29-99d5-4561-91b1-6ca272830836) {O = "45ad73e5-a975-423c-bef8-c93344828353" I = "7d12318d-5465-487e-9a1b-ea5bdb512a22" label = "Activation request " }
+dataFlow 9b0be423-58bd-4827-a60e-791ab856ccc1 3f74dd29-99d5-4561-91b1-6ca272830836
+(dataFlow 9b0be423-58bd-4827-a60e-791ab856ccc1 3f74dd29-99d5-4561-91b1-6ca272830836) {O = "e5dfc020-dc60-4032-929b-533366c1c96c" I = "29569783-c222-45f3-8248-2a9c3c2ec393" label = "Low pressure fluid" }
+dataFlow 3f74dd29-99d5-4561-91b1-6ca272830836 47c3e966-98c4-4e93-8f09-a1709a725ece
+(dataFlow 3f74dd29-99d5-4561-91b1-6ca272830836 47c3e966-98c4-4e93-8f09-a1709a725ece) {O = "1a457447-bd17-4e2c-b431-b29f352c2fe2" I = "54f96785-cc9c-4e82-92c6-6af6abd81943" label = "Variable flow rate" }
+dataFlow 3f74dd29-99d5-4561-91b1-6ca272830836 e6820a88-8524-4dc3-9905-d572a1741362
+(dataFlow 3f74dd29-99d5-4561-91b1-6ca272830836 e6820a88-8524-4dc3-9905-d572a1741362) {O = "76b4cbec-a759-4a68-bff0-33246c0e4c40" I = "f56ec73e-3e9a-4b79-be3d-32971eae1f18" label = "Variable pressure" }
+dataFlow e6820a88-8524-4dc3-9905-d572a1741362 5a482ba1-67a7-416c-b603-33ad4d9d7c95
+(dataFlow e6820a88-8524-4dc3-9905-d572a1741362 5a482ba1-67a7-416c-b603-33ad4d9d7c95) {O = "fb1fb7ef-3ecb-4f94-9be2-81d5cacef1b5" I = "36bc0cd4-0d8f-48f6-ae8a-65fe9c8e99b9" label = "Regulated pressure" }
+dataFlow 47c3e966-98c4-4e93-8f09-a1709a725ece 5a482ba1-67a7-416c-b603-33ad4d9d7c95
+(dataFlow 47c3e966-98c4-4e93-8f09-a1709a725ece 5a482ba1-67a7-416c-b603-33ad4d9d7c95) {O = "5adffc05-43cd-4137-b2e1-ddb8c08c8bab" I = "742440ff-77bd-4f21-96c0-2c2a0f0abd10" label = "Regulated flow rate" }
+dataFlow 5a482ba1-67a7-416c-b603-33ad4d9d7c95 376dbf0b-f43c-42d1-8489-fa61c44a7d44
+(dataFlow 5a482ba1-67a7-416c-b603-33ad4d9d7c95 376dbf0b-f43c-42d1-8489-fa61c44a7d44) {O = "0c703251-d35a-4419-8eaf-24d6403dfa00" I = "6e863d93-188f-4162-b9e4-361a5479d0bd" label = "Fluid under regulated pressure and flow rate" }
+dataFlow 376dbf0b-f43c-42d1-8489-fa61c44a7d44 180638ff-f8d6-440c-b832-1952c59e089a
+(dataFlow 376dbf0b-f43c-42d1-8489-fa61c44a7d44 180638ff-f8d6-440c-b832-1952c59e089a) {O = "374d9024-4673-447b-b563-33546e72a68d" I = "cba11cf1-c4df-4d41-8472-75b384fed4a8" label = "Mechanical motion" }
+dataFlow 180638ff-f8d6-440c-b832-1952c59e089a da9254ae-0b2d-4c8e-8534-56b6db160d4a
+(dataFlow 180638ff-f8d6-440c-b832-1952c59e089a da9254ae-0b2d-4c8e-8534-56b6db160d4a) {O = "736b91f2-9e36-424e-8578-c54ded739551" I = "e4a880cf-7f2c-4c4e-a14c-c9bacef5de76" label = "Operating status" }
+dataFlow 1ce222ef-aebe-4b88-855f-50700dd138e6 bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow 1ce222ef-aebe-4b88-855f-50700dd138e6 bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "251d0734-d27e-4970-86fc-ab8975ae9947" I = "32c9fae8-2954-4360-becf-bc9cd2debd99" label = "Vehicle stopped on the track information" }
+dataFlow afaab29b-188b-41e4-952e-a6056684abaa bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow afaab29b-188b-41e4-952e-a6056684abaa bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "6ec4923a-0224-4ae0-9a53-f6da5b5614cf" I = "76984727-9350-4e05-9b57-445705b6dc35" label = "Operational status of instructions, detectors and devices" }
+dataFlow afaab29b-188b-41e4-952e-a6056684abaa bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow afaab29b-188b-41e4-952e-a6056684abaa bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "04a573ca-5666-48d9-9b14-776a5eb68b74" I = "1bf57f66-9ecb-4906-8b86-832ccee80baf" label = "Health status of instructions, detectors and devices" }
+dataFlow d8a238af-9284-4a99-9ed1-b12e9f9dcc76 65178be6-ec42-4ae3-8b9a-924d9c1eb038
+(dataFlow d8a238af-9284-4a99-9ed1-b12e9f9dcc76 65178be6-ec42-4ae3-8b9a-924d9c1eb038) {O = "a9591e85-db98-4abe-82a0-585c48cb903b" I = "f3325f43-d906-4495-9ce9-52587d42a10d" label = "Nominal arrival command" }
+dataFlow d8a238af-9284-4a99-9ed1-b12e9f9dcc76 7217c139-b364-4199-bf74-316aa9bb102f
+(dataFlow d8a238af-9284-4a99-9ed1-b12e9f9dcc76 7217c139-b364-4199-bf74-316aa9bb102f) {O = "7401d8b7-96a1-4ffc-894e-9e067a1806cc" I = "58df46f5-a398-4822-9cd7-6c0b62fe860f" label = "Delayed arrival command" }
+dataFlow 7217c139-b364-4199-bf74-316aa9bb102f 65178be6-ec42-4ae3-8b9a-924d9c1eb038
+(dataFlow 7217c139-b364-4199-bf74-316aa9bb102f 65178be6-ec42-4ae3-8b9a-924d9c1eb038) {O = "2a107cd0-c74a-42e9-9d72-65e7e09660c0" I = "f3325f43-d906-4495-9ce9-52587d42a10d" label = "Nominal arrival command" }
+dataFlow e37d07d4-bbfe-43e5-b301-9c5e952f6146 00383c1b-80a8-439b-9f94-2b2632095037
+(dataFlow e37d07d4-bbfe-43e5-b301-9c5e952f6146 00383c1b-80a8-439b-9f94-2b2632095037) {O = "d721cfef-8383-41e3-a2c3-e4bc4673ed4a" I = "1a336017-d7b4-4194-b93b-e73ba31e5ed1" label = "Delayed departure command" }
+dataFlow e37d07d4-bbfe-43e5-b301-9c5e952f6146 3921d0e7-98e5-4c70-843b-4f5501e08e0f
+(dataFlow e37d07d4-bbfe-43e5-b301-9c5e952f6146 3921d0e7-98e5-4c70-843b-4f5501e08e0f) {O = "b04f9cb4-2a3d-431d-b4fe-21435216db6d" I = "a4f1b49f-9a0b-4449-a96f-d086dae4d82c" label = "Nominal departure command " }
+dataFlow 00383c1b-80a8-439b-9f94-2b2632095037 3921d0e7-98e5-4c70-843b-4f5501e08e0f
+(dataFlow 00383c1b-80a8-439b-9f94-2b2632095037 3921d0e7-98e5-4c70-843b-4f5501e08e0f) {O = "511737b4-7e14-4263-8423-6b1f0db36852" I = "a4f1b49f-9a0b-4449-a96f-d086dae4d82c" label = "Nominal departure command " }
+dataFlow 457dab08-da48-400f-bd80-805f0162d25e 3921d0e7-98e5-4c70-843b-4f5501e08e0f
+(dataFlow 457dab08-da48-400f-bd80-805f0162d25e 3921d0e7-98e5-4c70-843b-4f5501e08e0f) {O = "5acaa655-92a2-4e16-affc-4fa22edc784d" I = "28009010-15a7-4cf3-8ad4-309e7f551576" label = "Vehicle arrival information" }
+dataFlow 89eee517-0675-4391-b304-0d443079e5c1 3921d0e7-98e5-4c70-843b-4f5501e08e0f
+(dataFlow 89eee517-0675-4391-b304-0d443079e5c1 3921d0e7-98e5-4c70-843b-4f5501e08e0f) {O = "1e386e02-6454-4e69-9ad6-9be0079acf1c" I = "aa68af4b-3396-40ba-98f5-0c460950db43" label = "Vehicle stop information" }
+dataFlow 00383c1b-80a8-439b-9f94-2b2632095037 144dc867-b127-43f8-b8fb-f3f36d4dff4b
+(dataFlow 00383c1b-80a8-439b-9f94-2b2632095037 144dc867-b127-43f8-b8fb-f3f36d4dff4b) {O = "577df9d0-c425-4a9c-8cc4-fd7df8e7fa27" I = "8c211a22-2f51-42b0-915c-65577f50b811" label = "Train departure prohibition" }
+dataFlow cbe533d4-cff2-4bdd-a01d-d1dd6e0381bc e37d07d4-bbfe-43e5-b301-9c5e952f6146
+(dataFlow cbe533d4-cff2-4bdd-a01d-d1dd6e0381bc e37d07d4-bbfe-43e5-b301-9c5e952f6146) {O = "71ccbb3b-a80e-4ea9-a064-941fe5388a47" I = "bb7ce832-06d0-4217-9d86-cd3a9fba6fef" label = "Length of vehicle queue" }
+dataFlow cbe533d4-cff2-4bdd-a01d-d1dd6e0381bc d8a238af-9284-4a99-9ed1-b12e9f9dcc76
+(dataFlow cbe533d4-cff2-4bdd-a01d-d1dd6e0381bc d8a238af-9284-4a99-9ed1-b12e9f9dcc76) {O = "71ccbb3b-a80e-4ea9-a064-941fe5388a47" I = "076ded1b-57ca-4845-975f-490281cd9aaa" label = "Length of vehicle queue" }
+dataFlow f074bddc-c074-49f0-b79f-17fb44bb6bc6 65178be6-ec42-4ae3-8b9a-924d9c1eb038
+(dataFlow f074bddc-c074-49f0-b79f-17fb44bb6bc6 65178be6-ec42-4ae3-8b9a-924d9c1eb038) {O = "36276e2f-0056-424c-95fa-12324e919fe6" I = "49086061-c9f2-4ac5-a8cc-6e333c15b53d" label = "Train passing the level crossing information" }
+dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 0b241979-7964-42f5-85c2-89228c02b241
+(dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 0b241979-7964-42f5-85c2-89228c02b241) {O = "d528fd5c-f51c-403e-95d7-c39df46e64d6" I = "ce49262b-e7cd-44f9-a1c6-eb0b2e8e8af1" label = "Arriving train stop command" }
+dataFlow 7217c139-b364-4199-bf74-316aa9bb102f 0b241979-7964-42f5-85c2-89228c02b241
+(dataFlow 7217c139-b364-4199-bf74-316aa9bb102f 0b241979-7964-42f5-85c2-89228c02b241) {O = "d8c2264d-e155-4539-ba19-419cd325032e" I = "ce49262b-e7cd-44f9-a1c6-eb0b2e8e8af1" label = "Arriving train stop command" }
+dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 49b8806f-f6d5-4f63-b5dd-f3480b0a08a4
+(dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 49b8806f-f6d5-4f63-b5dd-f3480b0a08a4) {O = "8737c164-40f0-4dc9-ac9f-fd378f8af857" I = "937efd49-7f84-4653-b81b-56886e4e7d57" label = "Arriving train release command" }
+dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 a937007d-1000-4225-85a4-3cc4b14523c5
+(dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 a937007d-1000-4225-85a4-3cc4b14523c5) {O = "bcd03d09-54f5-42e9-805f-d23e1e58e63d" I = "fd8458fc-c66e-405a-9f0b-c25000c6ded6" label = "Arriving train crossing authorization" }
+dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 8891ff27-1e33-4004-bb00-33cae810b5e5
+(dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 8891ff27-1e33-4004-bb00-33cae810b5e5) {O = "a21017fe-5379-4e28-8837-d6eb66c15fb9" I = "2b6f6d8b-f913-4e55-b5af-a42a9af54dac" label = "Arriving train crossing forbidden" }
+dataFlow 7217c139-b364-4199-bf74-316aa9bb102f 8891ff27-1e33-4004-bb00-33cae810b5e5
+(dataFlow 7217c139-b364-4199-bf74-316aa9bb102f 8891ff27-1e33-4004-bb00-33cae810b5e5) {O = "c0fa3f2f-8bc8-4c78-b146-6a4d29d97dba" I = "2b6f6d8b-f913-4e55-b5af-a42a9af54dac" label = "Arriving train crossing forbidden" }
+dataFlow 8f548e36-be87-4213-9f73-fcf7933d1ea9 d8a238af-9284-4a99-9ed1-b12e9f9dcc76
+(dataFlow 8f548e36-be87-4213-9f73-fcf7933d1ea9 d8a238af-9284-4a99-9ed1-b12e9f9dcc76) {O = "390f34e2-0a20-4dc1-a38f-afa6301a4a65" I = "b27b7609-c51b-40b5-a7df-4f1d8231edf5" label = "Arriving train approaching information" }
+dataFlow 457dab08-da48-400f-bd80-805f0162d25e 65178be6-ec42-4ae3-8b9a-924d9c1eb038
+(dataFlow 457dab08-da48-400f-bd80-805f0162d25e 65178be6-ec42-4ae3-8b9a-924d9c1eb038) {O = "5acaa655-92a2-4e16-affc-4fa22edc784d" I = "04b5fba0-d136-4485-bc6d-8e488574326d" label = "Vehicle arrival information" }
+dataFlow 89eee517-0675-4391-b304-0d443079e5c1 65178be6-ec42-4ae3-8b9a-924d9c1eb038
+(dataFlow 89eee517-0675-4391-b304-0d443079e5c1 65178be6-ec42-4ae3-8b9a-924d9c1eb038) {O = "1e386e02-6454-4e69-9ad6-9be0079acf1c" I = "2a1d0898-6e3a-4d8c-ac38-ecdbd131506e" label = "Vehicle stop information" }
+dataFlow d5b33a68-2bb9-4ae1-88e3-e45dfa201bad 1ce222ef-aebe-4b88-855f-50700dd138e6
+(dataFlow d5b33a68-2bb9-4ae1-88e3-e45dfa201bad 1ce222ef-aebe-4b88-855f-50700dd138e6) {O = "482941de-8a27-4a43-a2e8-f912abb208c1" I = "6c9ff5eb-19ed-4bf1-8971-005ae4f2e30c" label = "Vehicle crossed information" }
+dataFlow a8fd68f5-4f66-4e07-abc1-f7d2697b297c 1ce222ef-aebe-4b88-855f-50700dd138e6
+(dataFlow a8fd68f5-4f66-4e07-abc1-f7d2697b297c 1ce222ef-aebe-4b88-855f-50700dd138e6) {O = "ec45cb77-525e-4005-88d6-b627b30b7432" I = "9da47154-bf99-4ec5-93ff-233b34132a7d" label = "Vehicle entered the crossing information" }
+dataFlow 1ce222ef-aebe-4b88-855f-50700dd138e6 e37d07d4-bbfe-43e5-b301-9c5e952f6146
+(dataFlow 1ce222ef-aebe-4b88-855f-50700dd138e6 e37d07d4-bbfe-43e5-b301-9c5e952f6146) {O = "251d0734-d27e-4970-86fc-ab8975ae9947" I = "3533505b-f627-45ea-90cd-3fff2c43f139" label = "Vehicle stopped on the track information" }
+dataFlow 1ce222ef-aebe-4b88-855f-50700dd138e6 d8a238af-9284-4a99-9ed1-b12e9f9dcc76
+(dataFlow 1ce222ef-aebe-4b88-855f-50700dd138e6 d8a238af-9284-4a99-9ed1-b12e9f9dcc76) {O = "251d0734-d27e-4970-86fc-ab8975ae9947" I = "aeb34bc5-bbe2-4c73-998d-4f77e909f1ce" label = "Vehicle stopped on the track information " }
+dataFlow f3d31347-836a-41e2-b5e9-a8563e674c7f afaab29b-188b-41e4-952e-a6056684abaa
+(dataFlow f3d31347-836a-41e2-b5e9-a8563e674c7f afaab29b-188b-41e4-952e-a6056684abaa) {O = "e257b0b4-a15b-4e9e-9f3d-b068e5a02ff2" I = "9dd573ed-c4a0-44ea-befb-c07fa6e25298" label = "Status of barriers and devices" }
+dataFlow 0dbafbe6-664c-492a-a1f3-5531c8d986a6 afaab29b-188b-41e4-952e-a6056684abaa
+(dataFlow 0dbafbe6-664c-492a-a1f3-5531c8d986a6 afaab29b-188b-41e4-952e-a6056684abaa) {O = "62f1c65b-2a95-4b9a-a7c9-2def5367ab43" I = "92f3a921-fd42-48c3-866b-0507683c84de" label = "Status of road traffic lights" }
+dataFlow 0594a76f-6b82-4952-bbed-4a94eb70c497 afaab29b-188b-41e4-952e-a6056684abaa
+(dataFlow 0594a76f-6b82-4952-bbed-4a94eb70c497 afaab29b-188b-41e4-952e-a6056684abaa) {O = "149c8da2-f473-4bac-8a0c-4f7ea6539161" I = "2fc72816-513a-4a9e-b0ce-dc6254d96af3" label = "Status of vehicle on the track detectors" }
+dataFlow 443555c2-952b-45e1-8f12-ca743e599c76 afaab29b-188b-41e4-952e-a6056684abaa
+(dataFlow 443555c2-952b-45e1-8f12-ca743e599c76 afaab29b-188b-41e4-952e-a6056684abaa) {O = "c6330ccf-9d82-4754-883c-dc49ad745447" I = "6865a19d-1be7-4704-8578-2f9bf89461e3" label = "Status of train detectors" }
+dataFlow df885f1a-a8d9-4edc-92bb-e42551e518ad afaab29b-188b-41e4-952e-a6056684abaa
+(dataFlow df885f1a-a8d9-4edc-92bb-e42551e518ad afaab29b-188b-41e4-952e-a6056684abaa) {O = "2cb3e990-7df4-4c4c-9b36-f6d65b5e077f" I = "7c9196c3-8e17-497b-bd17-c2e2b47c7b64" label = "Train emergency stops status" }
+dataFlow 6983633d-c6ba-45f6-bcdf-ec22ec5ebb4d afaab29b-188b-41e4-952e-a6056684abaa
+(dataFlow 6983633d-c6ba-45f6-bcdf-ec22ec5ebb4d afaab29b-188b-41e4-952e-a6056684abaa) {O = "e48c037c-0357-41b3-9ddd-a992a2e9bed4" I = "0188374c-900a-47e2-8b8d-04d81792306f" label = "Vehicle detectors status" }
+dataFlow fb2b82d4-10f1-45a5-94ea-846d028b9f86 afaab29b-188b-41e4-952e-a6056684abaa
+(dataFlow fb2b82d4-10f1-45a5-94ea-846d028b9f86 afaab29b-188b-41e4-952e-a6056684abaa) {O = "a22baf35-c5d2-4645-8c5f-1a29fe955a85" I = "d7f243dd-d9e6-48a2-9aef-b23dc96a7760" label = "Train signals status" }
+dataFlow 457dab08-da48-400f-bd80-805f0162d25e bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow 457dab08-da48-400f-bd80-805f0162d25e bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "5acaa655-92a2-4e16-affc-4fa22edc784d" I = "d61519f0-7f05-4cb1-ad6a-8c4fd01ec006" label = "Vehicle arrival information" }
+dataFlow 8f548e36-be87-4213-9f73-fcf7933d1ea9 bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow 8f548e36-be87-4213-9f73-fcf7933d1ea9 bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "390f34e2-0a20-4dc1-a38f-afa6301a4a65" I = "9fb6c3c9-21a1-44c5-b286-3b8cb90bf047" label = "Arriving train approaching information" }
+dataFlow 6d164771-ec91-4312-bbec-778616414d24 bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow 6d164771-ec91-4312-bbec-778616414d24 bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "bfddaad8-707d-455d-a6b5-ca5db9430325" I = "0f31fbfa-8416-46b9-8164-76f924c80b05" label = "Departed train information" }
+dataFlow f074bddc-c074-49f0-b79f-17fb44bb6bc6 bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow f074bddc-c074-49f0-b79f-17fb44bb6bc6 bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "36276e2f-0056-424c-95fa-12324e919fe6" I = "a7dd9e7c-9ea3-47c7-b8a3-87b7ff56dc68" label = "Train passing the level crossing information" }
+dataFlow d5b33a68-2bb9-4ae1-88e3-e45dfa201bad bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow d5b33a68-2bb9-4ae1-88e3-e45dfa201bad bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "482941de-8a27-4a43-a2e8-f912abb208c1" I = "e7bd0226-26e2-4bee-a4ca-464885f7c212" label = "Vehicle passed information" }
+dataFlow a8fd68f5-4f66-4e07-abc1-f7d2697b297c bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow a8fd68f5-4f66-4e07-abc1-f7d2697b297c bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "ec45cb77-525e-4005-88d6-b627b30b7432" I = "e51c6586-1c71-4986-9eca-59135004084e" label = "Vehicle entered the crossing information" }
+dataFlow 89eee517-0675-4391-b304-0d443079e5c1 bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow 89eee517-0675-4391-b304-0d443079e5c1 bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "1e386e02-6454-4e69-9ad6-9be0079acf1c" I = "f47cca24-b562-447e-80e5-476acdfcb0f5" label = "Vehicle stop information" }
+dataFlow cbe533d4-cff2-4bdd-a01d-d1dd6e0381bc bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow cbe533d4-cff2-4bdd-a01d-d1dd6e0381bc bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "71ccbb3b-a80e-4ea9-a064-941fe5388a47" I = "dc2d47f7-aa89-4a3b-9a15-4d32b23ea397" label = "Length of vehicle queue" }
+dataFlow 3921d0e7-98e5-4c70-843b-4f5501e08e0f c70f3327-92f7-460d-a26d-8b256edfe64e
+(dataFlow 3921d0e7-98e5-4c70-843b-4f5501e08e0f c70f3327-92f7-460d-a26d-8b256edfe64e) {O = "a4ba8d8f-1b93-4603-80a6-d28d4f14d546" I = "7b284731-e847-4500-8b57-fdfee47ef424" label = "Train departure authorization" }
+dataFlow 3921d0e7-98e5-4c70-843b-4f5501e08e0f 144dc867-b127-43f8-b8fb-f3f36d4dff4b
+(dataFlow 3921d0e7-98e5-4c70-843b-4f5501e08e0f 144dc867-b127-43f8-b8fb-f3f36d4dff4b) {O = "f0c6f68c-1c8c-4b46-9bc2-b50285a326c8" I = "8c211a22-2f51-42b0-915c-65577f50b811" label = "Train departure prohibition " }
+dataFlow f074bddc-c074-49f0-b79f-17fb44bb6bc6 3921d0e7-98e5-4c70-843b-4f5501e08e0f
+(dataFlow f074bddc-c074-49f0-b79f-17fb44bb6bc6 3921d0e7-98e5-4c70-843b-4f5501e08e0f) {O = "36276e2f-0056-424c-95fa-12324e919fe6" I = "2a6c8cc7-8330-424d-8f51-b8b1267fd2ca" label = "Train passing the level crossing information" }
+dataFlow 6d164771-ec91-4312-bbec-778616414d24 3921d0e7-98e5-4c70-843b-4f5501e08e0f
+(dataFlow 6d164771-ec91-4312-bbec-778616414d24 3921d0e7-98e5-4c70-843b-4f5501e08e0f) {O = "bfddaad8-707d-455d-a6b5-ca5db9430325" I = "7e3336fe-475e-4e8b-95cb-666891b181ea" label = "Departed train information" }
+dataFlow 659b1fba-b63e-4190-9e61-05c2d602d553 6d164771-ec91-4312-bbec-778616414d24
+(dataFlow 659b1fba-b63e-4190-9e61-05c2d602d553 6d164771-ec91-4312-bbec-778616414d24) {O = "eae9a99b-bb71-4451-a5aa-381f41f758ba" I = "1bb21933-a1fa-4819-a516-c0b0ae0e464d" label = "Departed train information" }
+dataFlow 659b1fba-b63e-4190-9e61-05c2d602d553 f074bddc-c074-49f0-b79f-17fb44bb6bc6
+(dataFlow 659b1fba-b63e-4190-9e61-05c2d602d553 f074bddc-c074-49f0-b79f-17fb44bb6bc6) {O = "23106f42-b219-4f09-aba8-c04dd8c029e8" I = "17073fca-2e32-4fcf-8622-226b0bd25458" label = "Train passing departure direction information" }
+dataFlow c70f3327-92f7-460d-a26d-8b256edfe64e 659b1fba-b63e-4190-9e61-05c2d602d553
+(dataFlow c70f3327-92f7-460d-a26d-8b256edfe64e 659b1fba-b63e-4190-9e61-05c2d602d553) {O = "32ab5ed0-aa71-4e89-a44e-7c566faf546a" I = "174ce4b8-8706-4097-a088-21447d46c704" label = "Departure authorization" }
+dataFlow 144dc867-b127-43f8-b8fb-f3f36d4dff4b 85d2fbbf-fcaf-4557-a505-c89fe60d2aec
+(dataFlow 144dc867-b127-43f8-b8fb-f3f36d4dff4b 85d2fbbf-fcaf-4557-a505-c89fe60d2aec) {O = "e6d742bc-cbd7-4fdb-bb15-eec9ef4414b6" I = "0e1917c2-fe05-4c91-ade6-1a4bb7df1101" label = "Departure prohibition" }
+dataFlow f6505b67-051a-4a95-b914-59d203015bd9 e37d07d4-bbfe-43e5-b301-9c5e952f6146
+(dataFlow f6505b67-051a-4a95-b914-59d203015bd9 e37d07d4-bbfe-43e5-b301-9c5e952f6146) {O = "07edd7b4-7fe9-4b29-be31-397007ae1f40" I = "77c0bb57-2789-4c7e-9b2c-fe57199a24e7" label = "Schedules and trains statuses" }
+dataFlow f6505b67-051a-4a95-b914-59d203015bd9 d8a238af-9284-4a99-9ed1-b12e9f9dcc76
+(dataFlow f6505b67-051a-4a95-b914-59d203015bd9 d8a238af-9284-4a99-9ed1-b12e9f9dcc76) {O = "07edd7b4-7fe9-4b29-be31-397007ae1f40" I = "55f125e7-f320-4413-8b4b-45c408e5c1ba" label = "Schedules and trains statuses" }
+dataFlow 4b63558b-8da5-4e7b-9574-ec7bc05a6069 457dab08-da48-400f-bd80-805f0162d25e
+(dataFlow 4b63558b-8da5-4e7b-9574-ec7bc05a6069 457dab08-da48-400f-bd80-805f0162d25e) {O = "96320818-4dd3-4776-aa1d-b42a57079422" I = "ca5d25dc-8d60-4380-8105-15a7463c0461" label = "Vehicle arrival information" }
+dataFlow b5399c80-9c3c-4194-8061-0157a5bd610a 89eee517-0675-4391-b304-0d443079e5c1
+(dataFlow b5399c80-9c3c-4194-8061-0157a5bd610a 89eee517-0675-4391-b304-0d443079e5c1) {O = "2031ed8b-f59b-4cd0-b0e9-1e77d3f83a51" I = "5e8e8c78-852f-49fd-aee3-8b8539c662fa" label = "Vehicle stop information" }
+dataFlow 12e226b7-9e07-4861-9c11-0798824696f9 b5399c80-9c3c-4194-8061-0157a5bd610a
+(dataFlow 12e226b7-9e07-4861-9c11-0798824696f9 b5399c80-9c3c-4194-8061-0157a5bd610a) {O = "cc01fb97-a9c6-47ad-95d6-325f632da105" I = "c307a3da-c825-4410-958c-672decf8700c" label = "Crossing forbidden" }
+dataFlow 06cf1b18-9112-47c1-9389-4c2d0ea6537d 08ba794b-b95c-4fab-be9a-17c996539742
+(dataFlow 06cf1b18-9112-47c1-9389-4c2d0ea6537d 08ba794b-b95c-4fab-be9a-17c996539742) {O = "a2be54a2-7570-4f6f-a0eb-f9ee49d731c6" I = "036faa9b-1190-4e29-bed8-c83971fd4180" label = "Permission for the vehicle to pass" }
+dataFlow 08ba794b-b95c-4fab-be9a-17c996539742 d5b33a68-2bb9-4ae1-88e3-e45dfa201bad
+(dataFlow 08ba794b-b95c-4fab-be9a-17c996539742 d5b33a68-2bb9-4ae1-88e3-e45dfa201bad) {O = "b11c66d3-42cd-4a14-9c9e-86b7f257b595" I = "286c4bd0-feb6-4f57-89d0-b1f7c8bb9acc" label = "Vehicle passed information" }
+dataFlow 08ba794b-b95c-4fab-be9a-17c996539742 a8fd68f5-4f66-4e07-abc1-f7d2697b297c
+(dataFlow 08ba794b-b95c-4fab-be9a-17c996539742 a8fd68f5-4f66-4e07-abc1-f7d2697b297c) {O = "beca3dd0-95af-4d59-a961-8b501f071f04" I = "382dd50f-9a7a-4106-9f36-3b14892882f5" label = "Vehicle entered the crossing information" }
+dataFlow b5399c80-9c3c-4194-8061-0157a5bd610a cbe533d4-cff2-4bdd-a01d-d1dd6e0381bc
+(dataFlow b5399c80-9c3c-4194-8061-0157a5bd610a cbe533d4-cff2-4bdd-a01d-d1dd6e0381bc) {O = "2031ed8b-f59b-4cd0-b0e9-1e77d3f83a51" I = "dfaa0bab-ead9-407d-8955-2ad5c144708f" label = "Vehicle stop information" }
+dataFlow 276b6221-888d-4279-8ed2-f642037e3d3e e37d07d4-bbfe-43e5-b301-9c5e952f6146
+(dataFlow 276b6221-888d-4279-8ed2-f642037e3d3e e37d07d4-bbfe-43e5-b301-9c5e952f6146) {O = "e26576b2-9b7c-4d44-bd0d-a5cd7429d212" I = "74065afd-4a9d-4567-b411-93ed39a7cc95" label = "Departing train information" }
+dataFlow e37d07d4-bbfe-43e5-b301-9c5e952f6146 0a6b0230-cbb9-4e00-9a8d-f5c08239e355
+(dataFlow e37d07d4-bbfe-43e5-b301-9c5e952f6146 0a6b0230-cbb9-4e00-9a8d-f5c08239e355) {O = "8960a852-3542-4631-a286-6012523bfb77" I = "836cd84e-38bc-45c3-a5d1-c6b7922f6f52" label = "Train delay on departure" }
+dataFlow d8a238af-9284-4a99-9ed1-b12e9f9dcc76 0a6b0230-cbb9-4e00-9a8d-f5c08239e355
+(dataFlow d8a238af-9284-4a99-9ed1-b12e9f9dcc76 0a6b0230-cbb9-4e00-9a8d-f5c08239e355) {O = "4b3b70ed-1427-450e-9b20-0ceddfaf7e8f" I = "2d5b3071-aa34-4618-9ddb-37cf1fd07a37" label = "Train delay on arrival" }
+dataFlow afaab29b-188b-41e4-952e-a6056684abaa 9c9eeb0b-4aab-4953-9a25-b791b1972d1a
+(dataFlow afaab29b-188b-41e4-952e-a6056684abaa 9c9eeb0b-4aab-4953-9a25-b791b1972d1a) {O = "6ec4923a-0224-4ae0-9a53-f6da5b5614cf" I = "563b23b7-d27b-4df8-a8d9-413a1fdbaae8" label = "Instructions, sensors and devices operating status" }
+dataFlow afaab29b-188b-41e4-952e-a6056684abaa 4bc7baef-474e-4cd6-9a7c-970b3509d061
+(dataFlow afaab29b-188b-41e4-952e-a6056684abaa 4bc7baef-474e-4cd6-9a7c-970b3509d061) {O = "04a573ca-5666-48d9-9b14-776a5eb68b74" I = "95e39521-754c-4c58-bd7c-f46d8c6fd27f" label = "Instructions, sensors and devices operating status" }
+dataFlow 1ce222ef-aebe-4b88-855f-50700dd138e6 0a6b0230-cbb9-4e00-9a8d-f5c08239e355
+(dataFlow 1ce222ef-aebe-4b88-855f-50700dd138e6 0a6b0230-cbb9-4e00-9a8d-f5c08239e355) {O = "251d0734-d27e-4970-86fc-ab8975ae9947" I = "bb23477d-5180-4247-a57c-ad1a708e8db7" label = "Vehicle stopped on the track information" }
+dataFlow bfbd3e33-8476-411a-8d8f-a56fe8d461d1 0a6b0230-cbb9-4e00-9a8d-f5c08239e355
+(dataFlow bfbd3e33-8476-411a-8d8f-a56fe8d461d1 0a6b0230-cbb9-4e00-9a8d-f5c08239e355) {O = "a1de9b6f-bf2e-40ae-8342-147d04c813a4" I = "b719310b-5ac6-457c-b25e-c88bf23b1f5a" label = "Conflict situation" }
+dataFlow 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78 04aa133b-aab5-4e22-8f2f-6d8d6a659f56
+(dataFlow 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78 04aa133b-aab5-4e22-8f2f-6d8d6a659f56) {O = "8f15e3d8-dcdb-44e5-9b00-0ebe290566dc" I = "a29b3f6f-ab6c-4fd2-8dd5-c0880835004d" label = "Emergency train stop command" }
+dataFlow 7a971e96-75a4-4a91-8878-ac4f68a06715 989d69e5-34d0-4f0d-aa32-06427a766c15
+(dataFlow 7a971e96-75a4-4a91-8878-ac4f68a06715 989d69e5-34d0-4f0d-aa32-06427a766c15) {O = "d9631d7b-d619-4417-8f7e-009b1f26df7b" I = "147c50e3-1f37-4cea-8c95-ba2644f3fe16" label = "Train traffic release command" }
+dataFlow c3c4dcca-8e26-408b-8c69-af2a73224aed f5705971-3645-448e-94e5-f1f4c2a86440
+(dataFlow c3c4dcca-8e26-408b-8c69-af2a73224aed f5705971-3645-448e-94e5-f1f4c2a86440) {O = "9db10f71-6c64-4637-a82f-f4b22c01db98" I = "292ad5b8-ac4e-46e1-8cfb-72e38a32fdc9" label = "Road traffic release command" }
+dataFlow 4a3cf01f-df06-4948-8109-7947dbdfafed 8f548e36-be87-4213-9f73-fcf7933d1ea9
+(dataFlow 4a3cf01f-df06-4948-8109-7947dbdfafed 8f548e36-be87-4213-9f73-fcf7933d1ea9) {O = "39498888-ea1c-4faf-9cf9-d275cb8932e2" I = "463b74bf-75a6-47b6-90ea-f112a3c01dab" label = "Train arrival information" }
+dataFlow 0b241979-7964-42f5-85c2-89228c02b241 b5789bb6-3ede-4f80-b5e6-72df7711c0be
+(dataFlow 0b241979-7964-42f5-85c2-89228c02b241 b5789bb6-3ede-4f80-b5e6-72df7711c0be) {O = "1e46b578-6f30-4b92-9011-1b368589a7f9" I = "ddb4d14b-5f28-44a4-ae58-0c5b758bdece" label = "Train stop command" }
+dataFlow a937007d-1000-4225-85a4-3cc4b14523c5 b5789bb6-3ede-4f80-b5e6-72df7711c0be
+(dataFlow a937007d-1000-4225-85a4-3cc4b14523c5 b5789bb6-3ede-4f80-b5e6-72df7711c0be) {O = "037f1a52-3a44-433f-90c2-39c4cc7d6e52" I = "ddb4d14b-5f28-44a4-ae58-0c5b758bdece" label = "Train stop command" }
+dataFlow 039f7109-3bbd-4d6c-9177-2f0ce6ef653c f074bddc-c074-49f0-b79f-17fb44bb6bc6
+(dataFlow 039f7109-3bbd-4d6c-9177-2f0ce6ef653c f074bddc-c074-49f0-b79f-17fb44bb6bc6) {O = "a7c6b9b2-8025-4ff9-9547-90dc99f6da53" I = "5bef4906-c65c-4808-9406-3f8b2f546eeb" label = "Train passing arrival direction information" }
+dataFlow 49b8806f-f6d5-4f63-b5dd-f3480b0a08a4 039f7109-3bbd-4d6c-9177-2f0ce6ef653c
+(dataFlow 49b8806f-f6d5-4f63-b5dd-f3480b0a08a4 039f7109-3bbd-4d6c-9177-2f0ce6ef653c) {O = "cee92c9b-e8b6-46a4-b1fd-d54b9a03dec8" I = "a9bc575c-018a-4009-9291-18bbfc1f32fd" label = "Authorization to restart on arrival" }
+dataFlow 8891ff27-1e33-4004-bb00-33cae810b5e5 039f7109-3bbd-4d6c-9177-2f0ce6ef653c
+(dataFlow 8891ff27-1e33-4004-bb00-33cae810b5e5 039f7109-3bbd-4d6c-9177-2f0ce6ef653c) {O = "29bcd9a5-9520-43d3-975c-c4218b6f064f" I = "ce9b5f86-dff6-4cf6-bb54-fe74719dfd64" label = "Authorization to cross on arrival" }
+dataFlow 0a6b0230-cbb9-4e00-9a8d-f5c08239e355 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78
+(dataFlow 0a6b0230-cbb9-4e00-9a8d-f5c08239e355 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78) {O = "7b33ee2d-defe-4bba-b29b-f0c869ec9ca6" I = "c04025f1-a1e7-4021-936b-b127fbd974e1" label = "Risk on traffic" }
+dataFlow 9c9eeb0b-4aab-4953-9a25-b791b1972d1a 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78
+(dataFlow 9c9eeb0b-4aab-4953-9a25-b791b1972d1a 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78) {O = "d27b7a33-7b5b-4522-99d9-78d65bc82947" I = "4b1d37d2-4929-4eea-aff9-3a35e03494bb" label = "Risk on erroneous instructions" }
+dataFlow 4bc7baef-474e-4cd6-9a7c-970b3509d061 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78
+(dataFlow 4bc7baef-474e-4cd6-9a7c-970b3509d061 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78) {O = "4c9373db-a63c-4acc-b700-bd40af30c2cd" I = "65b5821c-5b88-421b-b42a-be102d4fd867" label = "Risk of system failure" }
+dataFlow 276b6221-888d-4279-8ed2-f642037e3d3e c59c7584-726a-4417-a51f-34e2530a008d
+(dataFlow 276b6221-888d-4279-8ed2-f642037e3d3e c59c7584-726a-4417-a51f-34e2530a008d) {O = "389f6485-6eb0-4bfa-a488-59821fe56f5e" I = "c959196c-78dc-4aca-953d-5a712f83c985" label = "Preparation to departure command" }
+dataFlow 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1 9d1610ae-d16f-40af-bbb5-08d90b3320de
+(dataFlow 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1 9d1610ae-d16f-40af-bbb5-08d90b3320de) {O = "0c3b8fdf-eaab-4117-b41b-9fc35f57dea4" I = "8e430ac0-0b42-467c-9de9-0ae79ae8e956" label = "Vehicle crossing forbidden" }
+dataFlow f5705971-3645-448e-94e5-f1f4c2a86440 9d1610ae-d16f-40af-bbb5-08d90b3320de
+(dataFlow f5705971-3645-448e-94e5-f1f4c2a86440 9d1610ae-d16f-40af-bbb5-08d90b3320de) {O = "ba7b73ba-c8e2-456f-a74f-eab2743a9b81" I = "0ad81d27-a5a6-4f3a-ad70-58caa580bf1e" label = "Road vehicles traffic authorization" }
+dataFlow 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1 12e226b7-9e07-4861-9c11-0798824696f9
+(dataFlow 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1 12e226b7-9e07-4861-9c11-0798824696f9) {O = "e15f5788-56c5-4b33-8a84-349ee4620d29" I = "7a7f70d0-1438-4d22-99f3-8d91dfc7ab43" label = "Vehicle crossing forbidden" }
+dataFlow f5705971-3645-448e-94e5-f1f4c2a86440 06cf1b18-9112-47c1-9389-4c2d0ea6537d
+(dataFlow f5705971-3645-448e-94e5-f1f4c2a86440 06cf1b18-9112-47c1-9389-4c2d0ea6537d) {O = "22a587e3-035e-4234-8b5f-8f53dc6078c3" I = "1f3ca9ba-e044-4c29-b8d0-7165a88e3404" label = "Road vehicles traffic authorization" }
+dataFlow 3921d0e7-98e5-4c70-843b-4f5501e08e0f 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1
+(dataFlow 3921d0e7-98e5-4c70-843b-4f5501e08e0f 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1) {O = "586d75cd-b3c1-4349-9237-2f7f43af3796" I = "21895002-05bf-409b-9150-e3859dcdd9c8" label = "Road traffic delay command" }
+dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1
+(dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1) {O = "f344de49-9e1e-4c93-9c7e-e103ea3754fb" I = "21895002-05bf-409b-9150-e3859dcdd9c8" label = "Road traffic delay command" }
+dataFlow 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1 da9254ae-0b2d-4c8e-8534-56b6db160d4a
+(dataFlow 3b6cd39c-8c48-4c89-9f40-8e4e756b72a1 da9254ae-0b2d-4c8e-8534-56b6db160d4a) {O = "b73c9d88-b54d-43f2-87a1-f8d2ca8119d5" I = "3c57ca66-87c5-474b-b69b-f990d85df2de" label = "Vehicle crossing forbidden" }
+dataFlow 3921d0e7-98e5-4c70-843b-4f5501e08e0f f5705971-3645-448e-94e5-f1f4c2a86440
+(dataFlow 3921d0e7-98e5-4c70-843b-4f5501e08e0f f5705971-3645-448e-94e5-f1f4c2a86440) {O = "2713b5d4-0cf8-4743-88c9-868b21e05e59" I = "292ad5b8-ac4e-46e1-8cfb-72e38a32fdc9" label = "Road traffic release command" }
+dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 f5705971-3645-448e-94e5-f1f4c2a86440
+(dataFlow 65178be6-ec42-4ae3-8b9a-924d9c1eb038 f5705971-3645-448e-94e5-f1f4c2a86440) {O = "086d1da1-4c95-4144-b527-fa7e6efee762" I = "292ad5b8-ac4e-46e1-8cfb-72e38a32fdc9" label = "Road traffic release command" }
+dataFlow f5705971-3645-448e-94e5-f1f4c2a86440 da9254ae-0b2d-4c8e-8534-56b6db160d4a
+(dataFlow f5705971-3645-448e-94e5-f1f4c2a86440 da9254ae-0b2d-4c8e-8534-56b6db160d4a) {O = "76e9db7c-ff7d-4f3b-95a4-1eb2e7b48162" I = "61d3f237-b83d-4dca-a8a9-49b69488d5e3" label = "Road vehicles traffic authorization" }
+dataFlow 1ce222ef-aebe-4b88-855f-50700dd138e6 04aa133b-aab5-4e22-8f2f-6d8d6a659f56
+(dataFlow 1ce222ef-aebe-4b88-855f-50700dd138e6 04aa133b-aab5-4e22-8f2f-6d8d6a659f56) {O = "ffb34581-a053-40c0-a18b-fcd43c164add" I = "a29b3f6f-ab6c-4fd2-8dd5-c0880835004d" label = "Emergency train stop command" }
+dataFlow 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78 12e226b7-9e07-4861-9c11-0798824696f9
+(dataFlow 0cc18fe5-083b-42d4-9a2b-b3aec57c9d78 12e226b7-9e07-4861-9c11-0798824696f9) {O = "4aea25d7-e3e3-47d5-8dcb-5ea5ad602048" I = "c5e357f1-97bd-4ad0-b6e5-29b345b7073c" label = "Emergency road traffic stop command" }
+dataFlow 7a971e96-75a4-4a91-8878-ac4f68a06715 bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow 7a971e96-75a4-4a91-8878-ac4f68a06715 bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "d9631d7b-d619-4417-8f7e-009b1f26df7b" I = "06822e20-2528-4e15-9f94-5a94a23d99e5" label = "Train traffic release command" }
+dataFlow c3c4dcca-8e26-408b-8c69-af2a73224aed bfbd3e33-8476-411a-8d8f-a56fe8d461d1
+(dataFlow c3c4dcca-8e26-408b-8c69-af2a73224aed bfbd3e33-8476-411a-8d8f-a56fe8d461d1) {O = "9db10f71-6c64-4637-a82f-f4b22c01db98" I = "5bbde2dc-8677-46f5-bcc4-288125569654" label = "Road traffic release command" }
+dataFlow 843d4418-cfbd-4e7b-96f0-725d4589c34d f00a9bbb-8d0d-4abc-94f5-d7127d924c8f
+(dataFlow 843d4418-cfbd-4e7b-96f0-725d4589c34d f00a9bbb-8d0d-4abc-94f5-d7127d924c8f) {O = "9407165d-2c76-40df-9030-3faa489a30c2" I = "2d5b9498-0314-4f6e-bf4f-8bdbb7a83fc2" label = "Barrier in end stop position" }
+dataFlow f00a9bbb-8d0d-4abc-94f5-d7127d924c8f 620f5f9d-eadb-457d-8e18-20921f06f844
+(dataFlow f00a9bbb-8d0d-4abc-94f5-d7127d924c8f 620f5f9d-eadb-457d-8e18-20921f06f844) {O = "fe174e14-0b58-4103-95f2-42dbcfa9db89" I = "5f151704-1ac5-4f2c-a429-ae3a30bf4fa7" label = "Movement direction" }
+dataFlow 22aeb9be-9bc9-44d8-b71a-41495e1e49c0 620f5f9d-eadb-457d-8e18-20921f06f844
+(dataFlow 22aeb9be-9bc9-44d8-b71a-41495e1e49c0 620f5f9d-eadb-457d-8e18-20921f06f844) {O = "af05a540-bf13-4f3f-b4a7-ffcbb1908f98" I = "42431719-97e7-4a55-a066-66017705bf55" label = "Supply voltage " }
+dataFlow 95b29126-4e1d-422e-9ba1-c924bf4b3206 22aeb9be-9bc9-44d8-b71a-41495e1e49c0
+(dataFlow 95b29126-4e1d-422e-9ba1-c924bf4b3206 22aeb9be-9bc9-44d8-b71a-41495e1e49c0) {O = "f299371e-49db-4b76-82de-81b35a098146" I = "9ea65adb-3ff4-41b2-8cbc-89c4b9f6777b" label = "Blocked barrier" }
+dataFlow 95b29126-4e1d-422e-9ba1-c924bf4b3206 843d4418-cfbd-4e7b-96f0-725d4589c34d
+(dataFlow 95b29126-4e1d-422e-9ba1-c924bf4b3206 843d4418-cfbd-4e7b-96f0-725d4589c34d) {O = "f299371e-49db-4b76-82de-81b35a098146" I = "a30a7378-6566-4272-bcb6-e87131a39042" label = "Blocked barrier" }
+dataFlow 620f5f9d-eadb-457d-8e18-20921f06f844 1df5246b-f74b-4419-8fe0-28beefe4f79a
+(dataFlow 620f5f9d-eadb-457d-8e18-20921f06f844 1df5246b-f74b-4419-8fe0-28beefe4f79a) {O = "55cd6580-ce85-47e1-b6c4-0ee77e0ead73" I = "a5da14fa-9368-4fe8-a8df-5bf48c062178" label = "Locking command" }
+dataFlow 02183a6c-07a7-4109-8359-e0defb19e753 b49c4513-8126-441a-a9d4-54a9b2d1a360
+(dataFlow 02183a6c-07a7-4109-8359-e0defb19e753 b49c4513-8126-441a-a9d4-54a9b2d1a360) {O = "30daac37-3ede-4247-ac89-c60050d971f5" I = "76593184-a54e-4489-8462-53c176237412" label = "Fluid" }
+dataFlow b49c4513-8126-441a-a9d4-54a9b2d1a360 69cde6e1-1f6d-4d79-b006-c33324845a27
+(dataFlow b49c4513-8126-441a-a9d4-54a9b2d1a360 69cde6e1-1f6d-4d79-b006-c33324845a27) {O = "c3fa5b49-e670-4937-9e50-2c07e841cb97" I = "1b3f8dc0-0474-4cd5-bc3a-d8ee42da54cc" label = "Fluid" }
+dataFlow 69cde6e1-1f6d-4d79-b006-c33324845a27 64319a90-9d1f-4ea2-b0e2-32064d7a5599
+(dataFlow 69cde6e1-1f6d-4d79-b006-c33324845a27 64319a90-9d1f-4ea2-b0e2-32064d7a5599) {O = "8502f55f-0d45-49e7-a279-dd92fe48dea2" I = "1082cf77-6a77-4bb1-8f3a-b4ed4ba7a77e" label = "Fluid" }
+dataFlow cdb8a7a2-e968-4f3e-b2b9-22a8e01a4437 64319a90-9d1f-4ea2-b0e2-32064d7a5599
+(dataFlow cdb8a7a2-e968-4f3e-b2b9-22a8e01a4437 64319a90-9d1f-4ea2-b0e2-32064d7a5599) {O = "bd874131-7a29-424a-a505-40b12c8b5b78" I = "9f30533f-23e6-435d-95ff-f1e5e3afb254" label = "Travel speed" }
+dataFlow 64319a90-9d1f-4ea2-b0e2-32064d7a5599 cdb8a7a2-e968-4f3e-b2b9-22a8e01a4437
+(dataFlow 64319a90-9d1f-4ea2-b0e2-32064d7a5599 cdb8a7a2-e968-4f3e-b2b9-22a8e01a4437) {O = "9bb9a00a-f64f-4cc5-a1bf-25af91cb589f" I = "eabe93fb-3128-4b36-a702-6eb8e9de61b9" label = "Force" }
+dataFlow 620f5f9d-eadb-457d-8e18-20921f06f844 eb16a158-0956-4bbb-8b10-a54eb7222ae6
+(dataFlow 620f5f9d-eadb-457d-8e18-20921f06f844 eb16a158-0956-4bbb-8b10-a54eb7222ae6) {O = "e92ea164-8a4c-4e24-817d-7814eb41dc2f" I = "c7906cbb-4fb7-4a3a-8f85-0d55ddc51404" label = "Lifting power supply command" }
+dataFlow eb16a158-0956-4bbb-8b10-a54eb7222ae6 1df5246b-f74b-4419-8fe0-28beefe4f79a
+(dataFlow eb16a158-0956-4bbb-8b10-a54eb7222ae6 1df5246b-f74b-4419-8fe0-28beefe4f79a) {O = "afad4681-93cb-4e36-b0ab-6c1e94c26ae6" I = "3999fcdd-3a64-4c4e-acc5-0fcd61765c58" label = "High-pressure fluid" }
+dataFlow eb16a158-0956-4bbb-8b10-a54eb7222ae6 02183a6c-07a7-4109-8359-e0defb19e753
+(dataFlow eb16a158-0956-4bbb-8b10-a54eb7222ae6 02183a6c-07a7-4109-8359-e0defb19e753) {O = "afad4681-93cb-4e36-b0ab-6c1e94c26ae6" I = "f4fc41f6-2585-4375-82f0-f22ace98bd87" label = "High-pressure fluid" }
+dataFlow eb16a158-0956-4bbb-8b10-a54eb7222ae6 c121a4ec-2e95-42c7-9e1f-1dfdcdaf0fd0
+(dataFlow eb16a158-0956-4bbb-8b10-a54eb7222ae6 c121a4ec-2e95-42c7-9e1f-1dfdcdaf0fd0) {O = "afad4681-93cb-4e36-b0ab-6c1e94c26ae6" I = "9d90ab18-c56c-41fe-b7f9-48009d0685b5" label = "High-pressure fluid" }
+dataFlow c121a4ec-2e95-42c7-9e1f-1dfdcdaf0fd0 0ec04746-a513-47c4-aa36-e988c3e71a12
+(dataFlow c121a4ec-2e95-42c7-9e1f-1dfdcdaf0fd0 0ec04746-a513-47c4-aa36-e988c3e71a12) {O = "ab7b4825-6e67-4dfc-afd4-eab43c7b00c5" I = "8c793ff0-03ad-4d58-b200-5bd1397d76ae" label = "Fluid in excess" }
+dataFlow 1df5246b-f74b-4419-8fe0-28beefe4f79a 0ec04746-a513-47c4-aa36-e988c3e71a12
+(dataFlow 1df5246b-f74b-4419-8fe0-28beefe4f79a 0ec04746-a513-47c4-aa36-e988c3e71a12) {O = "3f7a17d8-1364-42e4-88bc-3a2b54c5717c" I = "8c793ff0-03ad-4d58-b200-5bd1397d76ae" label = "Fluid in excess" }
+dataFlow 64319a90-9d1f-4ea2-b0e2-32064d7a5599 0ec04746-a513-47c4-aa36-e988c3e71a12
+(dataFlow 64319a90-9d1f-4ea2-b0e2-32064d7a5599 0ec04746-a513-47c4-aa36-e988c3e71a12) {O = "6ae3b6e0-6e06-4205-b52f-e71d5eca8ce8" I = "3da43c48-8c58-45f3-be75-319c9d6ba926" label = "Fluid" }
+dataFlow 0ec04746-a513-47c4-aa36-e988c3e71a12 39bbc77d-26b2-497d-976b-a028fc5fcde9
+(dataFlow 0ec04746-a513-47c4-aa36-e988c3e71a12 39bbc77d-26b2-497d-976b-a028fc5fcde9) {O = "356c34c0-bbfd-4e5e-a8b4-2cf921aae17f" I = "e787d797-96fc-436a-a96f-a0932836a0e0" label = "Fluid" }
+dataFlow 39bbc77d-26b2-497d-976b-a028fc5fcde9 eb16a158-0956-4bbb-8b10-a54eb7222ae6
+(dataFlow 39bbc77d-26b2-497d-976b-a028fc5fcde9 eb16a158-0956-4bbb-8b10-a54eb7222ae6) {O = "f2a358b1-f56d-49ee-93ef-60d0e99e4533" I = "14f53462-a593-4d22-b5f8-c827be26a724" label = "Low-pressure fluid" }
+dataFlow cdb8a7a2-e968-4f3e-b2b9-22a8e01a4437 4905f8f1-a867-4889-855c-72dfc0a488da
+(dataFlow cdb8a7a2-e968-4f3e-b2b9-22a8e01a4437 4905f8f1-a867-4889-855c-72dfc0a488da) {O = "f8bde751-4de6-439d-bf99-5833660c70c5" I = "2318b32f-1b79-481d-98d7-cc682a152c93" label = "Obstacle position" }
+dataFlow 4905f8f1-a867-4889-855c-72dfc0a488da 22aeb9be-9bc9-44d8-b71a-41495e1e49c0
+(dataFlow 4905f8f1-a867-4889-855c-72dfc0a488da 22aeb9be-9bc9-44d8-b71a-41495e1e49c0) {O = "90f02c2e-fc44-4b25-a421-2384b230e67f" I = "9ea65adb-3ff4-41b2-8cbc-89c4b9f6777b" label = "Blocked obstacle" }
+dataFlow 4905f8f1-a867-4889-855c-72dfc0a488da 843d4418-cfbd-4e7b-96f0-725d4589c34d
+(dataFlow 4905f8f1-a867-4889-855c-72dfc0a488da 843d4418-cfbd-4e7b-96f0-725d4589c34d) {O = "90f02c2e-fc44-4b25-a421-2384b230e67f" I = "a30a7378-6566-4272-bcb6-e87131a39042" label = "Blocked obstacle" }
+dataFlow cdb8a7a2-e968-4f3e-b2b9-22a8e01a4437 0503bda8-15ea-4ae2-a762-305dc1aa5d9c
+(dataFlow cdb8a7a2-e968-4f3e-b2b9-22a8e01a4437 0503bda8-15ea-4ae2-a762-305dc1aa5d9c) {O = "f8bde751-4de6-439d-bf99-5833660c70c5" I = "62b7986e-7961-479c-834c-ee768efb32e7" label = "Obstacle position" }
+dataFlow 0503bda8-15ea-4ae2-a762-305dc1aa5d9c 22aeb9be-9bc9-44d8-b71a-41495e1e49c0
+(dataFlow 0503bda8-15ea-4ae2-a762-305dc1aa5d9c 22aeb9be-9bc9-44d8-b71a-41495e1e49c0) {O = "00bb8df9-f31b-4807-8e78-ed429b67686e" I = "9ea65adb-3ff4-41b2-8cbc-89c4b9f6777b" label = "Blocked obstacle" }
+dataFlow 0503bda8-15ea-4ae2-a762-305dc1aa5d9c 843d4418-cfbd-4e7b-96f0-725d4589c34d
+(dataFlow 0503bda8-15ea-4ae2-a762-305dc1aa5d9c 843d4418-cfbd-4e7b-96f0-725d4589c34d) {O = "00bb8df9-f31b-4807-8e78-ed429b67686e" I = "a30a7378-6566-4272-bcb6-e87131a39042" label = "Blocked obstacle" }
+dataFlow 7c4036f5-dd14-4865-abad-2d00cb699146 35f50175-9dac-486e-be2f-304fdcca29cc
+(dataFlow 7c4036f5-dd14-4865-abad-2d00cb699146 35f50175-9dac-486e-be2f-304fdcca29cc) {O = "d2e2531f-2a3a-4ee3-9ca2-64951aa6c727" I = "103da2a1-7dd7-49f5-a502-7db62df143dd" label = "Blocked barrier" }
+dataFlow 7c4036f5-dd14-4865-abad-2d00cb699146 562a40db-38d0-4c70-93c8-65f0e5c23da1
+(dataFlow 7c4036f5-dd14-4865-abad-2d00cb699146 562a40db-38d0-4c70-93c8-65f0e5c23da1) {O = "d2e2531f-2a3a-4ee3-9ca2-64951aa6c727" I = "9f74eae6-f680-4d2a-bd50-98826b814b47" label = "Blocked barrier" }
+dataFlow 562a40db-38d0-4c70-93c8-65f0e5c23da1 408c70bd-bb83-4aa0-9d3a-8172c37cc921
+(dataFlow 562a40db-38d0-4c70-93c8-65f0e5c23da1 408c70bd-bb83-4aa0-9d3a-8172c37cc921) {O = "27e43799-6b3b-4d47-b2cf-65bfd6fde719" I = "c86c47e9-ba09-426f-8d33-d37f9442ae56" label = "Barrier in end stop position" }
+dataFlow 35f50175-9dac-486e-be2f-304fdcca29cc de33f8ec-c413-445b-bcc5-58f96a3804dd
+(dataFlow 35f50175-9dac-486e-be2f-304fdcca29cc de33f8ec-c413-445b-bcc5-58f96a3804dd) {O = "db476c85-d764-45ba-a807-c91e4f6eedb0" I = "43273d23-b496-4e14-a4f3-bc79883f5c45" label = "Supply voltage " }
+dataFlow de33f8ec-c413-445b-bcc5-58f96a3804dd 7c4036f5-dd14-4865-abad-2d00cb699146
+(dataFlow de33f8ec-c413-445b-bcc5-58f96a3804dd 7c4036f5-dd14-4865-abad-2d00cb699146) {O = "85ba755d-feb6-4db3-9564-3c7d66a7e0e7" I = "719e756d-0310-4598-bc5f-246921371a53" label = "Electric intensity" }
+dataFlow 35f50175-9dac-486e-be2f-304fdcca29cc c4a250c6-276d-42e1-a40f-8c8548e30ee0
+(dataFlow 35f50175-9dac-486e-be2f-304fdcca29cc c4a250c6-276d-42e1-a40f-8c8548e30ee0) {O = "db476c85-d764-45ba-a807-c91e4f6eedb0" I = "c2ac7c91-fde0-4230-a3fb-906205672697" label = "Supply voltage " }
+dataFlow 408c70bd-bb83-4aa0-9d3a-8172c37cc921 c4a250c6-276d-42e1-a40f-8c8548e30ee0
+(dataFlow 408c70bd-bb83-4aa0-9d3a-8172c37cc921 c4a250c6-276d-42e1-a40f-8c8548e30ee0) {O = "047fd3e7-8866-491c-bab8-da6129b16ba3" I = "be0233bd-4163-4ff1-bdf1-fdebea9c93f8" label = "Rotation direction" }
+dataFlow c4a250c6-276d-42e1-a40f-8c8548e30ee0 c3a8a53a-e6ac-411d-8f5e-9efceb37e12c
+(dataFlow c4a250c6-276d-42e1-a40f-8c8548e30ee0 c3a8a53a-e6ac-411d-8f5e-9efceb37e12c) {O = "e5825fd6-c45c-4856-ba00-fcde3e3fad5d" I = "d89562e6-c275-48ba-a37c-d29037d2e291" label = "Torque" }
+dataFlow d127b682-baf6-4c30-9586-784b8a937049 c3a8a53a-e6ac-411d-8f5e-9efceb37e12c
+(dataFlow d127b682-baf6-4c30-9586-784b8a937049 c3a8a53a-e6ac-411d-8f5e-9efceb37e12c) {O = "f9cbf58b-d780-48c8-b8dc-3bbc1fa510a6" I = "efb56b3f-3227-4e5d-b60d-28e98b45b133" label = "Rotation speed" }
+dataFlow c3a8a53a-e6ac-411d-8f5e-9efceb37e12c de33f8ec-c413-445b-bcc5-58f96a3804dd
+(dataFlow c3a8a53a-e6ac-411d-8f5e-9efceb37e12c de33f8ec-c413-445b-bcc5-58f96a3804dd) {O = "25aaf100-cf78-475c-befd-6249108bc465" I = "41eacae6-89ed-4450-9e21-f7ef2c1ad17f" label = "Rotation speed" }
+dataFlow c3a8a53a-e6ac-411d-8f5e-9efceb37e12c d127b682-baf6-4c30-9586-784b8a937049
+(dataFlow c3a8a53a-e6ac-411d-8f5e-9efceb37e12c d127b682-baf6-4c30-9586-784b8a937049) {O = "388a1798-df64-4e37-9579-c49ff1e2c37c" I = "a7ba5bb5-0050-48f4-ae44-036d76294ffd" label = "Torque" }
+dataFlow d127b682-baf6-4c30-9586-784b8a937049 16302d02-a3fc-435e-9251-c0815a95b21b
+(dataFlow d127b682-baf6-4c30-9586-784b8a937049 16302d02-a3fc-435e-9251-c0815a95b21b) {O = "990aed8e-868a-4a4a-9063-d85d8bc05fb5" I = "d54629ed-4655-44be-91a3-a6bf054ff11d" label = "Barrier position" }
+dataFlow 16302d02-a3fc-435e-9251-c0815a95b21b 35f50175-9dac-486e-be2f-304fdcca29cc
+(dataFlow 16302d02-a3fc-435e-9251-c0815a95b21b 35f50175-9dac-486e-be2f-304fdcca29cc) {O = "f4943bfb-4068-425e-be1f-3a9631d8d533" I = "103da2a1-7dd7-49f5-a502-7db62df143dd" label = "Barrière bloquée" }
+dataFlow 16302d02-a3fc-435e-9251-c0815a95b21b 562a40db-38d0-4c70-93c8-65f0e5c23da1
+(dataFlow 16302d02-a3fc-435e-9251-c0815a95b21b 562a40db-38d0-4c70-93c8-65f0e5c23da1) {O = "f4943bfb-4068-425e-be1f-3a9631d8d533" I = "9f74eae6-f680-4d2a-bd50-98826b814b47" label = "Blocked barrier" }
+dataFlow d127b682-baf6-4c30-9586-784b8a937049 bd3ee997-2cc0-438e-992c-3fc5e479abf2
+(dataFlow d127b682-baf6-4c30-9586-784b8a937049 bd3ee997-2cc0-438e-992c-3fc5e479abf2) {O = "990aed8e-868a-4a4a-9063-d85d8bc05fb5" I = "a091b14d-57ed-4429-8116-8fa13c68137b" label = "Barrier position" }
+dataFlow bd3ee997-2cc0-438e-992c-3fc5e479abf2 35f50175-9dac-486e-be2f-304fdcca29cc
+(dataFlow bd3ee997-2cc0-438e-992c-3fc5e479abf2 35f50175-9dac-486e-be2f-304fdcca29cc) {O = "5384ced6-5bce-4400-a9d1-17b04cfb5f3a" I = "103da2a1-7dd7-49f5-a502-7db62df143dd" label = "Blocked barrier" }
+dataFlow bd3ee997-2cc0-438e-992c-3fc5e479abf2 562a40db-38d0-4c70-93c8-65f0e5c23da1
+(dataFlow bd3ee997-2cc0-438e-992c-3fc5e479abf2 562a40db-38d0-4c70-93c8-65f0e5c23da1) {O = "5384ced6-5bce-4400-a9d1-17b04cfb5f3a" I = "9f74eae6-f680-4d2a-bd50-98826b814b47" label = "Blocked barrier" }
+dataFlow 7cbf5dc5-cb2d-4817-9135-179362218fbc 35f50175-9dac-486e-be2f-304fdcca29cc
+(dataFlow 7cbf5dc5-cb2d-4817-9135-179362218fbc 35f50175-9dac-486e-be2f-304fdcca29cc) {O = "56954ffc-53e3-46ae-b6b8-9f3d8a5d84a2" I = "49529ab9-542b-4ea8-aab2-074720b32c47" label = "Vehicle crossing forbidden" }
+dataFlow 98aa003b-683a-45ed-b0a5-86bb69449842 35f50175-9dac-486e-be2f-304fdcca29cc
+(dataFlow 98aa003b-683a-45ed-b0a5-86bb69449842 35f50175-9dac-486e-be2f-304fdcca29cc) {O = "58440248-1fbf-4190-9223-ad7af1c58c95" I = "49529ab9-542b-4ea8-aab2-074720b32c47" label = "Road vehicles traffic authorization" }
+dataFlow 98aa003b-683a-45ed-b0a5-86bb69449842 22aeb9be-9bc9-44d8-b71a-41495e1e49c0
+(dataFlow 98aa003b-683a-45ed-b0a5-86bb69449842 22aeb9be-9bc9-44d8-b71a-41495e1e49c0) {O = "dcb2ac4e-95ac-4cac-a4ae-5df356fae5af" I = "9c509c01-02d3-4e51-8436-2680e744d8a4" label = "Crossing prevention devices activation command " }
+dataFlow 7cbf5dc5-cb2d-4817-9135-179362218fbc 22aeb9be-9bc9-44d8-b71a-41495e1e49c0
+(dataFlow 7cbf5dc5-cb2d-4817-9135-179362218fbc 22aeb9be-9bc9-44d8-b71a-41495e1e49c0) {O = "2f11a71e-eeb9-4c7e-8e0d-f14a94c75210" I = "9c509c01-02d3-4e51-8436-2680e744d8a4" label = "Crossing prevention devices activation command " }
+dataFlow 436572ec-cae6-410b-b078-5810fe86588b 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow 436572ec-cae6-410b-b078-5810fe86588b 386a8764-c96f-4434-8875-174654ea136c) {O = "33fafbba-fe11-4785-b403-81fe1c059bc5" I = "36bc3380-8a54-40eb-b178-e60df66dbe20" label = "Vehicle stopped on the track information" }
+dataFlow 5b224099-914e-4d77-ba0f-43cf36b787ac 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow 5b224099-914e-4d77-ba0f-43cf36b787ac 386a8764-c96f-4434-8875-174654ea136c) {O = "949f4460-91ac-4896-9a04-96cae848c10c" I = "bc9ec5ca-203b-4061-8048-c8280051f315" label = "Operational status of instructions, detectors and devices" }
+dataFlow 5b224099-914e-4d77-ba0f-43cf36b787ac 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow 5b224099-914e-4d77-ba0f-43cf36b787ac 386a8764-c96f-4434-8875-174654ea136c) {O = "610e73ea-34ca-4f91-8d40-ccc169c4c83f" I = "4bb19dab-4d4a-40e4-a3f9-5cc3b5b418b5" label = "Health status of instructions, detectors and devices" }
+dataFlow 5b224099-914e-4d77-ba0f-43cf36b787ac cdc99efa-454a-44e2-b3c1-1ee143d4211d
+(dataFlow 5b224099-914e-4d77-ba0f-43cf36b787ac cdc99efa-454a-44e2-b3c1-1ee143d4211d) {O = "2aa238b0-d3ad-4960-beff-057bf61a88ed" I = "cf0676bd-b403-4c93-8f61-389096a4cd7f" label = "System operating configuration" }
+dataFlow cb602305-a966-4216-b3b0-b4ad9bf8c0c2 aa609fd2-8b59-4652-81ae-ce19058adefd
+(dataFlow cb602305-a966-4216-b3b0-b4ad9bf8c0c2 aa609fd2-8b59-4652-81ae-ce19058adefd) {O = "e489530b-5dc1-4f75-a118-60df7362a13e" I = "3ad1183c-2e09-4e28-9433-703d4962c7e3" label = "Nominal arrival command" }
+dataFlow cb602305-a966-4216-b3b0-b4ad9bf8c0c2 383f2412-c3ed-4409-a88a-30773e211d34
+(dataFlow cb602305-a966-4216-b3b0-b4ad9bf8c0c2 383f2412-c3ed-4409-a88a-30773e211d34) {O = "c4e3cd4e-4e90-4516-8eac-9bfdec086e6a" I = "41987354-527a-4aea-a9b3-f0672fe59d67" label = "Delayed arrival command" }
+dataFlow 383f2412-c3ed-4409-a88a-30773e211d34 aa609fd2-8b59-4652-81ae-ce19058adefd
+(dataFlow 383f2412-c3ed-4409-a88a-30773e211d34 aa609fd2-8b59-4652-81ae-ce19058adefd) {O = "dca5da39-2769-4fc9-a374-1a254b0a52e4" I = "3ad1183c-2e09-4e28-9433-703d4962c7e3" label = "Nominal arrival command" }
+dataFlow 74a976e4-b270-4765-b88b-9d2f52a2ab6c 8e495f23-8ea4-4bf1-8f4a-8af7405b6180
+(dataFlow 74a976e4-b270-4765-b88b-9d2f52a2ab6c 8e495f23-8ea4-4bf1-8f4a-8af7405b6180) {O = "36bad57a-13e0-477b-8957-30fbbe9f7464" I = "d29a8f8c-d29e-47b5-944e-961afe2f39f0" label = "Delayed departure command" }
+dataFlow 74a976e4-b270-4765-b88b-9d2f52a2ab6c c9d0e2c4-c59e-49b6-8393-81a7204495a9
+(dataFlow 74a976e4-b270-4765-b88b-9d2f52a2ab6c c9d0e2c4-c59e-49b6-8393-81a7204495a9) {O = "1e754ca1-a42f-43e2-b16e-3970fabf125a" I = "b1315ff8-ac85-46c8-8945-f43ef236c9cf" label = "Nominal departure command " }
+dataFlow 8e495f23-8ea4-4bf1-8f4a-8af7405b6180 c9d0e2c4-c59e-49b6-8393-81a7204495a9
+(dataFlow 8e495f23-8ea4-4bf1-8f4a-8af7405b6180 c9d0e2c4-c59e-49b6-8393-81a7204495a9) {O = "30d96dd9-e47e-46e2-97e4-0f765ac1897d" I = "b1315ff8-ac85-46c8-8945-f43ef236c9cf" label = "Nominal departure command " }
+dataFlow 4750aac6-7d1c-41a8-95ef-d180be6ff10a c9d0e2c4-c59e-49b6-8393-81a7204495a9
+(dataFlow 4750aac6-7d1c-41a8-95ef-d180be6ff10a c9d0e2c4-c59e-49b6-8393-81a7204495a9) {O = "e66ad9d3-bc0e-4e5d-a9d4-f78423c7b230" I = "8d3fa4ab-3a35-49f1-b5fd-b9272c13ea1c" label = "Vehicle arrival information" }
+dataFlow 73e883fa-25eb-4824-8ce3-99d2536de5ce c9d0e2c4-c59e-49b6-8393-81a7204495a9
+(dataFlow 73e883fa-25eb-4824-8ce3-99d2536de5ce c9d0e2c4-c59e-49b6-8393-81a7204495a9) {O = "22bba91b-9811-480d-84e6-926bf880cb9f" I = "728131ca-cb72-4768-bc4e-ab61ce39d346" label = "Vehicle stop information" }
+dataFlow 1876c9e7-8697-438c-8e66-00512e1194b8 74a976e4-b270-4765-b88b-9d2f52a2ab6c
+(dataFlow 1876c9e7-8697-438c-8e66-00512e1194b8 74a976e4-b270-4765-b88b-9d2f52a2ab6c) {O = "02749856-393d-4752-8c97-7ba9727363e8" I = "8af7c2a7-8750-4f09-9a40-9c9b163b3dc2" label = "Length of vehicle queue" }
+dataFlow 1876c9e7-8697-438c-8e66-00512e1194b8 cb602305-a966-4216-b3b0-b4ad9bf8c0c2
+(dataFlow 1876c9e7-8697-438c-8e66-00512e1194b8 cb602305-a966-4216-b3b0-b4ad9bf8c0c2) {O = "02749856-393d-4752-8c97-7ba9727363e8" I = "9c5e540d-1a99-455a-add1-0aba8b30a141" label = "Length of vehicle queue" }
+dataFlow a94f98dc-174d-44f7-8905-ec61aa7c4083 aa609fd2-8b59-4652-81ae-ce19058adefd
+(dataFlow a94f98dc-174d-44f7-8905-ec61aa7c4083 aa609fd2-8b59-4652-81ae-ce19058adefd) {O = "da25e2ed-1457-479e-b50e-71226fd83a67" I = "b256a83f-8aa7-41b3-93a4-1ddb2747fd99" label = "Train passing the level crossing information" }
+dataFlow 45e41083-2941-4f6d-b95d-984cbfb76964 cb602305-a966-4216-b3b0-b4ad9bf8c0c2
+(dataFlow 45e41083-2941-4f6d-b95d-984cbfb76964 cb602305-a966-4216-b3b0-b4ad9bf8c0c2) {O = "ded5e8fc-6a8e-4afa-ba2d-69b7d277ab4d" I = "ce8b51b4-32e0-4d14-9aff-30d6cd5f1805" label = "Arriving train approaching information" }
+dataFlow 4750aac6-7d1c-41a8-95ef-d180be6ff10a aa609fd2-8b59-4652-81ae-ce19058adefd
+(dataFlow 4750aac6-7d1c-41a8-95ef-d180be6ff10a aa609fd2-8b59-4652-81ae-ce19058adefd) {O = "e66ad9d3-bc0e-4e5d-a9d4-f78423c7b230" I = "1407c071-b649-485e-93f0-6fa7fb562a00" label = "Vehicle arrival information" }
+dataFlow 73e883fa-25eb-4824-8ce3-99d2536de5ce aa609fd2-8b59-4652-81ae-ce19058adefd
+(dataFlow 73e883fa-25eb-4824-8ce3-99d2536de5ce aa609fd2-8b59-4652-81ae-ce19058adefd) {O = "22bba91b-9811-480d-84e6-926bf880cb9f" I = "94030c0e-cd71-43f4-b059-2c2e39fa722b" label = "Vehicle stop information" }
+dataFlow ced410be-f413-4b82-9bf7-b15b20fdb2e2 436572ec-cae6-410b-b078-5810fe86588b
+(dataFlow ced410be-f413-4b82-9bf7-b15b20fdb2e2 436572ec-cae6-410b-b078-5810fe86588b) {O = "59b7e739-e873-478f-94c5-da406bcde164" I = "cd9a5f6b-c8ae-4725-b87e-659221a435fb" label = "Vehicle crossed information" }
+dataFlow 8149a820-9f6a-415a-8cba-ead629dccb6e 436572ec-cae6-410b-b078-5810fe86588b
+(dataFlow 8149a820-9f6a-415a-8cba-ead629dccb6e 436572ec-cae6-410b-b078-5810fe86588b) {O = "8f5a45f8-9f11-49a6-b30f-027c219083d7" I = "71641c5d-640c-4020-90f2-96437e6d7494" label = "Vehicle entered the crossing information" }
+dataFlow 436572ec-cae6-410b-b078-5810fe86588b 74a976e4-b270-4765-b88b-9d2f52a2ab6c
+(dataFlow 436572ec-cae6-410b-b078-5810fe86588b 74a976e4-b270-4765-b88b-9d2f52a2ab6c) {O = "33fafbba-fe11-4785-b403-81fe1c059bc5" I = "5f49fefb-f858-4500-9d89-b958519f8e50" label = "Vehicle stopped on the track information" }
+dataFlow 436572ec-cae6-410b-b078-5810fe86588b cb602305-a966-4216-b3b0-b4ad9bf8c0c2
+(dataFlow 436572ec-cae6-410b-b078-5810fe86588b cb602305-a966-4216-b3b0-b4ad9bf8c0c2) {O = "33fafbba-fe11-4785-b403-81fe1c059bc5" I = "784f40c2-8036-4b5b-aa6e-8ef000b8c47f" label = "Vehicle stopped on the track information " }
+dataFlow 4e38aad9-badd-4460-a525-0897c886f86a 5b224099-914e-4d77-ba0f-43cf36b787ac
+(dataFlow 4e38aad9-badd-4460-a525-0897c886f86a 5b224099-914e-4d77-ba0f-43cf36b787ac) {O = "dd7c8b66-6cd8-416a-92c1-4acfb2c7e531" I = "3971baf8-f170-48e3-a43f-ecd700f8281e" label = "Status of road traffic lights" }
+dataFlow 9a11dccf-48f3-4449-a593-44bfcca55ca3 5b224099-914e-4d77-ba0f-43cf36b787ac
+(dataFlow 9a11dccf-48f3-4449-a593-44bfcca55ca3 5b224099-914e-4d77-ba0f-43cf36b787ac) {O = "3726629e-ce25-4fed-a490-ff28dffbd62d" I = "dd434c28-8a8d-4a8d-8905-0fd41f6e4d1a" label = "Status of train detectors" }
+dataFlow 7e9be2ae-c4e3-47f2-ae9e-1b3465abaca0 5b224099-914e-4d77-ba0f-43cf36b787ac
+(dataFlow 7e9be2ae-c4e3-47f2-ae9e-1b3465abaca0 5b224099-914e-4d77-ba0f-43cf36b787ac) {O = "80f74781-9bcd-4124-ad39-aeb2aafd3dd4" I = "e9740164-154b-4f12-8cf1-7cf47cca58a1" label = "Train emergency stops status" }
+dataFlow 103c3d35-3dbc-40c0-bb85-10ed6b87133f 5b224099-914e-4d77-ba0f-43cf36b787ac
+(dataFlow 103c3d35-3dbc-40c0-bb85-10ed6b87133f 5b224099-914e-4d77-ba0f-43cf36b787ac) {O = "b8e3b6de-a2fb-4198-bb12-3a6fb69693b8" I = "a5b692a2-961e-4dad-b9e3-76ef373a2587" label = "Vehicle detectors status" }
+dataFlow 4750aac6-7d1c-41a8-95ef-d180be6ff10a 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow 4750aac6-7d1c-41a8-95ef-d180be6ff10a 386a8764-c96f-4434-8875-174654ea136c) {O = "e66ad9d3-bc0e-4e5d-a9d4-f78423c7b230" I = "0412ebb0-8199-4986-a255-d4a9d770f537" label = "Vehicle arrival information" }
+dataFlow 45e41083-2941-4f6d-b95d-984cbfb76964 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow 45e41083-2941-4f6d-b95d-984cbfb76964 386a8764-c96f-4434-8875-174654ea136c) {O = "ded5e8fc-6a8e-4afa-ba2d-69b7d277ab4d" I = "d5b31f1f-3680-4cc4-9d67-a446ea3c209a" label = "Arriving train approaching information" }
+dataFlow 9734f4f6-10a1-485d-93ca-728623998aa3 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow 9734f4f6-10a1-485d-93ca-728623998aa3 386a8764-c96f-4434-8875-174654ea136c) {O = "fd2e9096-6e53-4be0-8239-4799b3d47263" I = "589cc215-aae0-48af-8077-d251cd35b087" label = "Departed train information" }
+dataFlow a94f98dc-174d-44f7-8905-ec61aa7c4083 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow a94f98dc-174d-44f7-8905-ec61aa7c4083 386a8764-c96f-4434-8875-174654ea136c) {O = "da25e2ed-1457-479e-b50e-71226fd83a67" I = "6d64a781-8835-4791-88c9-a61745d85cee" label = "Train passing the level crossing information" }
+dataFlow ced410be-f413-4b82-9bf7-b15b20fdb2e2 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow ced410be-f413-4b82-9bf7-b15b20fdb2e2 386a8764-c96f-4434-8875-174654ea136c) {O = "59b7e739-e873-478f-94c5-da406bcde164" I = "6d79d7c6-d2ef-4ec4-b99a-7ac3240de5cb" label = "Vehicle passed information" }
+dataFlow 8149a820-9f6a-415a-8cba-ead629dccb6e 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow 8149a820-9f6a-415a-8cba-ead629dccb6e 386a8764-c96f-4434-8875-174654ea136c) {O = "8f5a45f8-9f11-49a6-b30f-027c219083d7" I = "d0a326f8-efc7-4482-8eed-5fc3ab342e7d" label = "Vehicle entered the crossing information" }
+dataFlow 73e883fa-25eb-4824-8ce3-99d2536de5ce 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow 73e883fa-25eb-4824-8ce3-99d2536de5ce 386a8764-c96f-4434-8875-174654ea136c) {O = "22bba91b-9811-480d-84e6-926bf880cb9f" I = "e2e70a80-e97b-44cf-9d65-f4e3c949ff24" label = "Vehicle stop information" }
+dataFlow 1876c9e7-8697-438c-8e66-00512e1194b8 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow 1876c9e7-8697-438c-8e66-00512e1194b8 386a8764-c96f-4434-8875-174654ea136c) {O = "02749856-393d-4752-8c97-7ba9727363e8" I = "f0654123-c457-4e71-984c-2c96b0d0aa5a" label = "Length of vehicle queue" }
+dataFlow d23df4fb-af3d-47ef-bdcc-63a61b52362f 5b224099-914e-4d77-ba0f-43cf36b787ac
+(dataFlow d23df4fb-af3d-47ef-bdcc-63a61b52362f 5b224099-914e-4d77-ba0f-43cf36b787ac) {O = "775fc341-8093-41b2-ba21-f024a1d7fac6" I = "dd434c28-8a8d-4a8d-8905-0fd41f6e4d1a" label = "Train detectors statuses" }
+dataFlow a30f7ddd-dcec-454d-80c2-f5ac0acf76ea 5b224099-914e-4d77-ba0f-43cf36b787ac
+(dataFlow a30f7ddd-dcec-454d-80c2-f5ac0acf76ea 5b224099-914e-4d77-ba0f-43cf36b787ac) {O = "a08cb227-4348-42dc-89f5-870162dbb20e" I = "dd434c28-8a8d-4a8d-8905-0fd41f6e4d1a" label = "Train detectors statuses" }
+dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd 6964a070-b532-4b34-8684-7447e325f50b
+(dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd 6964a070-b532-4b34-8684-7447e325f50b) {O = "b78d7fb7-f055-4019-a8cb-c2c9e90401c4" I = "d73c1ddc-a6c0-439e-b227-57f7a844b532" label = "Arriving train crossing forbidden" }
+dataFlow 383f2412-c3ed-4409-a88a-30773e211d34 6964a070-b532-4b34-8684-7447e325f50b
+(dataFlow 383f2412-c3ed-4409-a88a-30773e211d34 6964a070-b532-4b34-8684-7447e325f50b) {O = "4807619d-351e-439b-8797-532f5355a3e9" I = "d73c1ddc-a6c0-439e-b227-57f7a844b532" label = "Arriving train crossing forbidden" }
+dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd 2995f8a6-57f0-4967-9174-58324dcdca35
+(dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd 2995f8a6-57f0-4967-9174-58324dcdca35) {O = "745fe11c-73da-4dfe-82b1-9d5e74a20a10" I = "df13114f-1f49-4568-8f85-2749caee8d79" label = "Arriving train crossing authorization" }
+dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd ab77dbdf-3248-4dba-808b-74c5935b9e08
+(dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd ab77dbdf-3248-4dba-808b-74c5935b9e08) {O = "20cc8b44-6ea0-4e44-8f39-798749838dbf" I = "bfa0b7d7-dd08-4beb-a6dd-607eb40cb2bc" label = "Arriving train stop command" }
+dataFlow 383f2412-c3ed-4409-a88a-30773e211d34 ab77dbdf-3248-4dba-808b-74c5935b9e08
+(dataFlow 383f2412-c3ed-4409-a88a-30773e211d34 ab77dbdf-3248-4dba-808b-74c5935b9e08) {O = "5e37e876-3492-40ed-a943-1fa1199dd824" I = "bfa0b7d7-dd08-4beb-a6dd-607eb40cb2bc" label = "Arriving train stop command" }
+dataFlow c9d0e2c4-c59e-49b6-8393-81a7204495a9 de4086d9-d2d8-4f30-a6e6-f72e23679854
+(dataFlow c9d0e2c4-c59e-49b6-8393-81a7204495a9 de4086d9-d2d8-4f30-a6e6-f72e23679854) {O = "05687caf-a524-4b52-ab88-2f826941482d" I = "2c68c10b-5413-423c-9800-4077ef56738c" label = "Train departure authorization" }
+dataFlow 8e495f23-8ea4-4bf1-8f4a-8af7405b6180 cfe92ad1-ca9d-4b35-a3e3-bab68a700cd4
+(dataFlow 8e495f23-8ea4-4bf1-8f4a-8af7405b6180 cfe92ad1-ca9d-4b35-a3e3-bab68a700cd4) {O = "b8ad7685-3d43-4cef-9748-50bcfade07ff" I = "68314bab-1770-4744-8f58-0915445ab73c" label = "Train departure prohibition" }
+dataFlow c9d0e2c4-c59e-49b6-8393-81a7204495a9 cfe92ad1-ca9d-4b35-a3e3-bab68a700cd4
+(dataFlow c9d0e2c4-c59e-49b6-8393-81a7204495a9 cfe92ad1-ca9d-4b35-a3e3-bab68a700cd4) {O = "2e32f3aa-3fcd-4625-a151-f423f1b9ba23" I = "68314bab-1770-4744-8f58-0915445ab73c" label = "Train departure prohibition " }
+dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd d428b650-b840-4cba-89fa-9d84f4a32b29
+(dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd d428b650-b840-4cba-89fa-9d84f4a32b29) {O = "2f71a6ea-9476-42d3-9777-4caf6bfa2b8f" I = "55097a3c-24d2-4cc6-990c-4de6f553bbd5" label = "Arriving train release command" }
+dataFlow d1c5dc24-958f-442c-bba0-f7e57acb6c7e 5b224099-914e-4d77-ba0f-43cf36b787ac
+(dataFlow d1c5dc24-958f-442c-bba0-f7e57acb6c7e 5b224099-914e-4d77-ba0f-43cf36b787ac) {O = "06cbc2f3-0fdd-4cbd-9c3c-05b44143d449" I = "6720e16e-c200-407e-a2fe-906cc2b8b7a4" label = "Arriving train stop signal statuses" }
+dataFlow a8d38aa3-a2d9-454c-ad47-13958a4f2975 5b224099-914e-4d77-ba0f-43cf36b787ac
+(dataFlow a8d38aa3-a2d9-454c-ad47-13958a4f2975 5b224099-914e-4d77-ba0f-43cf36b787ac) {O = "41368710-e1c7-4df7-a781-dde90e11075c" I = "01aada6a-870c-4758-972e-e0da38833711" label = "Arriving train crossing signal statuses" }
+dataFlow 2e810c91-3587-4465-88e6-32efe9d2c151 5b224099-914e-4d77-ba0f-43cf36b787ac
+(dataFlow 2e810c91-3587-4465-88e6-32efe9d2c151 5b224099-914e-4d77-ba0f-43cf36b787ac) {O = "9718e687-7a84-44b9-8a84-b0d144d6ba6d" I = "2f2abb01-4653-4331-bae9-157f048bd43b" label = "Train signals status" }
+dataFlow 562a40db-38d0-4c70-93c8-65f0e5c23da1 5b224099-914e-4d77-ba0f-43cf36b787ac
+(dataFlow 562a40db-38d0-4c70-93c8-65f0e5c23da1 5b224099-914e-4d77-ba0f-43cf36b787ac) {O = "d7c102e0-a330-4eeb-b48f-d3424cf78428" I = "6dc456b6-e19a-4b13-a9ac-89a9d2420af4" label = "Status of barriers and devices" }
+dataFlow 843d4418-cfbd-4e7b-96f0-725d4589c34d 5b224099-914e-4d77-ba0f-43cf36b787ac
+(dataFlow 843d4418-cfbd-4e7b-96f0-725d4589c34d 5b224099-914e-4d77-ba0f-43cf36b787ac) {O = "484abd74-e481-488f-8e27-fc111a121955" I = "c7c6ad52-2138-4de1-aba6-2b8de7d9bac7" label = "Status of crossing prevention devices" }
+dataFlow cdc99efa-454a-44e2-b3c1-1ee143d4211d a8e68d7c-e796-469a-8e48-8ca38de358fc
+(dataFlow cdc99efa-454a-44e2-b3c1-1ee143d4211d a8e68d7c-e796-469a-8e48-8ca38de358fc) {O = "c10bdfb6-08dc-4d26-a192-b5fee965fef8" I = "d7eb924d-77f9-4c0a-bda0-e46e1a0bc165" label = "Critical failure" }
+dataFlow d9afc3f5-806b-4d3d-8083-825589c74ce5 1663f3e6-a9ca-4b4e-a65a-87d4ae8f5cf9
+(dataFlow d9afc3f5-806b-4d3d-8083-825589c74ce5 1663f3e6-a9ca-4b4e-a65a-87d4ae8f5cf9) {O = "4bdbceb9-2ff9-4cf1-8c40-eac98bb46931" I = "fff9ff08-cc00-41c9-b25c-aa1f592ece70" label = "Train traffic release command" }
+dataFlow fc77ccfe-f164-4725-82be-4d1944bfab57 f27188d0-9c61-4fbe-bdb0-adbeec54650c
+(dataFlow fc77ccfe-f164-4725-82be-4d1944bfab57 f27188d0-9c61-4fbe-bdb0-adbeec54650c) {O = "e93289ac-9686-4058-b315-43e9f13b4934" I = "446c4fab-2c21-410c-880a-79579f16b794" label = "Risk on traffic" }
+dataFlow cd5154ba-105b-46d3-91b4-afe974604c50 f27188d0-9c61-4fbe-bdb0-adbeec54650c
+(dataFlow cd5154ba-105b-46d3-91b4-afe974604c50 f27188d0-9c61-4fbe-bdb0-adbeec54650c) {O = "2539682b-85f2-4dc4-9686-74a96ea4e9be" I = "63f67eef-237b-4bb4-a018-a5e814e4e211" label = "Risk of erroneous instructions" }
+dataFlow 5d740a10-93a9-4a5a-85f1-95cc6c5bdbbb f27188d0-9c61-4fbe-bdb0-adbeec54650c
+(dataFlow 5d740a10-93a9-4a5a-85f1-95cc6c5bdbbb f27188d0-9c61-4fbe-bdb0-adbeec54650c) {O = "cfe41681-c858-49ee-a50f-f89e47203e00" I = "5b8aab72-e247-4fb2-8fce-b76ffe71e64a" label = "Risk of system failure" }
+dataFlow a94f98dc-174d-44f7-8905-ec61aa7c4083 c9d0e2c4-c59e-49b6-8393-81a7204495a9
+(dataFlow a94f98dc-174d-44f7-8905-ec61aa7c4083 c9d0e2c4-c59e-49b6-8393-81a7204495a9) {O = "da25e2ed-1457-479e-b50e-71226fd83a67" I = "89ed5f59-09d4-462e-b29a-c91d1a5c47e4" label = "Train passing the level crossing information" }
+dataFlow 9734f4f6-10a1-485d-93ca-728623998aa3 c9d0e2c4-c59e-49b6-8393-81a7204495a9
+(dataFlow 9734f4f6-10a1-485d-93ca-728623998aa3 c9d0e2c4-c59e-49b6-8393-81a7204495a9) {O = "fd2e9096-6e53-4be0-8239-4799b3d47263" I = "cc0e47d0-629c-4179-80a1-e77fa0bbcfb1" label = "Departed train information" }
+dataFlow 062bf31b-62c1-479e-a241-92cf68043f69 9734f4f6-10a1-485d-93ca-728623998aa3
+(dataFlow 062bf31b-62c1-479e-a241-92cf68043f69 9734f4f6-10a1-485d-93ca-728623998aa3) {O = "e8f51142-0dce-41f2-a62b-ae8a18b429ef" I = "59e0308d-99b1-42db-9a77-67a81ffbf617" label = "Departed train information" }
+dataFlow 062bf31b-62c1-479e-a241-92cf68043f69 a94f98dc-174d-44f7-8905-ec61aa7c4083
+(dataFlow 062bf31b-62c1-479e-a241-92cf68043f69 a94f98dc-174d-44f7-8905-ec61aa7c4083) {O = "bde7aa88-8190-430b-8cdc-b4f266abbc7e" I = "774e57db-e8ed-4071-8d02-ea50a7618a94" label = "Train passing departure direction information" }
+dataFlow de4086d9-d2d8-4f30-a6e6-f72e23679854 062bf31b-62c1-479e-a241-92cf68043f69
+(dataFlow de4086d9-d2d8-4f30-a6e6-f72e23679854 062bf31b-62c1-479e-a241-92cf68043f69) {O = "313ef38d-b16d-43be-87e9-852b5dc85506" I = "66af145d-01d1-4e5e-a1ac-f28ef62a644c" label = "Departure authorization" }
+dataFlow cfe92ad1-ca9d-4b35-a3e3-bab68a700cd4 b1597ee2-3237-4d53-8898-dcc964fd72ea
+(dataFlow cfe92ad1-ca9d-4b35-a3e3-bab68a700cd4 b1597ee2-3237-4d53-8898-dcc964fd72ea) {O = "70d8728f-deef-4702-bb74-696cc6dfcf6e" I = "afed3eeb-1e93-4ac5-8636-28e66eff7f2e" label = "Departure prohibition" }
+dataFlow b97fca51-a2de-453b-947a-abb4932b7b15 74a976e4-b270-4765-b88b-9d2f52a2ab6c
+(dataFlow b97fca51-a2de-453b-947a-abb4932b7b15 74a976e4-b270-4765-b88b-9d2f52a2ab6c) {O = "ee00de92-3ab6-4a3e-8ee7-d5b0b49d4bca" I = "41465f88-3b26-448a-9fd7-8d1d91798f54" label = "Schedules and trains statuses" }
+dataFlow b97fca51-a2de-453b-947a-abb4932b7b15 cb602305-a966-4216-b3b0-b4ad9bf8c0c2
+(dataFlow b97fca51-a2de-453b-947a-abb4932b7b15 cb602305-a966-4216-b3b0-b4ad9bf8c0c2) {O = "ee00de92-3ab6-4a3e-8ee7-d5b0b49d4bca" I = "4587a4b6-e065-4615-b097-23627aa7054f" label = "Schedules and trains statuses" }
+dataFlow a6c50af0-6aea-4007-b7c3-ec9392ed8c34 4750aac6-7d1c-41a8-95ef-d180be6ff10a
+(dataFlow a6c50af0-6aea-4007-b7c3-ec9392ed8c34 4750aac6-7d1c-41a8-95ef-d180be6ff10a) {O = "d36b6d73-738a-4177-aa4e-1b130d73a5ba" I = "34639b2a-e26e-47ee-b962-687faf25daf0" label = "Vehicle arrival information" }
+dataFlow cd98fcb8-ce32-4658-994d-dca8e524d1fe 73e883fa-25eb-4824-8ce3-99d2536de5ce
+(dataFlow cd98fcb8-ce32-4658-994d-dca8e524d1fe 73e883fa-25eb-4824-8ce3-99d2536de5ce) {O = "3c251ac8-12cc-419d-9532-07764cea48e6" I = "efb19ce0-8405-4dda-8957-e96862894ba9" label = "Vehicle stop information" }
+dataFlow ec1fcf9e-aae0-4c2a-8574-4f6817fb41aa cd98fcb8-ce32-4658-994d-dca8e524d1fe
+(dataFlow ec1fcf9e-aae0-4c2a-8574-4f6817fb41aa cd98fcb8-ce32-4658-994d-dca8e524d1fe) {O = "36e1af32-1a1c-45e1-b8d7-0c7b4379381a" I = "23df2055-dcfe-4f45-9308-e79cfc16ec25" label = "Crossing forbidden" }
+dataFlow 5e6a1042-a5cb-45bb-b06f-343ba4c8e0d9 d7326c4d-0517-46dc-8ef4-3b4b480f1115
+(dataFlow 5e6a1042-a5cb-45bb-b06f-343ba4c8e0d9 d7326c4d-0517-46dc-8ef4-3b4b480f1115) {O = "55d731fe-75a5-412c-8870-0788e17d7245" I = "c1701213-134b-4710-b6b5-0639f1784052" label = "Permission for the vehicle to pass" }
+dataFlow d7326c4d-0517-46dc-8ef4-3b4b480f1115 ced410be-f413-4b82-9bf7-b15b20fdb2e2
+(dataFlow d7326c4d-0517-46dc-8ef4-3b4b480f1115 ced410be-f413-4b82-9bf7-b15b20fdb2e2) {O = "97e66a97-d33e-4239-8a8a-771cb895f594" I = "0c10ce83-b39e-430a-8984-ebfcf2df2d54" label = "Vehicle passed information" }
+dataFlow d7326c4d-0517-46dc-8ef4-3b4b480f1115 8149a820-9f6a-415a-8cba-ead629dccb6e
+(dataFlow d7326c4d-0517-46dc-8ef4-3b4b480f1115 8149a820-9f6a-415a-8cba-ead629dccb6e) {O = "bd776ede-eb90-4fae-a967-ccf0f781f634" I = "406b4830-c5f1-4588-b426-7780357e98bc" label = "Vehicle entered the crossing information" }
+dataFlow cd98fcb8-ce32-4658-994d-dca8e524d1fe 1876c9e7-8697-438c-8e66-00512e1194b8
+(dataFlow cd98fcb8-ce32-4658-994d-dca8e524d1fe 1876c9e7-8697-438c-8e66-00512e1194b8) {O = "3c251ac8-12cc-419d-9532-07764cea48e6" I = "f4a9ddd7-a051-4e66-8299-1ad15676b7d4" label = "Vehicle stop information" }
+dataFlow 5f6870ae-13f8-4d81-a890-e74b63e85cbb 74a976e4-b270-4765-b88b-9d2f52a2ab6c
+(dataFlow 5f6870ae-13f8-4d81-a890-e74b63e85cbb 74a976e4-b270-4765-b88b-9d2f52a2ab6c) {O = "81fbbac5-675b-472d-8d68-818d40cbb8ed" I = "b949020e-ab1f-4138-a61d-10942c697577" label = "Departing train information" }
+dataFlow 88a7e3eb-ee5b-4d3e-8cb1-4ec60f724e6c 45e41083-2941-4f6d-b95d-984cbfb76964
+(dataFlow 88a7e3eb-ee5b-4d3e-8cb1-4ec60f724e6c 45e41083-2941-4f6d-b95d-984cbfb76964) {O = "c08a0356-0ec0-4de9-9770-b67949aabaac" I = "a2bbc8e9-1403-467f-b562-c2d21e8c2657" label = "Train arrival information" }
+dataFlow ab77dbdf-3248-4dba-808b-74c5935b9e08 7b400743-3d82-4cbf-b54c-3aac75e85a03
+(dataFlow ab77dbdf-3248-4dba-808b-74c5935b9e08 7b400743-3d82-4cbf-b54c-3aac75e85a03) {O = "4fd6dd3a-ac73-4cc5-bb58-687a87034116" I = "3d505ef2-944d-44bc-81e9-681b8ee0f16d" label = "Train stop command" }
+dataFlow 2995f8a6-57f0-4967-9174-58324dcdca35 7b400743-3d82-4cbf-b54c-3aac75e85a03
+(dataFlow 2995f8a6-57f0-4967-9174-58324dcdca35 7b400743-3d82-4cbf-b54c-3aac75e85a03) {O = "1337ddcb-326e-4540-b600-160e8bfbaf77" I = "3d505ef2-944d-44bc-81e9-681b8ee0f16d" label = "Train stop command" }
+dataFlow 27dde584-37f2-41e6-8841-7772f050c78f a94f98dc-174d-44f7-8905-ec61aa7c4083
+(dataFlow 27dde584-37f2-41e6-8841-7772f050c78f a94f98dc-174d-44f7-8905-ec61aa7c4083) {O = "81805cba-4872-468a-8322-5520597717ac" I = "0617c947-2a45-4735-9680-97b1b0a58ce8" label = "Train passing arrival direction information" }
+dataFlow d428b650-b840-4cba-89fa-9d84f4a32b29 27dde584-37f2-41e6-8841-7772f050c78f
+(dataFlow d428b650-b840-4cba-89fa-9d84f4a32b29 27dde584-37f2-41e6-8841-7772f050c78f) {O = "c1c0c1f9-21b3-4119-a745-ada27da28bec" I = "1f38f01c-5216-48d6-ada7-487db83e07f4" label = "Authorization to restart on arrival" }
+dataFlow 6964a070-b532-4b34-8684-7447e325f50b 27dde584-37f2-41e6-8841-7772f050c78f
+(dataFlow 6964a070-b532-4b34-8684-7447e325f50b 27dde584-37f2-41e6-8841-7772f050c78f) {O = "ed18c482-8cf0-4d92-8a6f-48c0c8634a88" I = "31b3c8ee-e12a-4ba4-b131-c5db1dfc6bf6" label = "Authorization to cross on arrival" }
+dataFlow 7cbf5dc5-cb2d-4817-9135-179362218fbc ec1fcf9e-aae0-4c2a-8574-4f6817fb41aa
+(dataFlow 7cbf5dc5-cb2d-4817-9135-179362218fbc ec1fcf9e-aae0-4c2a-8574-4f6817fb41aa) {O = "9349ef3b-19b6-4243-9040-5444e3b0df4f" I = "459b047e-bc89-48fd-bfa6-737ee2ce7c17" label = "Vehicle crossing forbidden" }
+dataFlow 98aa003b-683a-45ed-b0a5-86bb69449842 5e6a1042-a5cb-45bb-b06f-343ba4c8e0d9
+(dataFlow 98aa003b-683a-45ed-b0a5-86bb69449842 5e6a1042-a5cb-45bb-b06f-343ba4c8e0d9) {O = "3100ed91-d8f7-4d6d-a8d0-ed8a1e8e818b" I = "906e559f-46d0-4c99-83fa-ec5aee29ecf3" label = "Road vehicles traffic authorization" }
+dataFlow c9d0e2c4-c59e-49b6-8393-81a7204495a9 7cbf5dc5-cb2d-4817-9135-179362218fbc
+(dataFlow c9d0e2c4-c59e-49b6-8393-81a7204495a9 7cbf5dc5-cb2d-4817-9135-179362218fbc) {O = "d5d5af08-83fb-4ee9-b622-e9e41004eac9" I = "231d8eaa-aec5-48cc-b7aa-8eb3e5db587f" label = "Road traffic delay command" }
+dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd 7cbf5dc5-cb2d-4817-9135-179362218fbc
+(dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd 7cbf5dc5-cb2d-4817-9135-179362218fbc) {O = "00b8ccca-dc11-4ceb-94f8-39ba10d2e875" I = "231d8eaa-aec5-48cc-b7aa-8eb3e5db587f" label = "Road traffic delay command" }
+dataFlow c9d0e2c4-c59e-49b6-8393-81a7204495a9 98aa003b-683a-45ed-b0a5-86bb69449842
+(dataFlow c9d0e2c4-c59e-49b6-8393-81a7204495a9 98aa003b-683a-45ed-b0a5-86bb69449842) {O = "4550b228-83c6-49e1-bfda-34cc3a4b8cf3" I = "0b204347-7096-4c32-add8-2884d02e33fa" label = "Road traffic release command" }
+dataFlow 5f6870ae-13f8-4d81-a890-e74b63e85cbb 61298d48-51dc-47df-a21d-76c4b5d500ec
+(dataFlow 5f6870ae-13f8-4d81-a890-e74b63e85cbb 61298d48-51dc-47df-a21d-76c4b5d500ec) {O = "b1f9d363-c4de-427e-855f-9177f5376c90" I = "04c3dff4-9fe2-45b3-855b-7b68bafcf474" label = "Preparation to departure command" }
+dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd 98aa003b-683a-45ed-b0a5-86bb69449842
+(dataFlow aa609fd2-8b59-4652-81ae-ce19058adefd 98aa003b-683a-45ed-b0a5-86bb69449842) {O = "7e5651af-12a5-4df1-ae2c-38bcd9a57cc5" I = "0b204347-7096-4c32-add8-2884d02e33fa" label = "Road traffic release command" }
+dataFlow 436572ec-cae6-410b-b078-5810fe86588b 6621e828-9a03-444b-85f1-f26ceff43eeb
+(dataFlow 436572ec-cae6-410b-b078-5810fe86588b 6621e828-9a03-444b-85f1-f26ceff43eeb) {O = "6d22261f-5bde-4b23-b332-638fffffe585" I = "95ea5299-84bd-4541-8ac2-559f1d989a20" label = "Emergency train stop command" }
+dataFlow 74a976e4-b270-4765-b88b-9d2f52a2ab6c a8e68d7c-e796-469a-8e48-8ca38de358fc
+(dataFlow 74a976e4-b270-4765-b88b-9d2f52a2ab6c a8e68d7c-e796-469a-8e48-8ca38de358fc) {O = "12ed07bb-f237-4b51-97e1-eee9f647afb3" I = "27886fa0-8218-4664-b54d-25aff07e607a" label = "Train delay on departure" }
+dataFlow cb602305-a966-4216-b3b0-b4ad9bf8c0c2 a8e68d7c-e796-469a-8e48-8ca38de358fc
+(dataFlow cb602305-a966-4216-b3b0-b4ad9bf8c0c2 a8e68d7c-e796-469a-8e48-8ca38de358fc) {O = "49277642-0293-4633-b305-527b44d47165" I = "b7af18fa-c1c2-4c36-ab93-7655c2d1835c" label = "Train delay on arrival" }
+dataFlow a8e68d7c-e796-469a-8e48-8ca38de358fc fc77ccfe-f164-4725-82be-4d1944bfab57
+(dataFlow a8e68d7c-e796-469a-8e48-8ca38de358fc fc77ccfe-f164-4725-82be-4d1944bfab57) {O = "8fa119db-9992-489d-b3c4-a849ac6a6e16" I = "76cef09f-efd8-404f-b23b-fb6b1286633a" label = "Conflict situation " }
+dataFlow 436572ec-cae6-410b-b078-5810fe86588b a8e68d7c-e796-469a-8e48-8ca38de358fc
+(dataFlow 436572ec-cae6-410b-b078-5810fe86588b a8e68d7c-e796-469a-8e48-8ca38de358fc) {O = "33fafbba-fe11-4785-b403-81fe1c059bc5" I = "7e594e00-2cd3-4659-b9bb-b064a34e13c2" label = "Vehicle stopped on the track information" }
+dataFlow 21130155-e4c9-403b-bdae-bb2ad7186ec4 cd5154ba-105b-46d3-91b4-afe974604c50
+(dataFlow 21130155-e4c9-403b-bdae-bb2ad7186ec4 cd5154ba-105b-46d3-91b4-afe974604c50) {O = "12ba5359-7746-4efc-b7f5-ac16a1226b85" I = "05c6df42-7478-4b86-8878-ef980dfd5e44" label = "Instructions, sensors and devices operating status" }
+dataFlow 21130155-e4c9-403b-bdae-bb2ad7186ec4 5d740a10-93a9-4a5a-85f1-95cc6c5bdbbb
+(dataFlow 21130155-e4c9-403b-bdae-bb2ad7186ec4 5d740a10-93a9-4a5a-85f1-95cc6c5bdbbb) {O = "9de66f4a-7131-4f33-91f4-699ca546b3ee" I = "0c665824-c5b3-43c9-9f24-051ec97626c1" label = "Localization, instructions, sensors and devices operating status" }
+dataFlow f27188d0-9c61-4fbe-bdb0-adbeec54650c 6621e828-9a03-444b-85f1-f26ceff43eeb
+(dataFlow f27188d0-9c61-4fbe-bdb0-adbeec54650c 6621e828-9a03-444b-85f1-f26ceff43eeb) {O = "6a9c1c17-8a15-439b-b0c2-64742124280a" I = "95ea5299-84bd-4541-8ac2-559f1d989a20" label = "Emergency train stop command" }
+dataFlow f27188d0-9c61-4fbe-bdb0-adbeec54650c ec1fcf9e-aae0-4c2a-8574-4f6817fb41aa
+(dataFlow f27188d0-9c61-4fbe-bdb0-adbeec54650c ec1fcf9e-aae0-4c2a-8574-4f6817fb41aa) {O = "67c44185-5a43-42fb-b718-5bc47e46834e" I = "69a9f3a8-2881-4cfe-92c4-c5f20b09261c" label = "Emergency road traffic stop comma" }
+dataFlow d9afc3f5-806b-4d3d-8083-825589c74ce5 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow d9afc3f5-806b-4d3d-8083-825589c74ce5 386a8764-c96f-4434-8875-174654ea136c) {O = "4bdbceb9-2ff9-4cf1-8c40-eac98bb46931" I = "981c7e8b-5860-49fa-9232-fea70cff982d" label = "Train traffic release command" }
+dataFlow d9afc3f5-806b-4d3d-8083-825589c74ce5 386a8764-c96f-4434-8875-174654ea136c
+(dataFlow d9afc3f5-806b-4d3d-8083-825589c74ce5 386a8764-c96f-4434-8875-174654ea136c) {O = "9bae5ae5-29fc-4fc0-9242-181dd620025a" I = "faaf9626-6383-434c-85d6-cd4538941fa0" label = "Road traffic release command" }
+dataFlow d9afc3f5-806b-4d3d-8083-825589c74ce5 98aa003b-683a-45ed-b0a5-86bb69449842
+(dataFlow d9afc3f5-806b-4d3d-8083-825589c74ce5 98aa003b-683a-45ed-b0a5-86bb69449842) {O = "99a6d5e6-cfb2-4d54-9c23-851ab5fd317f" I = "0b204347-7096-4c32-add8-2884d02e33fa" label = "Road traffic release command" }
+dataFlow 5b224099-914e-4d77-ba0f-43cf36b787ac 21130155-e4c9-403b-bdae-bb2ad7186ec4
+(dataFlow 5b224099-914e-4d77-ba0f-43cf36b787ac 21130155-e4c9-403b-bdae-bb2ad7186ec4) {O = "2aa238b0-d3ad-4960-beff-057bf61a88ed" I = "6a96bb89-c7df-4983-a712-a1f6d8415bde" label = "System operating configuration" }
+dataFlow 5b224099-914e-4d77-ba0f-43cf36b787ac 21130155-e4c9-403b-bdae-bb2ad7186ec4
+(dataFlow 5b224099-914e-4d77-ba0f-43cf36b787ac 21130155-e4c9-403b-bdae-bb2ad7186ec4) {O = "949f4460-91ac-4896-9a04-96cae848c10c" I = "318adc19-cec3-49ef-81ae-074ce8aaf911" label = "Instructions, sensors and devices operating status" }
+dataFlow 386a8764-c96f-4434-8875-174654ea136c 21130155-e4c9-403b-bdae-bb2ad7186ec4
+(dataFlow 386a8764-c96f-4434-8875-174654ea136c 21130155-e4c9-403b-bdae-bb2ad7186ec4) {O = "06a4f5f1-d1b3-456c-9a9f-ec7e68c9f548" I = "a5a69de4-15db-4eab-a6b3-24371b02cf32" label = "Trains and vehicles position" }
+dataFlow 386a8764-c96f-4434-8875-174654ea136c 21130155-e4c9-403b-bdae-bb2ad7186ec4
+(dataFlow 386a8764-c96f-4434-8875-174654ea136c 21130155-e4c9-403b-bdae-bb2ad7186ec4) {O = "303e1e7b-3b15-48e3-8710-b02be39c67ff" I = "3c672259-8e60-4a59-a912-be519ce3aaf7" label = "Conflict situation" }
+dataFlow 21130155-e4c9-403b-bdae-bb2ad7186ec4 fc77ccfe-f164-4725-82be-4d1944bfab57
+(dataFlow 21130155-e4c9-403b-bdae-bb2ad7186ec4 fc77ccfe-f164-4725-82be-4d1944bfab57) {O = "3c84b15b-07b8-4127-9fb8-f589048f0d20" I = "c73fcc0b-254f-4db3-a865-61eba1de5877" label = "Geographical map of the surroundings" }
+dataFlow 21130155-e4c9-403b-bdae-bb2ad7186ec4 fc77ccfe-f164-4725-82be-4d1944bfab57
+(dataFlow 21130155-e4c9-403b-bdae-bb2ad7186ec4 fc77ccfe-f164-4725-82be-4d1944bfab57) {O = "47c967f1-1b34-4c41-aeaf-9bdbd012c36a" I = "2658e6ce-cccf-4682-a712-5c555f4f08ad" label = "Trains and vehicles position" }
+dataFlow a8e68d7c-e796-469a-8e48-8ca38de358fc fc77ccfe-f164-4725-82be-4d1944bfab57
+(dataFlow a8e68d7c-e796-469a-8e48-8ca38de358fc fc77ccfe-f164-4725-82be-4d1944bfab57) {O = "b0ec3a48-2a8a-486d-8b70-17312c9f3d53" I = "3e6aff0a-1208-47c5-a02f-5702088e2435" label = "Vehicle stopped on the track information" }
+dataFlow 386a8764-c96f-4434-8875-174654ea136c a8e68d7c-e796-469a-8e48-8ca38de358fc
+(dataFlow 386a8764-c96f-4434-8875-174654ea136c a8e68d7c-e796-469a-8e48-8ca38de358fc) {O = "303e1e7b-3b15-48e3-8710-b02be39c67ff" I = "380e76e5-4a49-417a-8f83-c84d76a2d937" label = "Conflict situation" }
+dataFlow 9b2b4841-4058-4e1f-a9d2-1b348579f855 d9afc3f5-806b-4d3d-8083-825589c74ce5
+(dataFlow 9b2b4841-4058-4e1f-a9d2-1b348579f855 d9afc3f5-806b-4d3d-8083-825589c74ce5) {O = "da000266-ef01-4cb8-8772-fd817ad5c911" I = "f8e9e713-1d88-4a7b-9d49-eeb39c6ba516" label = "Train traffic release command" }
+dataFlow b53506f8-69fb-4335-a16a-13a6dd9c44ec d9afc3f5-806b-4d3d-8083-825589c74ce5
+(dataFlow b53506f8-69fb-4335-a16a-13a6dd9c44ec d9afc3f5-806b-4d3d-8083-825589c74ce5) {O = "14c3355e-f791-43e4-b3f4-3bc45e9335c2" I = "034cb9dc-f1ac-478b-a657-89e2c7afc663" label = "Road traffic release command" }
+dataFlow a8e68d7c-e796-469a-8e48-8ca38de358fc fc77ccfe-f164-4725-82be-4d1944bfab57
+(dataFlow a8e68d7c-e796-469a-8e48-8ca38de358fc fc77ccfe-f164-4725-82be-4d1944bfab57) {O = "25a18385-a1a6-4260-8994-a463b87b9e81" I = "1171eb23-6cdf-4154-8700-de0d5e232119" label = "Train delay on arrival" }
+dataFlow a8e68d7c-e796-469a-8e48-8ca38de358fc fc77ccfe-f164-4725-82be-4d1944bfab57
+(dataFlow a8e68d7c-e796-469a-8e48-8ca38de358fc fc77ccfe-f164-4725-82be-4d1944bfab57) {O = "dc552f47-c847-4768-b3ab-23ebf0f2b2c4" I = "fedd7942-fa76-4dd0-8d12-7d77cc9ae2ef" label = "Train delay on departure" }
+dataFlow d9afc3f5-806b-4d3d-8083-825589c74ce5 7cbf5dc5-cb2d-4817-9135-179362218fbc
+(dataFlow d9afc3f5-806b-4d3d-8083-825589c74ce5 7cbf5dc5-cb2d-4817-9135-179362218fbc) {O = "85e606c9-82a9-4497-8d73-b7d2b904beed" I = "231d8eaa-aec5-48cc-b7aa-8eb3e5db587f" label = "Road traffic delay command" }
+dataFlow 99b0ff08-2727-4e23-8bfa-faf9048fc71c 9c73e4c2-9e53-4950-92f5-867372a2b3a2
+(dataFlow 99b0ff08-2727-4e23-8bfa-faf9048fc71c 9c73e4c2-9e53-4950-92f5-867372a2b3a2) {label = "Vehicle stopped information" }
+dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 d7e5b145-d26b-4734-82a1-9ddec03c1471
+(dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 d7e5b145-d26b-4734-82a1-9ddec03c1471) {label = "Departing or arriving trains" }
+dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 ba65c041-dcc1-446a-896f-458dc28888dc
+(dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 ba65c041-dcc1-446a-896f-458dc28888dc) {label = "No risk" }
+dataFlow b53c8d8c-2b31-4875-9308-30a07b074720 9c73e4c2-9e53-4950-92f5-867372a2b3a2
+(dataFlow b53c8d8c-2b31-4875-9308-30a07b074720 9c73e4c2-9e53-4950-92f5-867372a2b3a2) {label = "Departed train information" }
+dataFlow 9045b02e-2995-4ade-965a-9247e50cc44c 9c73e4c2-9e53-4950-92f5-867372a2b3a2
+(dataFlow 9045b02e-2995-4ade-965a-9247e50cc44c 9c73e4c2-9e53-4950-92f5-867372a2b3a2) {label = "Vehicle arrival information" }
+dataFlow d7e5b145-d26b-4734-82a1-9ddec03c1471 99b0ff08-2727-4e23-8bfa-faf9048fc71c
+(dataFlow d7e5b145-d26b-4734-82a1-9ddec03c1471 99b0ff08-2727-4e23-8bfa-faf9048fc71c) {label = "Crossing forbidden" }
+dataFlow ba65c041-dcc1-446a-896f-458dc28888dc d4a043ef-aadb-4463-803f-e1e6c7b3244a
+(dataFlow ba65c041-dcc1-446a-896f-458dc28888dc d4a043ef-aadb-4463-803f-e1e6c7b3244a) {label = "Permission for the vehicle to pass" }
+dataFlow ae7aba9c-0b95-4623-bcda-92f19f895183 9c73e4c2-9e53-4950-92f5-867372a2b3a2
+(dataFlow ae7aba9c-0b95-4623-bcda-92f19f895183 9c73e4c2-9e53-4950-92f5-867372a2b3a2) {label = "Arrived train information" }
+dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 ce1f6a79-067d-402d-b409-94c4398859af
+(dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 ce1f6a79-067d-402d-b409-94c4398859af) {label = "Cars crossing" }
+dataFlow ce1f6a79-067d-402d-b409-94c4398859af 1d2914ca-cf49-4d35-9179-8a1b43669871
+(dataFlow ce1f6a79-067d-402d-b409-94c4398859af 1d2914ca-cf49-4d35-9179-8a1b43669871) {label = "Starting forbidden" }
+dataFlow 7e401d9f-31c9-40d5-9627-c944380d637b 9c73e4c2-9e53-4950-92f5-867372a2b3a2
+(dataFlow 7e401d9f-31c9-40d5-9627-c944380d637b 9c73e4c2-9e53-4950-92f5-867372a2b3a2) {label = "Departing train information " }
+dataFlow 02a91359-eefb-4e89-933b-d566cc00de3c 9c73e4c2-9e53-4950-92f5-867372a2b3a2
+(dataFlow 02a91359-eefb-4e89-933b-d566cc00de3c 9c73e4c2-9e53-4950-92f5-867372a2b3a2) {label = "Schedules and trains statuses" }
+dataFlow cb6179ce-0b71-478e-be94-93fa879a899b b53c8d8c-2b31-4875-9308-30a07b074720
+(dataFlow cb6179ce-0b71-478e-be94-93fa879a899b b53c8d8c-2b31-4875-9308-30a07b074720) {label = "Train departure authorization" }
+dataFlow 7e401d9f-31c9-40d5-9627-c944380d637b 7117c203-45cc-4c72-ab51-0a4070c8bdec
+(dataFlow 7e401d9f-31c9-40d5-9627-c944380d637b 7117c203-45cc-4c72-ab51-0a4070c8bdec) {label = "Departure preparation order" }
+dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 b990fa30-a197-4ff3-898b-ad69f8c01c1a
+(dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 b990fa30-a197-4ff3-898b-ad69f8c01c1a) {label = "Cars crossing" }
+dataFlow b990fa30-a197-4ff3-898b-ad69f8c01c1a 8b7717f7-bb4b-45c6-9551-ac4d7e811c3b
+(dataFlow b990fa30-a197-4ff3-898b-ad69f8c01c1a 8b7717f7-bb4b-45c6-9551-ac4d7e811c3b) {label = "Command to stop the train" }
+dataFlow 1612642c-f5a6-4667-b0c9-3a4c1e3277dc 9c73e4c2-9e53-4950-92f5-867372a2b3a2
+(dataFlow 1612642c-f5a6-4667-b0c9-3a4c1e3277dc 9c73e4c2-9e53-4950-92f5-867372a2b3a2) {label = "Train arrival information" }
+dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 cb6179ce-0b71-478e-be94-93fa879a899b
+(dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 cb6179ce-0b71-478e-be94-93fa879a899b) {label = "No risk" }
+dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 119113c7-6243-4b77-8287-5d3e3b39d391
+(dataFlow 9c73e4c2-9e53-4950-92f5-867372a2b3a2 119113c7-6243-4b77-8287-5d3e3b39d391) {label = "No risk" }
+dataFlow 119113c7-6243-4b77-8287-5d3e3b39d391 ae7aba9c-0b95-4623-bcda-92f19f895183
+(dataFlow 119113c7-6243-4b77-8287-5d3e3b39d391 ae7aba9c-0b95-4623-bcda-92f19f895183) {label = "Permission for the train to pass" }
+dataFlow d4a043ef-aadb-4463-803f-e1e6c7b3244a 9c73e4c2-9e53-4950-92f5-867372a2b3a2
+(dataFlow d4a043ef-aadb-4463-803f-e1e6c7b3244a 9c73e4c2-9e53-4950-92f5-867372a2b3a2) {label = "Vehicle crossed information" }
+dataFlow 8b7717f7-bb4b-45c6-9551-ac4d7e811c3b 9c73e4c2-9e53-4950-92f5-867372a2b3a2
+(dataFlow 8b7717f7-bb4b-45c6-9551-ac4d7e811c3b 9c73e4c2-9e53-4950-92f5-867372a2b3a2) {label = "Stop train information" }
+dataFlow 7e401d9f-31c9-40d5-9627-c944380d637b d7e5b145-d26b-4734-82a1-9ddec03c1471
+(dataFlow 7e401d9f-31c9-40d5-9627-c944380d637b d7e5b145-d26b-4734-82a1-9ddec03c1471) {label = "Departing train information" }
+dataFlow 1612642c-f5a6-4667-b0c9-3a4c1e3277dc d7e5b145-d26b-4734-82a1-9ddec03c1471
+(dataFlow 1612642c-f5a6-4667-b0c9-3a4c1e3277dc d7e5b145-d26b-4734-82a1-9ddec03c1471) {label = "Train arrival information" }
+dataFlow ae7aba9c-0b95-4623-bcda-92f19f895183 ba65c041-dcc1-446a-896f-458dc28888dc
+(dataFlow ae7aba9c-0b95-4623-bcda-92f19f895183 ba65c041-dcc1-446a-896f-458dc28888dc) {label = "Arrived train information" }
+dataFlow b53c8d8c-2b31-4875-9308-30a07b074720 ba65c041-dcc1-446a-896f-458dc28888dc
+(dataFlow b53c8d8c-2b31-4875-9308-30a07b074720 ba65c041-dcc1-446a-896f-458dc28888dc) {label = "Departed train information " }
+dataFlow 7e401d9f-31c9-40d5-9627-c944380d637b b53c8d8c-2b31-4875-9308-30a07b074720
+(dataFlow 7e401d9f-31c9-40d5-9627-c944380d637b b53c8d8c-2b31-4875-9308-30a07b074720) {label = "Departure preparation order " }

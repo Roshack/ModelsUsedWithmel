@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[1529, -7, 3079, 871]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="Open">on</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="ZoomFactor">175</P>
+  <P Name="ReportName">simulink-default.rpt</P>
+  <P Name="SIDHighWatermark">22</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="SubSystem" Name="Find edges of &#xA;bit transitions in time" SID="1">
+    <P Name="Ports">[1, 1]</P>
+    <P Name="Position">[420, 305, 465, 335]</P>
+    <P Name="ZOrder">-1</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <System Ref="system_1"/>
+  </Block>
+  <Block BlockType="Reference" Name="Idealized ADC quantizer" SID="8">
+    <P Name="Ports">[1, 1]</P>
+    <P Name="Position">[245, 105, 305, 155]</P>
+    <P Name="ZOrder">-2</P>
+    <P Name="AttributesFormatString">(settings: %&lt;NumberOfConverterBits&gt;-bit converter\nVmin: %&lt;Vmin&gt;, Vmax: %&lt;Vmax&gt;)</P>
+    <P Name="LibraryVersion">7.0</P>
+    <P Name="SourceBlock">simulink_extras/Additional
+Discrete/Idealized ADC quantizer</P>
+    <P Name="SourceType">IdealADC</P>
+    <P Name="SourceProductBaseCode">SL</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="NumberOfConverterBits">12</P>
+      <P Name="Vmin">0</P>
+      <P Name="Vmax">5</P>
+      <P Name="OutputDataType">int16</P>
+      <P Name="OutputNegativeValues">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="SubSystem" Name="Rescale volts to&#xA;match ADC signal" SID="10">
+    <P Name="Ports">[1, 1]</P>
+    <P Name="Position">[235, 247, 315, 283]</P>
+    <P Name="ZOrder">-4</P>
+    <P Name="RequestExecContextInheritance">off</P>
+    <System Ref="system_10"/>
+  </Block>
+  <Block BlockType="Reference" Name="Sweep Across&#xA;Voltage Range&#xA;(Reference signal)" SID="15">
+    <P Name="Ports">[0, 1]</P>
+    <P Name="Position">[75, 115, 120, 145]</P>
+    <P Name="ZOrder">-5</P>
+    <P Name="LibraryVersion">1.480</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence</P>
+    <P Name="SourceType">Repeating table</P>
+    <P Name="SourceProductBaseCode">SL</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="rep_seq_t">[0 7000]</P>
+      <P Name="rep_seq_y">[-0.25, 7]</P>
+    </InstanceData>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">V</P>
+    </Port>
+  </Block>
+  <Block BlockType="Outport" Name="E_volts_in_bit_units" SID="16">
+    <P Name="Position">[575, 258, 605, 272]</P>
+    <P Name="ZOrder">-6</P>
+    <P Name="VectorParamsAs1DForOutWhenUnconnected">off</P>
+  </Block>
+  <Block BlockType="Outport" Name="E_bit_units" SID="17">
+    <P Name="Position">[575, 123, 605, 137]</P>
+    <P Name="ZOrder">-7</P>
+    <P Name="Port">2</P>
+    <P Name="VectorParamsAs1DForOutWhenUnconnected">off</P>
+  </Block>
+  <Block BlockType="Outport" Name="bit_edges" SID="18">
+    <P Name="Position">[575, 313, 605, 327]</P>
+    <P Name="ZOrder">-8</P>
+    <P Name="Port">3</P>
+    <P Name="VectorParamsAs1DForOutWhenUnconnected">off</P>
+  </Block>
+  <Line>
+    <P Name="Name">V</P>
+    <P Name="ZOrder">1</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">15#out:1</P>
+    <P Name="Points">[60, 0]</P>
+    <Branch>
+      <P Name="ZOrder">2</P>
+      <P Name="Points">[0, 135]</P>
+      <P Name="Dst">10#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">3</P>
+      <P Name="Dst">8#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">4</P>
+    <P Name="Src">8#out:1</P>
+    <P Name="Dst">17#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">5</P>
+    <P Name="Src">10#out:1</P>
+    <P Name="Points">[50, 0]</P>
+    <Branch>
+      <P Name="ZOrder">6</P>
+      <P Name="Dst">16#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">7</P>
+      <P Name="Points">[0, 55]</P>
+      <P Name="Dst">1#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">8</P>
+    <P Name="Src">1#out:1</P>
+    <P Name="Dst">18#in:1</P>
+  </Line>
+  <Annotation SID="19">
+    <P Name="Name">Analog to Digital Converter (ADC)
+quantization algorithm
+(zero conversion time)</P>
+    <P Name="Position">[225, 22, 483, 78]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="ZOrder">-1</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">16</P>
+    <P Name="FontWeight">bold</P>
+  </Annotation>
+  <Annotation SID="22">
+    <P Name="Name">Copyright 1990-2013 The MathWorks, Inc.</P>
+    <P Name="Position">[240, 475, 476, 489]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="ZOrder">-4</P>
+  </Annotation>
+</System>

@@ -1,0 +1,68 @@
+$INSTANCE 1 block
+1 {gainLabel = "-1/m" name = "-1/m" type = "Gain" }
+$INSTANCE 19 block
+19 {name = "Bus Creator" type = "BusCreator" }
+$INSTANCE 2 block
+2 {gainLabel = "ctrl" name = "Ctrl" type = "Gain" }
+$INSTANCE 3 block
+3 {value = "0.2" name = "Desired\nrelative\nslip" type = "Constant" }
+$INSTANCE 6 block
+6 {name = "Relative Slip" type = "Fcn" }
+$INSTANCE 7 block
+7 {gainLabel = "Rr" name = "Rr" type = "Gain" }
+$INSTANCE 8 block
+8 {name = "Stop Simulation2" type = "Stop" }
+$INSTANCE 9 block
+9 {name = "Stopping distance" type = "Integrator" }
+$INSTANCE 10 block
+10 {name = "Sum1" type = "Sum" }
+$INSTANCE 11 block
+11 {name = "Vehicle\nspeed" type = "Integrator" }
+$INSTANCE 12 block
+12 {gainLabel = "1/Rr" name = "Vehicle speed\n(angular)" type = "Gain" }
+$INSTANCE 13 block
+13 {gainLabel = "m*g/4" name = "Weight" type = "Gain" }
+$INSTANCE 14 block
+14 {name = "Wheel Speed" type = "ModelReference" }
+$INSTANCE 16 block
+16 {name = "mu-slip\nfriction curve" type = "Lookup_n-D" }
+port 19 1
+(port 19 1) {name = "yout" }
+port 6 1
+(port 6 1) {name = "slp" }
+port 7 1
+(port 7 1) {name = "tire torque" }
+port 9 1
+(port 9 1) {name = "Sd" }
+port 12 1
+(port 12 1) {name = "Vs" }
+port 13 1
+(port 13 1) {name = "Ff" }
+port 14 1
+(port 14 1) {name = "Ww" }
+signal 19 6
+(signal 19 6) {label = "yout" }
+signal 12 19
+(signal 12 19) {label = "Vs" }
+signal 9 19
+(signal 9 19) {label = "Sd" }
+signal 1 11
+signal 11 8
+signal 16 13
+signal 2 10
+signal 3 10
+signal 10 14
+signal 14 19
+(signal 14 19) {label = "Ww" }
+signal 7 14
+(signal 7 14) {label = "tire torque" }
+signal 6 16
+(signal 6 16) {label = "slp" }
+signal 6 2
+(signal 6 2) {label = "slp" }
+signal 11 9
+signal 11 12
+signal 13 1
+(signal 13 1) {label = "Ff" }
+signal 13 7
+(signal 13 7) {label = "Ff" }

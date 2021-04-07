@@ -1,0 +1,534 @@
+$INSTANCE bf08436b-4ccb-4d5a-9489-6db79c31ea06 absFunction
+bf08436b-4ccb-4d5a-9489-6db79c31ea06 {label = "Открыть приложение и экран с функциональностью" }
+$INSTANCE 84eca184-4b93-4ec8-a4e0-3ef823691a82 absFunction
+84eca184-4b93-4ec8-a4e0-3ef823691a82 {label = "Нажать кнопку открытия объекта" }
+$INSTANCE f167b622-e0e1-4bb2-8a40-7e4ea5692e1f absFunction
+f167b622-e0e1-4bb2-8a40-7e4ea5692e1f {label = "[МП] Шифрование сигнала открытия" }
+$INSTANCE 33e722b3-d8c7-42bb-9707-ccfec5d39c58 absFunction
+33e722b3-d8c7-42bb-9707-ccfec5d39c58 {label = "Дешифровка сигнала" }
+$INSTANCE d99995a4-21ec-4544-83f3-80ef1a785761 absFunction
+d99995a4-21ec-4544-83f3-80ef1a785761 {label = "Открытие объекта" }
+$INSTANCE c2cf975b-2630-4c3e-b5cb-31eea22d82e2 absFunction
+c2cf975b-2630-4c3e-b5cb-31eea22d82e2 {label = "Закрытие объекта" }
+$INSTANCE 856d8229-76c1-4d68-94c2-1ac4f37d1c00 absFunction
+856d8229-76c1-4d68-94c2-1ac4f37d1c00 {label = "Проверка зоны действия объекта" }
+$INSTANCE 8f895982-fd2b-4efc-b89c-0d74a90ce211 absFunction
+8f895982-fd2b-4efc-b89c-0d74a90ce211 {label = "[МП] Отображение статуса объекта" }
+$INSTANCE 61d66d61-5afd-4f60-9141-e2190e2cfee3 absFunction
+61d66d61-5afd-4f60-9141-e2190e2cfee3 {label = "Зайти на охраяняемый объект" }
+$INSTANCE 22b2ac21-e7e3-4a09-9811-8a424585f856 absFunction
+22b2ac21-e7e3-4a09-9811-8a424585f856 {label = "Тревога" }
+$INSTANCE b0b7052d-6fb9-48e1-9286-7c73ae924fc9 absFunction
+b0b7052d-6fb9-48e1-9286-7c73ae924fc9 {label = "Звонок охране" }
+$INSTANCE adab062f-ec6f-48ec-ba56-129d11320fae absFunction
+adab062f-ec6f-48ec-ba56-129d11320fae {label = "Сниф трафика" }
+$INSTANCE 5e5f99a7-1b26-4ba0-825f-13f34a6fa552 absFunction
+5e5f99a7-1b26-4ba0-825f-13f34a6fa552 {label = "Генерация сигнала" }
+$INSTANCE d998fd24-a0b4-4719-a184-241b1f4ff9e6 absFunction
+d998fd24-a0b4-4719-a184-241b1f4ff9e6 {label = "[КВН] Генерация видеопотока" }
+$INSTANCE 65b04769-c2f0-4d50-bc3c-8f76bf3bf8ec absFunction
+65b04769-c2f0-4d50-bc3c-8f76bf3bf8ec {label = "[УК] Локальное сохранение видеозаписи" }
+$INSTANCE c158fdd9-7e67-401d-9835-bbe59aa1ce7d absFunction
+c158fdd9-7e67-401d-9835-bbe59aa1ce7d {label = "[BE] Облачное сохранение видеозаписи" }
+$INSTANCE ba19d2fe-e80d-4d74-b1f4-76730d741cb9 absFunction
+ba19d2fe-e80d-4d74-b1f4-76730d741cb9 {label = "[BE] Фильтрация и компрессия видеозаписи" }
+$INSTANCE 527fd7cd-ab78-4919-a158-ab819e1e0ab4 absFunction
+527fd7cd-ab78-4919-a158-ab819e1e0ab4 {label = "[МП] Отображение видеотрансляции" }
+$INSTANCE 68e03e05-9e50-4715-a162-2e4c4399038a absFunction
+68e03e05-9e50-4715-a162-2e4c4399038a {label = "Просмотр камер" }
+$INSTANCE a6d0db8c-572f-4205-99ac-88e88952ba59 absFunction
+a6d0db8c-572f-4205-99ac-88e88952ba59 {label = "[МП] Генерация запроса для получения видеопотока" }
+$INSTANCE 73da27f0-3c68-453e-816c-3391b583e0a1 absFunction
+73da27f0-3c68-453e-816c-3391b583e0a1 {label = "[МП] Генерация запроса на создание гостевого пропуска" }
+$INSTANCE 16eb2a45-56ab-416d-8b66-3b883692ecba absFunction
+16eb2a45-56ab-416d-8b66-3b883692ecba {label = "[BE] Валидация запроса на создание гостя" }
+$INSTANCE 0bf6c0b8-6a41-457e-8dca-e24f0bd24891 absFunction
+0bf6c0b8-6a41-457e-8dca-e24f0bd24891 {label = "[BE] Генерация ответа и уведомлений" }
+$INSTANCE e8dfaeab-09ed-4b98-bc4c-dd1a4a56d76c absFunction
+e8dfaeab-09ed-4b98-bc4c-dd1a4a56d76c {label = "[УК] Генерация запроса на обновление баз данных" }
+$INSTANCE ea052a71-5a4d-471a-85e6-b510c46edcdb absFunction
+ea052a71-5a4d-471a-85e6-b510c46edcdb {label = "[УК] Локальное кеширование данных" }
+$INSTANCE 99e0a1b9-fd6e-4997-8ec7-2cb2339b9cce absFunction
+99e0a1b9-fd6e-4997-8ec7-2cb2339b9cce {label = "[МП] Отображение уведомления\алерта" }
+$INSTANCE 7e5f26dd-9aa8-48ef-95b8-99d1ccf8cf36 absFunction
+7e5f26dd-9aa8-48ef-95b8-99d1ccf8cf36 {label = "Закрыть алерт" }
+$INSTANCE 5c8ebb6a-6b01-4092-a15a-6d0e36e729ce absFunction
+5c8ebb6a-6b01-4092-a15a-6d0e36e729ce {label = "[BE] Семантический анализ" }
+$INSTANCE 1e0b5596-729d-4078-8c92-04fa34a2aafb absFunction
+1e0b5596-729d-4078-8c92-04fa34a2aafb {label = "[BE] Генерация квитанции" }
+$INSTANCE a5ab7a2a-a69d-4557-8f5e-70450abcfb94 absFunction
+a5ab7a2a-a69d-4557-8f5e-70450abcfb94 {label = "[МП] Генерация запроса на оплату" }
+$INSTANCE bdd1888c-4bb1-4f06-83f4-515bfdf2e5f0 absFunction
+bdd1888c-4bb1-4f06-83f4-515bfdf2e5f0 {label = "[BE] Валидация оплаты" }
+$INSTANCE c250edbc-3bfa-4577-9205-b5edfcffe8ad absFunction
+c250edbc-3bfa-4577-9205-b5edfcffe8ad {label = "Открыть приложение и экран с функциональностью" }
+$INSTANCE ea60ddba-37f6-4268-8a54-82246f54c235 absFunction
+ea60ddba-37f6-4268-8a54-82246f54c235 {label = "Нажать кнопку открытия объекта" }
+$INSTANCE d9955742-e160-4017-aa75-2a9d45cbe82b absFunction
+d9955742-e160-4017-aa75-2a9d45cbe82b {label = "[МП] Шифрование сигнала открытия" }
+$INSTANCE 3ae32b8a-0abe-48de-b024-90cb987293e7 absFunction
+3ae32b8a-0abe-48de-b024-90cb987293e7 {label = "Дешифровка сигнала" }
+$INSTANCE fee14e32-3e61-472a-b079-5dbb11a0381c absFunction
+fee14e32-3e61-472a-b079-5dbb11a0381c {label = "Открытие объекта" }
+$INSTANCE d037d4c9-a003-4724-97a3-17232f2e5ba1 absFunction
+d037d4c9-a003-4724-97a3-17232f2e5ba1 {label = "Закрытие объекта" }
+$INSTANCE 056c5edc-76f5-4003-9d07-a758b09de0ee absFunction
+056c5edc-76f5-4003-9d07-a758b09de0ee {label = "Проверка зоны действия объекта" }
+$INSTANCE 57dbf2b0-b825-45a3-a619-d2a2c8c427ca absFunction
+57dbf2b0-b825-45a3-a619-d2a2c8c427ca {label = "[МП] Отображение статуса объекта" }
+$INSTANCE d8dfc1b0-8099-488f-b99a-5c228bec7976 absFunction
+d8dfc1b0-8099-488f-b99a-5c228bec7976 {label = "Зайти на охраяняемый объект" }
+$INSTANCE 5e511dd7-735a-42a4-88e6-65036972167f absFunction
+5e511dd7-735a-42a4-88e6-65036972167f {label = "Тревога" }
+$INSTANCE 86f3fc4a-0fd6-43bc-b1b4-54b55ec33f7a absFunction
+86f3fc4a-0fd6-43bc-b1b4-54b55ec33f7a {label = "Звонок охране" }
+$INSTANCE c3063eb0-c5a5-4c77-9a83-751c7bada4f3 absFunction
+c3063eb0-c5a5-4c77-9a83-751c7bada4f3 {label = "Сниф трафика" }
+$INSTANCE c78a137a-463f-4c59-a18c-f2ad4048fd46 absFunction
+c78a137a-463f-4c59-a18c-f2ad4048fd46 {label = "Генерация сигнала" }
+$INSTANCE 602c5ae9-925a-4a49-80a8-c6e1d7ff1927 absFunction
+602c5ae9-925a-4a49-80a8-c6e1d7ff1927 {label = "[КВН] Генерация видеопотока" }
+$INSTANCE b83f20c8-1d43-49cc-9232-3e685be8ac06 absFunction
+b83f20c8-1d43-49cc-9232-3e685be8ac06 {label = "[УК] Локальное сохранение видеозаписи" }
+$INSTANCE 15f1f205-93ab-42bf-9df8-7d8c38efe7c5 absFunction
+15f1f205-93ab-42bf-9df8-7d8c38efe7c5 {label = "[BE] Облачное сохранение видеозаписи" }
+$INSTANCE bbe8fac0-d6ed-453b-baa2-6ce78f8b1f05 absFunction
+bbe8fac0-d6ed-453b-baa2-6ce78f8b1f05 {label = "[BE] Фильтрация и компрессия видеозаписи" }
+$INSTANCE 0b815a41-41a6-497d-91a2-3bd994263eb1 absFunction
+0b815a41-41a6-497d-91a2-3bd994263eb1 {label = "[МП] Отображение видеотрансляции" }
+$INSTANCE 1cc4d84c-fff1-4dc6-ac8a-0f3fb217d393 absFunction
+1cc4d84c-fff1-4dc6-ac8a-0f3fb217d393 {label = "Просмотр камер" }
+$INSTANCE af505408-e251-4f17-adcd-66503931da10 absFunction
+af505408-e251-4f17-adcd-66503931da10 {label = "[МП] Генерация запроса для получения видеопотока" }
+$INSTANCE 8eafe718-5811-48eb-9e91-ddfa48419d1f absFunction
+8eafe718-5811-48eb-9e91-ddfa48419d1f {label = "[МП] Генерация запроса на создание гостевого пропуска" }
+$INSTANCE 642c1b24-36ab-4a42-811c-5140c748ed73 absFunction
+642c1b24-36ab-4a42-811c-5140c748ed73 {label = "[BE] Валидация запроса на создание гостя" }
+$INSTANCE a1202356-760f-4857-b3c0-7a720f09934a absFunction
+a1202356-760f-4857-b3c0-7a720f09934a {label = "[BE] Генерация ответа и уведомлений" }
+$INSTANCE 5c30f9b9-21a2-48aa-bfe5-465114d76d28 absFunction
+5c30f9b9-21a2-48aa-bfe5-465114d76d28 {label = "[УК] Генерация запроса на обновление баз данных" }
+$INSTANCE 466a1431-bc30-4f9c-a2b4-54c869747c36 absFunction
+466a1431-bc30-4f9c-a2b4-54c869747c36 {label = "[УК] Локальное кеширование данных" }
+$INSTANCE 9e88a10e-3a88-4b54-ae16-ab0b252e2c32 absFunction
+9e88a10e-3a88-4b54-ae16-ab0b252e2c32 {label = "[МП] Отображение уведомления\алерта" }
+$INSTANCE 141c38a3-9348-41be-a41e-4a12a34efcdd absFunction
+141c38a3-9348-41be-a41e-4a12a34efcdd {label = "Закрыть алерт" }
+$INSTANCE bf600d6b-0f9e-4a8d-a02e-d248a6828333 absFunction
+bf600d6b-0f9e-4a8d-a02e-d248a6828333 {label = "[BE] Семантический анализ" }
+$INSTANCE ccec40b4-8b64-40a7-8637-de57dbde23aa absFunction
+ccec40b4-8b64-40a7-8637-de57dbde23aa {label = "[BE] Генерация квитанции" }
+$INSTANCE 96efde2f-0008-44b5-b9ab-8c0afbca9e4b absFunction
+96efde2f-0008-44b5-b9ab-8c0afbca9e4b {label = "[МП] Генерация запроса на оплату" }
+$INSTANCE 96057f80-7b42-43cb-b477-196490dea447 absFunction
+96057f80-7b42-43cb-b477-196490dea447 {label = "[BE] Валидация оплаты" }
+$INSTANCE 40131143-0f6a-40bd-95e8-f80bd0f790cb absFunction
+40131143-0f6a-40bd-95e8-f80bd0f790cb {label = "Загрузка на устройство актуальных данных" }
+$INSTANCE 71f9dbc6-0b13-480a-839e-254b66d6ac6b absFunction
+71f9dbc6-0b13-480a-839e-254b66d6ac6b {label = "Открытие объекта" }
+$INSTANCE 73e3ee12-4ccf-434e-9ec7-cce02e72de43 absFunction
+73e3ee12-4ccf-434e-9ec7-cce02e72de43 {label = "Индикация статуса открытия объекта" }
+$INSTANCE 8f9be82c-7783-4a69-96a9-c624728cbb6c absFunction
+8f9be82c-7783-4a69-96a9-c624728cbb6c {label = "Определение номера ТС" }
+$INSTANCE 660cf5e5-62b2-4f5f-8898-dbedf2ff6126 absFunction
+660cf5e5-62b2-4f5f-8898-dbedf2ff6126 {label = "Подъехать на ТС" }
+$INSTANCE bab34215-b446-4531-9448-7be525025c82 absFunction
+bab34215-b446-4531-9448-7be525025c82 {label = "Создать запись о Госте" }
+$INSTANCE 31eb9e40-6560-4838-9a8e-ffcfa0479175 absFunction
+31eb9e40-6560-4838-9a8e-ffcfa0479175 {label = "Отображение" }
+$INSTANCE f57d6c43-d5c5-4f17-9ee2-21d3e1ba4905 absFunction
+f57d6c43-d5c5-4f17-9ee2-21d3e1ba4905 {label = "Отображение закешированных данных" }
+$INSTANCE 7348e80f-b806-4b24-87b4-3df23f8e150b absFunction
+7348e80f-b806-4b24-87b4-3df23f8e150b {label = "Отображение актуальных данных" }
+$INSTANCE 42820af2-c3f0-482b-87f7-4ef77f6ad8a8 absFunction
+42820af2-c3f0-482b-87f7-4ef77f6ad8a8 {label = "Генерация запроса" }
+$INSTANCE f6df0969-9066-4ce5-950d-ecb9a43ccbea absFunction
+f6df0969-9066-4ce5-950d-ecb9a43ccbea {label = "Инициация загрузки актуальных данных" }
+$INSTANCE 0c93d7db-c747-4f61-93b8-5f3bde07a448 absFunction
+0c93d7db-c747-4f61-93b8-5f3bde07a448 {label = "Инициация определения номера ТС" }
+$INSTANCE 31c27a4f-2e65-48bf-9d94-6b8e88c0dac9 absFunction
+31c27a4f-2e65-48bf-9d94-6b8e88c0dac9 {label = "Инициация открытия объекта" }
+$INSTANCE 0c441d1c-2ee6-48b6-85fc-b555cd4a0804 absFunction
+0c441d1c-2ee6-48b6-85fc-b555cd4a0804 {label = "Отправить заявку на создание Гостя" }
+$INSTANCE c89d26df-558b-40f0-a626-ce596eec876e absFunction
+c89d26df-558b-40f0-a626-ce596eec876e {label = "Обработка данных" }
+$INSTANCE 816ebe5a-522d-413a-a717-7b7694926732 absFunction
+816ebe5a-522d-413a-a717-7b7694926732 {label = "Сохранить данные гостя" }
+$INSTANCE c55effe8-0f32-49e8-a508-249cf44dc232 absFunction
+c55effe8-0f32-49e8-a508-249cf44dc232 {label = "Определить наличие ТС" }
+$INSTANCE 3be0a7fb-c34d-464c-a128-9c6b69fc59d9 absFunction
+3be0a7fb-c34d-464c-a128-9c6b69fc59d9 {label = "Кеширование данных" }
+$INSTANCE 9b0bbf9f-41fc-410e-bb62-ea33213b2b72 absFunction
+9b0bbf9f-41fc-410e-bb62-ea33213b2b72 {label = "Определение объекта для открытия" }
+$INSTANCE 9b3b6d8d-58cd-403d-af7e-103d7e128399 absFunction
+9b3b6d8d-58cd-403d-af7e-103d7e128399 {label = "ТС определено и идентифицировано" }
+$INSTANCE 96335e4d-b169-4d7d-ba37-f376bdeb094d absComponent
+96335e4d-b169-4d7d-ba37-f376bdeb094d {label = "Logical System" }
+$INSTANCE 87faceac-500f-461d-97b3-256cac25def9 absData
+87faceac-500f-461d-97b3-256cac25def9 {label = "Переход на список объектов" }
+$INSTANCE 214dd2e3-581c-44ce-abdc-dbaf72b8c05c absData
+214dd2e3-581c-44ce-abdc-dbaf72b8c05c {label = "Валидация выборанного объекта" }
+$INSTANCE c91041dd-2807-442c-aec4-8dc2972f9ede absData
+c91041dd-2807-442c-aec4-8dc2972f9ede {label = "Отправка данных на устройство" }
+$INSTANCE 099fc07d-0d1d-4b86-95ea-8482286ceb48 absData
+099fc07d-0d1d-4b86-95ea-8482286ceb48 {label = "Определение типа управляющего сигнала" }
+$INSTANCE a2984ca6-6dc2-46fa-ad7a-7fe933139474 absData
+a2984ca6-6dc2-46fa-ad7a-7fe933139474 {label = "Ожидание 10 секунд и запуск протоколов закрытия" }
+$INSTANCE ba0a57b2-9bdc-416f-94a8-a75cc2eca6b7 absData
+ba0a57b2-9bdc-416f-94a8-a75cc2eca6b7 {label = "Запуск механизмов закрытия" }
+$INSTANCE 018381ef-c990-450b-8fdd-3f1d7cff5fd8 absData
+018381ef-c990-450b-8fdd-3f1d7cff5fd8 {label = "Отправка уведомления на устройство об изменении статуса" }
+$INSTANCE c7989db3-2971-4303-ad64-6ba20e04e184 absData
+c7989db3-2971-4303-ad64-6ba20e04e184 {label = "Ознакомление с новым статусом " }
+$INSTANCE dff4fe47-b570-4331-9f95-da459a4a6c95 absData
+dff4fe47-b570-4331-9f95-da459a4a6c95 {label = "Перехват отправленного сигнала" }
+$INSTANCE 6ae97682-bc56-4ee5-b880-4d8e7799f0ac absData
+6ae97682-bc56-4ee5-b880-4d8e7799f0ac {label = "Реверс-инжиниринг" }
+$INSTANCE d3c82233-598e-406f-877c-c9941b8b2811 absData
+d3c82233-598e-406f-877c-c9941b8b2811 {label = "Отправка сигнала на открытие" }
+$INSTANCE 84c24305-475c-43db-872d-d7dce564e597 absData
+84c24305-475c-43db-872d-d7dce564e597 {label = "Ознакомиться с предупреждением" }
+$INSTANCE 0848af0c-d9ab-43fc-baaa-d4db7f688133 absData
+0848af0c-d9ab-43fc-baaa-d4db7f688133 {label = "Отправка уведомление о тревоге на устройства" }
+$INSTANCE 0292cea8-9457-4da0-9522-24d653134702 absData
+0292cea8-9457-4da0-9522-24d653134702 {label = "Проверка сигнала" }
+$INSTANCE 463f86d6-e2d2-45f9-8ae0-bb71e9300bd0 absData
+463f86d6-e2d2-45f9-8ae0-bb71e9300bd0 {label = "Выбор камеры для просмотра" }
+$INSTANCE 1d56c5e7-631c-44d6-a6be-406d58a7d0d3 absData
+1d56c5e7-631c-44d6-a6be-406d58a7d0d3 {label = "Выбор камеры для просмотра" }
+$INSTANCE 25087045-b2ae-49ee-8309-82e4c7c37923 absData
+25087045-b2ae-49ee-8309-82e4c7c37923 {label = "Передача видеопотока" }
+$INSTANCE 02af4147-55a2-4052-a203-87e9e4d075fc absData
+02af4147-55a2-4052-a203-87e9e4d075fc {label = "Трансляция видеопотока" }
+$INSTANCE 47a2fcec-5f4a-4729-91a3-f0863a2106f8 absData
+47a2fcec-5f4a-4729-91a3-f0863a2106f8 {label = "Обработка видеопотока" }
+$INSTANCE df814a45-7a9a-4fd9-94cf-60d1e4495214 absData
+df814a45-7a9a-4fd9-94cf-60d1e4495214 {label = "Запрос видеопотока" }
+$INSTANCE 4b79af71-2307-42cc-afc9-af5cebfedfbb absData
+4b79af71-2307-42cc-afc9-af5cebfedfbb {label = "Обработка ответа на запрос" }
+$INSTANCE cdf9f86b-c7b5-4ab8-8234-09078b68b420 absData
+cdf9f86b-c7b5-4ab8-8234-09078b68b420 {label = "Видеотрансляция отображена в интерфейсе" }
+$INSTANCE 62423d75-995e-4716-a538-a3e982013484 absData
+62423d75-995e-4716-a538-a3e982013484 {label = "Заполнение формы заявки" }
+$INSTANCE a4f39771-3069-4ace-a71d-c1e9e7b24c00 absData
+a4f39771-3069-4ace-a71d-c1e9e7b24c00 {label = "Запрос на создание гостя" }
+$INSTANCE d59c5d5e-3641-423c-967f-a2e9e3333db1 absData
+d59c5d5e-3641-423c-967f-a2e9e3333db1 {label = "Создание гостя" }
+$INSTANCE 92c3b4e5-1b70-4507-b407-4562af39f9bf absData
+92c3b4e5-1b70-4507-b407-4562af39f9bf {label = "Уведомление об изменении списка пользователей" }
+$INSTANCE 4e62d6ff-3c04-4ebf-8e51-75cf4013be52 absData
+4e62d6ff-3c04-4ebf-8e51-75cf4013be52 {label = "Отправка ответа об успешном создании гостя" }
+$INSTANCE 8c360777-cfb0-4e61-9f7d-d44efb453532 absData
+8c360777-cfb0-4e61-9f7d-d44efb453532 {label = "Запрос на актуальный список пользователей" }
+$INSTANCE 27d3310c-60c9-414c-850d-1af79dad92e2 absData
+27d3310c-60c9-414c-850d-1af79dad92e2 {label = "Обработка данных" }
+$INSTANCE 529d6808-9648-48da-a7b8-e2c7d69e2df4 absData
+529d6808-9648-48da-a7b8-e2c7d69e2df4 {label = "Ознакомиться с алертом" }
+$INSTANCE 50f36975-3d0c-436a-8341-1984e54550af absData
+50f36975-3d0c-436a-8341-1984e54550af {label = "Обработка видеопотока" }
+$INSTANCE 7f7851be-8d11-4d6e-9212-5930d7fce2b1 absData
+7f7851be-8d11-4d6e-9212-5930d7fce2b1 {label = "Формирование уведомления" }
+$INSTANCE 057b65df-1787-47b0-bf49-df37bdaaeb35 absData
+057b65df-1787-47b0-bf49-df37bdaaeb35 {label = "Показ Push-уведомления " }
+$INSTANCE 9d1f11d2-9be9-4c8f-80a7-15922e461906 absData
+9d1f11d2-9be9-4c8f-80a7-15922e461906 {label = "Заполнение формы на оплату" }
+$INSTANCE dafd7e70-8e06-4272-bba0-704f7fc15a07 absData
+dafd7e70-8e06-4272-bba0-704f7fc15a07 {label = "Запрос о факте оплаты квитанции" }
+$INSTANCE a261a289-9772-4d19-b746-c98b1177898c absData
+a261a289-9772-4d19-b746-c98b1177898c {label = "Переход на список объектов" }
+$INSTANCE 0626e094-4fe0-44e2-91bd-f3b0b60dd5f1 absData
+0626e094-4fe0-44e2-91bd-f3b0b60dd5f1 {label = "Валидация выборанного объекта" }
+$INSTANCE 343d180d-1cb7-40dd-9f55-96192c25b248 absData
+343d180d-1cb7-40dd-9f55-96192c25b248 {label = "Отправка данных на устройство" }
+$INSTANCE 8c4d9053-a087-4697-9d7d-3d80397ef496 absData
+8c4d9053-a087-4697-9d7d-3d80397ef496 {label = "Определение типа управляющего сигнала" }
+$INSTANCE e6966ed2-3f70-4bc0-9048-81d3c1ca3a85 absData
+e6966ed2-3f70-4bc0-9048-81d3c1ca3a85 {label = "Ожидание 10 секунд и запуск протоколов закрытия" }
+$INSTANCE ccf78f6b-caa0-471a-a96c-1b70ba204839 absData
+ccf78f6b-caa0-471a-a96c-1b70ba204839 {label = "Запуск механизмов закрытия" }
+$INSTANCE e1653f11-96f6-4ba8-aaa3-34321de3af24 absData
+e1653f11-96f6-4ba8-aaa3-34321de3af24 {label = "Отправка уведомления на устройство об изменении статуса" }
+$INSTANCE 0814bf46-25cc-4d57-9509-d7897798678e absData
+0814bf46-25cc-4d57-9509-d7897798678e {label = "Ознакомление с новым статусом " }
+$INSTANCE 3b6a03f0-24d3-4e52-9175-f46bc63782a5 absData
+3b6a03f0-24d3-4e52-9175-f46bc63782a5 {label = "Перехват отправленного сигнала" }
+$INSTANCE 33eac9d8-2c5c-48a1-ba32-4bd89f49a0e0 absData
+33eac9d8-2c5c-48a1-ba32-4bd89f49a0e0 {label = "Реверс-инжиниринг" }
+$INSTANCE eb7b7ad2-7f7b-4fe6-b53b-4af833d145d8 absData
+eb7b7ad2-7f7b-4fe6-b53b-4af833d145d8 {label = "Отправка сигнала на открытие" }
+$INSTANCE bf2769db-bfdb-415f-bc73-7de33bdc0c5e absData
+bf2769db-bfdb-415f-bc73-7de33bdc0c5e {label = "Ознакомиться с предупреждением" }
+$INSTANCE 4b8a40f9-4326-41ea-b7fb-8c472a410b85 absData
+4b8a40f9-4326-41ea-b7fb-8c472a410b85 {label = "Отправка уведомление о тревоге на устройства" }
+$INSTANCE 8cc92ca1-447a-4bb0-9e88-e5be6492197d absData
+8cc92ca1-447a-4bb0-9e88-e5be6492197d {label = "Проверка сигнала" }
+$INSTANCE 25866334-2f27-4c70-a16b-e7980b9884b0 absData
+25866334-2f27-4c70-a16b-e7980b9884b0 {label = "Выбор камеры для просмотра" }
+$INSTANCE 5d76c119-7834-4435-b6ac-9a91fd74962d absData
+5d76c119-7834-4435-b6ac-9a91fd74962d {label = "Выбор камеры для просмотра" }
+$INSTANCE f80cc21e-2aec-4d57-93aa-46afbaffe86d absData
+f80cc21e-2aec-4d57-93aa-46afbaffe86d {label = "Передача видеопотока" }
+$INSTANCE 01afb327-e39f-49b6-a755-93ae5e121cb0 absData
+01afb327-e39f-49b6-a755-93ae5e121cb0 {label = "Трансляция видеопотока" }
+$INSTANCE 9e02a0a0-c245-4d0c-8b69-cd65ebffaed3 absData
+9e02a0a0-c245-4d0c-8b69-cd65ebffaed3 {label = "Обработка видеопотока" }
+$INSTANCE 616fca79-43b1-403a-b037-07698f6564ba absData
+616fca79-43b1-403a-b037-07698f6564ba {label = "Запрос видеопотока" }
+$INSTANCE e1d61f14-d19e-4a07-9305-f5791f07fc24 absData
+e1d61f14-d19e-4a07-9305-f5791f07fc24 {label = "Обработка ответа на запрос" }
+$INSTANCE 79791b86-cf84-48a3-a664-a4efa9976666 absData
+79791b86-cf84-48a3-a664-a4efa9976666 {label = "Видеотрансляция отображена в интерфейсе" }
+$INSTANCE d79283ae-5c34-415f-b2fe-23702f22c183 absData
+d79283ae-5c34-415f-b2fe-23702f22c183 {label = "Заполнение формы заявки" }
+$INSTANCE 2337ddb1-b19e-4279-87e5-ee336cebc906 absData
+2337ddb1-b19e-4279-87e5-ee336cebc906 {label = "Запрос на создание гостя" }
+$INSTANCE 7aa4e2a1-f43d-45d2-8dfe-20233e6315e2 absData
+7aa4e2a1-f43d-45d2-8dfe-20233e6315e2 {label = "Создание гостя" }
+$INSTANCE 2f57a4d9-21a3-4bdc-8fa3-c5de10b8a585 absData
+2f57a4d9-21a3-4bdc-8fa3-c5de10b8a585 {label = "Уведомление об изменении списка пользователей" }
+$INSTANCE b3f9efad-9098-4b69-a591-6ec2b7cf00a0 absData
+b3f9efad-9098-4b69-a591-6ec2b7cf00a0 {label = "Отправка ответа об успешном создании гостя" }
+$INSTANCE 4cdf115a-33b1-4d23-b2ec-03aab76afae7 absData
+4cdf115a-33b1-4d23-b2ec-03aab76afae7 {label = "Запрос на актуальный список пользователей" }
+$INSTANCE c801ffdd-c3da-427d-b6eb-8b2d3cee84fc absData
+c801ffdd-c3da-427d-b6eb-8b2d3cee84fc {label = "Обработка данных" }
+$INSTANCE 17d79820-4cd6-4365-a635-4afab6271b7b absData
+17d79820-4cd6-4365-a635-4afab6271b7b {label = "Ознакомиться с алертом" }
+$INSTANCE 25f0114b-46c9-4403-9645-27b9a7d93e83 absData
+25f0114b-46c9-4403-9645-27b9a7d93e83 {label = "Обработка видеопотока" }
+$INSTANCE ccf6aa31-3f54-4def-8e45-6717fa1cb0ee absData
+ccf6aa31-3f54-4def-8e45-6717fa1cb0ee {label = "Формирование уведомления" }
+$INSTANCE 1b9a0505-d47d-4bea-b9b4-61a1c8c8670b absData
+1b9a0505-d47d-4bea-b9b4-61a1c8c8670b {label = "Показ Push-уведомления " }
+$INSTANCE 14cf3356-530d-45ba-ba60-f870138c76fe absData
+14cf3356-530d-45ba-ba60-f870138c76fe {label = "Заполнение формы на оплату" }
+$INSTANCE 6a7e2374-e679-4f74-be9d-3b988f85e807 absData
+6a7e2374-e679-4f74-be9d-3b988f85e807 {label = "Запрос о факте оплаты квитанции" }
+$INSTANCE 83070142-b298-4438-b443-e1052bef73a3 absData
+83070142-b298-4438-b443-e1052bef73a3 {label = "Запрос от пользователя на отображение объектов" }
+$INSTANCE c113201c-5f65-4b1e-bba7-bf8e41297118 absData
+c113201c-5f65-4b1e-bba7-bf8e41297118 {label = "Определить необходимость загрузки актуальных данных" }
+$INSTANCE 762aa103-5e8a-4661-80b0-8ca68e19001d absData
+762aa103-5e8a-4661-80b0-8ca68e19001d {label = "Ожидание загрузки на устройство актуальных данных" }
+$INSTANCE 02cc3dfa-f3a1-4739-9e55-868e7a0fc8a0 absData
+02cc3dfa-f3a1-4739-9e55-868e7a0fc8a0 {label = "Обработка данных для UI" }
+$INSTANCE 6c6c2415-292d-4dc3-8f90-0e87c828063a absData
+6c6c2415-292d-4dc3-8f90-0e87c828063a {label = "Система имеет актуальные данные" }
+$INSTANCE 9292a9f0-ea16-4a71-82c8-0f1d5ecab5ce absData
+9292a9f0-ea16-4a71-82c8-0f1d5ecab5ce {label = "Обработка данных для кеширования" }
+$INSTANCE 7653f465-4942-4ad4-a95f-a38d13628836 absData
+7653f465-4942-4ad4-a95f-a38d13628836 {label = "Действие на открытие от пользователя" }
+$INSTANCE 1550d83a-b5db-4ad6-ac36-bac7f3b79e03 absData
+1550d83a-b5db-4ad6-ac36-bac7f3b79e03 {label = "Объект определен" }
+$INSTANCE d0431e73-1652-4b50-ad4a-20c92d87aac8 absData
+d0431e73-1652-4b50-ad4a-20c92d87aac8 {label = "Ожидание ответа об изменении статуса" }
+$INSTANCE a96fdb6f-55f5-44f4-9898-e606bf5c7f11 absData
+a96fdb6f-55f5-44f4-9898-e606bf5c7f11 {label = "Запуск протоколов открытия" }
+$INSTANCE 83077dc5-e088-4773-ba6f-28b875a1db01 absData
+83077dc5-e088-4773-ba6f-28b875a1db01 {label = "Рекция на изменение Системы" }
+$INSTANCE abbbd48b-eab9-4b6b-bfd1-a80abfa89ef2 absData
+abbbd48b-eab9-4b6b-bfd1-a80abfa89ef2 {label = "Система получает ивент о подъехавшем ТС" }
+$INSTANCE 8d3f7ff0-5762-4cdf-85f7-cfa1b5fbf927 absData
+8d3f7ff0-5762-4cdf-85f7-cfa1b5fbf927 {label = "Система определила ТС" }
+$INSTANCE 1f5b95f2-d52e-411a-b96e-cb361188c954 absData
+1f5b95f2-d52e-411a-b96e-cb361188c954 {label = "Запрос на идентификацию ТС" }
+$INSTANCE ade5012d-c984-4d46-89cd-da0652ea1491 absData
+ade5012d-c984-4d46-89cd-da0652ea1491 {label = "Запрос на доступ к видеопотоку" }
+$INSTANCE 39113aff-7776-4cfb-bfc0-2973410ae8f2 absData
+39113aff-7776-4cfb-bfc0-2973410ae8f2 {label = "Система идентифицировала ТС" }
+$INSTANCE 6971de1d-6ffc-4cf1-ab2b-8e708336583d absData
+6971de1d-6ffc-4cf1-ab2b-8e708336583d {label = "Реакция на изменение Системы" }
+$INSTANCE 315b84f6-beab-4602-8f25-df27d9e6881d absData
+315b84f6-beab-4602-8f25-df27d9e6881d {label = "ТС распознано в базе" }
+$INSTANCE 13a2c611-3556-4248-bd8f-fa0a0f68d398 absData
+13a2c611-3556-4248-bd8f-fa0a0f68d398 {label = "Заполнение формы заявки" }
+$INSTANCE 1d0e779c-b9ff-4214-a4f9-5bc0bbfcd314 absData
+1d0e779c-b9ff-4214-a4f9-5bc0bbfcd314 {label = "Передача данных о госте" }
+$INSTANCE cfd55f55-e571-473e-a7c7-b16695903ed9 absData
+cfd55f55-e571-473e-a7c7-b16695903ed9 {label = "Гость успешно создан" }
+$INSTANCE dd0a5778-a0d9-4ca0-bb81-b1ef55845db9 absData
+dd0a5778-a0d9-4ca0-bb81-b1ef55845db9 {label = "Реакция на изменение Системы" }
+dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad ea60ddba-37f6-4268-8a54-82246f54c235
+(dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad ea60ddba-37f6-4268-8a54-82246f54c235) {O = "8895a45b-0ca6-48c4-8707-61c881caaf25" I = "889dac74-febc-4476-8943-30e2c4495611" label = "Переход на список объектов" }
+dataFlow ea60ddba-37f6-4268-8a54-82246f54c235 d9955742-e160-4017-aa75-2a9d45cbe82b
+(dataFlow ea60ddba-37f6-4268-8a54-82246f54c235 d9955742-e160-4017-aa75-2a9d45cbe82b) {O = "40237106-66b0-416c-b941-df8f47514f22" I = "71e5a7f9-0159-4f30-8155-8467b22fd6bf" label = "Валидация выборанного объекта" }
+dataFlow d9955742-e160-4017-aa75-2a9d45cbe82b 3ae32b8a-0abe-48de-b024-90cb987293e7
+(dataFlow d9955742-e160-4017-aa75-2a9d45cbe82b 3ae32b8a-0abe-48de-b024-90cb987293e7) {O = "44ae34e7-ef6d-4ceb-9da5-441dc5075251" I = "ecb5ac34-e2dc-458e-96a9-005fda5bdb0c" label = "Отправка данных на устройство" }
+dataFlow 3ae32b8a-0abe-48de-b024-90cb987293e7 fee14e32-3e61-472a-b079-5dbb11a0381c
+(dataFlow 3ae32b8a-0abe-48de-b024-90cb987293e7 fee14e32-3e61-472a-b079-5dbb11a0381c) {O = "a5c48044-3da2-4fa7-b35b-020acbd199a9" I = "38a5e5f7-a2f3-43b8-a054-66cda8afc2dc" label = "Определение типа управляющего сигнала" }
+dataFlow fee14e32-3e61-472a-b079-5dbb11a0381c 056c5edc-76f5-4003-9d07-a758b09de0ee
+(dataFlow fee14e32-3e61-472a-b079-5dbb11a0381c 056c5edc-76f5-4003-9d07-a758b09de0ee) {O = "3560e868-6c71-4028-9206-fc898ce4eacc" I = "43f53c8e-6b3c-4fb2-ab9a-3ecb9e04f9ec" label = "Ожидание 10 секунд и запуск протоколов закрытия" }
+dataFlow 056c5edc-76f5-4003-9d07-a758b09de0ee d037d4c9-a003-4724-97a3-17232f2e5ba1
+(dataFlow 056c5edc-76f5-4003-9d07-a758b09de0ee d037d4c9-a003-4724-97a3-17232f2e5ba1) {O = "44349e68-9b7e-4059-8b75-5a598d283f18" I = "37c6d3a2-212a-436c-b6d4-1fe6db9a5559" label = "Запуск механизмов закрытия" }
+dataFlow fee14e32-3e61-472a-b079-5dbb11a0381c 57dbf2b0-b825-45a3-a619-d2a2c8c427ca
+(dataFlow fee14e32-3e61-472a-b079-5dbb11a0381c 57dbf2b0-b825-45a3-a619-d2a2c8c427ca) {O = "8fc5b13d-f986-4340-864e-62fe8a4e8d17" I = "77b81264-3d77-4546-8bde-ba77b7986499" label = "Отправка уведомления на устройство об изменении статуса" }
+dataFlow 57dbf2b0-b825-45a3-a619-d2a2c8c427ca d8dfc1b0-8099-488f-b99a-5c228bec7976
+(dataFlow 57dbf2b0-b825-45a3-a619-d2a2c8c427ca d8dfc1b0-8099-488f-b99a-5c228bec7976) {O = "11f0be6d-1ed3-4319-8deb-a4ce36e2b252" I = "30966a4f-f315-4143-99ea-10627722dee4" label = "Ознакомление с новым статусом " }
+dataFlow d9955742-e160-4017-aa75-2a9d45cbe82b c3063eb0-c5a5-4c77-9a83-751c7bada4f3
+(dataFlow d9955742-e160-4017-aa75-2a9d45cbe82b c3063eb0-c5a5-4c77-9a83-751c7bada4f3) {O = "57695122-3522-4e13-910c-162697067be2" I = "485ec620-2b5f-4218-accf-ddc29ddb57e7" label = "Перехват отправленного сигнала" }
+dataFlow c3063eb0-c5a5-4c77-9a83-751c7bada4f3 c78a137a-463f-4c59-a18c-f2ad4048fd46
+(dataFlow c3063eb0-c5a5-4c77-9a83-751c7bada4f3 c78a137a-463f-4c59-a18c-f2ad4048fd46) {O = "9a1c1250-a053-480e-b2f2-0cf27ae4bc49" I = "51fe955e-eb85-41d6-9418-59b1deec365f" label = "Реверс-инжиниринг" }
+dataFlow c78a137a-463f-4c59-a18c-f2ad4048fd46 3ae32b8a-0abe-48de-b024-90cb987293e7
+(dataFlow c78a137a-463f-4c59-a18c-f2ad4048fd46 3ae32b8a-0abe-48de-b024-90cb987293e7) {O = "ed8b1801-cf8c-4e2b-a014-e635c1bcb58a" I = "f74be143-f03c-4df4-8654-bd98aab2b08f" label = "Отправка сигнала на открытие" }
+dataFlow 57dbf2b0-b825-45a3-a619-d2a2c8c427ca 86f3fc4a-0fd6-43bc-b1b4-54b55ec33f7a
+(dataFlow 57dbf2b0-b825-45a3-a619-d2a2c8c427ca 86f3fc4a-0fd6-43bc-b1b4-54b55ec33f7a) {O = "1d52798c-0ad4-4c3b-88ed-1df1aea2ea02" I = "bee3d501-6589-4547-85c9-887294276509" label = "Ознакомиться с предупреждением" }
+dataFlow 5e511dd7-735a-42a4-88e6-65036972167f 57dbf2b0-b825-45a3-a619-d2a2c8c427ca
+(dataFlow 5e511dd7-735a-42a4-88e6-65036972167f 57dbf2b0-b825-45a3-a619-d2a2c8c427ca) {O = "323bfee6-f38c-4ac2-b19b-abcc80639ee8" I = "955d4567-141e-4502-8b59-f62b88689184" label = "Отправка уведомление о тревоге на устройства" }
+dataFlow 3ae32b8a-0abe-48de-b024-90cb987293e7 5e511dd7-735a-42a4-88e6-65036972167f
+(dataFlow 3ae32b8a-0abe-48de-b024-90cb987293e7 5e511dd7-735a-42a4-88e6-65036972167f) {O = "e8cd2b2d-36ed-4958-b7f1-a203426e9332" I = "f3dc1437-099f-47d1-8c64-410aaa5d91a2" label = "Проверка сигнала" }
+dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad 1cc4d84c-fff1-4dc6-ac8a-0f3fb217d393
+(dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad 1cc4d84c-fff1-4dc6-ac8a-0f3fb217d393) {O = "44bc6281-5b5f-45ec-a2a4-c7760c5e37cd" I = "4dff058d-534a-4522-a23e-4a63095378f8" label = "Выбор камеры для просмотра" }
+dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad af505408-e251-4f17-adcd-66503931da10
+(dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad af505408-e251-4f17-adcd-66503931da10) {O = "8895a45b-0ca6-48c4-8707-61c881caaf25" I = "ea6eef4a-044b-4cd6-8751-5d56bf82ee3b" label = "Выбор камеры для просмотра" }
+dataFlow 602c5ae9-925a-4a49-80a8-c6e1d7ff1927 b83f20c8-1d43-49cc-9232-3e685be8ac06
+(dataFlow 602c5ae9-925a-4a49-80a8-c6e1d7ff1927 b83f20c8-1d43-49cc-9232-3e685be8ac06) {O = "81efc4d4-cc3c-4d04-926f-9f7d47e937c7" I = "666c3115-a260-46cf-976c-f341a9e7a43e" label = "Передача видеопотока" }
+dataFlow b83f20c8-1d43-49cc-9232-3e685be8ac06 15f1f205-93ab-42bf-9df8-7d8c38efe7c5
+(dataFlow b83f20c8-1d43-49cc-9232-3e685be8ac06 15f1f205-93ab-42bf-9df8-7d8c38efe7c5) {O = "4e5b2658-8e65-4ec1-9f46-c596c9e1b525" I = "93ad4deb-60d7-4c6b-ae0e-d01b40515da0" label = "Трансляция видеопотока" }
+dataFlow 15f1f205-93ab-42bf-9df8-7d8c38efe7c5 bbe8fac0-d6ed-453b-baa2-6ce78f8b1f05
+(dataFlow 15f1f205-93ab-42bf-9df8-7d8c38efe7c5 bbe8fac0-d6ed-453b-baa2-6ce78f8b1f05) {O = "0c9c8f03-85da-4dbd-a4ed-3e15aeb208d9" I = "1ce5bd16-2125-4226-aa58-a84479768c91" label = "Обработка видеопотока" }
+dataFlow af505408-e251-4f17-adcd-66503931da10 bbe8fac0-d6ed-453b-baa2-6ce78f8b1f05
+(dataFlow af505408-e251-4f17-adcd-66503931da10 bbe8fac0-d6ed-453b-baa2-6ce78f8b1f05) {O = "5ef473b8-40a8-4100-991c-d883724b1c16" I = "f65056bb-8926-4187-a412-08ff9bb6b8d3" label = "Запрос видеопотока" }
+dataFlow af505408-e251-4f17-adcd-66503931da10 0b815a41-41a6-497d-91a2-3bd994263eb1
+(dataFlow af505408-e251-4f17-adcd-66503931da10 0b815a41-41a6-497d-91a2-3bd994263eb1) {O = "882debb8-ec5b-4f8a-938a-13de7cb9e197" I = "8a94ee41-71cb-410f-8571-a0666ed014f7" label = "Обработка ответа на запрос" }
+dataFlow 0b815a41-41a6-497d-91a2-3bd994263eb1 1cc4d84c-fff1-4dc6-ac8a-0f3fb217d393
+(dataFlow 0b815a41-41a6-497d-91a2-3bd994263eb1 1cc4d84c-fff1-4dc6-ac8a-0f3fb217d393) {O = "a8ef28fe-5eb4-441e-8eb0-43cd74c9f9b0" I = "8260af82-7015-4065-afd0-1be948e84739" label = "Видеотрансляция отображена в интерфейсе" }
+dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad 8eafe718-5811-48eb-9e91-ddfa48419d1f
+(dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad 8eafe718-5811-48eb-9e91-ddfa48419d1f) {O = "04c6fcb1-55c5-466c-b69e-37b79778ff3b" I = "e5b91fb2-3e12-4f16-9576-8c3d90a1f8fe" label = "Заполнение формы заявки" }
+dataFlow 8eafe718-5811-48eb-9e91-ddfa48419d1f 642c1b24-36ab-4a42-811c-5140c748ed73
+(dataFlow 8eafe718-5811-48eb-9e91-ddfa48419d1f 642c1b24-36ab-4a42-811c-5140c748ed73) {O = "cdcbc34a-5328-4714-8c91-a2ca198425a5" I = "dd655847-de53-4fd8-909e-77b21f76965c" label = "Запрос на создание гостя" }
+dataFlow 642c1b24-36ab-4a42-811c-5140c748ed73 a1202356-760f-4857-b3c0-7a720f09934a
+(dataFlow 642c1b24-36ab-4a42-811c-5140c748ed73 a1202356-760f-4857-b3c0-7a720f09934a) {O = "6f577de6-ace4-4541-a60a-3c110f2ab2d2" I = "0f4f10d3-b532-49bb-83d8-c42b482f2d2d" label = "Создание гостя" }
+dataFlow a1202356-760f-4857-b3c0-7a720f09934a 5c30f9b9-21a2-48aa-bfe5-465114d76d28
+(dataFlow a1202356-760f-4857-b3c0-7a720f09934a 5c30f9b9-21a2-48aa-bfe5-465114d76d28) {O = "2dd2cb45-0b5d-4ee1-8d5b-9b64454da47c" I = "f1000014-fc32-462e-b089-54dd59d1da1c" label = "Уведомление об изменении списка пользователей" }
+dataFlow a1202356-760f-4857-b3c0-7a720f09934a 9e88a10e-3a88-4b54-ae16-ab0b252e2c32
+(dataFlow a1202356-760f-4857-b3c0-7a720f09934a 9e88a10e-3a88-4b54-ae16-ab0b252e2c32) {O = "07be3bf4-dfa4-4c0b-a98a-9e39041a724f" I = "ef0931b8-bd64-4406-bb28-b767a2a22db6" label = "Отправка ответа об успешном создании гостя" }
+dataFlow 5c30f9b9-21a2-48aa-bfe5-465114d76d28 a1202356-760f-4857-b3c0-7a720f09934a
+(dataFlow 5c30f9b9-21a2-48aa-bfe5-465114d76d28 a1202356-760f-4857-b3c0-7a720f09934a) {O = "b0dcbe53-54ae-410c-b522-f0468a9a436d" I = "ad1ca78e-5bb1-45a2-88f9-2d0ba2421174" label = "Запрос на актуальный список пользователей" }
+dataFlow 5c30f9b9-21a2-48aa-bfe5-465114d76d28 466a1431-bc30-4f9c-a2b4-54c869747c36
+(dataFlow 5c30f9b9-21a2-48aa-bfe5-465114d76d28 466a1431-bc30-4f9c-a2b4-54c869747c36) {O = "88360e64-7a58-42c5-8621-24cc43ebaffe" I = "52ff3281-83a9-4287-b355-5fb20093ecad" label = "Обработка данных" }
+dataFlow 9e88a10e-3a88-4b54-ae16-ab0b252e2c32 141c38a3-9348-41be-a41e-4a12a34efcdd
+(dataFlow 9e88a10e-3a88-4b54-ae16-ab0b252e2c32 141c38a3-9348-41be-a41e-4a12a34efcdd) {O = "c19cd1fc-9777-44d9-9fb1-5a962fbdcded" I = "eaf75e2a-5f44-4264-b2ef-65266096fff9" label = "Ознакомиться с алертом" }
+dataFlow 15f1f205-93ab-42bf-9df8-7d8c38efe7c5 bf600d6b-0f9e-4a8d-a02e-d248a6828333
+(dataFlow 15f1f205-93ab-42bf-9df8-7d8c38efe7c5 bf600d6b-0f9e-4a8d-a02e-d248a6828333) {O = "43ea3997-3483-4024-9e52-a1c2c43293bd" I = "ab7772f6-0626-405b-95ed-08bd97852a90" label = "Обработка видеопотока" }
+dataFlow ccec40b4-8b64-40a7-8637-de57dbde23aa a1202356-760f-4857-b3c0-7a720f09934a
+(dataFlow ccec40b4-8b64-40a7-8637-de57dbde23aa a1202356-760f-4857-b3c0-7a720f09934a) {O = "c59f7ba9-8559-444a-874f-376bea9ed073" I = "11940414-56ac-4ce7-8c93-6f27f2ae8b3d" label = "Формирование уведомления" }
+dataFlow 9e88a10e-3a88-4b54-ae16-ab0b252e2c32 c250edbc-3bfa-4577-9205-b5edfcffe8ad
+(dataFlow 9e88a10e-3a88-4b54-ae16-ab0b252e2c32 c250edbc-3bfa-4577-9205-b5edfcffe8ad) {O = "ebf7c5af-ee3e-4644-8274-1f4178267619" I = "f66ff7c7-c3bd-46fb-bbb8-1bfd339920dd" label = "Показ Push-уведомления " }
+dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad 96efde2f-0008-44b5-b9ab-8c0afbca9e4b
+(dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad 96efde2f-0008-44b5-b9ab-8c0afbca9e4b) {O = "cbb216b5-da0a-4a9c-af6a-b1b7405481ca" I = "f44c8ec1-68da-40a8-be03-63d1edee2792" label = "Заполнение формы на оплату" }
+dataFlow 96efde2f-0008-44b5-b9ab-8c0afbca9e4b 96057f80-7b42-43cb-b477-196490dea447
+(dataFlow 96efde2f-0008-44b5-b9ab-8c0afbca9e4b 96057f80-7b42-43cb-b477-196490dea447) {O = "13153f4b-a6c6-4a15-9052-ebaa7836b183" I = "04e5402a-eb84-4d14-bf0a-0381ec0a8627" label = "Запрос о факте оплаты квитанции" }
+dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad f57d6c43-d5c5-4f17-9ee2-21d3e1ba4905
+(dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad f57d6c43-d5c5-4f17-9ee2-21d3e1ba4905) {O = "b0beae60-666d-40eb-bebe-92a44f7f42e5" I = "6826a2ce-e6d8-496b-94d6-fdd47de2abff" label = "Запрос от пользователя на отображение объектов" }
+dataFlow f57d6c43-d5c5-4f17-9ee2-21d3e1ba4905 f6df0969-9066-4ce5-950d-ecb9a43ccbea
+(dataFlow f57d6c43-d5c5-4f17-9ee2-21d3e1ba4905 f6df0969-9066-4ce5-950d-ecb9a43ccbea) {O = "7548b3b1-3c66-4877-9677-865f974def6a" I = "4b38ef5a-1d7a-40c3-92f7-5aec62354712" label = "Определить необходимость загрузки актуальных данных" }
+dataFlow f6df0969-9066-4ce5-950d-ecb9a43ccbea 40131143-0f6a-40bd-95e8-f80bd0f790cb
+(dataFlow f6df0969-9066-4ce5-950d-ecb9a43ccbea 40131143-0f6a-40bd-95e8-f80bd0f790cb) {O = "22d2753d-cd22-4557-b709-bd9f16bd114f" I = "ff111645-f636-4bf0-96a2-9283a84acb66" label = "Ожидание загрузки на устройство актуальных данных" }
+dataFlow 3be0a7fb-c34d-464c-a128-9c6b69fc59d9 7348e80f-b806-4b24-87b4-3df23f8e150b
+(dataFlow 3be0a7fb-c34d-464c-a128-9c6b69fc59d9 7348e80f-b806-4b24-87b4-3df23f8e150b) {O = "a9d4b8eb-1735-4fe1-8992-474c63469be2" I = "a552c4de-5c65-45a2-b63b-826195754893" label = "Обработка данных для UI" }
+dataFlow 7348e80f-b806-4b24-87b4-3df23f8e150b ea60ddba-37f6-4268-8a54-82246f54c235
+(dataFlow 7348e80f-b806-4b24-87b4-3df23f8e150b ea60ddba-37f6-4268-8a54-82246f54c235) {O = "5351914b-b01b-4be6-b9e4-a4cb521780a1" I = "f2b27563-4368-4e93-a45c-2c3e8a83f6db" label = "Система имеет актуальные данные" }
+dataFlow f6df0969-9066-4ce5-950d-ecb9a43ccbea 3be0a7fb-c34d-464c-a128-9c6b69fc59d9
+(dataFlow f6df0969-9066-4ce5-950d-ecb9a43ccbea 3be0a7fb-c34d-464c-a128-9c6b69fc59d9) {O = "9e6e92df-9335-4023-ad04-1b44913997f8" I = "cde2ea1e-fee2-4f96-98f4-cb2025c1aa89" label = "Обработка данных для кеширования" }
+dataFlow ea60ddba-37f6-4268-8a54-82246f54c235 9b0bbf9f-41fc-410e-bb62-ea33213b2b72
+(dataFlow ea60ddba-37f6-4268-8a54-82246f54c235 9b0bbf9f-41fc-410e-bb62-ea33213b2b72) {O = "294b3f3c-ef52-42cd-9074-d60fb06a7c97" I = "d8c5c5fe-8844-464a-864d-8e2384a5642d" label = "Действие на открытие от пользователя" }
+dataFlow 9b0bbf9f-41fc-410e-bb62-ea33213b2b72 31c27a4f-2e65-48bf-9d94-6b8e88c0dac9
+(dataFlow 9b0bbf9f-41fc-410e-bb62-ea33213b2b72 31c27a4f-2e65-48bf-9d94-6b8e88c0dac9) {O = "2dde6894-63e3-409d-8598-f5f85839df93" I = "4f4aaea1-906e-4e63-8652-048fd28d63f5" label = "Объект определен" }
+dataFlow 31c27a4f-2e65-48bf-9d94-6b8e88c0dac9 71f9dbc6-0b13-480a-839e-254b66d6ac6b
+(dataFlow 31c27a4f-2e65-48bf-9d94-6b8e88c0dac9 71f9dbc6-0b13-480a-839e-254b66d6ac6b) {O = "d75ebfc6-ebdd-4a3a-9c2b-c05f0d2690b3" I = "0733710e-05d4-42f2-9a63-f3a8df2406c7" label = "Ожидание ответа об изменении статуса" }
+dataFlow 71f9dbc6-0b13-480a-839e-254b66d6ac6b 73e3ee12-4ccf-434e-9ec7-cce02e72de43
+(dataFlow 71f9dbc6-0b13-480a-839e-254b66d6ac6b 73e3ee12-4ccf-434e-9ec7-cce02e72de43) {O = "39baa06d-d722-4c05-bbec-8655a39a4f01" I = "d542849b-a166-46be-aeb9-a9ea6107e14d" label = "Запуск протоколов открытия" }
+dataFlow 31c27a4f-2e65-48bf-9d94-6b8e88c0dac9 d8dfc1b0-8099-488f-b99a-5c228bec7976
+(dataFlow 31c27a4f-2e65-48bf-9d94-6b8e88c0dac9 d8dfc1b0-8099-488f-b99a-5c228bec7976) {O = "93073e05-a3c2-4791-a15d-0862a40413f7" I = "57668715-f681-48c4-ba73-48d20775b06b" label = "Рекция на изменение Системы" }
+dataFlow 660cf5e5-62b2-4f5f-8898-dbedf2ff6126 c55effe8-0f32-49e8-a508-249cf44dc232
+(dataFlow 660cf5e5-62b2-4f5f-8898-dbedf2ff6126 c55effe8-0f32-49e8-a508-249cf44dc232) {O = "b0eba4d2-d903-4b33-914d-262ae72e6414" I = "c8fdeb93-7926-46e9-91f7-a2c00a14ac3f" label = "Система получает ивент о подъехавшем ТС" }
+dataFlow c55effe8-0f32-49e8-a508-249cf44dc232 0c93d7db-c747-4f61-93b8-5f3bde07a448
+(dataFlow c55effe8-0f32-49e8-a508-249cf44dc232 0c93d7db-c747-4f61-93b8-5f3bde07a448) {O = "898c2f98-4af6-4ee6-81ca-1df47ad3e38f" I = "11b7f7aa-7ac7-49d3-903c-cae6dfa1d2cb" label = "Система определила ТС" }
+dataFlow 0c93d7db-c747-4f61-93b8-5f3bde07a448 8f9be82c-7783-4a69-96a9-c624728cbb6c
+(dataFlow 0c93d7db-c747-4f61-93b8-5f3bde07a448 8f9be82c-7783-4a69-96a9-c624728cbb6c) {O = "cde2cf6c-04cf-4431-a36a-7bcd9ccfe92a" I = "4e0ca8a8-2734-4a59-a8b8-17fac70a56b7" label = "Запрос на идентификацию ТС" }
+dataFlow 8f9be82c-7783-4a69-96a9-c624728cbb6c 602c5ae9-925a-4a49-80a8-c6e1d7ff1927
+(dataFlow 8f9be82c-7783-4a69-96a9-c624728cbb6c 602c5ae9-925a-4a49-80a8-c6e1d7ff1927) {O = "30a3a48e-592e-4941-8d7d-d56f7ec6a111" I = "922197f5-7b33-41ce-9082-51be90c9edab" label = "Запрос на доступ к видеопотоку" }
+dataFlow 73e3ee12-4ccf-434e-9ec7-cce02e72de43 9b3b6d8d-58cd-403d-af7e-103d7e128399
+(dataFlow 73e3ee12-4ccf-434e-9ec7-cce02e72de43 9b3b6d8d-58cd-403d-af7e-103d7e128399) {O = "03cd5bf3-9d8a-42ca-8fcd-a051ba8f6775" I = "6af17303-74d1-45ae-8055-60c14780b72e" label = "Система идентифицировала ТС" }
+dataFlow 9b3b6d8d-58cd-403d-af7e-103d7e128399 d8dfc1b0-8099-488f-b99a-5c228bec7976
+(dataFlow 9b3b6d8d-58cd-403d-af7e-103d7e128399 d8dfc1b0-8099-488f-b99a-5c228bec7976) {O = "4fe7071b-8941-4922-b628-db83f6dd0eb0" I = "38e0d2c5-6271-4c62-aa6e-655f7e902a42" label = "Реакция на изменение Системы" }
+dataFlow 8f9be82c-7783-4a69-96a9-c624728cbb6c 71f9dbc6-0b13-480a-839e-254b66d6ac6b
+(dataFlow 8f9be82c-7783-4a69-96a9-c624728cbb6c 71f9dbc6-0b13-480a-839e-254b66d6ac6b) {O = "7bdbbfc9-0eb4-4de0-8b76-b8042b5733b3" I = "3896f3c3-9510-4e94-a548-0f807a593bff" label = "ТС распознано в базе" }
+dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad 0c441d1c-2ee6-48b6-85fc-b555cd4a0804
+(dataFlow c250edbc-3bfa-4577-9205-b5edfcffe8ad 0c441d1c-2ee6-48b6-85fc-b555cd4a0804) {O = "389abfe7-ecb3-4a30-a2cf-eb1b5eb8e2ec" I = "e06d2e80-7839-47b1-96ea-4a70c1a78ac4" label = "Заполнение формы заявки" }
+dataFlow 0c441d1c-2ee6-48b6-85fc-b555cd4a0804 bab34215-b446-4531-9448-7be525025c82
+(dataFlow 0c441d1c-2ee6-48b6-85fc-b555cd4a0804 bab34215-b446-4531-9448-7be525025c82) {O = "107316df-2d6b-4267-80a6-d95f381b9f19" I = "92212457-59f1-4865-8b7f-13f414fa0d7a" label = "Передача данных о госте" }
+dataFlow bab34215-b446-4531-9448-7be525025c82 816ebe5a-522d-413a-a717-7b7694926732
+(dataFlow bab34215-b446-4531-9448-7be525025c82 816ebe5a-522d-413a-a717-7b7694926732) {O = "05373602-ae3e-4b79-99ee-ad04e6429175" I = "3593a8b6-a2cb-4453-878d-4292be2e1f03" label = "Гость успешно создан" }
+dataFlow 816ebe5a-522d-413a-a717-7b7694926732 141c38a3-9348-41be-a41e-4a12a34efcdd
+(dataFlow 816ebe5a-522d-413a-a717-7b7694926732 141c38a3-9348-41be-a41e-4a12a34efcdd) {O = "e9501799-b730-42b3-aedb-e4059f238997" I = "c85c98ed-245c-46ce-b137-a913dd309f78" label = "Реакция на изменение Системы" }
+dataFlow bf08436b-4ccb-4d5a-9489-6db79c31ea06 84eca184-4b93-4ec8-a4e0-3ef823691a82
+(dataFlow bf08436b-4ccb-4d5a-9489-6db79c31ea06 84eca184-4b93-4ec8-a4e0-3ef823691a82) {label = "Переход на список объектов" }
+dataFlow 84eca184-4b93-4ec8-a4e0-3ef823691a82 f167b622-e0e1-4bb2-8a40-7e4ea5692e1f
+(dataFlow 84eca184-4b93-4ec8-a4e0-3ef823691a82 f167b622-e0e1-4bb2-8a40-7e4ea5692e1f) {label = "Валидация выборанного объекта" }
+dataFlow f167b622-e0e1-4bb2-8a40-7e4ea5692e1f 33e722b3-d8c7-42bb-9707-ccfec5d39c58
+(dataFlow f167b622-e0e1-4bb2-8a40-7e4ea5692e1f 33e722b3-d8c7-42bb-9707-ccfec5d39c58) {label = "Отправка данных на устройство" }
+dataFlow 33e722b3-d8c7-42bb-9707-ccfec5d39c58 d99995a4-21ec-4544-83f3-80ef1a785761
+(dataFlow 33e722b3-d8c7-42bb-9707-ccfec5d39c58 d99995a4-21ec-4544-83f3-80ef1a785761) {label = "Определение типа управляющего сигнала" }
+dataFlow d99995a4-21ec-4544-83f3-80ef1a785761 856d8229-76c1-4d68-94c2-1ac4f37d1c00
+(dataFlow d99995a4-21ec-4544-83f3-80ef1a785761 856d8229-76c1-4d68-94c2-1ac4f37d1c00) {label = "Ожидание 10 секунд и запуск протоколов закрытия" }
+dataFlow 856d8229-76c1-4d68-94c2-1ac4f37d1c00 c2cf975b-2630-4c3e-b5cb-31eea22d82e2
+(dataFlow 856d8229-76c1-4d68-94c2-1ac4f37d1c00 c2cf975b-2630-4c3e-b5cb-31eea22d82e2) {label = "Запуск механизмов закрытия" }
+dataFlow d99995a4-21ec-4544-83f3-80ef1a785761 8f895982-fd2b-4efc-b89c-0d74a90ce211
+(dataFlow d99995a4-21ec-4544-83f3-80ef1a785761 8f895982-fd2b-4efc-b89c-0d74a90ce211) {label = "Отправка уведомления на устройство об изменении статуса" }
+dataFlow 8f895982-fd2b-4efc-b89c-0d74a90ce211 61d66d61-5afd-4f60-9141-e2190e2cfee3
+(dataFlow 8f895982-fd2b-4efc-b89c-0d74a90ce211 61d66d61-5afd-4f60-9141-e2190e2cfee3) {label = "Ознакомление с новым статусом " }
+dataFlow f167b622-e0e1-4bb2-8a40-7e4ea5692e1f adab062f-ec6f-48ec-ba56-129d11320fae
+(dataFlow f167b622-e0e1-4bb2-8a40-7e4ea5692e1f adab062f-ec6f-48ec-ba56-129d11320fae) {label = "Перехват отправленного сигнала" }
+dataFlow adab062f-ec6f-48ec-ba56-129d11320fae 5e5f99a7-1b26-4ba0-825f-13f34a6fa552
+(dataFlow adab062f-ec6f-48ec-ba56-129d11320fae 5e5f99a7-1b26-4ba0-825f-13f34a6fa552) {label = "Реверс-инжиниринг" }
+dataFlow 5e5f99a7-1b26-4ba0-825f-13f34a6fa552 33e722b3-d8c7-42bb-9707-ccfec5d39c58
+(dataFlow 5e5f99a7-1b26-4ba0-825f-13f34a6fa552 33e722b3-d8c7-42bb-9707-ccfec5d39c58) {label = "Отправка сигнала на открытие" }
+dataFlow 8f895982-fd2b-4efc-b89c-0d74a90ce211 b0b7052d-6fb9-48e1-9286-7c73ae924fc9
+(dataFlow 8f895982-fd2b-4efc-b89c-0d74a90ce211 b0b7052d-6fb9-48e1-9286-7c73ae924fc9) {label = "Ознакомиться с предупреждением" }
+dataFlow 22b2ac21-e7e3-4a09-9811-8a424585f856 8f895982-fd2b-4efc-b89c-0d74a90ce211
+(dataFlow 22b2ac21-e7e3-4a09-9811-8a424585f856 8f895982-fd2b-4efc-b89c-0d74a90ce211) {label = "Отправка уведомление о тревоге на устройства" }
+dataFlow 33e722b3-d8c7-42bb-9707-ccfec5d39c58 22b2ac21-e7e3-4a09-9811-8a424585f856
+(dataFlow 33e722b3-d8c7-42bb-9707-ccfec5d39c58 22b2ac21-e7e3-4a09-9811-8a424585f856) {label = "Проверка сигнала" }
+dataFlow bf08436b-4ccb-4d5a-9489-6db79c31ea06 68e03e05-9e50-4715-a162-2e4c4399038a
+(dataFlow bf08436b-4ccb-4d5a-9489-6db79c31ea06 68e03e05-9e50-4715-a162-2e4c4399038a) {label = "Выбор камеры для просмотра" }
+dataFlow bf08436b-4ccb-4d5a-9489-6db79c31ea06 a6d0db8c-572f-4205-99ac-88e88952ba59
+(dataFlow bf08436b-4ccb-4d5a-9489-6db79c31ea06 a6d0db8c-572f-4205-99ac-88e88952ba59) {label = "Выбор камеры для просмотра" }
+dataFlow d998fd24-a0b4-4719-a184-241b1f4ff9e6 65b04769-c2f0-4d50-bc3c-8f76bf3bf8ec
+(dataFlow d998fd24-a0b4-4719-a184-241b1f4ff9e6 65b04769-c2f0-4d50-bc3c-8f76bf3bf8ec) {label = "Передача видеопотока" }
+dataFlow 65b04769-c2f0-4d50-bc3c-8f76bf3bf8ec c158fdd9-7e67-401d-9835-bbe59aa1ce7d
+(dataFlow 65b04769-c2f0-4d50-bc3c-8f76bf3bf8ec c158fdd9-7e67-401d-9835-bbe59aa1ce7d) {label = "Трансляция видеопотока" }
+dataFlow c158fdd9-7e67-401d-9835-bbe59aa1ce7d ba19d2fe-e80d-4d74-b1f4-76730d741cb9
+(dataFlow c158fdd9-7e67-401d-9835-bbe59aa1ce7d ba19d2fe-e80d-4d74-b1f4-76730d741cb9) {label = "Обработка видеопотока" }
+dataFlow a6d0db8c-572f-4205-99ac-88e88952ba59 ba19d2fe-e80d-4d74-b1f4-76730d741cb9
+(dataFlow a6d0db8c-572f-4205-99ac-88e88952ba59 ba19d2fe-e80d-4d74-b1f4-76730d741cb9) {label = "Запрос видеопотока" }
+dataFlow a6d0db8c-572f-4205-99ac-88e88952ba59 527fd7cd-ab78-4919-a158-ab819e1e0ab4
+(dataFlow a6d0db8c-572f-4205-99ac-88e88952ba59 527fd7cd-ab78-4919-a158-ab819e1e0ab4) {label = "Обработка ответа на запрос" }
+dataFlow 527fd7cd-ab78-4919-a158-ab819e1e0ab4 68e03e05-9e50-4715-a162-2e4c4399038a
+(dataFlow 527fd7cd-ab78-4919-a158-ab819e1e0ab4 68e03e05-9e50-4715-a162-2e4c4399038a) {label = "Видеотрансляция отображена в интерфейсе" }
+dataFlow bf08436b-4ccb-4d5a-9489-6db79c31ea06 73da27f0-3c68-453e-816c-3391b583e0a1
+(dataFlow bf08436b-4ccb-4d5a-9489-6db79c31ea06 73da27f0-3c68-453e-816c-3391b583e0a1) {label = "Заполнение формы заявки" }
+dataFlow 73da27f0-3c68-453e-816c-3391b583e0a1 16eb2a45-56ab-416d-8b66-3b883692ecba
+(dataFlow 73da27f0-3c68-453e-816c-3391b583e0a1 16eb2a45-56ab-416d-8b66-3b883692ecba) {label = "Запрос на создание гостя" }
+dataFlow 16eb2a45-56ab-416d-8b66-3b883692ecba 0bf6c0b8-6a41-457e-8dca-e24f0bd24891
+(dataFlow 16eb2a45-56ab-416d-8b66-3b883692ecba 0bf6c0b8-6a41-457e-8dca-e24f0bd24891) {label = "Создание гостя" }
+dataFlow 0bf6c0b8-6a41-457e-8dca-e24f0bd24891 e8dfaeab-09ed-4b98-bc4c-dd1a4a56d76c
+(dataFlow 0bf6c0b8-6a41-457e-8dca-e24f0bd24891 e8dfaeab-09ed-4b98-bc4c-dd1a4a56d76c) {label = "Уведомление об изменении списка пользователей" }
+dataFlow 0bf6c0b8-6a41-457e-8dca-e24f0bd24891 99e0a1b9-fd6e-4997-8ec7-2cb2339b9cce
+(dataFlow 0bf6c0b8-6a41-457e-8dca-e24f0bd24891 99e0a1b9-fd6e-4997-8ec7-2cb2339b9cce) {label = "Отправка ответа об успешном создании гостя" }
+dataFlow e8dfaeab-09ed-4b98-bc4c-dd1a4a56d76c 0bf6c0b8-6a41-457e-8dca-e24f0bd24891
+(dataFlow e8dfaeab-09ed-4b98-bc4c-dd1a4a56d76c 0bf6c0b8-6a41-457e-8dca-e24f0bd24891) {label = "Запрос на актуальный список пользователей" }
+dataFlow e8dfaeab-09ed-4b98-bc4c-dd1a4a56d76c ea052a71-5a4d-471a-85e6-b510c46edcdb
+(dataFlow e8dfaeab-09ed-4b98-bc4c-dd1a4a56d76c ea052a71-5a4d-471a-85e6-b510c46edcdb) {label = "Обработка данных" }
+dataFlow 99e0a1b9-fd6e-4997-8ec7-2cb2339b9cce 7e5f26dd-9aa8-48ef-95b8-99d1ccf8cf36
+(dataFlow 99e0a1b9-fd6e-4997-8ec7-2cb2339b9cce 7e5f26dd-9aa8-48ef-95b8-99d1ccf8cf36) {label = "Ознакомиться с алертом" }
+dataFlow c158fdd9-7e67-401d-9835-bbe59aa1ce7d 5c8ebb6a-6b01-4092-a15a-6d0e36e729ce
+(dataFlow c158fdd9-7e67-401d-9835-bbe59aa1ce7d 5c8ebb6a-6b01-4092-a15a-6d0e36e729ce) {label = "Обработка видеопотока" }
+dataFlow 1e0b5596-729d-4078-8c92-04fa34a2aafb 0bf6c0b8-6a41-457e-8dca-e24f0bd24891
+(dataFlow 1e0b5596-729d-4078-8c92-04fa34a2aafb 0bf6c0b8-6a41-457e-8dca-e24f0bd24891) {label = "Формирование уведомления" }
+dataFlow 99e0a1b9-fd6e-4997-8ec7-2cb2339b9cce bf08436b-4ccb-4d5a-9489-6db79c31ea06
+(dataFlow 99e0a1b9-fd6e-4997-8ec7-2cb2339b9cce bf08436b-4ccb-4d5a-9489-6db79c31ea06) {label = "Показ Push-уведомления " }
+dataFlow bf08436b-4ccb-4d5a-9489-6db79c31ea06 a5ab7a2a-a69d-4557-8f5e-70450abcfb94
+(dataFlow bf08436b-4ccb-4d5a-9489-6db79c31ea06 a5ab7a2a-a69d-4557-8f5e-70450abcfb94) {label = "Заполнение формы на оплату" }
+dataFlow a5ab7a2a-a69d-4557-8f5e-70450abcfb94 bdd1888c-4bb1-4f06-83f4-515bfdf2e5f0
+(dataFlow a5ab7a2a-a69d-4557-8f5e-70450abcfb94 bdd1888c-4bb1-4f06-83f4-515bfdf2e5f0) {label = "Запрос о факте оплаты квитанции" }

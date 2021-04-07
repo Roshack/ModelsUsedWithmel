@@ -1,0 +1,79 @@
+$INSTANCE Component class
+$INSTANCE Machine class
+$INSTANCE ControlUnit class
+$INSTANCE BrewingUnit class
+$INSTANCE DipTray class
+$INSTANCE WaterTank class
+$INSTANCE Processor class
+$INSTANCE RAM class
+$INSTANCE Activity class
+$INSTANCE Dimension class
+$INSTANCE Display class
+$INSTANCE SocketConnectorType enum
+$INSTANCE ManufactoringProcess enum
+$INSTANCE RamType enum
+enumValues SocketConnectorType A1T
+(enumValues SocketConnectorType A1T) {value = "0" }
+enumValues SocketConnectorType Z51
+(enumValues SocketConnectorType Z51) {value = "1" }
+enumValues ManufactoringProcess nm18
+(enumValues ManufactoringProcess nm18) {value = "0" }
+enumValues ManufactoringProcess nm25
+(enumValues ManufactoringProcess nm25) {value = "1" }
+enumValues RamType SODIMM
+(enumValues RamType SODIMM) {value = "0" }
+enumValues RamType SIDIMM
+(enumValues RamType SIDIMM) {value = "0" }
+memberOf Machine name
+(memberOf Machine name) {type = "EString" }
+memberOf ControlUnit userDescription
+(memberOf ControlUnit userDescription) {type = "EString" }
+memberOf Processor vendor
+(memberOf Processor vendor) {type = "EString" }
+memberOf Processor clockSpeed
+(memberOf Processor clockSpeed) {type = "EInt" }
+memberOf Processor numberOfCores
+(memberOf Processor numberOfCores) {type = "EInt" }
+memberOf Processor socketconnectorType
+(memberOf Processor socketconnectorType) {type = "SocketConnectorType" }
+memberOf Processor thermalDesignPower
+(memberOf Processor thermalDesignPower) {type = "EInt" }
+memberOf Processor manufactoringProcess
+(memberOf Processor manufactoringProcess) {type = "ManufactoringProcess" }
+memberOf RAM clockSpeed
+(memberOf RAM clockSpeed) {type = "EInt" }
+memberOf RAM size
+(memberOf RAM size) {type = "EInt" }
+memberOf RAM type
+(memberOf RAM type) {type = "RamType" }
+memberOf Activity name
+(memberOf Activity name) {type = "EString" }
+memberOf Dimension width
+(memberOf Dimension width) {type = "EInt" }
+memberOf Dimension height
+(memberOf Dimension height) {type = "EInt" }
+memberOf Dimension length
+(memberOf Dimension length) {type = "EInt" }
+memberOf Display width
+(memberOf Display width) {type = "EInt" }
+memberOf Display height
+(memberOf Display height) {type = "EInt" }
+superClass Component Machine
+superClass Component ControlUnit
+superClass Component BrewingUnit
+superClass Component DipTray
+superClass Component WaterTank
+association Component Component
+(association Component Component) {srcLabel = "parent" lowerBound = "0" upperBound = "1" destLabel = "children" }
+composition Component Component
+(composition Component Component) {srcLabel = "children" lowerBound = "0" upperBound = "*" destLabel = "parent" }
+composition Component Activity
+(composition Component Activity) {srcLabel = "activities" lowerBound = "0" upperBound = "*" }
+composition ControlUnit Processor
+(composition ControlUnit Processor) {srcLabel = "processor" lowerBound = "1" upperBound = "1" }
+composition ControlUnit Dimension
+(composition ControlUnit Dimension) {srcLabel = "dimension" lowerBound = "1" upperBound = "1" }
+composition ControlUnit RAM
+(composition ControlUnit RAM) {srcLabel = "ram" lowerBound = "1" upperBound = "*" }
+composition ControlUnit Display
+(composition ControlUnit Display) {srcLabel = "display" lowerBound = "0" upperBound = "1" }

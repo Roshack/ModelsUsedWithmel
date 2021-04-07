@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[66, 49, 1065, 736]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="PaperOrientation">landscape</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="Inport" Name="sensors" SID="83">
+    <P Name="Position">[20, 193, 50, 207]</P>
+    <P Name="ZOrder">-1</P>
+    <P Name="FontName">Arial</P>
+  </Block>
+  <Block BlockType="Inport" Name="O2_normal" SID="84">
+    <P Name="Position">[20, 403, 50, 417]</P>
+    <P Name="ZOrder">-2</P>
+    <P Name="FontName">Arial</P>
+    <P Name="Port">2</P>
+  </Block>
+  <Block BlockType="Inport" Name="fuel_mode" SID="85">
+    <P Name="Position">[20, 433, 50, 447]</P>
+    <P Name="ZOrder">-3</P>
+    <P Name="FontName">Arial</P>
+    <P Name="Port">3</P>
+  </Block>
+  <Block BlockType="BusSelector" Name="Bus&#xA;Selector" SID="86">
+    <P Name="Ports">[1, 4]</P>
+    <P Name="Position">[125, 43, 130, 352]</P>
+    <P Name="ZOrder">-4</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="OutputSignals">throttle,speed,map,ego</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">&lt;throttle&gt;</P>
+    </Port>
+    <Port>
+      <P Name="PortNumber">2</P>
+      <P Name="Name">&lt;speed&gt;</P>
+    </Port>
+    <Port>
+      <P Name="PortNumber">3</P>
+      <P Name="Name">&lt;map&gt;</P>
+    </Port>
+    <Port>
+      <P Name="PortNumber">4</P>
+      <P Name="Name">&lt;ego&gt;</P>
+    </Port>
+  </Block>
+  <Block BlockType="Constant" Name="Constant" SID="87">
+    <P Name="Position">[335, 300, 365, 320]</P>
+    <P Name="ZOrder">-5</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="NameLocation">left</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="Value">0.5</P>
+    <P Name="OutDataTypeStr">s16En7</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant2" SID="89">
+    <P Name="Position">[602, 415, 618, 435]</P>
+    <P Name="ZOrder">-6</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="NameLocation">right</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="Value">0</P>
+    <P Name="OutDataTypeStr">uint8</P>
+  </Block>
+  <Block BlockType="DataTypeConversion" Name="Data Type &#xA;Conversion" SID="90">
+    <P Name="Position">[310, 355, 350, 375]</P>
+    <P Name="ZOrder">-7</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="OutDataTypeStr">s16En7</P>
+    <P Name="RndMeth">Simplest</P>
+    <P Name="SaturateOnIntegerOverflow">off</P>
+  </Block>
+  <Block BlockType="DiscreteIntegrator" Name="Discrete&#xA;Integrator" SID="91">
+    <P Name="Ports">[1, 1]</P>
+    <P Name="Position">[725, 352, 765, 388]</P>
+    <P Name="ZOrder">-8</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="InitialConditionSetting">Auto</P>
+    <P Name="SampleTime">-1</P>
+    <P Name="OutDataTypeStr">s16En15</P>
+    <P Name="RndMeth">Simplest</P>
+    <P Name="ICPrevOutput">DiscIntNeverNeededParam</P>
+    <P Name="ICPrevScaledInput">DiscIntNeverNeededParam</P>
+  </Block>
+  <Block BlockType="Reference" Name="Enumerated&#xA;Constant" SID="191">
+    <P Name="Ports">[0, 1]</P>
+    <P Name="Position">[70, 453, 190, 477]</P>
+    <P Name="ZOrder">-9</P>
+    <P Name="ShowName">off</P>
+    <P Name="LibraryVersion">1.480</P>
+    <P Name="FontName">Arial</P>
+    <P Name="SourceBlock">simulink/Sources/Enumerated
+Constant</P>
+    <P Name="SourceType">Enumerated Constant</P>
+    <P Name="SourceProductBaseCode">SL</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutDataTypeStr">Enum: sld_FuelModes</P>
+      <P Name="Value">sld_FuelModes.LOW</P>
+      <P Name="SampleTime">.01</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Logic" Name="Logic1" SID="92">
+    <P Name="Ports">[2, 1]</P>
+    <P Name="Position">[422, 413, 459, 447]</P>
+    <P Name="ZOrder">-10</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="IconShape">distinctive</P>
+    <P Name="AllPortsSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">enable_integration</P>
+    </Port>
+  </Block>
+  <Block BlockType="Constant" Name="Oxygen Sensor&#xA;Switching Threshold" SID="93">
+    <P Name="Position">[150, 335, 175, 355]</P>
+    <P Name="ZOrder">-11</P>
+    <P Name="FontName">Arial</P>
+    <P Name="Value">0.5</P>
+    <P Name="OutDataTypeStr">s16En7</P>
+  </Block>
+  <Block BlockType="Product" Name="Product" SID="94">
+    <P Name="Ports">[2, 1]</P>
+    <P Name="Position">[505, 113, 525, 197]</P>
+    <P Name="ZOrder">-12</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="OutDataTypeStr">s16En7</P>
+    <P Name="RndMeth">Simplest</P>
+  </Block>
+  <Block BlockType="Product" Name="Product1" SID="95">
+    <P Name="Ports">[2, 1]</P>
+    <P Name="Position">[535, 331, 575, 364]</P>
+    <P Name="ZOrder">-13</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="OutDataTypeStr">s16En15</P>
+    <P Name="RndMeth">Simplest</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">e1</P>
+    </Port>
+  </Block>
+  <Block BlockType="Product" Name="Product2" SID="96">
+    <P Name="Ports">[2, 1]</P>
+    <P Name="Position">[595, 125, 615, 240]</P>
+    <P Name="ZOrder">-14</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="OutDataTypeStr">s16En7</P>
+    <P Name="RndMeth">Simplest</P>
+  </Block>
+  <Block BlockType="Lookup_n-D" Name="Pumping Constant" SID="97">
+    <P Name="Ports">[2, 1]</P>
+    <P Name="Position">[285, 145, 355, 200]</P>
+    <P Name="ZOrder">-15</P>
+    <P Name="InputPortMap">u0,u1</P>
+    <P Name="FontName">Arial</P>
+    <P Name="LookupTableObject">&apos;&apos;</P>
+    <P Name="BreakpointsForDimension1">SpeedVect</P>
+    <P Name="BreakpointsForDimension2">PressVect</P>
+    <P Name="IndexSearchMethod">Linear search</P>
+    <P Name="Table">PumpCon</P>
+    <P Name="ExtrapMethod">Clip</P>
+    <P Name="UseLastTableValue">on</P>
+    <P Name="InputSameDT">off</P>
+    <P Name="OutDataTypeStr">s16En15</P>
+    <P Name="RndMeth">Simplest</P>
+  </Block>
+  <Block BlockType="Lookup_n-D" Name="Ramp Rate Ki" SID="98">
+    <P Name="Ports">[2, 1]</P>
+    <P Name="Position">[435, 255, 505, 310]</P>
+    <P Name="ZOrder">-16</P>
+    <P Name="InputPortMap">u0,u1</P>
+    <P Name="FontName">Arial</P>
+    <P Name="LookupTableObject">&apos;&apos;</P>
+    <P Name="BreakpointsForDimension1">RampRateKiX</P>
+    <P Name="BreakpointsForDimension2">RampRateKiY</P>
+    <P Name="IndexSearchMethod">Linear search</P>
+    <P Name="Table">RampRateKiZ</P>
+    <P Name="ExtrapMethod">Clip</P>
+    <P Name="UseLastTableValue">on</P>
+    <P Name="InputSameDT">off</P>
+    <P Name="OutDataTypeStr">s16En15</P>
+    <P Name="RndMeth">Simplest</P>
+  </Block>
+  <Block BlockType="RelationalOperator" Name="Relational&#xA;Operator1" SID="99">
+    <P Name="Ports">[2, 1]</P>
+    <P Name="Position">[270, 429, 300, 476]</P>
+    <P Name="ZOrder">-17</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="Operator">==</P>
+    <P Name="OutDataTypeStr">boolean</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">normal_operation</P>
+    </Port>
+  </Block>
+  <Block BlockType="RelationalOperator" Name="Relational&#xA;Operator3" SID="100">
+    <P Name="Ports">[2, 1]</P>
+    <P Name="Position">[240, 294, 265, 361]</P>
+    <P Name="ZOrder">-18</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="Operator">&lt;=</P>
+    <P Name="InputSameDT">off</P>
+    <P Name="OutDataTypeStr">boolean</P>
+  </Block>
+  <Block BlockType="Sum" Name="Sum" SID="101">
+    <P Name="Ports">[2, 1]</P>
+    <P Name="Position">[685, 33, 705, 237]</P>
+    <P Name="ZOrder">-19</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="IconShape">rectangular</P>
+    <P Name="Inputs">2</P>
+    <P Name="OutDataTypeStr">s16En7</P>
+    <P Name="RndMeth">Simplest</P>
+  </Block>
+  <Block BlockType="Sum" Name="Sum1" SID="102">
+    <P Name="Ports">[2, 1]</P>
+    <P Name="Position">[410, 336, 425, 374]</P>
+    <P Name="ZOrder">-20</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="IconShape">rectangular</P>
+    <P Name="Inputs">-+</P>
+    <P Name="OutDataTypeStr">s16En15</P>
+    <P Name="RndMeth">Simplest</P>
+    <Port>
+      <P Name="PortNumber">1</P>
+      <P Name="Name">e0</P>
+    </Port>
+  </Block>
+  <Block BlockType="DiscreteFilter" Name="Throttle Transient" SID="103">
+    <P Name="Ports">[1, 1]</P>
+    <P Name="Position">[355, 67, 415, 103]</P>
+    <P Name="ZOrder">-21</P>
+    <P Name="InputPortMap">u0</P>
+    <P Name="FontName">Arial</P>
+    <P Name="Numerator">[.01 -.01]</P>
+    <P Name="Denominator">[1 -.8]</P>
+    <P Name="a0EqualsOne">on</P>
+    <P Name="OutDataTypeStr">s16En7</P>
+    <P Name="RndMeth">Simplest</P>
+  </Block>
+  <Block BlockType="Switch" Name="hold&#xA;integrator" SID="104">
+    <P Name="Position">[640, 339, 665, 401]</P>
+    <P Name="ZOrder">-22</P>
+    <P Name="ShowName">off</P>
+    <P Name="FontName">Arial</P>
+    <P Name="Criteria">u2 ~= 0</P>
+    <P Name="Threshold">1</P>
+    <P Name="InputSameDT">off</P>
+    <P Name="OutDataTypeStr">s16En15</P>
+    <P Name="RndMeth">Simplest</P>
+    <P Name="SaturateOnIntegerOverflow">off</P>
+  </Block>
+  <Block BlockType="Outport" Name="est_airflow" SID="105">
+    <P Name="Position">[835, 128, 865, 142]</P>
+    <P Name="ZOrder">-23</P>
+    <P Name="FontName">Arial</P>
+    <P Name="Unit">g/s</P>
+    <P Name="VectorParamsAs1DForOutWhenUnconnected">off</P>
+  </Block>
+  <Block BlockType="Outport" Name="fb_correction" SID="106">
+    <P Name="Position">[835, 363, 865, 377]</P>
+    <P Name="ZOrder">-24</P>
+    <P Name="FontName">Arial</P>
+    <P Name="Port">2</P>
+    <P Name="VectorParamsAs1DForOutWhenUnconnected">off</P>
+  </Block>
+  <Line>
+    <P Name="ZOrder">1</P>
+    <P Name="Src">91#out:1</P>
+    <P Name="Dst">106#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">2</P>
+    <P Name="Src">83#out:1</P>
+    <P Name="Dst">86#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">3</P>
+    <P Name="Src">97#out:1</P>
+    <P Name="Dst">94#in:2</P>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;speed&gt;</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">10</P>
+    <P Name="ZOrder">4</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">86#out:2</P>
+    <P Name="Points">[95, 0]</P>
+    <Branch>
+      <P Name="ZOrder">5</P>
+      <P Name="Points">[0, -25; 185, 0]</P>
+      <Branch>
+        <P Name="ZOrder">6</P>
+        <P Name="Dst">94#in:1</P>
+      </Branch>
+      <Branch>
+        <P Name="ZOrder">7</P>
+        <P Name="Points">[0, 135]</P>
+        <P Name="Dst">98#in:1</P>
+      </Branch>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">8</P>
+      <P Name="Dst">97#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">9</P>
+    <P Name="Src">103#out:1</P>
+    <P Name="Dst">101#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">10</P>
+    <P Name="Src">101#out:1</P>
+    <P Name="Dst">105#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;throttle&gt;</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">10</P>
+    <P Name="ZOrder">11</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">86#out:1</P>
+    <P Name="Dst">103#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">normal_operation</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">10</P>
+    <P Name="ZOrder">12</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">99#out:1</P>
+    <P Name="Points">[92, 0; 0, -20]</P>
+    <P Name="Dst">92#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">13</P>
+    <P Name="Src">93#out:1</P>
+    <P Name="Dst">100#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">14</P>
+    <P Name="Src">87#out:1</P>
+    <P Name="Points">[0, 20]</P>
+    <P Name="Dst">102#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">15</P>
+    <P Name="Src">98#out:1</P>
+    <P Name="Points">[10, 0]</P>
+    <P Name="Dst">95#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">16</P>
+    <P Name="Src">89#out:1</P>
+    <P Name="Points">[0, -20]</P>
+    <P Name="Dst">104#in:3</P>
+  </Line>
+  <Line>
+    <P Name="Name">e1</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">10</P>
+    <P Name="ZOrder">17</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">95#out:1</P>
+    <P Name="Dst">104#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">18</P>
+    <P Name="Src">104#out:1</P>
+    <P Name="Dst">91#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">enable_integration</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">10</P>
+    <P Name="ZOrder">19</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">92#out:1</P>
+    <P Name="Points">[106, 0; 0, -60]</P>
+    <P Name="Dst">104#in:2</P>
+  </Line>
+  <Line>
+    <P Name="Name">e0</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">10</P>
+    <P Name="ZOrder">20</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">102#out:1</P>
+    <P Name="Dst">95#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">21</P>
+    <P Name="Src">100#out:1</P>
+    <P Name="Points">[25, 0]</P>
+    <P Name="Dst">90#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">22</P>
+    <P Name="Src">90#out:1</P>
+    <P Name="Dst">102#in:2</P>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;map&gt;</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">10</P>
+    <P Name="ZOrder">23</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">86#out:3</P>
+    <P Name="Points">[95, 0]</P>
+    <Branch>
+      <P Name="ZOrder">24</P>
+      <P Name="Points">[155, 0]</P>
+      <Branch>
+        <P Name="ZOrder">25</P>
+        <P Name="Points">[165, 0; 0, -25]</P>
+        <P Name="Dst">96#in:2</P>
+      </Branch>
+      <Branch>
+        <P Name="ZOrder">26</P>
+        <P Name="Points">[0, 60]</P>
+        <P Name="Dst">98#in:2</P>
+      </Branch>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">27</P>
+      <P Name="Points">[0, -50]</P>
+      <P Name="Dst">97#in:2</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="Name">&lt;ego&gt;</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">10</P>
+    <P Name="ZOrder">28</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">86#out:4</P>
+    <P Name="Dst">100#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">29</P>
+    <P Name="Src">94#out:1</P>
+    <P Name="Dst">96#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">30</P>
+    <P Name="Src">96#out:1</P>
+    <P Name="Dst">101#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">31</P>
+    <P Name="Src">84#out:1</P>
+    <P Name="Points">[342, 0; 0, 15]</P>
+    <P Name="Dst">92#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">32</P>
+    <P Name="Src">191#out:1</P>
+    <P Name="Dst">99#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">33</P>
+    <P Name="Src">85#out:1</P>
+    <P Name="Dst">99#in:1</P>
+  </Line>
+  <Annotation SID="198">
+    <P Name="Name">Intake Airflow Estimation and Closed-Loop Correction</P>
+    <P Name="Position">[166, 11, 631, 36]</P>
+    <P Name="InternalMargins">[1, 1, 1, 1]</P>
+    <P Name="ZOrder">-1</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">18</P>
+    <P Name="FontWeight">bold</P>
+  </Annotation>
+  <Annotation SID="199">
+    <P Name="Name">Feedback Control</P>
+    <P Name="Position">[633, 441, 755, 461]</P>
+    <P Name="InternalMargins">[1, 1, 1, 1]</P>
+    <P Name="ZOrder">-2</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">14</P>
+    <P Name="FontWeight">bold</P>
+  </Annotation>
+  <Annotation SID="200">
+    <P Name="Name">Feedforward Control</P>
+    <P Name="Position">[627, 241, 768, 261]</P>
+    <P Name="InternalMargins">[1, 1, 1, 1]</P>
+    <P Name="ZOrder">-3</P>
+    <P Name="FontName">Arial</P>
+    <P Name="FontSize">14</P>
+    <P Name="FontWeight">bold</P>
+  </Annotation>
+</System>

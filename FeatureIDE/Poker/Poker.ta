@@ -1,0 +1,37 @@
+$INSTANCE Player Feature
+Player {isMandatory = "true" }
+$INSTANCE Table Feature
+Table {isMandatory = "true" }
+$INSTANCE MaxPlayerCardsTwo Feature
+$INSTANCE MaxPlayerCardsFive Feature
+$INSTANCE MaxPlayerCardsSeven Feature
+$INSTANCE Pot_Limit Feature
+$INSTANCE IncreasingBlinds Feature
+$INSTANCE PokerSPL Feature
+PokerSPL {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Blinds Feature
+$INSTANCE Wager Feature
+$INSTANCE Cards Feature
+Cards {isMandatory = "true" }
+FeatureOf PokerSPL Cards
+FeatureOf PokerSPL Wager
+FeatureOf PokerSPL Player
+FeatureOf PokerSPL Table
+FeatureOf Blinds IncreasingBlinds
+FeatureOf Cards MaxPlayerCardsTwo
+FeatureOf Cards MaxPlayerCardsFive
+FeatureOf Cards MaxPlayerCardsSeven
+FeatureOf Wager Blinds
+FeatureOf Wager Pot_Limit
+MutuallyExclusive MaxPlayerCardsTwo MaxPlayerCardsFive
+(MutuallyExclusive MaxPlayerCardsTwo MaxPlayerCardsFive) {parent = "Cards" }
+MutuallyExclusive MaxPlayerCardsTwo MaxPlayerCardsSeven
+(MutuallyExclusive MaxPlayerCardsTwo MaxPlayerCardsSeven) {parent = "Cards" }
+MutuallyExclusive MaxPlayerCardsFive MaxPlayerCardsSeven
+(MutuallyExclusive MaxPlayerCardsFive MaxPlayerCardsSeven) {parent = "Cards" }
+RequiredTogether Player Table
+(RequiredTogether Player Table) {parent = "PokerSPL" M = "true" }
+RequiredTogether Player Cards
+(RequiredTogether Player Cards) {parent = "PokerSPL" M = "true" }
+RequiredTogether Table Cards
+(RequiredTogether Table Cards) {parent = "PokerSPL" M = "true" }

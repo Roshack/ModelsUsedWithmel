@@ -1,0 +1,472 @@
+$INSTANCE _XOb-MEUpEeu4f9ANiC5xgA StateMachine
+_XOb-MEUpEeu4f9ANiC5xgA {name = "Statechart" }
+$INSTANCE _XOdMXEUpEeu4f9ANiC5xgA State
+_XOdMXEUpEeu4f9ANiC5xgA {type = "Entry" }
+$INSTANCE __kp3EEkmEeumaY2LlLqQxA State
+__kp3EEkmEeumaY2LlLqQxA {type = "State" label = "Speaker" }
+$INSTANCE _ZtB4sEkoEeumaY2LlLqQxA State
+_ZtB4sEkoEeumaY2LlLqQxA {type = "State" label = "USB" }
+$INSTANCE _G9S9sE67EeuiJ7vMJCbhQA State
+_G9S9sE67EeuiJ7vMJCbhQA {type = "Entry" }
+$INSTANCE _Iu0lsE67EeuiJ7vMJCbhQA State
+_Iu0lsE67EeuiJ7vMJCbhQA {type = "State" label = "Play" }
+$INSTANCE _ceaVwE67EeuiJ7vMJCbhQA State
+_ceaVwE67EeuiJ7vMJCbhQA {type = "Entry" }
+$INSTANCE _xwArIE67EeuiJ7vMJCbhQA State
+_xwArIE67EeuiJ7vMJCbhQA {type = "State" label = "playDefault" }
+$INSTANCE _--E9AE69EeuiieaiSPvytw State
+$INSTANCE _RdpIQE7BEeu_N8Gf6pNWKQ State
+$INSTANCE _KP1FcE67EeuiJ7vMJCbhQA State
+_KP1FcE67EeuiJ7vMJCbhQA {type = "State" label = "Pause" }
+$INSTANCE _KtuiYE67EeuiJ7vMJCbhQA State
+_KtuiYE67EeuiJ7vMJCbhQA {type = "State" label = "Stop" }
+$INSTANCE _bZSmMEkoEeumaY2LlLqQxA State
+_bZSmMEkoEeumaY2LlLqQxA {type = "State" label = "Aux" }
+$INSTANCE _T-YD4066EeuiJ7vMJCbhQA State
+_T-YD4066EeuiJ7vMJCbhQA {type = "State" label = "aux" }
+$INSTANCE _T-W1uU66EeuiJ7vMJCbhQA State
+_T-W1uU66EeuiJ7vMJCbhQA {type = "Entry" }
+$INSTANCE _cevLUEkoEeumaY2LlLqQxA State
+_cevLUEkoEeumaY2LlLqQxA {type = "State" label = "Clock Display" }
+$INSTANCE _9U9hbE6BEeuXls6MrHg8Sw State
+_9U9hbE6BEeuXls6MrHg8Sw {type = "State" label = "Timer" }
+$INSTANCE _9VLj5E6BEeuXls6MrHg8Sw State
+_9VLj5E6BEeuXls6MrHg8Sw {type = "State" label = "timermain" }
+$INSTANCE _9VCZ5U6BEeuXls6MrHg8Sw State
+_9VCZ5U6BEeuXls6MrHg8Sw {type = "Entry" }
+$INSTANCE _9VKVxU6BEeuXls6MrHg8Sw State
+_9VKVxU6BEeuXls6MrHg8Sw {type = "State" label = "Ring" }
+$INSTANCE _So0ZME6FEeuQpM3XuZhbRw State
+$INSTANCE _9VBy2k6BEeuXls6MrHg8Sw State
+_9VBy2k6BEeuXls6MrHg8Sw {type = "Entry" }
+$INSTANCE _9VDA_E6BEeuXls6MrHg8Sw State
+_9VDA_E6BEeuXls6MrHg8Sw {type = "State" label = "stopwatch" }
+$INSTANCE _9VS4kE6BEeuXls6MrHg8Sw State
+_9VS4kE6BEeuXls6MrHg8Sw {type = "State" label = "StopwatchDisplay" }
+$INSTANCE _9VKVuE6BEeuXls6MrHg8Sw State
+_9VKVuE6BEeuXls6MrHg8Sw {type = "Entry" }
+$INSTANCE _9VGEW06BEeuXls6MrHg8Sw State
+_9VGEW06BEeuXls6MrHg8Sw {exitEvent = "" label = "chooseTimerOrStopwatch" alwaysEvent = "" exitGuard = "" entryGuard = "" type = "State" alwaysGuard = "" entryEvent = "" }
+$INSTANCE _W7q10E6CEeuXls6MrHg8Sw State
+_W7q10E6CEeuXls6MrHg8Sw {type = "State" label = "SetAlarmClock" }
+$INSTANCE _45sagE6CEeuXls6MrHg8Sw State
+_45sagE6CEeuXls6MrHg8Sw {type = "State" label = "checkState" }
+$INSTANCE _Jg_j8E6DEeuXls6MrHg8Sw State
+_Jg_j8E6DEeuXls6MrHg8Sw {type = "Entry" }
+$INSTANCE _gOk6IEkoEeumaY2LlLqQxA State
+_gOk6IEkoEeumaY2LlLqQxA {type = "State" label = "Network" }
+$INSTANCE _Kfnh8E-MEeu1IfrAXvVHRA State
+_Kfnh8E-MEeu1IfrAXvVHRA {type = "State" label = "initial" }
+$INSTANCE _dMbmYE-MEeu1IfrAXvVHRA State
+_dMbmYE-MEeu1IfrAXvVHRA {type = "Entry" }
+$INSTANCE _oFKqgE-MEeu1IfrAXvVHRA State
+_oFKqgE-MEeu1IfrAXvVHRA {type = "State" label = "play" }
+$INSTANCE _BwpxQE-NEeu1IfrAXvVHRA State
+_BwpxQE-NEeu1IfrAXvVHRA {type = "State" label = "playDefault" }
+$INSTANCE _do0yAE-NEeu1IfrAXvVHRA State
+_do0yAE-NEeu1IfrAXvVHRA {type = "Entry" }
+$INSTANCE _lOjX0E-OEeu1IfrAXvVHRA State
+$INSTANCE _9D8foE-OEeu1IfrAXvVHRA State
+$INSTANCE _eXw7oE-NEeu1IfrAXvVHRA State
+_eXw7oE-NEeu1IfrAXvVHRA {type = "State" label = "stop" }
+$INSTANCE _fDCtQE-NEeu1IfrAXvVHRA State
+_fDCtQE-NEeu1IfrAXvVHRA {type = "State" label = "pause" }
+$INSTANCE _qcmNUEkoEeumaY2LlLqQxA State
+_qcmNUEkoEeumaY2LlLqQxA {type = "Entry" }
+$INSTANCE _FXpegEkpEeumaY2LlLqQxA State
+_FXpegEkpEeumaY2LlLqQxA {type = "State" label = "Radio" }
+$INSTANCE _AhJMsE6GEeuQpM3XuZhbRw State
+_AhJMsE6GEeuQpM3XuZhbRw {type = "State" label = "radio" }
+$INSTANCE _A3QmoE6GEeuQpM3XuZhbRw State
+_A3QmoE6GEeuQpM3XuZhbRw {type = "Entry" }
+$INSTANCE _Ln2pIE6LEeuQpM3XuZhbRw State
+$INSTANCE _OViXYE6LEeuQpM3XuZhbRw State
+$INSTANCE _bjICMEkpEeumaY2LlLqQxA State
+_bjICMEkpEeumaY2LlLqQxA {type = "State" label = "changeState" }
+$INSTANCE _UnM8cEkqEeumaY2LlLqQxA State
+$INSTANCE _Ni_ygEktEeumaY2LlLqQxA State
+_Ni_ygEktEeumaY2LlLqQxA {type = "Entry" label = "returnFromPower" }
+$INSTANCE _BGL3EEkuEeumaY2LlLqQxA State
+_BGL3EEkuEeumaY2LlLqQxA {type = "State" label = "functions" }
+$INSTANCE _s7uGkE-IEeu1IfrAXvVHRA State
+_s7uGkE-IEeu1IfrAXvVHRA {type = "State" label = "Timer&Clcok" }
+$INSTANCE _gSIVsEkuEeumaY2LlLqQxA State
+_gSIVsEkuEeumaY2LlLqQxA {type = "State" label = "Ttimer" }
+$INSTANCE _4CUigEkwEeumaY2LlLqQxA State
+$INSTANCE _ACsSYEkxEeumaY2LlLqQxA State
+$INSTANCE _KqnIwEkwEeumaY2LlLqQxA State
+$INSTANCE _iioYsEkuEeumaY2LlLqQxA State
+_iioYsEkuEeumaY2LlLqQxA {type = "Entry" }
+$INSTANCE _LL_AEE-JEeu1IfrAXvVHRA State
+_LL_AEE-JEeu1IfrAXvVHRA {type = "State" label = "CheckClockTime" }
+$INSTANCE _Li2A4E-JEeu1IfrAXvVHRA State
+_Li2A4E-JEeu1IfrAXvVHRA {type = "Entry" }
+$INSTANCE _P5R1oE-JEeu1IfrAXvVHRA State
+_P5R1oE-JEeu1IfrAXvVHRA {type = "State" label = "Ring" }
+$INSTANCE _SU_qIE-JEeu1IfrAXvVHRA State
+$INSTANCE _wma2sE-IEeu1IfrAXvVHRA State
+_wma2sE-IEeu1IfrAXvVHRA {type = "Entry" }
+$INSTANCE _6iELAE-JEeu1IfrAXvVHRA State
+_6iELAE-JEeu1IfrAXvVHRA {type = "State" label = "network modePlay" }
+$INSTANCE _SARuUE6MEeuQpM3XuZhbRw State
+_SARuUE6MEeuQpM3XuZhbRw {type = "Entry" }
+$INSTANCE _Snk-4E6MEeuQpM3XuZhbRw State
+_Snk-4E6MEeuQpM3XuZhbRw {type = "State" label = "modePlay" }
+$INSTANCE _31pQ8E-dEeuKt8gfGnt6wg State
+$INSTANCE _5rZRoE-dEeuKt8gfGnt6wg State
+$INSTANCE _mWRIoE-gEeuKt8gfGnt6wg State
+$INSTANCE _8FhDUE-gEeuKt8gfGnt6wg State
+$INSTANCE _h5EIEE-hEeuKt8gfGnt6wg State
+$INSTANCE _STaMYE-iEeuKt8gfGnt6wg State
+$INSTANCE _beoSsE-KEeu1IfrAXvVHRA State
+_beoSsE-KEeu1IfrAXvVHRA {type = "State" label = "internetStates" }
+$INSTANCE _M_LxIE-LEeu1IfrAXvVHRA State
+_M_LxIE-LEeu1IfrAXvVHRA {type = "State" label = "disconnect" }
+$INSTANCE _N8E3ME-LEeu1IfrAXvVHRA State
+_N8E3ME-LEeu1IfrAXvVHRA {type = "Entry" }
+$INSTANCE _P9498E-LEeu1IfrAXvVHRA State
+_P9498E-LEeu1IfrAXvVHRA {type = "State" label = "connect" }
+$INSTANCE _evOEQE-LEeu1IfrAXvVHRA State
+$INSTANCE _ht5RUE-KEeu1IfrAXvVHRA State
+_ht5RUE-KEeu1IfrAXvVHRA {type = "State" label = "LogOut" }
+$INSTANCE _ifFdsE-KEeu1IfrAXvVHRA State
+_ifFdsE-KEeu1IfrAXvVHRA {type = "Entry" }
+$INSTANCE _jsUF0E-KEeu1IfrAXvVHRA State
+_jsUF0E-KEeu1IfrAXvVHRA {type = "State" label = "login" }
+$INSTANCE _tgXkYE-LEeu1IfrAXvVHRA State
+$INSTANCE _eknzQE-KEeu1IfrAXvVHRA State
+_eknzQE-KEeu1IfrAXvVHRA {type = "Entry" }
+$INSTANCE _9moIME-JEeu1IfrAXvVHRA State
+_9moIME-JEeu1IfrAXvVHRA {type = "Entry" }
+$INSTANCE _mA_c4E6HEeuQpM3XuZhbRw State
+_mA_c4E6HEeuQpM3XuZhbRw {type = "Entry" }
+$INSTANCE _bD0IoEksEeumaY2LlLqQxA State
+_bD0IoEksEeumaY2LlLqQxA {type = "State" label = "powerOffState" }
+$INSTANCE __krFMEkmEeumaY2LlLqQxA Region
+__krFMEkmEeumaY2LlLqQxA {label = "modes" }
+$INSTANCE __krFMUkmEeumaY2LlLqQxA Region
+__krFMUkmEeumaY2LlLqQxA {label = "functions" }
+$INSTANCE _ZtDt4UkoEeumaY2LlLqQxA Region
+_ZtDt4UkoEeumaY2LlLqQxA {label = "r1" }
+$INSTANCE _Iu0ls067EeuiJ7vMJCbhQA Region
+_Iu0ls067EeuiJ7vMJCbhQA {label = "r1" }
+$INSTANCE _bZTNQkkoEeumaY2LlLqQxA Region
+_bZTNQkkoEeumaY2LlLqQxA {label = "r1" }
+$INSTANCE _cevLU0koEeumaY2LlLqQxA Region
+_cevLU0koEeumaY2LlLqQxA {label = "r1" }
+$INSTANCE _9U-Iek6BEeuXls6MrHg8Sw Region
+_9U-Iek6BEeuXls6MrHg8Sw {label = "r1" }
+$INSTANCE _9VJurE6BEeuXls6MrHg8Sw Region
+_9VJurE6BEeuXls6MrHg8Sw {label = "r1" }
+$INSTANCE _W7q1006CEeuXls6MrHg8Sw Region
+_W7q1006CEeuXls6MrHg8Sw {label = "r1" }
+$INSTANCE _gOlhMEkoEeumaY2LlLqQxA Region
+_gOlhMEkoEeumaY2LlLqQxA {label = "r1" }
+$INSTANCE _oFKqg0-MEeu1IfrAXvVHRA Region
+_oFKqg0-MEeu1IfrAXvVHRA {label = "r1" }
+$INSTANCE _FXqFkUkpEeumaY2LlLqQxA Region
+_FXqFkUkpEeumaY2LlLqQxA {label = "r1" }
+$INSTANCE _BGL3E0kuEeumaY2LlLqQxA Region
+_BGL3E0kuEeumaY2LlLqQxA {label = "timer" }
+$INSTANCE _BGL3FEkuEeumaY2LlLqQxA Region
+_BGL3FEkuEeumaY2LlLqQxA {label = "r2" }
+$INSTANCE _s7utoE-IEeu1IfrAXvVHRA Region
+_s7utoE-IEeu1IfrAXvVHRA {label = "r1" }
+$INSTANCE _s7utoU-IEeu1IfrAXvVHRA Region
+_s7utoU-IEeu1IfrAXvVHRA {label = "r2" }
+$INSTANCE _6iGnQE-JEeu1IfrAXvVHRA Region
+_6iGnQE-JEeu1IfrAXvVHRA {label = "r1" }
+$INSTANCE _6iGnQU-JEeu1IfrAXvVHRA Region
+_6iGnQU-JEeu1IfrAXvVHRA {label = "r2" }
+$INSTANCE _beoSs0-KEeu1IfrAXvVHRA Region
+_beoSs0-KEeu1IfrAXvVHRA {label = "Wifi" }
+$INSTANCE _beoStE-KEeu1IfrAXvVHRA Region
+_beoStE-KEeu1IfrAXvVHRA {label = "loginLogout" }
+Transition _XOdMXEUpEeu4f9ANiC5xgA __kp3EEkmEeumaY2LlLqQxA
+(Transition _XOdMXEUpEeu4f9ANiC5xgA __kp3EEkmEeumaY2LlLqQxA) {guard = "" trigger = "" event = "" }
+Transition __kp3EEkmEeumaY2LlLqQxA _bD0IoEksEeumaY2LlLqQxA
+(Transition __kp3EEkmEeumaY2LlLqQxA _bD0IoEksEeumaY2LlLqQxA) {guard = "" trigger = "power.powerOff\r\n" event = "" }
+Transition _ZtB4sEkoEeumaY2LlLqQxA _bjICMEkpEeumaY2LlLqQxA
+(Transition _ZtB4sEkoEeumaY2LlLqQxA _bjICMEkpEeumaY2LlLqQxA) {guard = "" trigger = "modes.changeMode" event = "" }
+Transition _G9S9sE67EeuiJ7vMJCbhQA _Iu0lsE67EeuiJ7vMJCbhQA
+(Transition _G9S9sE67EeuiJ7vMJCbhQA _Iu0lsE67EeuiJ7vMJCbhQA) {guard = "" trigger = "" event = "" }
+Transition _Iu0lsE67EeuiJ7vMJCbhQA _KP1FcE67EeuiJ7vMJCbhQA
+(Transition _Iu0lsE67EeuiJ7vMJCbhQA _KP1FcE67EeuiJ7vMJCbhQA) {guard = "" trigger = "ModePlay.pause" event = "" }
+Transition _Iu0lsE67EeuiJ7vMJCbhQA _KtuiYE67EeuiJ7vMJCbhQA
+(Transition _Iu0lsE67EeuiJ7vMJCbhQA _KtuiYE67EeuiJ7vMJCbhQA) {guard = "" trigger = "ModePlay.stop\r\n" event = "USB.songTime=0" }
+Transition _ceaVwE67EeuiJ7vMJCbhQA _xwArIE67EeuiJ7vMJCbhQA
+(Transition _ceaVwE67EeuiJ7vMJCbhQA _xwArIE67EeuiJ7vMJCbhQA) {guard = "" trigger = "" event = "" }
+Transition _xwArIE67EeuiJ7vMJCbhQA _--E9AE69EeuiieaiSPvytw
+(Transition _xwArIE67EeuiJ7vMJCbhQA _--E9AE69EeuiieaiSPvytw) {guard = "" trigger = "every 1 s\r\n" event = "" }
+Transition _xwArIE67EeuiJ7vMJCbhQA _xwArIE67EeuiJ7vMJCbhQA
+(Transition _xwArIE67EeuiJ7vMJCbhQA _xwArIE67EeuiJ7vMJCbhQA) {guard = "" trigger = "ModePlay.next" event = "USB.songTime=0;\r\nUSB.curSong=\r\n(USB.curSong+1)%USB.numOfSongs" }
+Transition _xwArIE67EeuiJ7vMJCbhQA _RdpIQE7BEeu_N8Gf6pNWKQ
+(Transition _xwArIE67EeuiJ7vMJCbhQA _RdpIQE7BEeu_N8Gf6pNWKQ) {guard = "" trigger = "ModePlay.back\r\n" event = "USB.songTime=0" }
+Transition _--E9AE69EeuiieaiSPvytw _xwArIE67EeuiJ7vMJCbhQA
+(Transition _--E9AE69EeuiieaiSPvytw _xwArIE67EeuiJ7vMJCbhQA) {guard = "" trigger = "" event = "USB.songTime++\r\n" }
+Transition _RdpIQE7BEeu_N8Gf6pNWKQ _xwArIE67EeuiJ7vMJCbhQA
+(Transition _RdpIQE7BEeu_N8Gf6pNWKQ _xwArIE67EeuiJ7vMJCbhQA) {guard = "USB.curSong==0" trigger = "" event = "USB.curSong = \r\nUSB.numOfSongs-1" }
+Transition _KP1FcE67EeuiJ7vMJCbhQA _Iu0lsE67EeuiJ7vMJCbhQA
+(Transition _KP1FcE67EeuiJ7vMJCbhQA _Iu0lsE67EeuiJ7vMJCbhQA) {guard = "" trigger = "ModePlay.play\r\n" event = "" }
+Transition _KtuiYE67EeuiJ7vMJCbhQA _Iu0lsE67EeuiJ7vMJCbhQA
+(Transition _KtuiYE67EeuiJ7vMJCbhQA _Iu0lsE67EeuiJ7vMJCbhQA) {guard = "" trigger = "ModePlay.play\r\n" event = "" }
+Transition _bZSmMEkoEeumaY2LlLqQxA _bjICMEkpEeumaY2LlLqQxA
+(Transition _bZSmMEkoEeumaY2LlLqQxA _bjICMEkpEeumaY2LlLqQxA) {guard = "" trigger = "modes.changeMode\r\n" event = "" }
+Transition _T-W1uU66EeuiJ7vMJCbhQA _T-YD4066EeuiJ7vMJCbhQA
+(Transition _T-W1uU66EeuiJ7vMJCbhQA _T-YD4066EeuiJ7vMJCbhQA) {guard = "" trigger = "" event = "" }
+Transition _cevLUEkoEeumaY2LlLqQxA _bjICMEkpEeumaY2LlLqQxA
+(Transition _cevLUEkoEeumaY2LlLqQxA _bjICMEkpEeumaY2LlLqQxA) {guard = "" trigger = "modes.changeMode\r\n" event = "" }
+Transition _9U9hbE6BEeuXls6MrHg8Sw _9VGEW06BEeuXls6MrHg8Sw
+(Transition _9U9hbE6BEeuXls6MrHg8Sw _9VGEW06BEeuXls6MrHg8Sw) {guard = "" trigger = "Clock.clockDSP\r\n" event = "" }
+Transition _9VLj5E6BEeuXls6MrHg8Sw _9VLj5E6BEeuXls6MrHg8Sw
+(Transition _9VLj5E6BEeuXls6MrHg8Sw _9VLj5E6BEeuXls6MrHg8Sw) {guard = "" trigger = "Clock.resetTimer\r\n" event = "Clock.reduceTime\r\n=Clock.setTime\r\n" }
+Transition _9VLj5E6BEeuXls6MrHg8Sw _So0ZME6FEeuQpM3XuZhbRw
+(Transition _9VLj5E6BEeuXls6MrHg8Sw _So0ZME6FEeuQpM3XuZhbRw) {guard = "Clock.reduceTime>0" trigger = "every 1s" event = "Clock.reduceTime--\r\n" }
+Transition _9VCZ5U6BEeuXls6MrHg8Sw _9VLj5E6BEeuXls6MrHg8Sw
+(Transition _9VCZ5U6BEeuXls6MrHg8Sw _9VLj5E6BEeuXls6MrHg8Sw) {guard = "" trigger = "" event = "" }
+Transition _So0ZME6FEeuQpM3XuZhbRw _9VLj5E6BEeuXls6MrHg8Sw
+(Transition _So0ZME6FEeuQpM3XuZhbRw _9VLj5E6BEeuXls6MrHg8Sw) {guard = "" trigger = "" event = "" }
+Transition _So0ZME6FEeuQpM3XuZhbRw _9VKVxU6BEeuXls6MrHg8Sw
+(Transition _So0ZME6FEeuQpM3XuZhbRw _9VKVxU6BEeuXls6MrHg8Sw) {guard = "Clock.reduceTime==0" trigger = "" event = "" }
+Transition _9VBy2k6BEeuXls6MrHg8Sw _9VGEW06BEeuXls6MrHg8Sw
+(Transition _9VBy2k6BEeuXls6MrHg8Sw _9VGEW06BEeuXls6MrHg8Sw) {guard = "" trigger = "" event = "" }
+Transition _9VDA_E6BEeuXls6MrHg8Sw _9VGEW06BEeuXls6MrHg8Sw
+(Transition _9VDA_E6BEeuXls6MrHg8Sw _9VGEW06BEeuXls6MrHg8Sw) {guard = "" trigger = "Clock.clockDSP\r\n" event = "" }
+Transition _9VS4kE6BEeuXls6MrHg8Sw _9VS4kE6BEeuXls6MrHg8Sw
+(Transition _9VS4kE6BEeuXls6MrHg8Sw _9VS4kE6BEeuXls6MrHg8Sw) {guard = "!(\r\n\tClock.stop\r\n)" trigger = "every 1s" event = "Clock.\r\nStopwatchtime++\r\n" }
+Transition _9VKVuE6BEeuXls6MrHg8Sw _9VS4kE6BEeuXls6MrHg8Sw
+(Transition _9VKVuE6BEeuXls6MrHg8Sw _9VS4kE6BEeuXls6MrHg8Sw) {guard = "" trigger = "" event = "" }
+Transition _9VGEW06BEeuXls6MrHg8Sw _9U9hbE6BEeuXls6MrHg8Sw
+(Transition _9VGEW06BEeuXls6MrHg8Sw _9U9hbE6BEeuXls6MrHg8Sw) {guard = "" trigger = "Clock.chooseTM\r\n" event = "Clock.reduceTime=Clock.setTime" }
+Transition _9VGEW06BEeuXls6MrHg8Sw _9VDA_E6BEeuXls6MrHg8Sw
+(Transition _9VGEW06BEeuXls6MrHg8Sw _9VDA_E6BEeuXls6MrHg8Sw) {guard = "" trigger = "Clock.chooseSW" event = "Clock.stop=false;\r\nClock.Stopwatchtime=0" }
+Transition _9VGEW06BEeuXls6MrHg8Sw _W7q10E6CEeuXls6MrHg8Sw
+(Transition _9VGEW06BEeuXls6MrHg8Sw _W7q10E6CEeuXls6MrHg8Sw) {guard = "" trigger = "Clock.clockSet\r\n" event = "" }
+Transition _9VGEW06BEeuXls6MrHg8Sw _9VGEW06BEeuXls6MrHg8Sw
+(Transition _9VGEW06BEeuXls6MrHg8Sw _9VGEW06BEeuXls6MrHg8Sw) {guard = "" trigger = "every 1s" event = "\r\nClock.minGen= (timer.sec/60) % 60 ;\r\nClock.hrGen= (timer.sec/3600)%24" }
+Transition _W7q10E6CEeuXls6MrHg8Sw _9VGEW06BEeuXls6MrHg8Sw
+(Transition _W7q10E6CEeuXls6MrHg8Sw _9VGEW06BEeuXls6MrHg8Sw) {guard = "" trigger = "Clock.clockDSP\r\n" event = "" }
+Transition _45sagE6CEeuXls6MrHg8Sw _45sagE6CEeuXls6MrHg8Sw
+(Transition _45sagE6CEeuXls6MrHg8Sw _45sagE6CEeuXls6MrHg8Sw) {guard = "" trigger = "after 2s" event = "Clock.min=Clock.min%60;Clock.hr=Clock.hr% 24" }
+Transition _Jg_j8E6DEeuXls6MrHg8Sw _45sagE6CEeuXls6MrHg8Sw
+(Transition _Jg_j8E6DEeuXls6MrHg8Sw _45sagE6CEeuXls6MrHg8Sw) {guard = "" trigger = "" event = "" }
+Transition _gOk6IEkoEeumaY2LlLqQxA _bjICMEkpEeumaY2LlLqQxA
+(Transition _gOk6IEkoEeumaY2LlLqQxA _bjICMEkpEeumaY2LlLqQxA) {guard = "" trigger = "modes.changeMode\r\n" event = "raise internet.logout" }
+Transition _Kfnh8E-MEeu1IfrAXvVHRA _oFKqgE-MEeu1IfrAXvVHRA
+(Transition _Kfnh8E-MEeu1IfrAXvVHRA _oFKqgE-MEeu1IfrAXvVHRA) {guard = "" trigger = "network.connectionMade" event = "" }
+Transition _dMbmYE-MEeu1IfrAXvVHRA _Kfnh8E-MEeu1IfrAXvVHRA
+(Transition _dMbmYE-MEeu1IfrAXvVHRA _Kfnh8E-MEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "" }
+Transition _oFKqgE-MEeu1IfrAXvVHRA _Kfnh8E-MEeu1IfrAXvVHRA
+(Transition _oFKqgE-MEeu1IfrAXvVHRA _Kfnh8E-MEeu1IfrAXvVHRA) {guard = "!internet.loggedIn" trigger = "after 0s" event = "" }
+Transition _oFKqgE-MEeu1IfrAXvVHRA _fDCtQE-NEeu1IfrAXvVHRA
+(Transition _oFKqgE-MEeu1IfrAXvVHRA _fDCtQE-NEeu1IfrAXvVHRA) {guard = "" trigger = "ModePlay.pause" event = "" }
+Transition _oFKqgE-MEeu1IfrAXvVHRA _eXw7oE-NEeu1IfrAXvVHRA
+(Transition _oFKqgE-MEeu1IfrAXvVHRA _eXw7oE-NEeu1IfrAXvVHRA) {guard = "" trigger = "ModePlay.stop" event = "network.songTime=0" }
+Transition _BwpxQE-NEeu1IfrAXvVHRA _BwpxQE-NEeu1IfrAXvVHRA
+(Transition _BwpxQE-NEeu1IfrAXvVHRA _BwpxQE-NEeu1IfrAXvVHRA) {guard = "" trigger = "ModePlay.next" event = "network.songTime=0;\r\nnetwork.curSong=(network.curSong+1)\r\n%network.numOfSongs" }
+Transition _BwpxQE-NEeu1IfrAXvVHRA _lOjX0E-OEeu1IfrAXvVHRA
+(Transition _BwpxQE-NEeu1IfrAXvVHRA _lOjX0E-OEeu1IfrAXvVHRA) {guard = "" trigger = "every 1s" event = "network.songTime++" }
+Transition _BwpxQE-NEeu1IfrAXvVHRA _9D8foE-OEeu1IfrAXvVHRA
+(Transition _BwpxQE-NEeu1IfrAXvVHRA _9D8foE-OEeu1IfrAXvVHRA) {guard = "" trigger = "ModePlay.back" event = "network.songTime=0" }
+Transition _do0yAE-NEeu1IfrAXvVHRA _BwpxQE-NEeu1IfrAXvVHRA
+(Transition _do0yAE-NEeu1IfrAXvVHRA _BwpxQE-NEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "" }
+Transition _lOjX0E-OEeu1IfrAXvVHRA _BwpxQE-NEeu1IfrAXvVHRA
+(Transition _lOjX0E-OEeu1IfrAXvVHRA _BwpxQE-NEeu1IfrAXvVHRA) {guard = "network.songTime >= 200 || network.songTime < 0" trigger = "" event = "network.songTime=0;\r\nnetwork.curSong = (network.curSong + 1)\r\n%network.numOfSongs" }
+Transition _9D8foE-OEeu1IfrAXvVHRA _BwpxQE-NEeu1IfrAXvVHRA
+(Transition _9D8foE-OEeu1IfrAXvVHRA _BwpxQE-NEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "network.curSong--" }
+Transition _eXw7oE-NEeu1IfrAXvVHRA _oFKqgE-MEeu1IfrAXvVHRA
+(Transition _eXw7oE-NEeu1IfrAXvVHRA _oFKqgE-MEeu1IfrAXvVHRA) {guard = "" trigger = "ModePlay.stop" event = "" }
+Transition _fDCtQE-NEeu1IfrAXvVHRA _oFKqgE-MEeu1IfrAXvVHRA
+(Transition _fDCtQE-NEeu1IfrAXvVHRA _oFKqgE-MEeu1IfrAXvVHRA) {guard = "" trigger = "ModePlay.play" event = "" }
+Transition _qcmNUEkoEeumaY2LlLqQxA _cevLUEkoEeumaY2LlLqQxA
+(Transition _qcmNUEkoEeumaY2LlLqQxA _cevLUEkoEeumaY2LlLqQxA) {guard = "" trigger = "" event = "" }
+Transition _FXpegEkpEeumaY2LlLqQxA _bjICMEkpEeumaY2LlLqQxA
+(Transition _FXpegEkpEeumaY2LlLqQxA _bjICMEkpEeumaY2LlLqQxA) {guard = "" trigger = "modes.changeMode\r\n" event = "" }
+Transition _AhJMsE6GEeuQpM3XuZhbRw _Ln2pIE6LEeuQpM3XuZhbRw
+(Transition _AhJMsE6GEeuQpM3XuZhbRw _Ln2pIE6LEeuQpM3XuZhbRw) {guard = "" trigger = "Radio.raiseFreq\r\n" event = "" }
+Transition _AhJMsE6GEeuQpM3XuZhbRw _OViXYE6LEeuQpM3XuZhbRw
+(Transition _AhJMsE6GEeuQpM3XuZhbRw _OViXYE6LEeuQpM3XuZhbRw) {guard = "" trigger = "Radio.lowerFreq\r\n" event = "" }
+Transition _A3QmoE6GEeuQpM3XuZhbRw _AhJMsE6GEeuQpM3XuZhbRw
+Transition _Ln2pIE6LEeuQpM3XuZhbRw _AhJMsE6GEeuQpM3XuZhbRw
+(Transition _Ln2pIE6LEeuQpM3XuZhbRw _AhJMsE6GEeuQpM3XuZhbRw) {guard = "Radio.station==108" trigger = "" event = "\r\nRadio.station=88\r\n" }
+Transition _OViXYE6LEeuQpM3XuZhbRw _AhJMsE6GEeuQpM3XuZhbRw
+(Transition _OViXYE6LEeuQpM3XuZhbRw _AhJMsE6GEeuQpM3XuZhbRw) {guard = "" trigger = "" event = "Radio.station-=0.05\r\n" }
+Transition _bjICMEkpEeumaY2LlLqQxA _UnM8cEkqEeumaY2LlLqQxA
+(Transition _bjICMEkpEeumaY2LlLqQxA _UnM8cEkqEeumaY2LlLqQxA) {guard = "" trigger = "after 0 s" event = "" }
+Transition _UnM8cEkqEeumaY2LlLqQxA _cevLUEkoEeumaY2LlLqQxA
+(Transition _UnM8cEkqEeumaY2LlLqQxA _cevLUEkoEeumaY2LlLqQxA) {guard = "" trigger = "" event = "" }
+Transition _UnM8cEkqEeumaY2LlLqQxA _FXpegEkpEeumaY2LlLqQxA
+(Transition _UnM8cEkqEeumaY2LlLqQxA _FXpegEkpEeumaY2LlLqQxA) {guard = "modes.mode==2" trigger = "" event = "" }
+Transition _UnM8cEkqEeumaY2LlLqQxA _bZSmMEkoEeumaY2LlLqQxA
+(Transition _UnM8cEkqEeumaY2LlLqQxA _bZSmMEkoEeumaY2LlLqQxA) {guard = "modes.mode==4" trigger = "" event = "" }
+Transition _UnM8cEkqEeumaY2LlLqQxA _gOk6IEkoEeumaY2LlLqQxA
+(Transition _UnM8cEkqEeumaY2LlLqQxA _gOk6IEkoEeumaY2LlLqQxA) {guard = "modes.mode==5" trigger = "" event = "" }
+Transition _UnM8cEkqEeumaY2LlLqQxA _ZtB4sEkoEeumaY2LlLqQxA
+(Transition _UnM8cEkqEeumaY2LlLqQxA _ZtB4sEkoEeumaY2LlLqQxA) {guard = "modes.mode==3" trigger = "" event = "" }
+Transition _gSIVsEkuEeumaY2LlLqQxA _KqnIwEkwEeumaY2LlLqQxA
+(Transition _gSIVsEkuEeumaY2LlLqQxA _KqnIwEkwEeumaY2LlLqQxA) {guard = "" trigger = "every 1 s" event = "timer.sec \r\n= timer.sec + 1" }
+Transition _4CUigEkwEeumaY2LlLqQxA _gSIVsEkuEeumaY2LlLqQxA
+(Transition _4CUigEkwEeumaY2LlLqQxA _gSIVsEkuEeumaY2LlLqQxA) {guard = "" trigger = "" event = "" }
+Transition _ACsSYEkxEeumaY2LlLqQxA _gSIVsEkuEeumaY2LlLqQxA
+(Transition _ACsSYEkxEeumaY2LlLqQxA _gSIVsEkuEeumaY2LlLqQxA) {guard = "" trigger = "" event = "power.battery--\r\n" }
+Transition _KqnIwEkwEeumaY2LlLqQxA _4CUigEkwEeumaY2LlLqQxA
+(Transition _KqnIwEkwEeumaY2LlLqQxA _4CUigEkwEeumaY2LlLqQxA) {guard = "power.connectPower" trigger = "" event = "" }
+Transition _KqnIwEkwEeumaY2LlLqQxA _ACsSYEkxEeumaY2LlLqQxA
+(Transition _KqnIwEkwEeumaY2LlLqQxA _ACsSYEkxEeumaY2LlLqQxA) {guard = "!power.connectPower &&\r\n\ttimer.sec % 60 ==0" trigger = "" event = "" }
+Transition _KqnIwEkwEeumaY2LlLqQxA _gSIVsEkuEeumaY2LlLqQxA
+(Transition _KqnIwEkwEeumaY2LlLqQxA _gSIVsEkuEeumaY2LlLqQxA) {guard = "" trigger = "" event = "" }
+Transition _iioYsEkuEeumaY2LlLqQxA _gSIVsEkuEeumaY2LlLqQxA
+(Transition _iioYsEkuEeumaY2LlLqQxA _gSIVsEkuEeumaY2LlLqQxA) {guard = "" trigger = "" event = "" }
+Transition _LL_AEE-JEeu1IfrAXvVHRA _SU_qIE-JEeu1IfrAXvVHRA
+(Transition _LL_AEE-JEeu1IfrAXvVHRA _SU_qIE-JEeu1IfrAXvVHRA) {guard = "" trigger = "every 1s" event = "" }
+Transition _Li2A4E-JEeu1IfrAXvVHRA _LL_AEE-JEeu1IfrAXvVHRA
+(Transition _Li2A4E-JEeu1IfrAXvVHRA _LL_AEE-JEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "" }
+Transition _P5R1oE-JEeu1IfrAXvVHRA _LL_AEE-JEeu1IfrAXvVHRA
+(Transition _P5R1oE-JEeu1IfrAXvVHRA _LL_AEE-JEeu1IfrAXvVHRA) {guard = "" trigger = "after 30s" event = "" }
+Transition _SU_qIE-JEeu1IfrAXvVHRA _P5R1oE-JEeu1IfrAXvVHRA
+(Transition _SU_qIE-JEeu1IfrAXvVHRA _P5R1oE-JEeu1IfrAXvVHRA) {guard = "timer.sec%60 == Clock.min &&\r\n\t(timer.sec/3600)%24 == Clock.hr\r\n" trigger = "" event = "3600)%24 == Clock.hr\r\n]" }
+Transition _SU_qIE-JEeu1IfrAXvVHRA _LL_AEE-JEeu1IfrAXvVHRA
+(Transition _SU_qIE-JEeu1IfrAXvVHRA _LL_AEE-JEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "" }
+Transition _wma2sE-IEeu1IfrAXvVHRA _s7uGkE-IEeu1IfrAXvVHRA
+(Transition _wma2sE-IEeu1IfrAXvVHRA _s7uGkE-IEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "" }
+Transition _SARuUE6MEeuQpM3XuZhbRw _Snk-4E6MEeuQpM3XuZhbRw
+(Transition _SARuUE6MEeuQpM3XuZhbRw _Snk-4E6MEeuQpM3XuZhbRw) {guard = "" trigger = "" event = "" }
+Transition _Snk-4E6MEeuQpM3XuZhbRw _Snk-4E6MEeuQpM3XuZhbRw
+(Transition _Snk-4E6MEeuQpM3XuZhbRw _Snk-4E6MEeuQpM3XuZhbRw) {guard = "ModePlay.volume<100" trigger = "ModePlay.volumeUp" event = "\r\nModePlay.volume+=5\r\n" }
+Transition _Snk-4E6MEeuQpM3XuZhbRw _31pQ8E-dEeuKt8gfGnt6wg
+(Transition _Snk-4E6MEeuQpM3XuZhbRw _31pQ8E-dEeuKt8gfGnt6wg) {guard = "" trigger = "ModePlay.skipForward" event = "" }
+Transition _Snk-4E6MEeuQpM3XuZhbRw _5rZRoE-dEeuKt8gfGnt6wg
+(Transition _Snk-4E6MEeuQpM3XuZhbRw _5rZRoE-dEeuKt8gfGnt6wg) {guard = "" trigger = "ModePlay.skipBackwards" event = "" }
+Transition _31pQ8E-dEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw
+(Transition _31pQ8E-dEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw) {guard = "" trigger = "" event = "" }
+Transition _31pQ8E-dEeuKt8gfGnt6wg _h5EIEE-hEeuKt8gfGnt6wg
+(Transition _31pQ8E-dEeuKt8gfGnt6wg _h5EIEE-hEeuKt8gfGnt6wg) {guard = "modes.mode==5 \r\n&&  internet.loggedIn" trigger = "" event = "" }
+Transition _31pQ8E-dEeuKt8gfGnt6wg _STaMYE-iEeuKt8gfGnt6wg
+(Transition _31pQ8E-dEeuKt8gfGnt6wg _STaMYE-iEeuKt8gfGnt6wg) {guard = "modes.mode==3" trigger = "" event = "" }
+Transition _5rZRoE-dEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw
+(Transition _5rZRoE-dEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw) {guard = "" trigger = "" event = "" }
+Transition _5rZRoE-dEeuKt8gfGnt6wg _mWRIoE-gEeuKt8gfGnt6wg
+(Transition _5rZRoE-dEeuKt8gfGnt6wg _mWRIoE-gEeuKt8gfGnt6wg) {guard = "modes.mode==3" trigger = "" event = "" }
+Transition _5rZRoE-dEeuKt8gfGnt6wg _8FhDUE-gEeuKt8gfGnt6wg
+(Transition _5rZRoE-dEeuKt8gfGnt6wg _8FhDUE-gEeuKt8gfGnt6wg) {guard = "modes.mode==5 \r\n&& internet.loggedIn" trigger = "" event = "" }
+Transition _mWRIoE-gEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw
+(Transition _mWRIoE-gEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw) {guard = "USB.songTime-ModePlay.skipTime > 0" trigger = "" event = "USB.songTime=USB.songTime-ModePlay.skipTime" }
+Transition _8FhDUE-gEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw
+(Transition _8FhDUE-gEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw) {guard = "network.songTime-ModePlay.skipTime > 0\r\n" trigger = "" event = "network.songTime=network.songTime-ModePlay.skipTime" }
+Transition _h5EIEE-hEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw
+(Transition _h5EIEE-hEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw) {guard = "network.songTime+ModePlay.skipTime < 200\r\n" trigger = "" event = "network.songTime=network.songTime+ModePlay.skipTime" }
+Transition _STaMYE-iEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw
+(Transition _STaMYE-iEeuKt8gfGnt6wg _Snk-4E6MEeuQpM3XuZhbRw) {guard = "USB.songTime+ModePlay.skipTime < 200\r\n" trigger = "" event = "USB.songTime=USB.songTime+ModePlay.skipTime" }
+Transition _M_LxIE-LEeu1IfrAXvVHRA _P9498E-LEeu1IfrAXvVHRA
+(Transition _M_LxIE-LEeu1IfrAXvVHRA _P9498E-LEeu1IfrAXvVHRA) {guard = "" trigger = "internet.connectWifi\r\n" event = "internet.connectedWifi=true" }
+Transition _N8E3ME-LEeu1IfrAXvVHRA _M_LxIE-LEeu1IfrAXvVHRA
+(Transition _N8E3ME-LEeu1IfrAXvVHRA _M_LxIE-LEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "" }
+Transition _P9498E-LEeu1IfrAXvVHRA _evOEQE-LEeu1IfrAXvVHRA
+(Transition _P9498E-LEeu1IfrAXvVHRA _evOEQE-LEeu1IfrAXvVHRA) {guard = "" trigger = "internet.disconnectWifi" event = "" }
+Transition _evOEQE-LEeu1IfrAXvVHRA _M_LxIE-LEeu1IfrAXvVHRA
+(Transition _evOEQE-LEeu1IfrAXvVHRA _M_LxIE-LEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "internet.connectedWifi=false;raise internet.logout" }
+Transition _ht5RUE-KEeu1IfrAXvVHRA _jsUF0E-KEeu1IfrAXvVHRA
+(Transition _ht5RUE-KEeu1IfrAXvVHRA _jsUF0E-KEeu1IfrAXvVHRA) {guard = "internet.connectedWifi && modes.mode==5" trigger = "internet.login\r\n" event = "internet.loggedIn=true\r\n;raise network.connectionMade" }
+Transition _ifFdsE-KEeu1IfrAXvVHRA _ht5RUE-KEeu1IfrAXvVHRA
+(Transition _ifFdsE-KEeu1IfrAXvVHRA _ht5RUE-KEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "" }
+Transition _jsUF0E-KEeu1IfrAXvVHRA _tgXkYE-LEeu1IfrAXvVHRA
+(Transition _jsUF0E-KEeu1IfrAXvVHRA _tgXkYE-LEeu1IfrAXvVHRA) {guard = "" trigger = "power.powerOff\r\n" event = "" }
+Transition _tgXkYE-LEeu1IfrAXvVHRA _ht5RUE-KEeu1IfrAXvVHRA
+(Transition _tgXkYE-LEeu1IfrAXvVHRA _ht5RUE-KEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "internet.loggedIn=false" }
+Transition _eknzQE-KEeu1IfrAXvVHRA _beoSsE-KEeu1IfrAXvVHRA
+(Transition _eknzQE-KEeu1IfrAXvVHRA _beoSsE-KEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "" }
+Transition _9moIME-JEeu1IfrAXvVHRA _6iELAE-JEeu1IfrAXvVHRA
+(Transition _9moIME-JEeu1IfrAXvVHRA _6iELAE-JEeu1IfrAXvVHRA) {guard = "" trigger = "" event = "" }
+Transition _mA_c4E6HEeuQpM3XuZhbRw _BGL3EEkuEeumaY2LlLqQxA
+(Transition _mA_c4E6HEeuQpM3XuZhbRw _BGL3EEkuEeumaY2LlLqQxA) {guard = "" trigger = "" event = "" }
+Transition _bD0IoEksEeumaY2LlLqQxA _Ni_ygEktEeumaY2LlLqQxA
+(Transition _bD0IoEksEeumaY2LlLqQxA _Ni_ygEktEeumaY2LlLqQxA) {guard = "power.\r\n\tbattery > 0 || power.connectPower\r\n" trigger = "power.powerOn" event = "" }
+Transition _bD0IoEksEeumaY2LlLqQxA _bD0IoEksEeumaY2LlLqQxA
+(Transition _bD0IoEksEeumaY2LlLqQxA _bD0IoEksEeumaY2LlLqQxA) {guard = "" trigger = "every 1s" event = "timer.sec++" }
+SubState __kp3EEkmEeumaY2LlLqQxA _ZtB4sEkoEeumaY2LlLqQxA
+SubState __kp3EEkmEeumaY2LlLqQxA _bZSmMEkoEeumaY2LlLqQxA
+SubState __kp3EEkmEeumaY2LlLqQxA _cevLUEkoEeumaY2LlLqQxA
+SubState __kp3EEkmEeumaY2LlLqQxA _gOk6IEkoEeumaY2LlLqQxA
+SubState __kp3EEkmEeumaY2LlLqQxA _FXpegEkpEeumaY2LlLqQxA
+SubState __kp3EEkmEeumaY2LlLqQxA _bjICMEkpEeumaY2LlLqQxA
+SubState __kp3EEkmEeumaY2LlLqQxA _BGL3EEkuEeumaY2LlLqQxA
+SubState _ZtB4sEkoEeumaY2LlLqQxA _Iu0lsE67EeuiJ7vMJCbhQA
+SubState _ZtB4sEkoEeumaY2LlLqQxA _KP1FcE67EeuiJ7vMJCbhQA
+SubState _ZtB4sEkoEeumaY2LlLqQxA _KtuiYE67EeuiJ7vMJCbhQA
+SubState _Iu0lsE67EeuiJ7vMJCbhQA _xwArIE67EeuiJ7vMJCbhQA
+SubState _bZSmMEkoEeumaY2LlLqQxA _T-YD4066EeuiJ7vMJCbhQA
+SubState _cevLUEkoEeumaY2LlLqQxA _9U9hbE6BEeuXls6MrHg8Sw
+SubState _cevLUEkoEeumaY2LlLqQxA _9VDA_E6BEeuXls6MrHg8Sw
+SubState _cevLUEkoEeumaY2LlLqQxA _9VGEW06BEeuXls6MrHg8Sw
+SubState _cevLUEkoEeumaY2LlLqQxA _W7q10E6CEeuXls6MrHg8Sw
+SubState _9U9hbE6BEeuXls6MrHg8Sw _9VLj5E6BEeuXls6MrHg8Sw
+SubState _9U9hbE6BEeuXls6MrHg8Sw _9VKVxU6BEeuXls6MrHg8Sw
+SubState _9VDA_E6BEeuXls6MrHg8Sw _9VS4kE6BEeuXls6MrHg8Sw
+SubState _W7q10E6CEeuXls6MrHg8Sw _45sagE6CEeuXls6MrHg8Sw
+SubState _gOk6IEkoEeumaY2LlLqQxA _Kfnh8E-MEeu1IfrAXvVHRA
+SubState _gOk6IEkoEeumaY2LlLqQxA _oFKqgE-MEeu1IfrAXvVHRA
+SubState _gOk6IEkoEeumaY2LlLqQxA _eXw7oE-NEeu1IfrAXvVHRA
+SubState _gOk6IEkoEeumaY2LlLqQxA _fDCtQE-NEeu1IfrAXvVHRA
+SubState _oFKqgE-MEeu1IfrAXvVHRA _BwpxQE-NEeu1IfrAXvVHRA
+SubState _FXpegEkpEeumaY2LlLqQxA _AhJMsE6GEeuQpM3XuZhbRw
+SubState _BGL3EEkuEeumaY2LlLqQxA _s7uGkE-IEeu1IfrAXvVHRA
+SubState _BGL3EEkuEeumaY2LlLqQxA _6iELAE-JEeu1IfrAXvVHRA
+SubState _s7uGkE-IEeu1IfrAXvVHRA _gSIVsEkuEeumaY2LlLqQxA
+SubState _s7uGkE-IEeu1IfrAXvVHRA _LL_AEE-JEeu1IfrAXvVHRA
+SubState _s7uGkE-IEeu1IfrAXvVHRA _P5R1oE-JEeu1IfrAXvVHRA
+SubState _6iELAE-JEeu1IfrAXvVHRA _Snk-4E6MEeuQpM3XuZhbRw
+SubState _6iELAE-JEeu1IfrAXvVHRA _beoSsE-KEeu1IfrAXvVHRA
+SubState _beoSsE-KEeu1IfrAXvVHRA _M_LxIE-LEeu1IfrAXvVHRA
+SubState _beoSsE-KEeu1IfrAXvVHRA _P9498E-LEeu1IfrAXvVHRA
+SubState _beoSsE-KEeu1IfrAXvVHRA _ht5RUE-KEeu1IfrAXvVHRA
+SubState _beoSsE-KEeu1IfrAXvVHRA _jsUF0E-KEeu1IfrAXvVHRA
+Concurrent __krFMEkmEeumaY2LlLqQxA __krFMUkmEeumaY2LlLqQxA
+(Concurrent __krFMEkmEeumaY2LlLqQxA __krFMUkmEeumaY2LlLqQxA) {L2 = "functions" L1 = "modes" }
+Concurrent _BGL3E0kuEeumaY2LlLqQxA _BGL3FEkuEeumaY2LlLqQxA
+(Concurrent _BGL3E0kuEeumaY2LlLqQxA _BGL3FEkuEeumaY2LlLqQxA) {L2 = "r2" L1 = "timer" }
+Concurrent _s7utoE-IEeu1IfrAXvVHRA _s7utoU-IEeu1IfrAXvVHRA
+(Concurrent _s7utoE-IEeu1IfrAXvVHRA _s7utoU-IEeu1IfrAXvVHRA) {L2 = "r2" L1 = "r1" }
+Concurrent _6iGnQE-JEeu1IfrAXvVHRA _6iGnQU-JEeu1IfrAXvVHRA
+(Concurrent _6iGnQE-JEeu1IfrAXvVHRA _6iGnQU-JEeu1IfrAXvVHRA) {L2 = "r2" L1 = "r1" }
+Concurrent _beoSs0-KEeu1IfrAXvVHRA _beoStE-KEeu1IfrAXvVHRA
+(Concurrent _beoSs0-KEeu1IfrAXvVHRA _beoStE-KEeu1IfrAXvVHRA) {L2 = "loginLogout" L1 = "Wifi" }
+RegionOf __kp3EEkmEeumaY2LlLqQxA __krFMEkmEeumaY2LlLqQxA
+(RegionOf __kp3EEkmEeumaY2LlLqQxA __krFMEkmEeumaY2LlLqQxA) {rLabel = "modes" sLabel = "Speaker" }
+RegionOf __kp3EEkmEeumaY2LlLqQxA __krFMUkmEeumaY2LlLqQxA
+(RegionOf __kp3EEkmEeumaY2LlLqQxA __krFMUkmEeumaY2LlLqQxA) {rLabel = "functions" sLabel = "Speaker" }
+RegionOf _ZtB4sEkoEeumaY2LlLqQxA _ZtDt4UkoEeumaY2LlLqQxA
+(RegionOf _ZtB4sEkoEeumaY2LlLqQxA _ZtDt4UkoEeumaY2LlLqQxA) {rLabel = "r1" sLabel = "USB" }
+RegionOf _Iu0lsE67EeuiJ7vMJCbhQA _Iu0ls067EeuiJ7vMJCbhQA
+(RegionOf _Iu0lsE67EeuiJ7vMJCbhQA _Iu0ls067EeuiJ7vMJCbhQA) {rLabel = "r1" sLabel = "Play" }
+RegionOf _bZSmMEkoEeumaY2LlLqQxA _bZTNQkkoEeumaY2LlLqQxA
+(RegionOf _bZSmMEkoEeumaY2LlLqQxA _bZTNQkkoEeumaY2LlLqQxA) {rLabel = "r1" sLabel = "Aux" }
+RegionOf _cevLUEkoEeumaY2LlLqQxA _cevLU0koEeumaY2LlLqQxA
+(RegionOf _cevLUEkoEeumaY2LlLqQxA _cevLU0koEeumaY2LlLqQxA) {rLabel = "r1" sLabel = "Clock Display" }
+RegionOf _9U9hbE6BEeuXls6MrHg8Sw _9U-Iek6BEeuXls6MrHg8Sw
+(RegionOf _9U9hbE6BEeuXls6MrHg8Sw _9U-Iek6BEeuXls6MrHg8Sw) {rLabel = "r1" sLabel = "Timer" }
+RegionOf _9VDA_E6BEeuXls6MrHg8Sw _9VJurE6BEeuXls6MrHg8Sw
+(RegionOf _9VDA_E6BEeuXls6MrHg8Sw _9VJurE6BEeuXls6MrHg8Sw) {rLabel = "r1" sLabel = "stopwatch" }
+RegionOf _W7q10E6CEeuXls6MrHg8Sw _W7q1006CEeuXls6MrHg8Sw
+(RegionOf _W7q10E6CEeuXls6MrHg8Sw _W7q1006CEeuXls6MrHg8Sw) {rLabel = "r1" sLabel = "SetAlarmClock" }
+RegionOf _gOk6IEkoEeumaY2LlLqQxA _gOlhMEkoEeumaY2LlLqQxA
+(RegionOf _gOk6IEkoEeumaY2LlLqQxA _gOlhMEkoEeumaY2LlLqQxA) {rLabel = "r1" sLabel = "Network" }
+RegionOf _oFKqgE-MEeu1IfrAXvVHRA _oFKqg0-MEeu1IfrAXvVHRA
+(RegionOf _oFKqgE-MEeu1IfrAXvVHRA _oFKqg0-MEeu1IfrAXvVHRA) {rLabel = "r1" sLabel = "play" }
+RegionOf _FXpegEkpEeumaY2LlLqQxA _FXqFkUkpEeumaY2LlLqQxA
+(RegionOf _FXpegEkpEeumaY2LlLqQxA _FXqFkUkpEeumaY2LlLqQxA) {rLabel = "r1" sLabel = "Radio" }
+RegionOf _BGL3EEkuEeumaY2LlLqQxA _BGL3E0kuEeumaY2LlLqQxA
+(RegionOf _BGL3EEkuEeumaY2LlLqQxA _BGL3E0kuEeumaY2LlLqQxA) {rLabel = "timer" sLabel = "functions" }
+RegionOf _BGL3EEkuEeumaY2LlLqQxA _BGL3FEkuEeumaY2LlLqQxA
+(RegionOf _BGL3EEkuEeumaY2LlLqQxA _BGL3FEkuEeumaY2LlLqQxA) {rLabel = "r2" sLabel = "functions" }
+RegionOf _s7uGkE-IEeu1IfrAXvVHRA _s7utoE-IEeu1IfrAXvVHRA
+(RegionOf _s7uGkE-IEeu1IfrAXvVHRA _s7utoE-IEeu1IfrAXvVHRA) {rLabel = "r1" sLabel = "Timer&Clcok" }
+RegionOf _s7uGkE-IEeu1IfrAXvVHRA _s7utoU-IEeu1IfrAXvVHRA
+(RegionOf _s7uGkE-IEeu1IfrAXvVHRA _s7utoU-IEeu1IfrAXvVHRA) {rLabel = "r2" sLabel = "Timer&Clcok" }
+RegionOf _6iELAE-JEeu1IfrAXvVHRA _6iGnQE-JEeu1IfrAXvVHRA
+(RegionOf _6iELAE-JEeu1IfrAXvVHRA _6iGnQE-JEeu1IfrAXvVHRA) {rLabel = "r1" sLabel = "network modePlay" }
+RegionOf _6iELAE-JEeu1IfrAXvVHRA _6iGnQU-JEeu1IfrAXvVHRA
+(RegionOf _6iELAE-JEeu1IfrAXvVHRA _6iGnQU-JEeu1IfrAXvVHRA) {rLabel = "r2" sLabel = "network modePlay" }
+RegionOf _beoSsE-KEeu1IfrAXvVHRA _beoSs0-KEeu1IfrAXvVHRA
+(RegionOf _beoSsE-KEeu1IfrAXvVHRA _beoSs0-KEeu1IfrAXvVHRA) {rLabel = "Wifi" sLabel = "internetStates" }
+RegionOf _beoSsE-KEeu1IfrAXvVHRA _beoStE-KEeu1IfrAXvVHRA
+(RegionOf _beoSsE-KEeu1IfrAXvVHRA _beoStE-KEeu1IfrAXvVHRA) {rLabel = "loginLogout" sLabel = "internetStates" }

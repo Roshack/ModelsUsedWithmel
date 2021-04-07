@@ -1,0 +1,68 @@
+$INSTANCE VoiceOutput Feature
+VoiceOutput {isAbstract = "true" }
+$INSTANCE Service Feature
+$INSTANCE Sabbath Feature
+$INSTANCE FIFO Feature
+$INSTANCE ShortestPath Feature
+$INSTANCE RushHour Feature
+RushHour {isAbstract = "true" }
+$INSTANCE FloorPriority Feature
+FloorPriority {isAbstract = "true" }
+$INSTANCE PersonPriority Feature
+PersonPriority {isAbstract = "true" }
+$INSTANCE DirectedCall Feature
+$INSTANCE UndirectedCall Feature
+$INSTANCE FloorPermission Feature
+$INSTANCE PermissionControl Feature
+PermissionControl {isAbstract = "true" }
+$INSTANCE Overloaded Feature
+Overloaded {isAbstract = "true" }
+$INSTANCE Elevator Feature
+Elevator {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Behavior Feature
+Behavior {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Security Feature
+Security {isAbstract = "true" }
+$INSTANCE Safety Feature
+Safety {isAbstract = "true" }
+$INSTANCE Priorities Feature
+Priorities {isAbstract = "true" }
+$INSTANCE Permission Feature
+Permission {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Modes Feature
+Modes {isMandatory = "true" isAbstract = "true" }
+$INSTANCE CallButtons Feature
+FeatureOf Elevator Behavior
+FeatureOf Elevator Security
+FeatureOf Elevator Safety
+FeatureOf Elevator CallButtons
+FeatureOf Behavior Modes
+FeatureOf Behavior Priorities
+FeatureOf Security Permission
+FeatureOf Elevator VoiceOutput
+FeatureOf Behavior Service
+FeatureOf Safety Overloaded
+FeatureOf Modes Sabbath
+FeatureOf Modes FIFO
+FeatureOf Modes ShortestPath
+FeatureOf CallButtons DirectedCall
+FeatureOf CallButtons UndirectedCall
+FeatureOf Priorities RushHour
+FeatureOf Priorities FloorPriority
+FeatureOf Priorities PersonPriority
+FeatureOf Permission FloorPermission
+FeatureOf Permission PermissionControl
+MutuallyExclusive Sabbath FIFO
+(MutuallyExclusive Sabbath FIFO) {parent = "Modes" }
+MutuallyExclusive Sabbath ShortestPath
+(MutuallyExclusive Sabbath ShortestPath) {parent = "Modes" }
+MutuallyExclusive FIFO ShortestPath
+(MutuallyExclusive FIFO ShortestPath) {parent = "Modes" }
+MutuallyExclusive DirectedCall UndirectedCall
+(MutuallyExclusive DirectedCall UndirectedCall) {parent = "CallButtons" }
+Implies DirectedCall ShortestPath
+Implies ShortestPath DirectedCall
+Disjoint CallButtons Sabbath
+Disjoint Sabbath CallButtons
+Disjoint FIFO ShortestPath
+Disjoint ShortestPath FIFO

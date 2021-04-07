@@ -1,0 +1,663 @@
+$INSTANCE Project class
+$INSTANCE User class
+$INSTANCE Clash class
+$INSTANCE EidClash class
+$INSTANCE GuidClash class
+$INSTANCE ClashDetectionSettings class
+$INSTANCE Revision class
+$INSTANCE ConcreteRevision class
+$INSTANCE GeoTag class
+$INSTANCE Checkout class
+$INSTANCE Settings class
+$INSTANCE Serializer class
+$INSTANCE ObjectIDM class
+$INSTANCE IfcEngine class
+$INSTANCE Plugin class
+$INSTANCE Deserializer class
+$INSTANCE CheckinResult class
+$INSTANCE DownloadResult class
+$INSTANCE CheckoutResult class
+$INSTANCE DataValue class
+$INSTANCE DataObject class
+$INSTANCE UserSession class
+$INSTANCE Migration class
+$INSTANCE ReferenceDataValue class
+$INSTANCE ListDataValue class
+$INSTANCE SimpleDataValue class
+$INSTANCE DatabaseInformationItem class
+$INSTANCE DatabaseInformationCategory class
+$INSTANCE DatabaseInformation class
+$INSTANCE SerializerPluginDescriptor class
+$INSTANCE DeserializerPluginDescriptor class
+$INSTANCE RevisionSummaryType class
+$INSTANCE RevisionSummaryContainer class
+$INSTANCE RevisionSummary class
+$INSTANCE PluginDescriptor class
+$INSTANCE LongAction class
+$INSTANCE LongCheckinAction class
+$INSTANCE ObjectIDMPluginDescriptor class
+$INSTANCE CompareItem class
+$INSTANCE ObjectAdded class
+$INSTANCE ObjectRemoved class
+$INSTANCE ObjectModified class
+$INSTANCE CompareContainer class
+$INSTANCE CompareResult class
+$INSTANCE LongActionState class
+$INSTANCE Notification class
+$INSTANCE NewProjectNotification class
+$INSTANCE NewRevisionNotification class
+$INSTANCE CompileResult class
+$INSTANCE RunResult class
+$INSTANCE ServerInfo class
+$INSTANCE Version class
+$INSTANCE IfcEnginePluginDescriptor class
+$INSTANCE ExtendedDataSchema class
+$INSTANCE ExtendedData class
+$INSTANCE UserType enum
+$INSTANCE SIPrefix enum
+$INSTANCE ObjectState enum
+$INSTANCE MergeIdentifier enum
+$INSTANCE CompareIdentifier enum
+$INSTANCE CompareType enum
+$INSTANCE ActionState enum
+$INSTANCE ServerState enum
+$INSTANCE CheckinStatus enum
+$INSTANCE ExtendedDataSchemaType enum
+enumValues UserType SYSTEM
+(enumValues UserType SYSTEM) {value = "0" }
+enumValues UserType ADMIN
+(enumValues UserType ADMIN) {value = "1" }
+enumValues UserType USER
+(enumValues UserType USER) {value = "2" }
+enumValues UserType READ_ONLY
+(enumValues UserType READ_ONLY) {value = "3" }
+enumValues SIPrefix meter
+(enumValues SIPrefix meter) {value = "0" }
+enumValues SIPrefix attometer
+(enumValues SIPrefix attometer) {value = "-18" }
+enumValues SIPrefix femtometer
+(enumValues SIPrefix femtometer) {value = "-15" }
+enumValues SIPrefix picometer
+(enumValues SIPrefix picometer) {value = "-12" }
+enumValues SIPrefix nanometer
+(enumValues SIPrefix nanometer) {value = "-9" }
+enumValues SIPrefix micrometer
+(enumValues SIPrefix micrometer) {value = "-6" }
+enumValues SIPrefix millimeter
+(enumValues SIPrefix millimeter) {value = "-3" }
+enumValues SIPrefix centimeter
+(enumValues SIPrefix centimeter) {value = "-2" }
+enumValues SIPrefix decimeter
+(enumValues SIPrefix decimeter) {value = "-1" }
+enumValues SIPrefix decameter
+(enumValues SIPrefix decameter) {value = "1" }
+enumValues SIPrefix hectometer
+(enumValues SIPrefix hectometer) {value = "2" }
+enumValues SIPrefix kilometer
+(enumValues SIPrefix kilometer) {value = "3" }
+enumValues SIPrefix megameter
+(enumValues SIPrefix megameter) {value = "6" }
+enumValues SIPrefix gigameter
+(enumValues SIPrefix gigameter) {value = "9" }
+enumValues SIPrefix terameter
+(enumValues SIPrefix terameter) {value = "12" }
+enumValues SIPrefix petameter
+(enumValues SIPrefix petameter) {value = "15" }
+enumValues SIPrefix exameter
+(enumValues SIPrefix exameter) {value = "18" }
+enumValues ObjectState ACTIVE
+(enumValues ObjectState ACTIVE) {value = "0" }
+enumValues ObjectState DELETED
+(enumValues ObjectState DELETED) {value = "1" }
+enumValues MergeIdentifier NAME
+(enumValues MergeIdentifier NAME) {value = "0" }
+enumValues MergeIdentifier GUID
+(enumValues MergeIdentifier GUID) {value = "1" }
+enumValues CompareIdentifier NAME_ID
+(enumValues CompareIdentifier NAME_ID) {value = "0" }
+enumValues CompareIdentifier GUID_ID
+(enumValues CompareIdentifier GUID_ID) {value = "1" }
+enumValues CompareType ALL
+(enumValues CompareType ALL) {value = "0" }
+enumValues CompareType ADD
+(enumValues CompareType ADD) {value = "1" }
+enumValues CompareType MODIFY
+(enumValues CompareType MODIFY) {value = "2" }
+enumValues CompareType DELETE
+(enumValues CompareType DELETE) {value = "3" }
+enumValues ActionState UNKNOWN
+(enumValues ActionState UNKNOWN) {value = "0" }
+enumValues ActionState STARTED
+(enumValues ActionState STARTED) {value = "1" }
+enumValues ActionState FINISHED
+(enumValues ActionState FINISHED) {value = "2" }
+enumValues ServerState UNDEFINED
+(enumValues ServerState UNDEFINED) {value = "0" }
+enumValues ServerState NOT_SETUP
+(enumValues ServerState NOT_SETUP) {value = "1" }
+enumValues ServerState MIGRATION_REQUIRED
+(enumValues ServerState MIGRATION_REQUIRED) {value = "2" }
+enumValues ServerState MIGRATION_IMPOSSIBLE
+(enumValues ServerState MIGRATION_IMPOSSIBLE) {value = "3" }
+enumValues ServerState FATAL_ERROR
+(enumValues ServerState FATAL_ERROR) {value = "4" }
+enumValues ServerState RUNNING
+(enumValues ServerState RUNNING) {value = "5" }
+enumValues CheckinStatus CH_NONE
+(enumValues CheckinStatus CH_NONE) {value = "0" }
+enumValues CheckinStatus CH_STARTED
+(enumValues CheckinStatus CH_STARTED) {value = "1" }
+enumValues CheckinStatus CH_FINISHED
+(enumValues CheckinStatus CH_FINISHED) {value = "2" }
+enumValues CheckinStatus CH_ERROR
+(enumValues CheckinStatus CH_ERROR) {value = "3" }
+enumValues ExtendedDataSchemaType XSD
+(enumValues ExtendedDataSchemaType XSD) {value = "0" }
+memberOf Project id
+(memberOf Project id) {type = "EIntegerObject" }
+memberOf Project name
+(memberOf Project name) {type = "EString" }
+memberOf Project state
+(memberOf Project state) {type = "ObjectState" }
+memberOf Project createdDate
+(memberOf Project createdDate) {type = "EDate" }
+memberOf Project description
+(memberOf Project description) {type = "EString" }
+memberOf Project exportLengthMeasurePrefix
+(memberOf Project exportLengthMeasurePrefix) {type = "SIPrefix" }
+memberOf User name
+(memberOf User name) {type = "EString" }
+memberOf User password
+(memberOf User password) {type = "EString" }
+memberOf User state
+(memberOf User state) {type = "ObjectState" }
+memberOf User createdOn
+(memberOf User createdOn) {type = "EDate" }
+memberOf User userType
+(memberOf User userType) {type = "UserType" }
+memberOf User username
+(memberOf User username) {type = "EString" }
+memberOf User lastSeen
+(memberOf User lastSeen) {type = "EDate" }
+memberOf User validationToken
+(memberOf User validationToken) {type = "EString" }
+memberOf User validationTokenCreated
+(memberOf User validationTokenCreated) {type = "EDate" }
+memberOf User notificationUrl
+(memberOf User notificationUrl) {type = "EString" }
+memberOf Clash name1
+(memberOf Clash name1) {type = "EString" }
+memberOf Clash name2
+(memberOf Clash name2) {type = "EString" }
+memberOf Clash type1
+(memberOf Clash type1) {type = "EString" }
+memberOf Clash type2
+(memberOf Clash type2) {type = "EString" }
+memberOf EidClash eid1
+(memberOf EidClash eid1) {type = "ELongObject" }
+memberOf EidClash eid2
+(memberOf EidClash eid2) {type = "ELongObject" }
+memberOf GuidClash guid1
+(memberOf GuidClash guid1) {type = "EString" }
+memberOf GuidClash guid2
+(memberOf GuidClash guid2) {type = "EString" }
+memberOf ClashDetectionSettings enabled
+(memberOf ClashDetectionSettings enabled) {type = "EBooleanObject" }
+memberOf ClashDetectionSettings margin
+(memberOf ClashDetectionSettings margin) {type = "EDoubleObject" }
+memberOf ClashDetectionSettings ignoredClasses
+(memberOf ClashDetectionSettings ignoredClasses) {type = "EString" }
+memberOf Revision id
+(memberOf Revision id) {type = "EIntegerObject" }
+memberOf Revision date
+(memberOf Revision date) {type = "EDate" }
+memberOf Revision comment
+(memberOf Revision comment) {type = "EString" }
+memberOf Revision size
+(memberOf Revision size) {type = "ELongObject" }
+memberOf Revision tag
+(memberOf Revision tag) {type = "EString" }
+memberOf Revision lastError
+(memberOf Revision lastError) {type = "EString" }
+memberOf Revision bmi
+(memberOf Revision bmi) {type = "EIntegerObject" }
+memberOf Revision nrClashes
+(memberOf Revision nrClashes) {type = "EIntegerObject" }
+memberOf Revision laid
+(memberOf Revision laid) {type = "ELongObject" }
+memberOf ConcreteRevision id
+(memberOf ConcreteRevision id) {type = "EIntegerObject" }
+memberOf ConcreteRevision checksum
+(memberOf ConcreteRevision checksum) {type = "EByteArray" }
+memberOf ConcreteRevision size
+(memberOf ConcreteRevision size) {type = "ELongObject" }
+memberOf ConcreteRevision date
+(memberOf ConcreteRevision date) {type = "EDate" }
+memberOf ConcreteRevision lastError
+(memberOf ConcreteRevision lastError) {type = "EString" }
+memberOf GeoTag enabled
+(memberOf GeoTag enabled) {type = "EBooleanObject" }
+memberOf GeoTag x
+(memberOf GeoTag x) {type = "EDoubleObject" }
+memberOf GeoTag y
+(memberOf GeoTag y) {type = "EDoubleObject" }
+memberOf GeoTag z
+(memberOf GeoTag z) {type = "EDoubleObject" }
+memberOf GeoTag epsg
+(memberOf GeoTag epsg) {type = "EIntegerObject" }
+memberOf GeoTag directionAngle
+(memberOf GeoTag directionAngle) {type = "EDoubleObject" }
+memberOf Checkout date
+(memberOf Checkout date) {type = "EDate" }
+memberOf Checkout active
+(memberOf Checkout active) {type = "EBooleanObject" }
+memberOf Settings showVersionUpgradeAvailable
+(memberOf Settings showVersionUpgradeAvailable) {type = "EBooleanObject" }
+memberOf Settings sendConfirmationEmailAfterRegistration
+(memberOf Settings sendConfirmationEmailAfterRegistration) {type = "EBoolean" }
+memberOf Settings useCaching
+(memberOf Settings useCaching) {type = "EBooleanObject" }
+memberOf Settings allowSelfRegistration
+(memberOf Settings allowSelfRegistration) {type = "EBooleanObject" }
+memberOf Settings autoTestClashes
+(memberOf Settings autoTestClashes) {type = "EBooleanObject" }
+memberOf Settings intelligentMerging
+(memberOf Settings intelligentMerging) {type = "EBooleanObject" }
+memberOf Settings allowUsersToCreateTopLevelProjects
+(memberOf Settings allowUsersToCreateTopLevelProjects) {type = "EBoolean" }
+memberOf Settings checkinMergingEnabled
+(memberOf Settings checkinMergingEnabled) {type = "EBooleanObject" }
+memberOf Settings registrationAddition
+(memberOf Settings registrationAddition) {type = "EString" }
+memberOf Settings smtpServer
+(memberOf Settings smtpServer) {type = "EString" }
+memberOf Settings emailSenderAddress
+(memberOf Settings emailSenderAddress) {type = "EString" }
+memberOf Settings customLogoAddress
+(memberOf Settings customLogoAddress) {type = "EString" }
+memberOf Settings siteAddress
+(memberOf Settings siteAddress) {type = "EString" }
+memberOf Settings hideUserListForNonAdmin
+(memberOf Settings hideUserListForNonAdmin) {type = "EBooleanObject" }
+memberOf Settings protocolBuffersPort
+(memberOf Settings protocolBuffersPort) {type = "EIntegerObject" }
+memberOf Settings headerAddition
+(memberOf Settings headerAddition) {type = "EString" }
+memberOf Settings footerAddition
+(memberOf Settings footerAddition) {type = "EString" }
+memberOf Settings mergeIdentifier
+(memberOf Settings mergeIdentifier) {type = "MergeIdentifier" }
+memberOf Settings cacheOutputFiles
+(memberOf Settings cacheOutputFiles) {type = "EBooleanObject" }
+memberOf Serializer name
+(memberOf Serializer name) {type = "EString" }
+memberOf Serializer description
+(memberOf Serializer description) {type = "EString" }
+memberOf Serializer extension
+(memberOf Serializer extension) {type = "EString" }
+memberOf Serializer contentType
+(memberOf Serializer contentType) {type = "EString" }
+memberOf Serializer className
+(memberOf Serializer className) {type = "EString" }
+memberOf Serializer enabled
+(memberOf Serializer enabled) {type = "EBooleanObject" }
+memberOf Serializer defaultSerializer
+(memberOf Serializer defaultSerializer) {type = "EBooleanObject" }
+memberOf ObjectIDM name
+(memberOf ObjectIDM name) {type = "EString" }
+memberOf ObjectIDM className
+(memberOf ObjectIDM className) {type = "EString" }
+memberOf ObjectIDM enabled
+(memberOf ObjectIDM enabled) {type = "EBooleanObject" }
+memberOf IfcEngine name
+(memberOf IfcEngine name) {type = "EString" }
+memberOf IfcEngine active
+(memberOf IfcEngine active) {type = "EBooleanObject" }
+memberOf IfcEngine className
+(memberOf IfcEngine className) {type = "EString" }
+memberOf IfcEngine enabled
+(memberOf IfcEngine enabled) {type = "EBooleanObject" }
+memberOf Plugin name
+(memberOf Plugin name) {type = "EString" }
+memberOf Plugin enabled
+(memberOf Plugin enabled) {type = "EBooleanObject" }
+memberOf Deserializer name
+(memberOf Deserializer name) {type = "EString" }
+memberOf Deserializer description
+(memberOf Deserializer description) {type = "EString" }
+memberOf Deserializer className
+(memberOf Deserializer className) {type = "EString" }
+memberOf Deserializer enabled
+(memberOf Deserializer enabled) {type = "EBooleanObject" }
+memberOf Deserializer defaultDeserializer
+(memberOf Deserializer defaultDeserializer) {type = "EBooleanObject" }
+memberOf CheckinResult progress
+(memberOf CheckinResult progress) {type = "EIntegerObject" }
+memberOf CheckinResult lastError
+(memberOf CheckinResult lastError) {type = "EString" }
+memberOf CheckinResult status
+(memberOf CheckinResult status) {type = "CheckinStatus" }
+memberOf DownloadResult projectName
+(memberOf DownloadResult projectName) {type = "EString" }
+memberOf DownloadResult revisionNr
+(memberOf DownloadResult revisionNr) {type = "EIntegerObject" }
+memberOf DownloadResult file
+(memberOf DownloadResult file) {type = "DataHandler" }
+memberOf DataValue fieldName
+(memberOf DataValue fieldName) {type = "EString" }
+memberOf DataObject type
+(memberOf DataObject type) {type = "EString" }
+memberOf DataObject guid
+(memberOf DataObject guid) {type = "EString" }
+memberOf DataObject name
+(memberOf DataObject name) {type = "EString" }
+memberOf UserSession username
+(memberOf UserSession username) {type = "EString" }
+memberOf UserSession name
+(memberOf UserSession name) {type = "EString" }
+memberOf UserSession type
+(memberOf UserSession type) {type = "UserType" }
+memberOf UserSession remoteAddress
+(memberOf UserSession remoteAddress) {type = "EString" }
+memberOf UserSession activeSince
+(memberOf UserSession activeSince) {type = "EDate" }
+memberOf UserSession lastActive
+(memberOf UserSession lastActive) {type = "EDate" }
+memberOf UserSession accessMethod
+(memberOf UserSession accessMethod) {type = "AccessMethod" }
+memberOf Migration number
+(memberOf Migration number) {type = "EIntegerObject" }
+memberOf Migration description
+(memberOf Migration description) {type = "EString" }
+memberOf Migration executed
+(memberOf Migration executed) {type = "EBooleanObject" }
+memberOf ReferenceDataValue typeName
+(memberOf ReferenceDataValue typeName) {type = "EString" }
+memberOf ReferenceDataValue guid
+(memberOf ReferenceDataValue guid) {type = "EString" }
+memberOf SimpleDataValue stringValue
+(memberOf SimpleDataValue stringValue) {type = "EString" }
+memberOf DatabaseInformationItem key
+(memberOf DatabaseInformationItem key) {type = "EString" }
+memberOf DatabaseInformationItem value
+(memberOf DatabaseInformationItem value) {type = "EString" }
+memberOf DatabaseInformationCategory title
+(memberOf DatabaseInformationCategory title) {type = "EString" }
+memberOf DatabaseInformation numberOfProjects
+(memberOf DatabaseInformation numberOfProjects) {type = "EIntegerObject" }
+memberOf DatabaseInformation numberOfUsers
+(memberOf DatabaseInformation numberOfUsers) {type = "EIntegerObject" }
+memberOf DatabaseInformation numberOfRevisions
+(memberOf DatabaseInformation numberOfRevisions) {type = "EIntegerObject" }
+memberOf DatabaseInformation numberOfCheckouts
+(memberOf DatabaseInformation numberOfCheckouts) {type = "EIntegerObject" }
+memberOf DatabaseInformation databaseSizeInBytes
+(memberOf DatabaseInformation databaseSizeInBytes) {type = "ELongObject" }
+memberOf DatabaseInformation type
+(memberOf DatabaseInformation type) {type = "EString" }
+memberOf DatabaseInformation created
+(memberOf DatabaseInformation created) {type = "EDate" }
+memberOf DatabaseInformation location
+(memberOf DatabaseInformation location) {type = "EString" }
+memberOf DatabaseInformation schemaVersion
+(memberOf DatabaseInformation schemaVersion) {type = "EIntegerObject" }
+memberOf SerializerPluginDescriptor pluginClassName
+(memberOf SerializerPluginDescriptor pluginClassName) {type = "EString" }
+memberOf SerializerPluginDescriptor defaultName
+(memberOf SerializerPluginDescriptor defaultName) {type = "EString" }
+memberOf SerializerPluginDescriptor defaultExtension
+(memberOf SerializerPluginDescriptor defaultExtension) {type = "EString" }
+memberOf SerializerPluginDescriptor defaultContentType
+(memberOf SerializerPluginDescriptor defaultContentType) {type = "EString" }
+memberOf DeserializerPluginDescriptor pluginClassName
+(memberOf DeserializerPluginDescriptor pluginClassName) {type = "EString" }
+memberOf DeserializerPluginDescriptor defaultName
+(memberOf DeserializerPluginDescriptor defaultName) {type = "EString" }
+memberOf RevisionSummaryType name
+(memberOf RevisionSummaryType name) {type = "EString" }
+memberOf RevisionSummaryType count
+(memberOf RevisionSummaryType count) {type = "EIntegerObject" }
+memberOf RevisionSummaryContainer name
+(memberOf RevisionSummaryContainer name) {type = "EString" }
+memberOf PluginDescriptor name
+(memberOf PluginDescriptor name) {type = "EString" }
+memberOf PluginDescriptor description
+(memberOf PluginDescriptor description) {type = "EString" }
+memberOf PluginDescriptor location
+(memberOf PluginDescriptor location) {type = "EString" }
+memberOf PluginDescriptor enabled
+(memberOf PluginDescriptor enabled) {type = "EBooleanObject" }
+memberOf LongAction identification
+(memberOf LongAction identification) {type = "EString" }
+memberOf LongAction start
+(memberOf LongAction start) {type = "EDate" }
+memberOf LongAction username
+(memberOf LongAction username) {type = "EString" }
+memberOf LongAction name
+(memberOf LongAction name) {type = "EString" }
+memberOf ObjectIDMPluginDescriptor className
+(memberOf ObjectIDMPluginDescriptor className) {type = "EString" }
+memberOf ObjectModified fieldName
+(memberOf ObjectModified fieldName) {type = "EString" }
+memberOf ObjectModified oldValue
+(memberOf ObjectModified oldValue) {type = "EString" }
+memberOf ObjectModified newValue
+(memberOf ObjectModified newValue) {type = "EString" }
+memberOf CompareContainer type
+(memberOf CompareContainer type) {type = "EString" }
+memberOf LongActionState progress
+(memberOf LongActionState progress) {type = "EIntegerObject" }
+memberOf LongActionState state
+(memberOf LongActionState state) {type = "ActionState" }
+memberOf CompileResult compileOke
+(memberOf CompileResult compileOke) {type = "EBooleanObject" }
+memberOf CompileResult warnings
+(memberOf CompileResult warnings) {type = "EString" }
+memberOf CompileResult errors
+(memberOf CompileResult errors) {type = "EString" }
+memberOf RunResult runOke
+(memberOf RunResult runOke) {type = "EBooleanObject" }
+memberOf RunResult warnings
+(memberOf RunResult warnings) {type = "EString" }
+memberOf RunResult errors
+(memberOf RunResult errors) {type = "EString" }
+memberOf RunResult output
+(memberOf RunResult output) {type = "EString" }
+memberOf ServerInfo serverState
+(memberOf ServerInfo serverState) {type = "ServerState" }
+memberOf ServerInfo errorMessage
+(memberOf ServerInfo errorMessage) {type = "EString" }
+memberOf Version major
+(memberOf Version major) {type = "EIntegerObject" }
+memberOf Version minor
+(memberOf Version minor) {type = "EIntegerObject" }
+memberOf Version revision
+(memberOf Version revision) {type = "EIntegerObject" }
+memberOf Version date
+(memberOf Version date) {type = "EDate" }
+memberOf Version downloadUrl
+(memberOf Version downloadUrl) {type = "EString" }
+memberOf Version supportUrl
+(memberOf Version supportUrl) {type = "EString" }
+memberOf Version supportEmail
+(memberOf Version supportEmail) {type = "EString" }
+memberOf IfcEnginePluginDescriptor pluginClassName
+(memberOf IfcEnginePluginDescriptor pluginClassName) {type = "EString" }
+memberOf IfcEnginePluginDescriptor defaultName
+(memberOf IfcEnginePluginDescriptor defaultName) {type = "EString" }
+memberOf ExtendedDataSchema name
+(memberOf ExtendedDataSchema name) {type = "EString" }
+memberOf ExtendedDataSchema url
+(memberOf ExtendedDataSchema url) {type = "EString" }
+memberOf ExtendedDataSchema data
+(memberOf ExtendedDataSchema data) {type = "EByteArray" }
+memberOf ExtendedDataSchema validate
+(memberOf ExtendedDataSchema validate) {type = "EBoolean" }
+memberOf ExtendedDataSchema type
+(memberOf ExtendedDataSchema type) {type = "ExtendedDataSchemaType" }
+memberOf ExtendedData url
+(memberOf ExtendedData url) {type = "EString" }
+memberOf ExtendedData data
+(memberOf ExtendedData data) {type = "EByteArray" }
+memberOf ExtendedData title
+(memberOf ExtendedData title) {type = "EString" }
+memberOf ExtendedData added
+(memberOf ExtendedData added) {type = "EDate" }
+superClass Clash EidClash
+superClass Clash GuidClash
+superClass DownloadResult CheckoutResult
+superClass DataValue ReferenceDataValue
+superClass DataValue ListDataValue
+superClass DataValue SimpleDataValue
+superClass LongAction LongCheckinAction
+superClass CompareItem ObjectAdded
+superClass CompareItem ObjectRemoved
+superClass CompareItem ObjectModified
+superClass Notification NewProjectNotification
+superClass Notification NewRevisionNotification
+association Project User
+(association Project User) {srcLabel = "hasAuthorizedUsers" lowerBound = "0" upperBound = "*" destLabel = "hasRightsOn" }
+association Project ConcreteRevision
+(association Project ConcreteRevision) {srcLabel = "concreteRevisions" lowerBound = "0" upperBound = "*" destLabel = "project" }
+association Project Revision
+(association Project Revision) {srcLabel = "revisions" lowerBound = "0" upperBound = "*" destLabel = "project" }
+association Project ConcreteRevision
+(association Project ConcreteRevision) {srcLabel = "lastConcreteRevision" lowerBound = "0" upperBound = "1" }
+association Project Revision
+(association Project Revision) {srcLabel = "lastRevision" lowerBound = "0" upperBound = "1" }
+association Project Checkout
+(association Project Checkout) {srcLabel = "checkouts" lowerBound = "0" upperBound = "*" destLabel = "project" }
+association Project User
+(association Project User) {srcLabel = "createdBy" lowerBound = "0" upperBound = "1" }
+association Project GeoTag
+(association Project GeoTag) {srcLabel = "geoTag" lowerBound = "0" upperBound = "1" destLabel = "projects" }
+association Project Project
+(association Project Project) {srcLabel = "subProjects" lowerBound = "0" upperBound = "*" destLabel = "parent" }
+association Project Project
+(association Project Project) {srcLabel = "parent" lowerBound = "0" upperBound = "1" destLabel = "subProjects" }
+association Project ClashDetectionSettings
+(association Project ClashDetectionSettings) {srcLabel = "clashDetectionSettings" lowerBound = "0" upperBound = "1" destLabel = "projects" }
+association Project ExtendedData
+(association Project ExtendedData) {srcLabel = "extendedData" lowerBound = "0" upperBound = "*" }
+association User Project
+(association User Project) {srcLabel = "hasRightsOn" lowerBound = "0" upperBound = "*" destLabel = "hasAuthorizedUsers" }
+association User Revision
+(association User Revision) {srcLabel = "revisions" lowerBound = "0" upperBound = "*" }
+association User User
+(association User User) {srcLabel = "createdBy" lowerBound = "0" upperBound = "1" }
+association User ExtendedDataSchema
+(association User ExtendedDataSchema) {srcLabel = "schemas" lowerBound = "0" upperBound = "*" destLabel = "users" }
+association User ExtendedData
+(association User ExtendedData) {srcLabel = "extendedData" lowerBound = "0" upperBound = "*" destLabel = "user" }
+association Clash Revision
+(association Clash Revision) {srcLabel = "revision1" lowerBound = "0" upperBound = "1" }
+association Clash Revision
+(association Clash Revision) {srcLabel = "revision2" lowerBound = "0" upperBound = "1" }
+association ClashDetectionSettings Project
+(association ClashDetectionSettings Project) {srcLabel = "projects" lowerBound = "0" upperBound = "*" destLabel = "clashDetectionSettings" }
+association ClashDetectionSettings Revision
+(association ClashDetectionSettings Revision) {srcLabel = "revisions" lowerBound = "0" upperBound = "*" }
+association Revision User
+(association Revision User) {srcLabel = "user" lowerBound = "0" upperBound = "1" }
+association Revision ConcreteRevision
+(association Revision ConcreteRevision) {srcLabel = "concreteRevisions" lowerBound = "0" upperBound = "*" destLabel = "revisions" }
+association Revision ConcreteRevision
+(association Revision ConcreteRevision) {srcLabel = "lastConcreteRevision" lowerBound = "0" upperBound = "1" }
+association Revision Checkout
+(association Revision Checkout) {srcLabel = "checkouts" lowerBound = "0" upperBound = "*" destLabel = "revision" }
+association Revision Project
+(association Revision Project) {srcLabel = "project" lowerBound = "0" upperBound = "1" destLabel = "revisions" }
+association Revision Clash
+(association Revision Clash) {srcLabel = "lastClashes" lowerBound = "0" upperBound = "*" }
+association Revision ExtendedData
+(association Revision ExtendedData) {srcLabel = "extendedData" lowerBound = "0" upperBound = "*" }
+association ConcreteRevision Project
+(association ConcreteRevision Project) {srcLabel = "project" lowerBound = "0" upperBound = "1" destLabel = "concreteRevisions" }
+association ConcreteRevision Revision
+(association ConcreteRevision Revision) {srcLabel = "revisions" lowerBound = "0" upperBound = "*" destLabel = "concreteRevisions" }
+association ConcreteRevision User
+(association ConcreteRevision User) {srcLabel = "user" lowerBound = "0" upperBound = "1" }
+association GeoTag Project
+(association GeoTag Project) {srcLabel = "projects" lowerBound = "0" upperBound = "*" destLabel = "geoTag" }
+association Checkout User
+(association Checkout User) {srcLabel = "user" lowerBound = "0" upperBound = "1" }
+association Checkout Revision
+(association Checkout Revision) {srcLabel = "revision" lowerBound = "0" upperBound = "1" destLabel = "checkouts" }
+association Checkout Project
+(association Checkout Project) {srcLabel = "project" lowerBound = "0" upperBound = "1" destLabel = "checkouts" }
+association Checkout Revision
+(association Checkout Revision) {srcLabel = "checkin" lowerBound = "0" upperBound = "1" }
+association Settings Serializer
+(association Settings Serializer) {srcLabel = "serializers" lowerBound = "0" upperBound = "*" destLabel = "settings" }
+association Settings ObjectIDM
+(association Settings ObjectIDM) {srcLabel = "objectIDMs" lowerBound = "0" upperBound = "*" destLabel = "settings" }
+association Settings IfcEngine
+(association Settings IfcEngine) {srcLabel = "ifcEngines" lowerBound = "0" upperBound = "*" destLabel = "settings" }
+association Settings Plugin
+(association Settings Plugin) {srcLabel = "plugins" lowerBound = "0" upperBound = "*" destLabel = "settings" }
+association Settings Deserializer
+(association Settings Deserializer) {srcLabel = "deserializers" lowerBound = "0" upperBound = "*" destLabel = "settings" }
+association Settings ExtendedDataSchema
+(association Settings ExtendedDataSchema) {srcLabel = "schemas" lowerBound = "0" upperBound = "*" destLabel = "settings" }
+association Serializer ObjectIDM
+(association Serializer ObjectIDM) {srcLabel = "objectIDM" lowerBound = "0" upperBound = "1" destLabel = "serializers" }
+association Serializer Settings
+(association Serializer Settings) {srcLabel = "settings" lowerBound = "0" upperBound = "1" destLabel = "serializers" }
+association Serializer IfcEngine
+(association Serializer IfcEngine) {srcLabel = "ifcEngine" lowerBound = "0" upperBound = "1" destLabel = "serializers" }
+association ObjectIDM Serializer
+(association ObjectIDM Serializer) {srcLabel = "serializers" lowerBound = "0" upperBound = "*" destLabel = "objectIDM" }
+association ObjectIDM Settings
+(association ObjectIDM Settings) {srcLabel = "settings" lowerBound = "0" upperBound = "1" destLabel = "objectIDMs" }
+association IfcEngine Serializer
+(association IfcEngine Serializer) {srcLabel = "serializers" lowerBound = "0" upperBound = "*" destLabel = "ifcEngine" }
+association IfcEngine Settings
+(association IfcEngine Settings) {srcLabel = "settings" lowerBound = "0" upperBound = "1" destLabel = "ifcEngines" }
+association Plugin Settings
+(association Plugin Settings) {srcLabel = "settings" lowerBound = "0" upperBound = "1" destLabel = "plugins" }
+association Deserializer Settings
+(association Deserializer Settings) {srcLabel = "settings" lowerBound = "0" upperBound = "1" destLabel = "deserializers" }
+association CheckinResult Revision
+(association CheckinResult Revision) {srcLabel = "revision" lowerBound = "0" upperBound = "1" }
+association CheckinResult Project
+(association CheckinResult Project) {srcLabel = "project" lowerBound = "0" upperBound = "1" }
+association DataObject DataValue
+(association DataObject DataValue) {srcLabel = "values" lowerBound = "0" upperBound = "*" }
+association UserSession User
+(association UserSession User) {srcLabel = "user" lowerBound = "0" upperBound = "1" }
+association ListDataValue DataValue
+(association ListDataValue DataValue) {srcLabel = "values" lowerBound = "0" upperBound = "*" }
+association DatabaseInformationCategory DatabaseInformationItem
+(association DatabaseInformationCategory DatabaseInformationItem) {srcLabel = "items" lowerBound = "0" upperBound = "*" }
+association DatabaseInformation DatabaseInformationCategory
+(association DatabaseInformation DatabaseInformationCategory) {srcLabel = "categories" lowerBound = "0" upperBound = "*" }
+association RevisionSummaryContainer RevisionSummaryType
+(association RevisionSummaryContainer RevisionSummaryType) {srcLabel = "types" lowerBound = "0" upperBound = "*" }
+association RevisionSummary RevisionSummaryContainer
+(association RevisionSummary RevisionSummaryContainer) {srcLabel = "list" lowerBound = "0" upperBound = "*" }
+association LongAction User
+(association LongAction User) {srcLabel = "user" lowerBound = "0" upperBound = "1" }
+association LongCheckinAction Revision
+(association LongCheckinAction Revision) {srcLabel = "revisions" lowerBound = "0" upperBound = "*" }
+association CompareItem DataObject
+(association CompareItem DataObject) {srcLabel = "dataObject" lowerBound = "0" upperBound = "1" }
+association CompareContainer CompareItem
+(association CompareContainer CompareItem) {srcLabel = "items" lowerBound = "0" upperBound = "*" }
+association CompareResult CompareContainer
+(association CompareResult CompareContainer) {srcLabel = "items" lowerBound = "0" upperBound = "*" }
+association NewProjectNotification Project
+(association NewProjectNotification Project) {srcLabel = "project" lowerBound = "0" upperBound = "1" }
+association NewRevisionNotification Revision
+(association NewRevisionNotification Revision) {srcLabel = "revision" lowerBound = "0" upperBound = "1" }
+association NewRevisionNotification Project
+(association NewRevisionNotification Project) {srcLabel = "project" lowerBound = "0" upperBound = "1" }
+association ExtendedDataSchema Settings
+(association ExtendedDataSchema Settings) {srcLabel = "settings" lowerBound = "0" upperBound = "1" destLabel = "schemas" }
+association ExtendedDataSchema User
+(association ExtendedDataSchema User) {srcLabel = "users" lowerBound = "0" upperBound = "*" destLabel = "schemas" }
+association ExtendedDataSchema ExtendedData
+(association ExtendedDataSchema ExtendedData) {srcLabel = "extendedData" lowerBound = "0" upperBound = "*" destLabel = "schema" }
+association ExtendedData User
+(association ExtendedData User) {srcLabel = "user" lowerBound = "0" upperBound = "1" destLabel = "extendedData" }
+association ExtendedData ExtendedDataSchema
+(association ExtendedData ExtendedDataSchema) {srcLabel = "schema" lowerBound = "0" upperBound = "1" destLabel = "extendedData" }

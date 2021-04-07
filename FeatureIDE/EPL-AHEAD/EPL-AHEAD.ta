@@ -1,0 +1,84 @@
+$INSTANCE Kore Feature
+Kore {isAbstract = "true" isMandatory = "true" }
+$INSTANCE Print Feature
+Print {isAbstract = "true" }
+$INSTANCE Eval Feature
+Eval {isAbstract = "true" }
+$INSTANCE Core Feature
+Core {isAbstract = "true" isMandatory = "true" }
+$INSTANCE Num Feature
+Num {isAbstract = "true" isMandatory = "true" }
+$INSTANCE Neg Feature
+Neg {isAbstract = "true" }
+$INSTANCE Plus Feature
+Plus {isAbstract = "true" }
+$INSTANCE CK Feature
+CK {isMandatory = "true" }
+$INSTANCE CE Feature
+$INSTANCE CP Feature
+$INSTANCE BK Feature
+BK {isMandatory = "true" }
+$INSTANCE BE Feature
+$INSTANCE BP Feature
+$INSTANCE NK Feature
+$INSTANCE NE Feature
+$INSTANCE NP Feature
+$INSTANCE PK Feature
+$INSTANCE PE Feature
+$INSTANCE PP Feature
+$INSTANCE ExpressionProductLine Feature
+ExpressionProductLine {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Operations Feature
+Operations {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Structs Feature
+Structs {isMandatory = "true" isAbstract = "true" }
+$INSTANCE Derivatives Feature
+Derivatives {isMandatory = "true" isAbstract = "true" }
+FeatureOf ExpressionProductLine Operations
+FeatureOf ExpressionProductLine Structs
+FeatureOf ExpressionProductLine Derivatives
+FeatureOf Operations Kore
+FeatureOf Operations Print
+FeatureOf Operations Eval
+FeatureOf Structs Core
+FeatureOf Structs Num
+FeatureOf Structs Neg
+FeatureOf Structs Plus
+FeatureOf Derivatives CK
+FeatureOf Derivatives CE
+FeatureOf Derivatives CP
+FeatureOf Derivatives BK
+FeatureOf Derivatives BE
+FeatureOf Derivatives BP
+FeatureOf Derivatives NK
+FeatureOf Derivatives NE
+FeatureOf Derivatives NP
+FeatureOf Derivatives PK
+FeatureOf Derivatives PE
+FeatureOf Derivatives PP
+RequiredTogether Core Num
+(RequiredTogether Core Num) {parent = "Structs" M = "true" }
+RequiredTogether CK BK
+(RequiredTogether CK BK) {parent = "Derivatives" M = "true" }
+RequiredTogether Operations Structs
+(RequiredTogether Operations Structs) {parent = "ExpressionProductLine" M = "true" }
+RequiredTogether Operations Derivatives
+(RequiredTogether Operations Derivatives) {parent = "ExpressionProductLine" M = "true" }
+RequiredTogether Structs Derivatives
+(RequiredTogether Structs Derivatives) {parent = "ExpressionProductLine" M = "true" }
+Implies Neg NK
+Implies NK Neg
+Implies Plus PK
+Implies PK Plus
+Conjoint CE BE
+Conjoint BE CE
+Conjoint CP BP
+Conjoint BP CP
+Conjoint Neg Eval
+Conjoint Eval Neg
+Conjoint Plus Eval
+Conjoint Eval Plus
+Conjoint Neg Print
+Conjoint Print Neg
+Conjoint Plus Print
+Conjoint Print Plus

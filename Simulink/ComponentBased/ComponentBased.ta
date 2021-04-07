@@ -1,0 +1,45 @@
+$INSTANCE 1 block
+1 {value = "0" name = "C1" type = "Constant" }
+$INSTANCE 2 block
+2 {value = "100" name = "C5" type = "Constant" }
+$INSTANCE 3 block
+3 {name = "CounterA" type = "ModelReference" }
+$INSTANCE 4 block
+4 {name = "CounterB" type = "ModelReference" }
+$INSTANCE 5 block
+5 {name = "CounterC" type = "ModelReference" }
+$INSTANCE 7 block
+7 {name = "Pulse\nGenerator\n with Ts=0.1" type = "DiscretePulseGenerator" }
+$INSTANCE 8 block
+8 {name = "Pulse\nGenerator \nwith Ts=0.5" type = "DiscretePulseGenerator" }
+$INSTANCE 9 block
+9 {name = "Pulse\nGenerator \nwith Ts=1.0" type = "DiscretePulseGenerator" }
+$INSTANCE 17 block
+17 {name = "OutA" type = "Outport" }
+$INSTANCE 18 block
+18 {name = "OutB" type = "Outport" }
+$INSTANCE 19 block
+19 {name = "OutC" type = "Outport" }
+$INSTANCE 20 block
+20 {name = "ScopeA" type = "Scope" }
+$INSTANCE 21 block
+21 {name = "ScopeB" type = "Scope" }
+$INSTANCE 22 block
+22 {name = "ScopeC" type = "Scope" }
+port 3 1
+(port 3 1) {name = "OutA" }
+port 4 1
+(port 4 1) {name = "OutB" }
+port 5 1
+(port 5 1) {name = "OutC" }
+signal 4 18
+(signal 4 18) {label = "OutB" }
+signal 3 17
+(signal 3 17) {label = "OutA" }
+signal 5 19
+(signal 5 19) {label = "OutC" }
+signal 7 3
+signal 8 4
+signal 9 5
+signal 1 3
+signal 2 3

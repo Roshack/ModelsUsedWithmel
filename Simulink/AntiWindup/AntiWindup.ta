@@ -1,0 +1,41 @@
+$INSTANCE 13 block
+13 {name = "Dead Time" type = "TransportDelay" }
+$INSTANCE 14 block
+14 {name = "First Order Process" type = "TransferFcn" }
+$INSTANCE 3 block
+3 {name = "PID Controller" type = "Reference" }
+$INSTANCE 15 block
+15 {name = "Plant Actuator" type = "Saturate" }
+$INSTANCE 26 block
+26 {name = "Step" type = "Step" }
+$INSTANCE 11 block
+11 {name = "Sum" type = "Sum" }
+$INSTANCE 12 block
+12 {name = "yout" type = "Outport" }
+$INSTANCE 27 block
+27 {name = "Scope" type = "Scope" }
+$INSTANCE 28 block
+28 {name = "Scope1" type = "Scope" }
+port 13 1
+(port 13 1) {name = "y(t)" }
+port 3 1
+(port 3 1) {name = "u(t)" }
+port 15 1
+(port 15 1) {name = "SAT(u)" }
+port 26 1
+(port 26 1) {name = "r(t)" }
+port 11 1
+(port 11 1) {name = "e(t)" }
+signal 26 11
+(signal 26 11) {label = "r(t)" }
+signal 11 3
+(signal 11 3) {label = "e(t)" }
+signal 3 15
+(signal 3 15) {label = "u(t)" }
+signal 14 13
+signal 15 14
+(signal 15 14) {label = "SAT(u)" }
+signal 13 12
+(signal 13 12) {label = "y(t)" }
+signal 13 11
+(signal 13 11) {label = "y(t)" }
